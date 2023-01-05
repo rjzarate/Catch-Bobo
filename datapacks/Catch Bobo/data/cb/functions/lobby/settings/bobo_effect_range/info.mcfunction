@@ -1,2 +1,0 @@
-playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
-tellraw @s ["",{"text":"\n"},{"text":"Bobo Effect Range - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"How close the ","color":"gray"},{"text":"Hunters ","color":"dark_red","bold":true},{"text":"have to be in order for ","color":"gray"},{"text":"Bobo ","color":"gold","bold":true},{"text":"to get resistance/speed.","color":"gray"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" 8-Block Radius","italic":true,"color":"aqua"}]

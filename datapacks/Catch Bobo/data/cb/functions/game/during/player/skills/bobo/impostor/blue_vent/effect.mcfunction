@@ -1,1 +1,0 @@
-execute at @s as @e[type=slime,tag=blueVent] if score @p UUID0 = @s Owner0 if score @p UUID1 = @s Owner1 if score @p UUID2 = @s Owner2 if score @p UUID3 = @s Owner3 if entity @s[tag=blueVent] run scoreboard players add @p blueVentCount 1

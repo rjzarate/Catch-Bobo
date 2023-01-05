@@ -1,1 +1,0 @@
-execute if data entity @s SelectedItem.tag.concussionRocket run function cb:game/during/player/skills/hunters/boba_fett/concussion_rocket/info

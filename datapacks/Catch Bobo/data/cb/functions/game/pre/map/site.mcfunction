@@ -1,1 +1,0 @@
-fill -65 34 -162 -49 34 -168 air replace tnt

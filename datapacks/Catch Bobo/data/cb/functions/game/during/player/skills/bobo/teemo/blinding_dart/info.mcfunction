@@ -1,3 +1,0 @@
-execute if score @s blindingDart matches 1 run title @s actionbar ["",{"text":"Blinding Dart - ","bold":true,"color":"gold"},{"text":"Ready ","bold":true,"color":"green"}]
-
-execute if score @s blindingDart matches ..0 run title @s actionbar ["",{"text":"Blinding Dart - ","bold":true,"color":"gold"},{"text":"Not Ready ","bold":true,"color":"red"},{"text":"| ","color":"white"},{"text":"Cooldown: ","color":"aqua"},{"score":{"name":"@s","objective":"blindingDartCD"},"bold":true,"color":"aqua"},{"text":" Seconds","bold":true,"color":"aqua"}]

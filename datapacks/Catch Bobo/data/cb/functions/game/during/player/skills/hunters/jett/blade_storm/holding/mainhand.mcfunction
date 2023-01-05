@@ -1,1 +1,0 @@
-execute if data entity @s SelectedItem.tag.bladeStorm run function cb:game/during/player/skills/hunters/jett/blade_storm/info

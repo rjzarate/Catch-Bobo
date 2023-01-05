@@ -1,1 +1,0 @@
-execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{rewireLocation:1}}]}] run function cb:game/during/player/skills/hunters/hacker/rewire_location/info

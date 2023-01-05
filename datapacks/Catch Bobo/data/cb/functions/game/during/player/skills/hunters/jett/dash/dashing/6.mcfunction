@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:armor_stand,tag=dash6] run tp @p[tag=dashing] @s

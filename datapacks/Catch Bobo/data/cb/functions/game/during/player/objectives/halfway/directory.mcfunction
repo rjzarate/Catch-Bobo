@@ -1,1 +1,0 @@
-execute if score @s objectiveGApple matches 1.. run function cb:game/during/player/objectives/halfway/finished

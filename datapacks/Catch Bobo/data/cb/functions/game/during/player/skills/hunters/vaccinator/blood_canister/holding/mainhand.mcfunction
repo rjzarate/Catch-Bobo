@@ -1,1 +1,0 @@
-execute if data entity @s SelectedItem.tag.bloodCanister run function cb:game/during/player/skills/hunters/vaccinator/blood_canister/info

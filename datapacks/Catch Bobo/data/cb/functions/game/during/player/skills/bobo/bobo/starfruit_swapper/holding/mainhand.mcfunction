@@ -1,1 +1,0 @@
-execute if data entity @s SelectedItem.tag.starfruitSwapper run function cb:game/during/player/skills/bobo/bobo/starfruit_swapper/info

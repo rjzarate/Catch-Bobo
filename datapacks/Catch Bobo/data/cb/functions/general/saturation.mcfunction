@@ -1,1 +1,0 @@
-effect give @a minecraft:saturation 1000000 100 true

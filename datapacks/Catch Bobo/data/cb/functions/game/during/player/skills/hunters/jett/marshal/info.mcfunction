@@ -1,3 +1,0 @@
-execute if score @s marshal matches 15.. run title @s actionbar ["",{"text":"Marshal - ","bold":true,"color":"dark_red"},{"text":"| "},{"text":"Ammo: ","color":"yellow"},{"score":{"name":"@s","objective":"marshal"},"bold":true,"color":"yellow"},{"text":"/15","bold":true,"color":"yellow"}]
-
-execute if score @s marshal matches ..14 run title @s actionbar ["",{"text":"Marshal - ","bold":true,"color":"dark_red"},{"text":"| "},{"text":"Ammo: ","color":"yellow"},{"score":{"name":"@s","objective":"marshal"},"bold":true,"color":"yellow"},{"text":"/15","bold":true,"color":"yellow"},{"text":" | ","color":"white"},{"text":"Cooldown: ","color":"aqua"},{"score":{"name":"@s","objective":"marshalCD"},"bold":true,"color":"aqua"},{"text":" Seconds","bold":true,"color":"aqua"}]

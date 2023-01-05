@@ -1,1 +1,0 @@
-execute unless score @s o2Count matches 1.. if score @s o2 matches ..0 if score @s o2CD matches 180.. run scoreboard players set @s o2CD 179

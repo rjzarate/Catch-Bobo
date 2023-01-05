@@ -1,1 +1,0 @@
-execute if data entity @s SelectedItem.tag.rocketBarrage run function cb:game/during/player/skills/hunters/boba_fett/rocket_barrage/info

@@ -1,2 +1,0 @@
-playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
-tellraw @s ["",{"text":"\n"},{"text":"Regen: Running/Airborne - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"The speed of how fast a player regenerates health while running or in the air.","color":"gray"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" ½ Heart every 8 Seconds","italic":true,"color":"aqua"}]

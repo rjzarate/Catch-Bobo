@@ -1,1 +1,0 @@
-execute unless entity @a[tag=emergencyMeeting] run effect give @s minecraft:poison 2 0

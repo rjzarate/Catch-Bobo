@@ -1,1 +1,0 @@
-execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{bloodCanister:1}}]}] run function cb:game/during/player/skills/hunters/vaccinator/blood_canister/info

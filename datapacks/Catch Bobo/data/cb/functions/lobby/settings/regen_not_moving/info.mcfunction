@@ -1,2 +1,0 @@
-playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
-tellraw @s ["",{"text":"\n"},{"text":"Regen: Not Moving - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"The speed of how fast a player regenerates health when they\'re not moving.","color":"gray"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" ½ Heart every ½ Seconds","italic":true,"color":"aqua"}]

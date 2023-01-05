@@ -1,1 +1,0 @@
-execute if data entity @s SelectedItem.tag.playersOvercharge run function cb:game/during/player/skills/hunters/hacker/players_overcharge/info

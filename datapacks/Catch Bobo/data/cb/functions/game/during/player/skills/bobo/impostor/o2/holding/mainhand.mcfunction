@@ -1,1 +1,0 @@
-execute if data entity @s SelectedItem.tag.o2 run function cb:game/during/player/skills/bobo/impostor/o2/info

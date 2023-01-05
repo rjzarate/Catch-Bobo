@@ -1,7 +1,0 @@
-execute if score @s yongpyoCD matches 120.. if score @s yongpyo matches ..0 run scoreboard players set @s yongpyoV 120
-execute if score @s yongpyoCD matches 120.. if score @s yongpyo matches ..0 run scoreboard players operation @s yongpyoV -= @s yongpyoCD
-execute if score @s yongpyoCD matches 120.. if score @s yongpyo matches ..0 run scoreboard players operation @s yongpyoV *= constant -1
-
-execute if score @s yongpyoCD matches 120.. if score @s yongpyo matches ..0 if score @s switchMode matches 0 run title @s actionbar ["",{"text":"Yongpyo - ","bold":true,"color":"dark_red"},{"text":"Active ","bold":true,"color":"green"},{"text":"| "},{"text":"Acceleration Mode - ","bold":true,"color":"dark_red"},{"text":"Active ","bold":true,"color":"green"},{"text":"| "},{"text":"Duration: ","color":"yellow"},{"score":{"name":"@s","objective":"yongpyoV"},"bold":true,"color":"yellow"},{"text":" Seconds","bold":true,"color":"yellow"}]
-
-execute if score @s yongpyoCD matches 120.. if score @s yongpyo matches ..0 if score @s switchMode matches 1 run title @s actionbar ["",{"text":"Yongpyo - ","bold":true,"color":"dark_red"},{"text":"Active ","bold":true,"color":"green"},{"text":"| "},{"text":"Power Mode - ","bold":true,"color":"dark_red"},{"text":"Active ","bold":true,"color":"green"},{"text":"| "},{"text":"Duration: ","color":"yellow"},{"score":{"name":"@s","objective":"yongpyoV"},"bold":true,"color":"yellow"},{"text":" Seconds","bold":true,"color":"yellow"}]

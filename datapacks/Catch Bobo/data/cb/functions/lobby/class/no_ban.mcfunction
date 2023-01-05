@@ -1,2 +1,0 @@
-execute unless score @s chooseCB matches 1 run tellraw @s ["",{"text":"Bobo ","bold":true,"color":"gold"},{"text":"has to ban a ","bold":true,"color":"red"},{"text":"Hunter ","bold":true,"color":"dark_red"},{"text":"before you can choose a class.","bold":true,"color":"red"}]
-execute unless score @s chooseCB matches 1 at @s run playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 0

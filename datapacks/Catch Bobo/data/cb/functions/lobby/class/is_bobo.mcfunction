@@ -1,2 +1,0 @@
-tellraw @s ["",{"text":"You are already ","bold":true,"color":"red"},{"text":"Bobo","bold":true,"color":"gold"},{"text":".","bold":true,"color":"red"}]
-execute at @s run playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 0

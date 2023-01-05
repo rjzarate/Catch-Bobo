@@ -1,1 +1,0 @@
-execute if data entity @s SelectedItem.tag.lights run function cb:game/during/player/skills/bobo/impostor/lights/info

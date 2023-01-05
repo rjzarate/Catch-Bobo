@@ -1,2 +1,0 @@
-playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
-tellraw @s ["",{"text":"\n"},{"text":"Game Time - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"How long the game lasts if both teams did not complete their objectives.","color":"gray"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" 40 Minutes","italic":true,"color":"aqua"}]

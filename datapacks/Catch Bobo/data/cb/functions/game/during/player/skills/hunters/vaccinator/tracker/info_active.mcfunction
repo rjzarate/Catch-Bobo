@@ -1,1 +1,0 @@
-execute if score @s tracker matches 0.. run title @s actionbar ["",{"text":"Voodoo Tracker - ","bold":true,"color":"dark_red"},{"text":"Active ","bold":true,"color":"green"},{"text":"| ","color":"white"},{"text":"Duration: ","color":"yellow"},{"score":{"name":"@s","objective":"tracker"},"bold":true,"color":"yellow"},{"text":" Seconds","bold":true,"color":"yellow"}]

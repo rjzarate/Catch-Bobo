@@ -1,1 +1,0 @@
-execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{timeStop:1}}]}] run function cb:game/during/player/skills/hunters/jotaro/time_stop/info

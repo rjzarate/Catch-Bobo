@@ -1,9 +1,0 @@
-execute as @a if score @s chooseC matches 1 run function cb:game/pre/give/hunters/jotaro
-execute as @a if score @s chooseC matches 2 run function cb:game/pre/give/hunters/jett
-execute as @a if score @s chooseC matches 3 run function cb:game/pre/give/hunters/vaccinator
-execute as @a if score @s chooseC matches 4 run function cb:game/pre/give/hunters/guts
-execute as @a if score @s chooseC matches 5 run function cb:game/pre/give/hunters/officer
-execute as @a if score @s chooseC matches 6 run function cb:game/pre/give/hunters/mori
-execute as @a if score @s chooseC matches 7 run function cb:game/pre/give/hunters/boba_fett
-execute as @a if score @s chooseC matches 8 run function cb:game/pre/give/hunters/hacker
-execute as @a if score @s chooseC matches 9 run function cb:game/pre/give/hunters/pepsi_man

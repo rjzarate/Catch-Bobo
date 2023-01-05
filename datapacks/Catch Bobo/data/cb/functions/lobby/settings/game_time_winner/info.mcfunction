@@ -1,2 +1,0 @@
-playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
-tellraw @s ["",{"text":"\n"},{"text":"Game Time Winner - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"Which team wins when the timer reaches 0.","color":"gray"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" Default","italic":true,"color":"aqua"}]

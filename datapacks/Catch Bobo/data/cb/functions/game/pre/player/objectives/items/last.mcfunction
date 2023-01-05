@@ -1,3 +1,0 @@
-execute if score constant sEnableLOG matches 1 run give @s carrot_on_a_stick{display:{Name:'{"text":"Start Last Objective","color":"gold","bold":true,"italic":false}',Lore:['{"text":"Glowing effect forever.","color":"gray"}','{"text":""}','{"text":"Used for objective:","color":"gray"}','{"text":"Survive","color":"dark_red"}']},HideFlags:4,Unbreakable:1b,Enchantments:[{}],startLastObjective:1,noDrop:1} 1
-
-execute unless score constant sEnableLOG matches 1 run give @s carrot_on_a_stick{display:{Name:'{"text":"Start Last Objective","color":"gold","bold":true,"italic":false}',Lore:['{"text":"Used for objective:","color":"gray"}','{"text":"Survive","color":"dark_red"}']},HideFlags:4,Unbreakable:1b,Enchantments:[{}],startLastObjective:1,noDrop:1} 1

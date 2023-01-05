@@ -1,3 +1,0 @@
-function cb:random/check
-
-

@@ -1,2 +1,0 @@
-execute as @a[team=Bobo,tag=bobo] if score @s objectiveS matches 2 if score O1 objectiveMList matches 1 if score @s objectiveSans matches 100.. run function cb:game/during/player/objectives/medium/1/wander
-execute as @a[team=Bobo,tag=bobo] if score @s objectiveS matches 2 if score O1 objectiveMList matches 1 run function cb:game/during/player/objectives/medium/1/no_milk

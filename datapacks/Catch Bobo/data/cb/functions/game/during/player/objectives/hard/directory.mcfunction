@@ -1,2 +1,0 @@
-execute if score O1 objectiveHList matches 1 at @s if entity @a[team=Hunters,gamemode=adventure,distance=..11] run function cb:game/during/player/objectives/hard/1/finished
-execute if score O3 objectiveHList matches 1 positioned 146 46 -140 if entity @s[distance=..6] if block 146 46 -140 minecraft:crimson_button[powered=true] run function cb:game/during/player/objectives/hard/3/finished

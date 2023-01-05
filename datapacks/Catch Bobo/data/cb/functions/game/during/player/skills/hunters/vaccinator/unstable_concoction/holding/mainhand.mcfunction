@@ -1,1 +1,0 @@
-execute if data entity @s SelectedItem.tag.unstableConcoction run function cb:game/during/player/skills/hunters/vaccinator/unstable_concoction/info

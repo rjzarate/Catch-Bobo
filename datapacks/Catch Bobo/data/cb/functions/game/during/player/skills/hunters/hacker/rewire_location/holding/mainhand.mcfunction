@@ -1,1 +1,0 @@
-execute if data entity @s SelectedItem.tag.rewireLocation run function cb:game/during/player/skills/hunters/hacker/rewire_location/info

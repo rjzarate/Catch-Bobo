@@ -1,2 +1,0 @@
-playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
-tellraw @s ["",{"text":"\n"},{"text":"Enable Bobo Ban a Hunter - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"Bobo ","color":"gold","bold":true},{"text":"can ban a ","color":"gray"},{"text":"Hunter ","color":"dark_red","bold":true},{"text":"class.","color":"gray"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" Yes","italic":true,"color":"green"}]

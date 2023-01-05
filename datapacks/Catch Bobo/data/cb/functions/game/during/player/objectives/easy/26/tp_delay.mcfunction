@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:panda,tag=po] at @s run tp ~ ~-0.5 ~

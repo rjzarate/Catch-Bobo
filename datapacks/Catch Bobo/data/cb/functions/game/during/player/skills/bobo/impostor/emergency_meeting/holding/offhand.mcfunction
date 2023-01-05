@@ -1,1 +1,0 @@
-execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{emergencyMeeting:1}}]}] run function cb:game/during/player/skills/bobo/impostor/emergency_meeting/info

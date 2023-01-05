@@ -1,1 +1,0 @@
-setblock 97 37 -374 minecraft:end_portal_frame[eye=false]

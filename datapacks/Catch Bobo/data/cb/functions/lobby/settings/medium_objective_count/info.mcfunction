@@ -1,2 +1,0 @@
-playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
-tellraw @s ["",{"text":"\n"},{"text":"Medium Objective Count - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"How many medium objectives ","color":"gray"},{"text":"Bobo ","color":"gold","bold":true},{"text":"has to complete.","color":"gray"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" 4 Objectives","italic":true,"color":"aqua"}]

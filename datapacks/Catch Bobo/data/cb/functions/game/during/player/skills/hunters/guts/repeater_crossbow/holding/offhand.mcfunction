@@ -1,1 +1,0 @@
-execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{repeaterCrossbow:1}}]}] run function cb:game/during/player/skills/hunters/guts/repeater_crossbow/info

@@ -1,2 +1,0 @@
-playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
-tellraw @s ["",{"text":"\n"},{"text":"Hint Interval Time - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"The time in between hints.","color":"gray"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" 120 Seconds","italic":true,"color":"aqua"}]

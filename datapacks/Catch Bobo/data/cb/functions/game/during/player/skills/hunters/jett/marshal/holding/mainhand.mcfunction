@@ -1,2 +1,0 @@
-execute if data entity @s SelectedItem.tag.marshal run function cb:game/during/player/skills/hunters/jett/marshal/info
-execute if data entity @s SelectedItem.tag.knife run function cb:game/during/player/skills/hunters/jett/marshal/info

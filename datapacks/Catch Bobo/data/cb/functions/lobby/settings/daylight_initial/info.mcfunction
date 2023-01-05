@@ -1,2 +1,0 @@
-playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
-tellraw @s ["",{"text":"\n"},{"text":"Daylight Initial - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"Time of day when the game starts.","color":"gray"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" Day","italic":true,"color":"aqua"}]

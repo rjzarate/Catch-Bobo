@@ -1,1 +1,0 @@
-execute if data entity @s SelectedItem.tag.heartsTransfer run function cb:game/during/player/skills/hunters/hacker/hearts_transfer/info

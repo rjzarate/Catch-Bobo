@@ -1,1 +1,0 @@
-execute if data entity @s SelectedItem.tag.moveQuick run function cb:game/during/player/skills/bobo/teemo/move_quick/info

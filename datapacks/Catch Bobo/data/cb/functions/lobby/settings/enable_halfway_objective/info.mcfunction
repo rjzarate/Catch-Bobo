@@ -1,2 +1,0 @@
-playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
-tellraw @s ["",{"text":"\n"},{"text":"Enable Halfway Objective - ","bold":true,"color":"yellow"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" Yes","italic":true,"color":"green"}]

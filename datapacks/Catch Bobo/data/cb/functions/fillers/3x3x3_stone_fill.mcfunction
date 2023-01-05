@@ -1,1 +1,0 @@
-execute at @s run fill ~-1 ~-1 ~-1 ~1 ~-3 ~1 minecraft:stone
