@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.goodDog run function cb:game/during/player/skills/hunters/officer/good_dog/info

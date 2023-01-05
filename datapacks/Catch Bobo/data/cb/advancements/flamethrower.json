@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:ender_eye"
+              ],
+              "nbt": "{flamethrower:1}"
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:ender_eye"
+          ],
+          "nbt": "{flamethrower:1}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cb:game/during/player/skills/hunters/boba_fett/flamethrower/scope"
+  }
+}

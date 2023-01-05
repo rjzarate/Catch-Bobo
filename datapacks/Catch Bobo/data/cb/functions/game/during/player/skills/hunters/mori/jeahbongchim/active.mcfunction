@@ -1,0 +1,1 @@
+execute at @s run particle minecraft:end_rod ~ ~1 ~ .2 0.5 .2 0.05 4

@@ -1,0 +1,12 @@
+execute if score @s indomitableWillStack matches 1.. run particle minecraft:block minecraft:redstone_wire ~ ~1 ~ 0.2 0.2 0.2 1 1 normal
+execute if score @s indomitableWillStack matches 2.. run particle minecraft:block minecraft:redstone_wire ~ ~1 ~ 0.2 0.2 0.2 1 1 normal
+execute if score @s indomitableWillStack matches 3.. run particle minecraft:block minecraft:redstone_wire ~ ~1 ~ 0.2 0.2 0.2 1 1 normal
+execute if score @s indomitableWillStack matches 4.. run particle minecraft:block minecraft:redstone_wire ~ ~1 ~ 0.2 0.2 0.2 1 1 normal
+execute if score @s indomitableWillStack matches 5.. run particle minecraft:block minecraft:redstone_wire ~ ~1 ~ 0.2 0.2 0.2 1 1 normal
+execute if score @s indomitableWillStack matches 6.. run particle minecraft:block minecraft:redstone_wire ~ ~1 ~ 0.2 0.2 0.2 1 1 normal
+execute if score @s indomitableWillStack matches 7.. run particle minecraft:block minecraft:redstone_wire ~ ~1 ~ 0.2 0.2 0.2 1 1 normal
+execute if score @s indomitableWillStack matches 8.. run particle minecraft:block minecraft:redstone_wire ~ ~1 ~ 0.2 0.2 0.2 1 1 normal
+execute if score @s indomitableWillStack matches 9.. run particle minecraft:block minecraft:redstone_wire ~ ~1 ~ 0.2 0.2 0.2 1 1 normal
+execute if score @s indomitableWillStack matches 10.. run particle minecraft:block minecraft:redstone_wire ~ ~1 ~ 0.2 0.2 0.2 1 1 normal
+execute if score @s indomitableWillStack matches 11.. run particle minecraft:block minecraft:redstone_wire ~ ~1 ~ 0.2 0.2 0.2 1 1 normal
+execute if score @s indomitableWillStack matches 12.. run particle minecraft:block minecraft:redstone_wire ~ ~1 ~ 0.2 0.2 0.2 1 1 normal

@@ -1,0 +1,2 @@
+execute as @e[type=arrow,tag=!repeaterCrossbow1,nbt={CustomPotionEffects:[{Id:27b,Duration:1}]}] run data modify entity @s damage set value 0.5d
+execute as @e[type=arrow,tag=!repeaterCrossbow1,nbt={CustomPotionEffects:[{Id:27b,Duration:1}]}] run tag @s add repeaterCrossbow1

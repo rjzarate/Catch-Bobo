@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.objectivesTracker run function cb:game/during/player/skills/bobo/bobo/objectives_tracker/info/directory

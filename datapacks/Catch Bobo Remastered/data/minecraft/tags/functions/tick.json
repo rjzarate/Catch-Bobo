@@ -1,0 +1,10 @@
+{
+  "values":[
+  "general:tick",
+  "hunter:tick",
+  "orangutan:tick",
+  "entity_hit_matching:tick",
+  "cw_hp_control:main",
+  "general:last_tick"
+  ]
+}

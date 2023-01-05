@@ -1,0 +1,1 @@
+team modify Hunters nametagVisibility always

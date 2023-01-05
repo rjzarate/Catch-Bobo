@@ -1,0 +1,2 @@
+execute unless score @s battery matches 2001.. run scoreboard players add @s battery 1
+execute unless score @s battery matches 2001.. if entity @a[gamemode=!spectator,tag=adwared] at @s as @a[gamemode=!spectator,tag=adwared] if score @s adwareLink = @p[team=Hunters,tag=hacker,gamemode=!spectator] uuid as @p[team=Hunters,tag=hacker,gamemode=!spectator] unless score @s battery matches 2001.. run scoreboard players add @s battery 1

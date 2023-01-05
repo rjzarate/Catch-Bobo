@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.getData run function cb:game/during/player/skills/hunters/hacker/get_data/info

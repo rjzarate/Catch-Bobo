@@ -1,0 +1,2 @@
+playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
+tellraw @s ["",{"text":"\n"},{"text":"Default - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"Switch to default settings.","color":"gray"}]

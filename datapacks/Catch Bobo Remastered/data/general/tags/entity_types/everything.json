@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#general:no_players",
+    "minecraft:player"
+  ]
+}

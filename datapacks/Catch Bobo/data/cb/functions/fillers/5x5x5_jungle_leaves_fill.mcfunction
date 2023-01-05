@@ -1,0 +1,1 @@
+execute at @s run fill ~-2 ~-1 ~-2 ~2 ~-5 ~2 minecraft:jungle_leaves[persistent=true] replace air

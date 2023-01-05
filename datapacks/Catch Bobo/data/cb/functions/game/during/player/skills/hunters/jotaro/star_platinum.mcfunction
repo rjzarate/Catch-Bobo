@@ -1,0 +1,4 @@
+execute at @e[type=husk,tag=starPlatinum] if score @s UUID0 = @e[type=husk,tag=starPlatinum,sort=nearest,limit=1] Owner0 if score @s UUID1 = @e[type=husk,tag=starPlatinum,sort=nearest,limit=1] Owner1 if score @s UUID2 = @e[type=husk,tag=starPlatinum,sort=nearest,limit=1] Owner2 if score @s UUID3 = @e[type=husk,tag=starPlatinum,sort=nearest,limit=1] Owner3 at @s as @e[type=husk,tag=starPlatinum,sort=nearest,limit=1] run tp ^ ^1 ^-1.5
+
+execute at @e[type=husk,tag=starPlatinum] if score @s UUID0 = @e[type=husk,tag=starPlatinum,sort=nearest,limit=1] Owner0 if score @s UUID1 = @e[type=husk,tag=starPlatinum,sort=nearest,limit=1] Owner1 if score @s UUID2 = @e[type=husk,tag=starPlatinum,sort=nearest,limit=1] Owner2 if score @s UUID3 = @e[type=husk,tag=starPlatinum,sort=nearest,limit=1] Owner3 at @e[type=husk,tag=starPlatinum,sort=nearest,limit=1] run data modify entity @e[type=husk,tag=starPlatinum,sort=nearest,limit=1] Rotation set from entity @s Rotation
+

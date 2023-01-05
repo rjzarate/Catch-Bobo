@@ -1,0 +1,1 @@
+title @s actionbar ["",{"text":"Fabrication ","bold":true,"color":"dark_red"},{"text":"| "},{"text":"Cooldown: ","color":"aqua"},{"score":{"name":"@s","objective":"fabricationCD"},"bold":true,"color":"aqua"},{"text":" Seconds","bold":true,"color":"aqua"}]

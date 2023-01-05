@@ -1,0 +1,1 @@
+effect give @s minecraft:absorption 1000000 2 false

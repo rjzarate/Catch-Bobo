@@ -1,0 +1,2 @@
+execute if predicate hunter:boba_fett/concussion_rocket unless score @s concussionRocketCD matches 1.. run function hunter:boba_fett/concussion_rocket/activate
+execute if predicate hunter:boba_fett/rocket_barrage unless score @s rocketBarrageCD matches 1.. run function hunter:boba_fett/rocket_barrage/activate

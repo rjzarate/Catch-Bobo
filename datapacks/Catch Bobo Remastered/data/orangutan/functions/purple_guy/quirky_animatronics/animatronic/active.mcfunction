@@ -1,0 +1,1 @@
+execute at @s run particle minecraft:sculk_soul ~ ~1 ~ 0.2 0.5 0.2 0.05 1 normal

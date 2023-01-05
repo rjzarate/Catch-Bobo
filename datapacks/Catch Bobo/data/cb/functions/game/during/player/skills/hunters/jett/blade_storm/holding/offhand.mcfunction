@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{bladeStorm:1}}]}] run function cb:game/during/player/skills/hunters/jett/blade_storm/info

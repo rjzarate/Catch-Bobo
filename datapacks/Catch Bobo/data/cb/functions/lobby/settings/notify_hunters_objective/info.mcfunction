@@ -1,0 +1,2 @@
+playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
+tellraw @s ["",{"text":"\n"},{"text":"Notify Hunters about Objectives - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"If the ","color":"gray"},{"text":"Hunters ","bold":true,"color":"dark_red"},{"text":"are notified when ","color":"gray"},{"text":"Bobo ","bold":true,"color":"gold"},{"text":"does the objectives.","color":"gray"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" Every Set of Objectives","italic":true,"color":"aqua"}]

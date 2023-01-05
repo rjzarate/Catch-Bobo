@@ -1,0 +1,1 @@
+data modify entity @e[type=minecraft:wandering_trader,tag=sans,limit=1] HandItems[0] merge value {id:"minecraft:air",Count:1b}

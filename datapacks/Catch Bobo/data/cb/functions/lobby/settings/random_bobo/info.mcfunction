@@ -1,0 +1,2 @@
+playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
+tellraw @s ["",{"text":"\n"},{"text":"Random Bobo - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"If ","color":"gray"},{"text":"Bobo ","bold":true,"color":"gold"},{"text":"is selected randomly.","color":"gray"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" No","italic":true,"color":"red"}]

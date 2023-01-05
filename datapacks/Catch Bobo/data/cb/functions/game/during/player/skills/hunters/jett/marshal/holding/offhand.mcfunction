@@ -1,0 +1,2 @@
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{marshal:1}}]}] run function cb:game/during/player/skills/hunters/jett/marshal/info
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{knife:1}}]}] run function cb:game/during/player/skills/hunters/jett/marshal/info

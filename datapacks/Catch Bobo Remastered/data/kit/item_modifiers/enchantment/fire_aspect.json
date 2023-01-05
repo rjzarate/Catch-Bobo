@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:enchantment"
+    },
+    "ops": [
+      {
+        "source": "fire_aspect",
+        "target": "Enchantments[{id:\"minecraft:fire_aspect\"}].lvl",
+        "op": "replace"
+      }
+    ]
+  }
+]

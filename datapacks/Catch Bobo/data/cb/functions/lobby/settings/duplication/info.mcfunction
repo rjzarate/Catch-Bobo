@@ -1,0 +1,2 @@
+playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
+tellraw @s ["",{"text":"\n"},{"text":"Duplication - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"Allows duplicate classes for the respective teams.","color":"gray"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" None","italic":true,"color":"aqua"}]

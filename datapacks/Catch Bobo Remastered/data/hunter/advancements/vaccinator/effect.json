@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:unluck": {
+            "amplifier": {
+              "min": 100,
+              "max": 104
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunter:vaccinator/effect/apply_disabled"
+  }
+}

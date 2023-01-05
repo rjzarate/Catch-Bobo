@@ -1,0 +1,241 @@
+{
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_chestplate": "2022-12-29 17:58:25 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2022-12-29 18:19:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-12-29 17:47:23 -0800"
+    },
+    "done": true
+  },
+  "entity_hit_matching:on_hurt": {
+    "criteria": {
+      "nbit7": "2023-01-02 19:20:11 -0800",
+      "nbit8": "2023-01-02 19:16:30 -0800",
+      "nbit9": "2023-01-02 19:20:11 -0800",
+      "nbit3": "2023-01-02 19:19:10 -0800",
+      "nbit15": "2023-01-02 19:18:38 -0800",
+      "nbit4": "2023-01-02 19:18:38 -0800",
+      "nbit5": "2023-01-02 19:20:11 -0800",
+      "nbit13": "2023-01-02 19:18:38 -0800",
+      "nbit6": "2023-01-02 19:20:11 -0800",
+      "nbit12": "2023-01-02 19:18:38 -0800",
+      "nbit19": "2023-01-02 19:18:38 -0800",
+      "nbit0": "2023-01-02 19:19:10 -0800",
+      "nbit18": "2023-01-02 19:18:38 -0800",
+      "nbit1": "2023-01-02 19:19:10 -0800",
+      "nbit17": "2023-01-02 19:18:38 -0800",
+      "nbit2": "2023-01-02 19:18:38 -0800",
+      "nbit22": "2023-01-02 19:18:38 -0800",
+      "nbit21": "2023-01-02 19:18:38 -0800",
+      "nbit20": "2023-01-02 19:18:38 -0800",
+      "nbit26": "2023-01-02 19:18:38 -0800",
+      "nbit25": "2023-01-02 19:18:38 -0800",
+      "nbit24": "2023-01-02 19:18:38 -0800",
+      "nbit23": "2023-01-02 19:18:38 -0800",
+      "nbit29": "2023-01-02 19:18:38 -0800",
+      "nbit28": "2023-01-02 19:18:38 -0800",
+      "nbit27": "2023-01-02 19:18:38 -0800",
+      "nbit31": "2023-01-02 19:18:38 -0800",
+      "nbit30": "2023-01-02 19:18:38 -0800",
+      "bit9": "2023-01-02 19:18:38 -0800",
+      "bit7": "2023-01-02 19:18:38 -0800",
+      "bit16": "2023-01-02 19:18:38 -0800",
+      "bit8": "2023-01-02 19:18:38 -0800",
+      "bit5": "2023-01-02 19:18:38 -0800",
+      "bit14": "2023-01-02 19:18:38 -0800",
+      "bit6": "2023-01-02 19:18:38 -0800",
+      "bit3": "2023-01-02 19:18:38 -0800",
+      "bit4": "2023-01-02 19:19:10 -0800",
+      "bit1": "2023-01-02 19:18:38 -0800",
+      "bit2": "2023-01-02 19:20:08 -0800",
+      "bit0": "2023-01-02 19:18:38 -0800",
+      "nbit11": "2023-01-02 19:20:11 -0800",
+      "nbit10": "2023-01-02 19:20:11 -0800",
+      "bit12": "2023-01-02 19:20:11 -0800",
+      "bit13": "2023-01-02 19:16:30 -0800",
+      "bit10": "2023-01-02 19:18:38 -0800",
+      "bit11": "2023-01-02 19:18:38 -0800"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:slime": "2023-01-02 17:51:55 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:slime": "2023-01-02 17:51:55 -0800",
+      "minecraft:zombie": "2023-01-02 18:55:51 -0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2022-12-29 17:44:42 -0800"
+    },
+    "done": true
+  },
+  "hunter:jotaro/damage_taken": {
+    "criteria": {
+      "requirement": "2022-12-29 18:13:06 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2022-12-29 17:58:25 -0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "enchanted_golden_apple": "2022-12-29 19:12:24 -0800"
+    },
+    "done": false
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2022-12-29 17:58:29 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2022-12-29 19:10:51 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2022-12-29 17:44:42 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_chestplate": "2022-12-29 17:58:25 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/spyglass_at_ghast": {
+    "criteria": {
+      "spyglass_at_ghast": "2023-01-02 19:27:21 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jungle": "2022-12-29 17:44:07 -0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2022-12-29 18:16:35 -0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2022-12-29 19:12:24 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-12-29 17:47:23 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-12-29 18:16:35 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_chestplate": "2022-12-29 17:58:05 -0800"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2022-12-29 18:26:59 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2022-12-29 17:47:23 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-12-29 17:47:23 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-12-29 17:47:23 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-12-29 17:46:02 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2022-12-29 18:16:35 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-12-29 17:47:23 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2022-12-29 17:46:01 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-12-29 17:47:23 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_chestplate": "2022-12-29 17:58:05 -0800"
+    },
+    "done": true
+  },
+  "orangutan:impostor/damage_taken": {
+    "criteria": {
+      "requirement": "2023-01-02 17:21:13 -0800"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
+}

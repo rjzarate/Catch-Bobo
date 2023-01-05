@@ -1,0 +1,2 @@
+execute if score @s toxicShotFireRate matches ..0 run scoreboard players reset @s toxicShotFireRate
+execute if score @s toxicShotFireRate matches 1.. run scoreboard players remove @s toxicShotFireRate 1

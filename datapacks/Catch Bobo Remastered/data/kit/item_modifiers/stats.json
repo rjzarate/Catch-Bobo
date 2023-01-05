@@ -1,0 +1,8761 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.duration",
+          "entity": "@s",
+          "color": "white",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"duration\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "0.",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.durationDecimal",
+          "entity": "@s",
+          "color": "white",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"durationDecimal\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.durationVaries",
+          "entity": "@s",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "white",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"durationVaries\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Charge-Up Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.chargeUp",
+          "entity": "@s",
+          "color": "#CCFFFF",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"chargeUp\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Thorn Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.damage",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"damage\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "All Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.allDamage",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"allDamage\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Melee Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.meleeDamage",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"meleeDamage\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Melee Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.meleeDamageIncrease",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"meleeDamageIncrease\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Sweeping Edge: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.sweepingEdge",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"sweepingEdge\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Fire Aspect: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.fireAspect",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"fireAspect\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Knockback: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.knockback",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"knockback\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Attack Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.attackSpeed",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"attackSpeed\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Arrow Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.arrowDamage",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"arrowDamage\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Range Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.rangeDamage",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"rangeDamage\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Range Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.rangeDamageIncrease",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"rangeDamageIncrease\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Alt Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.altDamage",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"altDamage\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Equip Time: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.equipTime",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"equipTime\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Equip Time: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "0.",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.equipTimeDecimal",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"equipTimeDecimal\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Scope Time: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "0.",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.scopeTimeDecimal",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"scopeTimeDecimal\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Attack Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.attackSpeedIncrease",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"attackSpeedIncrease\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Immobilizes",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"immobilize\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        [
+          {
+            "text": "",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "Vent",
+            "color": "gold",
+            "bold": true
+          },
+          {
+            "text": " Cooldown: "
+          },
+          {
+            "nbt": "SelectedItem.tag.ventCooldown",
+            "entity": "@s",
+            "color": "yellow",
+            "italic": false
+          }
+        ]
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"ventCooldown\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        [
+          {
+            "text": "",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "Vent",
+            "color": "gold",
+            "bold": true
+          },
+          {
+            "text": " Cooldown: "
+          },
+          {
+            "text": "+",
+            "color": "yellow"
+          },
+          {
+            "nbt": "SelectedItem.tag.ventCooldownIncrease",
+            "entity": "@s",
+            "color": "yellow",
+            "italic": false
+          }
+        ]
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"ventCooldownIncrease\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        [
+          {
+            "text": "",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "Build Vent",
+            "color": "gold",
+            "bold": true
+          },
+          {
+            "text": " Cooldown: "
+          },
+          {
+            "text": "+",
+            "color": "yellow"
+          },
+          {
+            "nbt": "SelectedItem.tag.createVentCooldownIncrease",
+            "entity": "@s",
+            "color": "yellow"
+          }
+        ]
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"createVentCooldownIncrease\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Blast Size: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.blastSize",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"blastSize\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Explosion Power: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.explosion",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"explosion\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Explosion Range: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.explosionRange",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"explosionRange\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Rev Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "0.",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.chargeDelayDecimal",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"chargeDelayDecimal\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Fire Rate: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.fireRate",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"fireRate\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Burst Fire: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.burstFire",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"burstFire\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Fuse: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.fuse",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"fuse\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Strength I Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.strength1",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"strength1\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Blindness Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.blindness",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"blindness\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Darkness Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.darkness",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"darkness\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Poison I Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.poison1",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"poison1\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Poison II Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.poison2",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"poison2\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Wither I Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.wither1",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"wither1\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Slowness I Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.slowness1",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"slowness1\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Slowness II Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.slowness2",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"slowness2\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Slowness III Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.slowness3",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"slowness3\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Slowness V Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.slowness5",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"slowness5\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Slowness X Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.slowness10",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"slowness10\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Slowness X Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "0.",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.slowness10Decimal",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"slowness10Decimal\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Weakness I Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.weakness1",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"weakness1\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Weakness V Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.weakness5",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"weakness5\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Weakness C Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.weakness100",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"weakness100\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Glowing Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.glowing",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"glowing\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Speed Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.speed",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"speed\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Speed I Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.speed1",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"speed1\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Speed II Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.speed2",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"speed2\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Speed III Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.speed3",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"speed3\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Speed V Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.speed5",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"speed5\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Jump Boost V Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.jumpBoost5",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"jumpBoost5\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Levitation XI Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.levitation11",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"levitation11\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Levitation XV Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "0.",
+          "color": "aqua",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.levitation15Decimal",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"levitation15Decimal\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Instant Health: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.instantHealth",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"instantHealth\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Regeneration I Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.regeneration1",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"regeneration1\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Absorption III Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.absorption3",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"absorption3\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Resistance I Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.resistance1",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"resistance1\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Resistance V Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.resistance5",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"resistance5\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Invisibility Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.invisibility",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"invisibility\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Range: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.range",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"range\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Range: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "aqua",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.rangeIncrease",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"rangeIncrease\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Radius: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.radius",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"radius\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Distance: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.distance",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"distance\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Size: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.size",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"size\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.speed",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"speed\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Movement Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.movementSpeed",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"movementSpeed\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Movement Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "yellow",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.movementSpeedIncrease",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"movementSpeedIncrease\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Knockback Resistance: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.knockbackResistance",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        },
+        {
+          "text": "%",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"knockbackResistance\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Cooldown Reduction Rate: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "x1.",
+          "color": "yellow",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.CooldownReductionRateDecimal",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"CooldownReductionRateDecimal\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Max Ammo: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.maxAmmo",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"maxAmmo\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Removes Glowing",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"removesGlowing\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Melee Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "-2",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "Movement Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "-10",
+          "color": "yellow",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "Jump Boost V Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "∞",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"jackfruitJumper\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "When Held:",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"whenHeld\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Movement Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "yellow",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.whenHeldMovementSpeedIncrease",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"whenHeld\",\"whenHeldMovementSpeedIncrease\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Movement Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.whenHeldMovementSpeed",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"whenHeld\",\"whenHeldMovementSpeed\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "To ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunters",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": ":",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"toHunters\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Instant Health: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.toHuntersInstantHealth",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"toHunters\",\"toHuntersInstantHealth\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Speed I Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.toHuntersSpeed1",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"toHunters\",\"toHuntersSpeed1\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Ability Cooldowns: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.toHuntersCooldowns",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"toHunters\",\"toHuntersCooldowns\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "To ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Orangutans",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": ":",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"toOrangutans\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Instant Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.toOrangutansInstantDamage",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"toOrangutans\",\"toOrangutansInstantDamage\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Slowness I Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.toOrangutansSlowness1",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"toOrangutans\",\"toOrangutansSlowness1\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Ability Cooldowns: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "yellow",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.toOrangutansCooldownsIncrease",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"toOrangutans\",\"toOrangutansCooldownsIncrease\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "For every ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "6 Health ",
+          "color": "green",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "Missing:",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"missingHealth\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.missingHealthDuration",
+          "entity": "@s",
+          "color": "white",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"missingHealth\",\"missingHealthDuration\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Attack Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.missingHealthAttackSpeed",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"missingHealth\",\"missingHealthAttackSpeed\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Temporary Health: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.missingHealthTemporaryHealth",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"missingHealth\",\"missingHealthTemporaryHealth\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Movement Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "aqua",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.missingHealthMovementSpeed",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"missingHealth\",\"missingHealthMovementSpeed\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "On Consumption:",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"onConsumption\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Team Immunity Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.teamImmunity",
+          "entity": "@s",
+          "color": "white",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"onConsumption\",\"onConsumptionTeamImmunity\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Strength I Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.onConsumptionStrength1",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"onConsumption\",\"onConsumptionStrength1\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Regeneration I Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.onConsumptionRegeneration1",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"onConsumption\",\"onConsumptionRegeneration1\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Regeneration II Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.onConsumptionRegeneration2",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"onConsumption\",\"onConsumptionRegeneration2\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Absorption IV Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.onConsumptionAbsorption4",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"onConsumption\",\"onConsumptionAbsorption4\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Speed I Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.onConsumptionSpeed1",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"onConsumption\",\"onConsumptionSpeed1\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Speed II Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.onConsumptionSpeed2",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"onConsumption\",\"onConsumptionSpeed2\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Resistance I Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.onConsumptionResistance1",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"onConsumption\",\"onConsumptionResistance1\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Fire Resistance Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.onConsumptionFireResistance",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"onConsumption\",\"onConsumptionFireResistance\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Hunter:",
+        "color": "dark_red",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"hunterEffects\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Resistance II Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.resistance2",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"hunterEffects\",\"resistance2\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Fire Resistance Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.fireResistance",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"hunterEffects\",\"fireResistance\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+        "text": "Syringe Launcher",
+        "color": "dark_red",
+        "bold": true
+        },
+        {
+          "text": " Ammo Consumption: "
+        },
+        {
+          "text": "1",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"selfDiagnose\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Dog:",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " If sitting: Stands.",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " If standing: Sits.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"clicker\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Dog:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Strength I Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.dogStrength1",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"orangutanCloth\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Dog:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": "Speed Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.dogSpeed",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      {
+        "text": " For every entity in range:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": "  Speed Amplifier: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+1",
+          "color": "aqua"
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"dogWhistle\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Dog:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Health: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.dogHealth",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Armor: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.dogArmor",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Melee Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.dogMeleeDamage",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Movement Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.dogMovementSpeed",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ],
+      {
+        "text": ""
+      },
+      {
+        "text": " On Successful Hit:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": "  Owner: ",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "   Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "2",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "   Melee Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+2",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"dog\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Activation Requirement:",
+        "color": "green",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"activationRequirement\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Charge-Up Requirement:",
+        "color": "green",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"chargeUpRequirement\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+        "text": "Geundoowun",
+        "color": "dark_red",
+        "bold": true
+        },
+        {
+          "text": " active"
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"chargeUpRequirement\",\"noeseon\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": " Must not be in combat",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"notInCombat\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": " Must not take damage",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"takeNoDamage\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": " Must not be flying",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"noFlying\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": " Must be standing still",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"standingStill\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " At least two ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunters ",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": "are alive",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"twoHuntersAlive\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " At least one summoned ocelot is alive",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"aliveOcelot\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": " Must be on the ground",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"onGround\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": " Must not be in lava",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"onNoLava\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": " Must not be activating abilities",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"notUsingAbilities\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Berserker Armor ",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "must not be active",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"activationRequirement\",\"indomitableWill\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": " Nearby an immobilized player",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": "  Range: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.activationRequirementNearImmobilizedPlayerRange",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"activationRequirement\",\"activationRequirementNearImmobilizedPlayer\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " In range of your ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Vent",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Another color of the nearby ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Vent ",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "is",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+          "text": "  present",
+          "color": "gray",
+          "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"activationRequirement\",\"activationRequirementVent\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Enough ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Syringe Launcher",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": " ammo"
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"activationRequirement\",\"selfDiagnose\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Your dog is alive",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"activationRequirement\",\"dogIsAlive\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Your dog is dead",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"activationRequirement\",\"dogIsDead\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Your dog is in range",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "  Range:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text":"4",
+          "color": "aqua"
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"activationRequirement\",\"dogInRange\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Cooldown Requirement:",
+        "color": "green",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"cooldownRequirement\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": " Your dog is dead",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"cooldownRequirement\",\"dogIsDead\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": " Must not be in combat",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"cooldownRequirement\",\"cooldownRequirementNotInCombat\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"cooldownRequirement\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Decoy:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Slowness V Hit Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.decoySlowness5",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Lifespan Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.decoy",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ],
+      {
+        "text": " Gives your Glowing (if you were Glowing)",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"decoy\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Hot Potato:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Lifespan: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.lifespan",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ],
+      {
+        "text": " Notifies your team when picked up",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"hotPotatoPlanter\",\"lifespan\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Mini Horse:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Health: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.miniHorseHealth",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.miniHorseDamage",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Slowness X Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "0.",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.miniHorseSlowness10Decimal",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Lifespan: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.miniHorseLifespan",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"miniHorse\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Player with Ads:",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " No cooldown regeneration",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Battery Granted: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+1 every second",
+          "color": "aqua"
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"playerWithAds\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Under the Cloud:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Range Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.underTheCloudRangeDamage",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Movement Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "yellow",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.underTheCloudMovementSpeed",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"underTheCloud\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Others Under the Cloud:",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Every 5 Seconds: ",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": "  Attack Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "-10%",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "  Fire Rate ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "-10%",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "  Max Percentage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "-50%",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"othersUnderTheCloud\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Others Leaving the Cloud Range:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.othersLeavingTheCloudDamage",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"othersLeavingTheCloud\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Lightning:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Amount: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.lightningAmount",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Alt Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "5-10",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Last Lightning Glowing Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "0.",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.lightningLastGlowing",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"lightning\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Remnant Machine:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Health: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.remnantMachineHealth",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Lifespan: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.remnantMachineLifespan",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Max Animatronics: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.remnantMachineMaxAnimatronics",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Animatronic Generation Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.remnantMachineAnimatronicGenerationSpeed",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      {
+        "text": " Animatronics: ",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": "  Health: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.animatronicHealth",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "  Melee Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.animatronicMeleeDamage",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "  Movement Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.animatronicMovementSpeed",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"remnantMachine\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Animatronics:",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Invulnerable",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"quirkyAnimatronics\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Animatronics:",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " On fire",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Fire Resistance Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.animatronicFireResistance",
+          "entity": "@s",
+          "color": "green"
+        }
+      ],
+      [
+        {
+          "text": " Speed II Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.animatronicsSpeed2",
+          "entity": "@s",
+          "color": "aqua"
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"flamingCorruption\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Inactive Animatronics:",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Half teleports to you",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Half teleports to ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Bobo",
+          "color": "gold",
+          "bold": true
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"12am\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Animatronics:",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Half teleports to you",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Half teleports to ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Bobo",
+          "color": "gold",
+          "bold": true
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"5am\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Successful Hit Requirement:",
+        "color": "green",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHitRequirement\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Damage Dealt: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.damageDealt",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHitRequirement\",\"damageDealt\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Fully charged shot",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHitRequirement\",\"fullyCharged\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Hit the with main horse",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHitRequirement\",\"hitWithMainHorse\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Successful Melee Hit Requirement:",
+        "color": "green",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulMeleeHitRequirement\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Melee Damage Dealt: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.meleeDamageDealt",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulMeleeHitRequirement\",\"meleeDamageDealt\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "On Successful Hit:",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHit\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.successfulHitDuration",
+          "entity": "@s",
+          "color": "white",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHit\",\"successfulHitDuration\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Attack Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.successfulHitAttackSpeed",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHit\",\"successfulHitAttackSpeed\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Melee Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.successfulHitDamage",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHit\",\"successfulHitDamage\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Gives an effect(s) to the target",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHit\",\"syringeLauncher\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Ammo Given: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "aqua",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.successfulHitAmmoGiven",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHit\",\"successfulHitAmmoGiven\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Battery Given: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "aqua",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.successfulHitBatteryGiven",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHit\",\"successfulHitBatteryGiven\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "On Successful Melee Hit:",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulMeleeHit\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Cooldown: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.successfulMeleeHitCooldown",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulMeleeHit\",\"successfulMeleeHitCooldown\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "On Successful Range Hit:",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulRangeHit\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.successfulRangeHitDuration",
+          "entity": "@s",
+          "color": "white",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulRangeHit\",\"successfulRangeHitDuration\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Attack Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.successfulRangeHitAttackSpeed",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulRangeHit\",\"successfulRangeHitAttackSpeed\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "On Successful Hit to a ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunter",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": ":",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHitHunter\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.successfulHitHunterDuration",
+          "entity": "@s",
+          "color": "white",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHitHunter\",\"successfulHitHunterDuration\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Melee Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.successfulHitHunterMeleeDamageDecrease",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHitHunter\",\"successfulHitHunterMeleeDamageDecrease\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Knockback: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.successfulHitHunterKnockback",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHitHunter\",\"successfulHitHunterKnockback\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Attack Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.successfulHitHunterAttackSpeed",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHitHunter\",\"successfulHitHunterAttackSpeed\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "On Successful Hit to a ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Orangutan",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": ":",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHitOrangutan\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.successfulHitOrangutanDuration",
+          "entity": "@s",
+          "color": "white",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHitOrangutan\",\"successfulHitOrangutanDuration\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Melee Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.successfulHitOrangutanMeleeDamage",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHitOrangutan\",\"successfulHitOrangutanMeleeDamage\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Knockback: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.successfulHitOrangutanKnockbackDecrease",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHitOrangutan\",\"successfulHitOrangutanKnockbackDecrease\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Attack Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.successfulHitOrangutanAttackSpeed",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"successfulHitOrangutan\",\"successfulHitOrangutanAttackSpeed\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Last Hit:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Double Damage",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"ora\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Hits Head:",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"hitsHead\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Range Damage Multiplier: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "x",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.hitsHeadRangeDamageMultiplier",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"hitsHead\",\"hitsHeadRangeDamageMultiplier\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Blindness Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.hitsHeadBlindness",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"hitsHead\",\"hitsHeadBlindness\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Cooldown: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.hitsHeadCooldown",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"hitsHead\",\"hitsHeadCooldown\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Tailwind",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": " Cooldown: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.hitsHeadTailwindCooldown",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"hitsHead\",\"hitsHeadTailwindCooldown\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Hits Leg:",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"hitsLeg\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Range Damage Multiplier: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "x0.",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.hitsLegRangeDamageMultiplierDecimal",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"hitsHead\",\"hitsLegRangeDamageMultiplierDecimal\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "On Kill:",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"onKill\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Ammo Given: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "aqua",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.onKillAmmoGiven",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"onKill\",\"onKillAmmoGiven\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Trap:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Health: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.health",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Arm Time: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.armTime",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Lifespan: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.lifespan",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ],
+      {
+        "text": " Invisible after armed",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"noxiousTrap\",\"lifespan\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Vent:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Health: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.ventHealth",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Lifespan: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.ventLifespan",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"createVent\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Ocelot:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Health: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.ocelotHealth",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.ocelotSpeed",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Lifespan: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.ocelotLifespan",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"ocelot\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Max Stacks: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "4",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "Adjustments to the ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+        "text": "Syringe Launcher",
+        "color": "dark_red",
+        "bold": true,
+        "italic": false
+        },
+        {
+          "text": ":"
+        }
+      ],
+      [
+        {
+          "text": " Effects: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+1",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Ammo Consumption: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+1",
+          "color": "yellow",
+          "italic": false
+        }
+      ],
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "Adjustments to the ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+        "text": "Self-Diagnose",
+        "color": "dark_red",
+        "bold": true,
+        "italic": false
+        },
+        {
+          "text": ":"
+        }
+      ],
+      [
+        {
+          "text": " Effects: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+1",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+        "text": "Syringe Launcher",
+        "color": "dark_red",
+        "bold": true
+        },
+        {
+          "text": " Ammo Consumption: "
+        },
+        {
+          "text": "+1",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"overloadedBrewing\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+          "text": ""
+      },
+      [
+        {
+          "text": "Adjustments to the ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+        "text": "Syringe Launcher",
+        "color": "dark_red",
+        "bold": true,
+        "italic": false
+        },
+        {
+          "text": ":"
+        }
+      ],
+      [
+        {
+          "text": " Effect Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+0.01x every second",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Max Effect Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+1.00x",
+          "color": "yellow",
+          "italic": false
+        }
+      ],
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "Adjustments to the ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+        "text": "Self-Diagnose",
+        "color": "dark_red",
+        "bold": true,
+        "italic": false
+        },
+        {
+          "text": ":"
+        }
+      ],
+      [
+        {
+          "text": " Effect Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+0.01x every second",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Max Effect Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+1.00x",
+          "color": "yellow",
+          "italic": false
+        }
+      ],
+      {
+        "text": ""
+      },
+      {
+        "text": "On Successful Hit:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "10",
+          "color": "white",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"unstableConcoction\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Upon Drop:",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Durian Decoy",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"blindingBlueberry\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Blinding Blueberry",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"durianDecoy\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Hot Potato Planter",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"guavaGrenade\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Guava Grenade",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"hotPotatoPlanter\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Tangerine Teleporter",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"starfruitSwapper\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Starfruit Swapper",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"tangerineTeleporter\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Sabotage Reactor",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"sabotageO2\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Sabotage Lights",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"sabotageReactor\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Sabotage O2",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"sabotageLights\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Create ",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Blue ",
+        "color": "blue",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Vent",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"createRedVent\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Create ",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Yellow ",
+        "color": "yellow",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Vent",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"createBlueVent\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Create ",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Green ",
+        "color": "green",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Vent",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"createYellowVent\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Create ",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Red ",
+        "color": "red",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Vent",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"createGreenVent\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": ""
+        },
+        {
+          "text": "Phone",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ":",
+          "color": "gray",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "text": " Transforms Into: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "I Always Come Back",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      {
+          "text": ""
+      },
+      [
+        {
+          "text": "Quirky Animatronics",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ":",
+          "color": "gray",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "text": " Transforms Into: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Flaming Corruption",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      {
+          "text": ""
+      },
+      [
+        {
+          "text": "12AM",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ":",
+          "color": "gray",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "text": " Transforms Into: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "5AM",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      {
+          "text": ""
+      },
+      [
+        {
+          "text": "Transform: Springtrap",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ":",
+          "color": "gray",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "text": " Transforms Into: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Transform: Purple Guy",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"transformSpringtrap\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Rocket Barrage",
+        "color": "dark_red",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"concussionRocket\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Concussion Rocket",
+        "color": "dark_red",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"rocketBarrage\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Ransomware",
+        "color": "dark_red",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"rootkit\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Rootkit",
+        "color": "dark_red",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"ransomware\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Spyware",
+        "color": "dark_red",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"adware\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Adware",
+        "color": "dark_red",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"spyware\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Yongpyo: Acceleration",
+        "color": "dark_red",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"yongpyoPower\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+      {
+        "text": " Transforms Into: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Yongpyo: Power",
+        "color": "dark_red",
+        "bold": true,
+        "italic": false
+      }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponDrop\",\"yongpyoAcceleration\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Upon Activation:",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponActivation\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Transforms Into: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Star Platinum Uppercut",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Cooldown: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "0.2",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponActivation\",\"starPlatinumPunch\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Transforms Into: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Star Platinum Punch",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Cooldown: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "0.2",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponActivation\",\"starPlatinumUppercut\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Immobilized Players:",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Immobilize Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.immobilizeDuration",
+          "entity": "@s",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      {
+        "text": " Glow",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Can't Deal Damage",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Can't Take Damage",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Can't Use Abilities",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Can't Heal",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Can't Move",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"immobilize\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Team Immunity Sources:",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Thorn Damage",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Range Damage",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Negative Effects",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Target Detection",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"teamImmunityInfo\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Die after duration ends",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"immobilize\",\"immobilizeKill\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "After:",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"after\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Total of Previous Damage Taken: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.afterTakePreviousDamageAmount",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": "%",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"after\",\"afterTakePreviousDamageAmount\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Weakness I Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.afterWeakness1",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"after\",\"afterWeakness1\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Immobility Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.afterImmobility",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"after\",\"afterImmobility\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Permanent Max Health: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.afterPermanentMaxHealth",
+          "entity": "@s",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"after\",\"afterPermanentMaxHealth\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Permanent Cooldown Increase: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.afterPermanentCooldownIncrease",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"after\",\"afterPermanentCooldownIncrease\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "Cooldown: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.cooldown",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"cooldown\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "Battery Usage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.batteryUsage",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"batteryUsage\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Cooldown Increase: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "yellow",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.cooldownIncrease",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"cooldownIncrease\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Ammo Given: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "aqua",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.ammoCooldown",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"ammoCooldown\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "Cooldown: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "1 Hunter Death",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"killCooldown\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Attack Speed On Kill: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+",
+          "color": "yellow",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.attackSpeedOnKill",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"attackSpeedOnKill\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Max Attack Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.maxAttackSpeed",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"maxAttackSpeed\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Cannon Arm",
+        "color": "dark_red",
+        "bold": true,
+        "italic": false
+      },
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "While crouching, fire an",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " explosive shot, dealing explosion",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " damage to whatever it hits.",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "Explosion Power: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.cannonArmExplosion",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "Range: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.cannonArmRange",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      {
+        "text": ""
+      },
+      {
+        "text": "Activation Requirement:",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": " Must be crouching",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "Cooldown: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.cannonArmCooldown",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"leftArm\"]}"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

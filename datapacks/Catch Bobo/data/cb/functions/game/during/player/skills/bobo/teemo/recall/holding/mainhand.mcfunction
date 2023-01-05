@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.recall run function cb:game/during/player/skills/bobo/teemo/recall/info

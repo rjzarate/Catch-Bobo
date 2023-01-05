@@ -1,0 +1,9 @@
+execute at @e[type=wolf,tag=dog] if score @s UUID0 = @e[type=wolf,tag=dog,sort=nearest,limit=1] Owner0 if score @s UUID1 = @e[type=wolf,tag=dog,sort=nearest,limit=1] Owner1 if score @s UUID2 = @e[type=wolf,tag=dog,sort=nearest,limit=1] Owner2 if score @s UUID3 = @e[type=wolf,tag=dog,sort=nearest,limit=1] Owner3 store result score @s goodDogV run data get entity @e[type=wolf,tag=dog,sort=nearest,limit=1] Attributes[3].Base 1
+
+scoreboard players operation @s goodDogV -= constant 4
+
+execute if score @s goodDog matches 1 if score @s dogAlive matches 1 run title @s actionbar ["",{"text":"Command: Good Dog - ","bold":true,"color":"dark_red"},{"text":"Ready ","bold":true,"color":"green"},{"text":"| "},{"text":"+","color":"yellow"},{"score":{"name":"@s","objective":"goodDogV"},"bold":true,"color":"yellow"},{"text":" (out of 6) ","bold":true,"color":"yellow"},{"text":"Dog ","bold":true,"color":"dark_red"},{"text":"Melee Damage","bold":true,"color":"yellow"}]
+
+execute if score @s goodDog matches ..0 if score @s dogAlive matches 1 run title @s actionbar ["",{"text":"Command: Good Dog - ","bold":true,"color":"dark_red"},{"text":"Not Ready ","bold":true,"color":"red"},{"text":"| "},{"text":"+","color":"yellow"},{"score":{"name":"@s","objective":"goodDogV"},"bold":true,"color":"yellow"},{"text":" (out of 6) ","bold":true,"color":"yellow"},{"text":"Dog ","bold":true,"color":"dark_red"},{"text":"Melee Damage ","bold":true,"color":"yellow"},{"text":"| ","color":"white"},{"text":"Cooldown: ","color":"aqua"},{"score":{"name":"@s","objective":"goodDogCD"},"bold":true,"color":"aqua"},{"text":" Seconds","bold":true,"color":"aqua"}]
+
+execute if score @s dogAlive matches 0 run title @s actionbar ["",{"text":"Command: Good Dog - ","bold":true,"color":"dark_red"},{"text":"Not Ready ","bold":true,"color":"red"},{"text":"| "},{"text":"Dog - ","bold":true,"color":"dark_red"},{"text":"Dead","bold":true,"color":"red"}]

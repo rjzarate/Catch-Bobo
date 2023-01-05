@@ -1,0 +1,11 @@
+execute if predicate hunter:boba_fett/actionbar_ammo run function hunter:actionbar/boba_fett/ammo
+execute if predicate hunter:boba_fett/actionbar_regular run function hunter:actionbar/boba_fett/regular
+execute if predicate hunter:hacker/abilities run function hunter:actionbar/hacker/abilities
+execute if predicate hunter:jotaro/star_platinum run function hunter:actionbar/jotaro/weapons
+execute if predicate hunter:officer/swapstick run function hunter:actionbar/officer/swapstick
+execute if predicate hunter:pepsi_man/pepsi_punch run function hunter:actionbar/pepsi_man/pepsi_punch
+execute if predicate hunter:mori/yeoui run function hunter:actionbar/mori/yeoui
+execute if predicate hunter:mori/noeseon run function hunter:actionbar/mori/noeseon
+execute if predicate hunter:vaccinator/overloaded_brewing run function hunter:actionbar/vaccinator/overloaded_brewing
+execute if predicate hunter:vaccinator/self_diagnose run function hunter:actionbar/vaccinator/self_diagnose
+execute if predicate hunter:vaccinator/unstable_concoction run function hunter:actionbar/vaccinator/unstable_concoction

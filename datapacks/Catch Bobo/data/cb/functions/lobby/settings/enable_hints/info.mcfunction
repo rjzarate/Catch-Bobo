@@ -1,0 +1,2 @@
+playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
+tellraw @s ["",{"text":"\n"},{"text":"Enable Hints - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"If hints are given to the ","color":"gray"},{"text":"Hunters ","bold":true,"color":"dark_red"},{"text":"to find ","color":"gray"},{"text":"Bobo","bold":true,"color":"gold"},{"text":".","color":"gray"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" No","italic":true,"color":"red"}]

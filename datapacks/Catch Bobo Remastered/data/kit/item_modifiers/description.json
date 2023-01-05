@@ -1,0 +1,4212 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "A sharp blade that swings faster",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " for every kill you get with it.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"bananaBlade\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "A delicious-juicy apple used to",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " knock back entities or that can be eaten to",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " become temporarily powerful.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"enchantedGoldenApple\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Jump to hard-to-reach places, at",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " the cost of dealing less damage of moving slower.",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Deactivate this ability by using this item again.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"jackfruitJumper\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Blinds and slows nearby ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunters",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": ",",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " giving enough time to fight or flee. Dropping",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " this item turns it into ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Durian Decoy",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"blindingBlueberry\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Create a near-perfect replica",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " of yourself and speed away from any danger.",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Anyone who hits the decoy gets slowed.",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " During this phase, you become invisible but",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " cannot deal any melee damage. Dropping",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " this item turns it into ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Blinding Blueberry",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"durianDecoy\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Throw an exploding guava that",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " will damage nearby entities. Dropping this",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " item turns it into ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hot Potato Planter",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"guavaGrenade\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Drop a hot potato on the ground",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+        "text": " that can be picked up by ",
+        "color": "gray",
+        "italic": false
+        },
+        {
+        "text": "Hunters",
+        "color": "dark_red",
+        "italic": false
+        },
+        {
+        "text": ". If a ",
+        "color": "gray",
+        "italic": false
+        }
+      ],
+      [
+        {
+        "text": " Hunter",
+        "color": "dark_red",
+        "italic": false
+        },
+        {
+        "text": ". picks up a hot potato, all other",
+        "color": "gray",
+        "italic": false
+        }
+      ],
+      [
+        {
+        "text": " Hunters ",
+        "color": "dark_red",
+        "italic": false
+        },
+        {
+        "text": "get a hot potato. Then, all hot",
+        "color": "gray",
+        "italic": false
+        }
+      ],
+      {
+        "text": " potatoes explode. Dropping this item",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " turns it into ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Guava Grenade",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"hotPotatoPlanter\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Swap positions with another",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+        "text": " Hunter",
+        "color": "dark_red",
+        "italic": false
+        },
+        {
+        "text": ". However, that ",
+        "color": "gray",
+        "italic": false
+        },
+        {
+        "text": "Hunter ",
+        "color": "dark_red",
+        "italic": false
+        },
+        {
+        "text": "gains",
+        "color": "gray",
+        "italic": false
+        }
+      ],
+      {
+        "text": " resistance and fire resistance for a",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " short period of time. If you are",
+        "color": "gray",
+        "italic": false
+      },
+      {
+      "text": " crouching, you will swap positions with",
+      "color": "gray",
+      "italic": false
+      },
+      [
+        {
+        "text": " the nearest ",
+        "color": "gray",
+        "italic": false
+        },
+        {
+        "text": "Orangutan",
+        "color": "gold",
+        "italic": false
+        },
+        {
+        "text": ". Dropping this",
+        "color": "gray",
+        "italic": false
+        }
+      ],
+      [
+        {
+        "text": " item turns it into ",
+        "color": "gray",
+        "italic": false
+        },
+        {
+        "text": "Tangerine",
+        "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": " Teleporter",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"starfruitSwapper\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Teleport to a random",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " location. Dropping this item turns it",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " into ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Starfruit Swapper",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"tangerineTeleporter\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Shoot a poisonous arrow,",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " chipping away the target's health.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"toxicShot\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Shoot a blinding arrow,",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " disorientating the target.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"blindingDart\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Increase your movement speed",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " for a short amount of time, allowing you to",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " reposition yourself or get to places quicker.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"moveQuick\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Arm an invisible trap. When",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " stepped on by a ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunter",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": ", it explodes, slowing",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " and poisoning all nearby ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunters",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"noxiousTrap\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Teleport to ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Bobo ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "after",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " standing still and not using any abilities.",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " This ability requires a charge-up. While",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " charging up the ability, a beacon is created",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " in your location and a loud noise constantly",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " plays, giving away your position.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"recall\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Teleport to and immobilize the",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " nearest ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunter ",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": "player. Immobilized ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunters ",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": "",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "glow",
+          "underlined": true
+        },
+        {
+          "text": " and cannot deal damage, "
+        },
+        {
+          "text": "take damage",
+          "underlined": true
+        },
+        {
+          "text": ", use"
+        }
+      ],
+      [
+        {
+          "text": " abilities, heal, or move. Immobilized ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunters ",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": "",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " can become de-immobilized if a player crouches",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " near them. If they are not de-immobilized",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " after a certain amount of time, they die.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"kill\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Teleport yourself and all",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " non-immobilized ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunters ",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": "in the ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Emergency",
+          "color": "green",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Room",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": ",",
+          "color": "gray",
+          "italic": false
+        },
+        {
+        "text": " trapping you and them inside. You will",
+        "color": "gray",
+        "italic": false
+        }
+      ],
+      {
+        "text": " teleport back to your original position",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " after the duration ends. This ability",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " requires a charge-up.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"reportBody\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "When you're near your ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Red",
+          "color": "red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ", ",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Blue",
+          "color": "blue",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ", ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Yellow",
+          "color": "yellow",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ", or ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Green ",
+          "color": "green",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "Vent",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ", teleport to",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " the other corresponding same-color ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Vent",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"vent\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Create a ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Red ",
+          "color": "red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "Vent",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ". Having",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " three ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Red ",
+          "color": "red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "Vents ",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "on the map destroys",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " the oldest ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Red ",
+          "color": "red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "Vent",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"createVent\",\"createRedVent\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Poison all ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunters",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": ". This ability",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " requires a charge-up. Starting the",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " charge-up summons two fast ocelots to the",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " two farthest ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunters",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": ". The charge-up",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " cannot be manually deactivated.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"sabotageO2\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Complete one of ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Bobo's",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      {
+        "text": " objectives. This ability requires a charge-up.",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Starting the charge-up summons two ocelots",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " to the two farthest ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunters",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": ". The charge-up",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " cannot be manually deactivated.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"sabotageReactor\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Darkens all ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunters",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": ". This ability",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " requires a charge-up. Starting the",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " charge-up summons two strong ocelots to",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " the two farthest ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunters",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": ". The charge-up",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " cannot be manually deactivated.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"sabotageLights\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Set entities on fire.",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " Successful hits consume ammo. Fire",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Aspect requires ammo.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"phone\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Set entities on fire.",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " Successful hits consume ammo. Fire",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Aspect requires ammo.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"iAlwaysComeBack\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Create a machine that summons",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " animatronics to fight for you.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"remnantMachine\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Make all of your animatronics",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " invulnerable.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"quirkyAnimatronics\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Set all of your animatronics",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " on fire.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"flamingCorruption\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Teleports all of your inactive",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "animatronics to you and ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Bobo",
+          "color": "gold",
+          "bold": true
+        },
+        {
+          "text": "."
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"12am\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Teleports all of your",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "animatronics to you and ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Bobo",
+          "color": "gold",
+          "bold": true
+        },
+        {
+          "text": "."
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"5am\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Transform into ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Springtrap",
+          "color": "gold",
+          "bold": true
+        },
+        {
+          "text": ",",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": "changing many of your abilities.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"transformSpringtrap\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Transform into ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Purple Guy",
+          "color": "gold",
+          "bold": true
+        },
+        {
+          "text": ",",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": "changing many of your abilities.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"transformPurpleGuy\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "BEAAANNNNSS",
+          "color": "green",
+          "bold": true,
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"beans\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Deal damage to your target.",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " Successful hits increases your attack",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " speed for your next attacks. Activating",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " this item turns it into ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Star Platinum",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Uppercut",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"starPlatinumPunch\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Deal heavy damage to your",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " target. Successful hits increases your",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " attack damage for your next attacks.",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Activating this item turns it into ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Star",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " Platinum Punch",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"starPlatinumUppercut\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Constantly deal damage in",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " a cone-shape to any entity that is in",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " front of you. The last hit deals double",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " damage.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"ora\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Stop time, freezing everything",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " in place but you. While time is stopped,",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " you can move, but deal less damage. This",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " ability requires a charge-up.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"timeStop\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Fire your finger at high speeds,",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " withering the target. If it hits the target's",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " head, it blinds them.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"starFinger\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "It was too big to be",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " called a sword. Successful hits",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " increase your attack speed for your",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " next attack.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"dragonslayer\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Repeater Crossbow",
+        "color": "dark_red",
+        "bold": true,
+        "italic": false
+      },
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Fire a projectile that",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " deals damage to whatever it hits.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"leftArm\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Gain a burst of adrenaline,",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " giving you temporary health, attack speed,",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " and movement speed. Scales by how much",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " missing health you have.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"indomitableWill\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Let your armor consume you,",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " increasing melee damage and reducing all",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " damage to 0. However, after deactivation,",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " become weakened and take most the damage",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " you previously were supposed to take.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"berserkerArmor\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Gather the power from",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " the Pepsi Gods to punch entities away.",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Successful hits increase your attack",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " speed. Depending who you hit changes",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " the buffs and debuffs.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"pepsiPunch\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Heal and give speed to all",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " nearby ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunters",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": ". Damage and slow all",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " nearby ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Orangutans",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"pepsiSplash\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Enhance your whole body,",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " increasing movement speed and jump",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " height. Additionally, take reduced damage",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " and no knockback. This ability requires a",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " charge-up.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"pepsi\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Manifest a ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Pepsi Can",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ". Give",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " a ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Pepsi Can ",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "to the nearest ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunter ",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": "if",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " you already have a ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Pepsi Can",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ". A player",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " can hold up to 1 ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Pepsi Can",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"pepsiCreation\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Fire a long-range shot that goes",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " through entities and transparent blocks.",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Switch to another slot to cancel activation.",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Failing the activation requirement consumes ammo.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"marshal\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Instantly fire a shot. Hits to",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " the head reduces the cooldown of this",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      [
+        {
+          "text": " ability and ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Tailwind",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ". Kills with this",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      {
+        "text": " ability grants ammo back to the user.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"bladeStorm\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Increases your movement",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " speed when held.",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"knife\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Quickly dash to the direction you",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " were looking at. Successful hits to the head",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " with ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Blade Storm",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": " reduces the cooldown."
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"tailwind\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Lift up into the air.",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"updraft\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Shoot an arrow that gives a",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " random positive or negative effect(s). Fully",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " charged shots give ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunters",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": " a positive effect(s)",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " while ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Orangutans",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": " get a negative effect(s).",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " Successful hits grants ammo.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"syringeLauncher\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Increase the number of effects",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " applied to one shot of the ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Syringe",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Launcher",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ". Increasing the number of",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " effects increases the ammo consumption.",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " Also applies to ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Self-Diagnose",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ". Crouch to"
+        }
+      ],
+      {
+        "text": " decrease stacks.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"overloadedBrewing\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Give yourself a random positive",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " effect(s). Consumes ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Syringe Launcher",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      {
+        "text": " ammo. The amount of effects and ammo",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " consumption scales on ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Overloaded",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Brewing",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ". Ability duration and effect"
+        }
+      ],
+      [
+        {
+          "text": " duration scales on ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Unstable Concoction",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "."
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"selfDiagnose\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Gradually increase the effect",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " duration of the ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Syringe Launcher",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ". The"
+        }
+      ],
+      {
+        "text": " effect duration increases the longer this",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " ability is active. Successful hits with the",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Syringe Launcher",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": " resets this ability's",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " duration. Also applies to ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Self-Diagnose",
+          "color": "dark_red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "."
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"unstableConcoction\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Fire a horse that leaves mini",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " horses behind it. The main horse goes",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " bounces on blocks and goes through",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " entities. The main horse can be ridden.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"trojanHorse\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Fire a slow-moving cube that slows",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " anyone in its radius. The cube bounces",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " on blocks and goes through entities.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"rootkit\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Fire a wave that reduces",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " the ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hunter's",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": " ability cooldowns and increases"
+        }
+      ],
+      [
+        {
+          "text": " the ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Orangutan's",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": " ability cooldowns. Bounces"
+        }
+      ],
+      {
+        "text": " on blocks and goes through entities.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"ransomware\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Instantly fire an ad that fills",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " the player with ads. The player with ads",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " cannot regenerate their abilities and",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " passively grants battery.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"adware\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Instantly fire a wave that",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " homes in to all ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Orangutans",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": " in range,"
+        }
+      ],
+      {
+        "text": " giving away their general location(s).",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Goes through blocks and entities.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"spyware\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "A giant pole that can elongate",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " itself to hit entities from farther",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " distances.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"yeoui\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Create a giant storm above you,",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " buffing you and gradually debuffing other",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " players under it. Others who leave the",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " storm range takes damage.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"geundoowun\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Form clouds below you",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " which allows better vertical navigation.",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Crouch to desend.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"thunderBreaker\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Strike any player under",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " your storm with lightning. The last",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " strike makes the player(s) glow. This",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " ability requires a charge-up.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"noeseon\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Greatly increase your damage",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " and ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Yeoui's",
+          "color": "dark_red",
+          "bold": true
+        },
+        {
+          "text": " range. Dropping this item",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " transforms it into ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Yongpyo: Acceleration",
+          "color": "dark_red",
+          "bold": true
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      {
+        "text": " While active, buffs change when",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " transforming the item.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"yongpyoPower\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Increase your attack speed,",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " movement speed, and cooldown reduction.",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " Dropping this item transforms it into",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": " ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Yongpyo: Power",
+          "color": "dark_red",
+          "bold": true
+        },
+        {
+          "text": ". While active, buffs",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      {
+        "text": " change when transforming the item.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"yongpyoAcceleration\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Fire a burst of lasers.",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"ee-3\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Shoot constant fire charges",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " in a short range.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"flamethrower\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Fire a rocket that blinds,",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " darkens, and slows nearby entities.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"concussionRocket\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Fire a burst of rockets.",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"rocketBarrage\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Use to increase speeds with",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " the ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Jetpack",
+          "color": "dark_red",
+          "bold": true
+        },
+        {
+          "text": "."
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"jetpackFuel\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "A stick bound to an owner and",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " their pet. Has the ability to swap positions",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " between two entities. Successful hits increase",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " your attack speed for your next attack.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"swapstick\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Make your dog sit or",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " stand anywhere on the map.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"clicker\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Give to your dog to track and",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " attack the nearest ",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Orangutan",
+          "color": "dark_red",
+          "bold": true
+        },
+        {
+          "text": ". Gives your"
+        }
+      ],
+      {
+        "text": " dog strength.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"orangutanCloth\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Make your dog howl, slowing",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " and weakening all entities in range. Gives",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " your dog speed for every slowed entity.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"dogWhistle\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Summon a dog to fight with you.",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "text": " Sucessful hits from the dog give the",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " owner increased melee damage for their",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " next attacks.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"canineEmbryo\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "nbt": "{Tags:[\"knife\"]}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

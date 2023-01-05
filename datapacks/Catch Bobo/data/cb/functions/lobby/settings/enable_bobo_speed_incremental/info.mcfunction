@@ -1,0 +1,2 @@
+playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
+tellraw @s ["",{"text":"\n"},{"text":"Enable Bobo Speed Incremental - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"If ","color":"gray"},{"text":"Bobo ","bold":true,"color":"gold"},{"text":"gets a higher speed effect every 2 additional ","color":"gray"},{"text":"Hunters ","color":"dark_red","bold":true},{"text":"he\'s near.","color":"gray"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" Yes","italic":true,"color":"green"}]

@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.ee-3 run function cb:game/during/player/skills/hunters/boba_fett/ee-3/info

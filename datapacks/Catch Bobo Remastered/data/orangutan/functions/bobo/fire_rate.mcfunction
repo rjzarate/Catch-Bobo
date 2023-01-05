@@ -1,0 +1,2 @@
+execute if score @s guavaGrenadeFireRate matches ..0 run scoreboard players reset @s guavaGrenadeFireRate
+execute if score @s guavaGrenadeFireRate matches 1.. run scoreboard players remove @s guavaGrenadeFireRate 1

@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:item,nbt={Item:{tag:{hotPotato:1}}},tag=!noPickUp] run data modify entity @s PickupDelay set value 32767
+execute as @e[type=minecraft:item,nbt={Item:{tag:{hotPotato:1}}},tag=noPickUp] run tag @s add noPickUp

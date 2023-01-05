@@ -1,0 +1,1 @@
+execute at @s run playsound minecraft:block.dispenser.fail player @a ~ ~ ~ 1 2

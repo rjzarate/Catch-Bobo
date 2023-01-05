@@ -1,0 +1,2 @@
+execute at @s run playsound minecraft:block.note_block.pling record @s ~ ~ ~ 0.5 0
+tellraw @s {"text":"Out of charges.","color":"red","bold":true,"italic":true,"hoverEvent":{"action":"show_text","contents":[{"text":"","color":"red","italic":false}]}}

@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.updraft run function cb:game/during/player/skills/hunters/jett/updraft/info

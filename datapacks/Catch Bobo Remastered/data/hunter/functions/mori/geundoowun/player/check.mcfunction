@@ -1,0 +1,2 @@
+execute if score @s uuid = #uuid temp run scoreboard players add @s geundoowunBuff 2000
+execute unless score @s[tag=!hunterTeamImmunity] uuid = #uuid temp run scoreboard players add @s geundoowunDebuff 2000

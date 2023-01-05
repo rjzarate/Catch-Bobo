@@ -1,0 +1,12 @@
+give @s minecraft:oak_sign{BlockEntityTag:{Text1:'{"text":"give bobo kit","clickEvent":{"action":"run_command","value":"function cb:game/pre/give/bobo/bobo"}}'},display:{Name:'{"text":"Custom Sign"}'}}
+give @s minecraft:oak_sign{BlockEntityTag:{Text1:'{"text":"give impostor kit","clickEvent":{"action":"run_command","value":"function cb:game/pre/give/bobo/impostor"}}'},display:{Name:'{"text":"Custom Sign"}'}}
+give @s minecraft:oak_sign{BlockEntityTag:{Text1:'{"text":"give teemo kit","clickEvent":{"action":"run_command","value":"function cb:game/pre/give/bobo/teemo"}}'},display:{Name:'{"text":"Custom Sign"}'}}
+give @s minecraft:oak_sign{BlockEntityTag:{Text1:'{"text":"give boba fett kit","clickEvent":{"action":"run_command","value":"function cb:game/pre/give/hunters/boba_fett"}}'},display:{Name:'{"text":"Custom Sign"}'}}
+give @s minecraft:oak_sign{BlockEntityTag:{Text1:'{"text":"give guts kit","clickEvent":{"action":"run_command","value":"function cb:game/pre/give/hunters/guts"}}'},display:{Name:'{"text":"Custom Sign"}'}}
+give @s minecraft:oak_sign{BlockEntityTag:{Text1:'{"text":"give hacker kit","clickEvent":{"action":"run_command","value":"function cb:game/pre/give/hunters/hacker"}}'},display:{Name:'{"text":"Custom Sign"}'}}
+give @s minecraft:oak_sign{BlockEntityTag:{Text1:'{"text":"give jett kit","clickEvent":{"action":"run_command","value":"function cb:game/pre/give/hunters/jett"}}'},display:{Name:'{"text":"Custom Sign"}'}}
+give @s minecraft:oak_sign{BlockEntityTag:{Text1:'{"text":"give jotaro kit","clickEvent":{"action":"run_command","value":"function cb:game/pre/give/hunters/jotaro"}}'},display:{Name:'{"text":"Custom Sign"}'}}
+give @s minecraft:oak_sign{BlockEntityTag:{Text1:'{"text":"give mori kit","clickEvent":{"action":"run_command","value":"function cb:game/pre/give/hunters/mori"}}'},display:{Name:'{"text":"Custom Sign"}'}}
+give @s minecraft:oak_sign{BlockEntityTag:{Text1:'{"text":"give officer kit","clickEvent":{"action":"run_command","value":"function cb:game/pre/give/hunters/officer"}}'},display:{Name:'{"text":"Custom Sign"}'}}
+give @s minecraft:oak_sign{BlockEntityTag:{Text1:'{"text":"give pepsi man kit","clickEvent":{"action":"run_command","value":"function cb:game/pre/give/hunters/pepsi_man"}}'},display:{Name:'{"text":"Custom Sign"}'}}
+give @s minecraft:oak_sign{BlockEntityTag:{Text1:'{"text":"give vaccinator kit","clickEvent":{"action":"run_command","value":"function cb:game/pre/give/hunters/vaccinator"}}'},display:{Name:'{"text":"Custom Sign"}'}}

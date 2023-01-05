@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.flamethrower run function cb:game/during/player/skills/hunters/boba_fett/flamethrower/info

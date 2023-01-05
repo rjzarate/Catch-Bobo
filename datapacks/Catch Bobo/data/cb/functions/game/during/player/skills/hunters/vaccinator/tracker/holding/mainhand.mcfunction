@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.tracker run function cb:game/during/player/skills/hunters/vaccinator/tracker/info

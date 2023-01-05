@@ -1,0 +1,2 @@
+execute as @e[type=arrow,tag=!toxicShot1,nbt={CustomPotionEffects:[{Id:19b,Duration:60}]}] run data modify entity @s damage set value 0.01d
+execute as @e[type=arrow,tag=!toxicShot1,nbt={CustomPotionEffects:[{Id:19b,Duration:60}]}] run tag @s add toxicShot1

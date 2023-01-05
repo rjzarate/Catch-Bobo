@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{ee-3:1}}]}] run function cb:game/during/player/skills/hunters/boba_fett/ee-3/info

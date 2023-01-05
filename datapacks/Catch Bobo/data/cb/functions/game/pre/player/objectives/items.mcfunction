@@ -1,0 +1,3 @@
+execute unless score @s objectiveS matches 5 run give @s compass{display:{Name:'{"text":"Objectives Tracker","color":"gold","bold":true,"italic":false}',Lore:['{"text":"Used to track the nearest objective.","color":"gray"}','{"text":"Can only track tunnel objectives when in the tunnel.","color":"gray"}','{"text":"Cannot track surface objectives when in the tunnel.","color":"gray"}']},LodestoneDimension:"minecraft:overworld",LodestoneTracked:1b,LodestonePos:{X:0,Y:0,Z:0},objectivesTracker:1,noDrop:1} 1
+
+give @s carrot_on_a_stick{display:{Name:'{"text":"Objectives List","color":"gold","bold":true,"italic":false}',Lore:['{"text":"Gives you the list of objectives you need to complete.","color":"gray"}']},HideFlags:4,Unbreakable:1b,Enchantments:[{}],list:1,noDrop:1} 1

@@ -1,0 +1,4 @@
+execute if score @s jetpackFuel < .maxAmmo1 jetpackFuelStats unless score @s jetpackFuelDelay matches 1.. run scoreboard players add @s jetpackFuel 1
+scoreboard players remove @s[scores={jetpackFuelDelay=1..}] jetpackFuelDelay 1
+
+execute if score @s jetpackFuel matches 1 run item replace entity @s armor.chest with elytra{display:{Name:'{"text":"Jetpack","color":"dark_red","bold":true,"italic":false}',color:3950130},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:7} 1

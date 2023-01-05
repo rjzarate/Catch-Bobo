@@ -1,0 +1,1 @@
+item modify entity @s weapon.mainhand cb:pepsi_smash_inactive

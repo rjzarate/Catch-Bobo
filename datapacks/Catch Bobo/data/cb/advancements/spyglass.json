@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:spyglass"
+              ],
+              "nbt": "{spyglass:1}"
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ],
+          "nbt": "{spyglass:1}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cb:game/during/player/skills/hunters/officer/spyglass/scope"
+  }
+}

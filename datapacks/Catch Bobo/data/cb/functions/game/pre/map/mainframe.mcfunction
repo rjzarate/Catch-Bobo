@@ -1,0 +1,1 @@
+fill 162 45 -136 162 47 -134 minecraft:command_block[facing=up]

@@ -1,0 +1,22 @@
+[
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:knockback": 4
+    },
+    "add": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{pepsiSmash:1}"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

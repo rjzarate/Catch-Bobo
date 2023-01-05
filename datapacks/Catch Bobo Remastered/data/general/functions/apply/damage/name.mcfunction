@@ -1,0 +1,1 @@
+data modify block 0 1 0 Text1 set value {"selector":"@s"}

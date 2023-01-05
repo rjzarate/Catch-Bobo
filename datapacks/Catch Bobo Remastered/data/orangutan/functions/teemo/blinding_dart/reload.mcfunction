@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with crossbow{display:{Name:'{"text":"Blinding Dart","color":"gold","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:quick_charge",lvl:6s}],ChargedProjectiles:[{id:"minecraft:tipped_arrow",Count:1b,tag:{CustomPotionEffects:[{Id:27b,Amplifier:50b,Duration:100}],CustomPotionColor:0}},{},{}],Tags:["teemo","blindingDart","arrowDamage","blindness","range","cooldown","actionbarRegular"],HideFlags:47,Unbreakable:1b,Charged:1b,blindingDart:1,arrowDamage:1,blindness:5,range:25,cooldown:10,CustomModelData:101,noDrop:1} 1
+item modify entity @s weapon.mainhand kit:description
+item modify entity @s weapon.mainhand kit:stats

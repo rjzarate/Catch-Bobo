@@ -1,0 +1,8 @@
+{
+  "values":[
+	"general:load",
+  "math:zprivate/init",
+  "entity_hit_matching:load",
+  "cw_hp_control:init"
+  ]
+}

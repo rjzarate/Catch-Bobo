@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.starFinger run function cb:game/during/player/skills/hunters/jotaro/star_finger/info

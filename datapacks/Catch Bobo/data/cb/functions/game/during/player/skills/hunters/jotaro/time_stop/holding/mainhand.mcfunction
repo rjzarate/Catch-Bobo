@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.timeStop run function cb:game/during/player/skills/hunters/jotaro/time_stop/info

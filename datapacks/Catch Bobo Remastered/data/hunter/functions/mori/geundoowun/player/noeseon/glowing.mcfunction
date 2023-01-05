@@ -1,0 +1,2 @@
+execute unless score @s uuid = #uuid temp run scoreboard players operation @s glowing = @s glowing
+execute unless score @s uuid = #uuid temp if score @s glowing < .glowing20t noeseonStats at @s run scoreboard players operation @s glowing = .glowing20t noeseonStats

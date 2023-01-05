@@ -1,0 +1,3 @@
+execute if score @s cRocket matches 1 run title @s actionbar ["",{"text":"Concussion Rocket - ","bold":true,"color":"dark_red"},{"text":"Ready ","bold":true,"color":"green"}]
+
+execute if score @s cRocket matches ..0 run title @s actionbar ["",{"text":"Concussion Rocket - ","bold":true,"color":"dark_red"},{"text":"Not Ready ","bold":true,"color":"red"},{"text":"| ","color":"white"},{"text":"Cooldown: ","color":"aqua"},{"score":{"name":"@s","objective":"cRocketCD"},"bold":true,"color":"aqua"},{"text":" Seconds","bold":true,"color":"aqua"}]

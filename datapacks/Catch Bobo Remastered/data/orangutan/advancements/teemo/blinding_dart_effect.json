@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:unluck": {
+            "amplifier": 50
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "orangutan:teemo/blinding_dart/effect"
+  }
+}

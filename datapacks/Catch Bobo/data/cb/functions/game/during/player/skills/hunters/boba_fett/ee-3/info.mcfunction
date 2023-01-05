@@ -1,0 +1,3 @@
+execute if score @s ee-3 matches 60.. run title @s actionbar ["",{"text":"EE-3 - ","bold":true,"color":"dark_red"},{"text":"| "},{"text":"Ammo: ","color":"yellow"},{"score":{"name":"@s","objective":"ee-3"},"bold":true,"color":"yellow"},{"text":"/60","bold":true,"color":"yellow"}]
+
+execute if score @s ee-3 matches ..59 run title @s actionbar ["",{"text":"EE-3 - ","bold":true,"color":"dark_red"},{"text":"| "},{"text":"Ammo: ","color":"yellow"},{"score":{"name":"@s","objective":"ee-3"},"bold":true,"color":"yellow"},{"text":"/60","bold":true,"color":"yellow"},{"text":" | ","color":"white"},{"text":"Cooldown: ","color":"aqua"},{"score":{"name":"@s","objective":"ee-3CD"},"bold":true,"color":"aqua"},{"text":" Seconds","bold":true,"color":"aqua"}]

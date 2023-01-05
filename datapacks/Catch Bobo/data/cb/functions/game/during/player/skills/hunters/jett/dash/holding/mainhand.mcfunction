@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.dash run function cb:game/during/player/skills/hunters/jett/dash/info

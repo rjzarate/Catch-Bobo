@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{getData:1}}]}] run function cb:game/during/player/skills/hunters/hacker/get_data/info

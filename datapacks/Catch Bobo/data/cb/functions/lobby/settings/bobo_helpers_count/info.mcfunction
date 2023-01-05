@@ -1,0 +1,2 @@
+playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
+tellraw @s ["",{"text":"\n"},{"text":"Bobo\'s Helpers Count - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"How many ","color":"gray"},{"text":"Bobo\'s Helpers ","color":"gold","bold":true},{"text":"there will be.","color":"gray"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" Depends on player count","italic":true,"color":"aqua"}]

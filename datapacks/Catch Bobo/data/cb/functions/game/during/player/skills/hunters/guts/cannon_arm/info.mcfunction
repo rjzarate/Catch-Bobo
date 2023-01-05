@@ -1,0 +1,4 @@
+
+execute if score @s cannonArm matches 1 run title @s actionbar ["",{"text":"Cannon Arm - ","bold":true,"color":"dark_red"},{"text":"| "},{"text":"Ammo: ","color":"yellow"},{"score":{"name":"@s","objective":"cannonArm"},"bold":true,"color":"yellow"},{"text":"/1","bold":true,"color":"yellow"}]
+
+execute if score @s cannonArm matches ..0 run title @s actionbar ["",{"text":"Cannon Arm - ","bold":true,"color":"dark_red"},{"text":"| "},{"text":"Ammo: ","color":"yellow"},{"score":{"name":"@s","objective":"cannonArm"},"bold":true,"color":"yellow"},{"text":"/1","bold":true,"color":"yellow"},{"text":" | ","color":"white"},{"text":"Cooldown: ","color":"aqua"},{"score":{"name":"@s","objective":"cannonArmCD"},"bold":true,"color":"aqua"},{"text":" Seconds","bold":true,"color":"aqua"}]

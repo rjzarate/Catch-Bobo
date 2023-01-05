@@ -1,0 +1,2 @@
+execute as @e[type=arrow,tag=!blindingDart1,nbt={CustomPotionEffects:[{Id:15b,Duration:80}]}] run data modify entity @s damage set value 0.5d
+execute as @e[type=arrow,tag=!blindingDart1,nbt={CustomPotionEffects:[{Id:15b,Duration:80}]}] run tag @s add blindingDart1

@@ -1,0 +1,1 @@
+execute at @e[type=minecraft:armor_stand,tag=gG] run playsound minecraft:entity.tnt.primed player @a ~ ~ ~ 1 2

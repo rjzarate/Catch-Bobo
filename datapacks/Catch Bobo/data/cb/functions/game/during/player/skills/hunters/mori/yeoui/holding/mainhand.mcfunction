@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.yeoui run function cb:game/during/player/skills/hunters/mori/yeoui/info

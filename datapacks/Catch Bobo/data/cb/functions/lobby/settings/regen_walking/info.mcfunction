@@ -1,0 +1,2 @@
+playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
+tellraw @s ["",{"text":"\n"},{"text":"Regen: Walking - ","bold":true,"color":"yellow"},{"text":"\n"},{"text":"The speed of how fast a player regenerates health while walking.","color":"gray"},{"text":"\n\n"},{"text":"Default:","color":"light_purple"},{"text":" ½ Heart every 2 Seconds","italic":true,"color":"aqua"}]

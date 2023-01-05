@@ -1,0 +1,2 @@
+execute unless score @s uuid = #uuid temp unless score @s invisibility matches 1.. at @s run particle dust_color_transition 0.871 0.820 0.106 1 1.000 1.000 1.000 ~ ~1 ~ 0.2 0.5 0.2 0 1 normal @a
+execute unless score @s uuid = #uuid temp if score @s invisibility matches 1.. at @s run particle dust_color_transition 0.871 0.820 0.106 1 1.000 1.000 1.000 ~ ~1 ~ 0.2 0.5 0.2 0 1 normal @s

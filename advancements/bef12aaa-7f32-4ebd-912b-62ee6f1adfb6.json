@@ -1,0 +1,216 @@
+{
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_chestplate": "2022-10-09 00:37:48 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2022-10-09 00:39:32 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-10-09 00:27:22 -0700"
+    },
+    "done": true
+  },
+  "entity_hit_matching:on_hurt": {
+    "criteria": {
+      "nbit7": "2022-12-29 21:59:04 -0800",
+      "nbit8": "2022-12-29 21:59:04 -0800",
+      "nbit9": "2022-12-29 21:54:32 -0800",
+      "nbit3": "2022-12-29 21:54:32 -0800",
+      "nbit15": "2022-12-29 21:54:32 -0800",
+      "nbit14": "2022-12-29 21:54:32 -0800",
+      "nbit4": "2022-12-29 21:54:32 -0800",
+      "nbit5": "2022-12-29 21:54:32 -0800",
+      "nbit6": "2022-12-29 21:54:32 -0800",
+      "nbit19": "2022-12-29 21:54:32 -0800",
+      "nbit0": "2022-12-29 21:54:32 -0800",
+      "nbit18": "2022-12-29 21:54:32 -0800",
+      "nbit1": "2022-12-29 21:54:32 -0800",
+      "nbit17": "2022-12-29 21:54:32 -0800",
+      "nbit2": "2022-12-29 21:54:32 -0800",
+      "nbit22": "2022-12-29 21:54:32 -0800",
+      "nbit21": "2022-12-29 21:54:32 -0800",
+      "nbit20": "2022-12-29 21:54:32 -0800",
+      "nbit26": "2022-12-29 21:54:32 -0800",
+      "nbit25": "2022-12-29 21:54:32 -0800",
+      "nbit24": "2022-12-29 21:54:32 -0800",
+      "nbit23": "2022-12-29 21:54:32 -0800",
+      "nbit29": "2022-12-29 21:54:32 -0800",
+      "nbit28": "2022-12-29 21:54:32 -0800",
+      "nbit27": "2022-12-29 21:54:32 -0800",
+      "nbit31": "2022-12-29 21:54:32 -0800",
+      "nbit30": "2022-12-29 21:54:32 -0800",
+      "bit9": "2022-12-29 21:59:04 -0800",
+      "bit7": "2022-12-29 21:54:32 -0800",
+      "bit16": "2022-12-29 21:54:32 -0800",
+      "bit8": "2022-12-29 21:54:32 -0800",
+      "bit5": "2022-12-29 21:59:04 -0800",
+      "bit3": "2022-12-29 21:59:04 -0800",
+      "bit4": "2022-12-29 21:59:04 -0800",
+      "bit1": "2022-12-29 21:59:04 -0800",
+      "bit0": "2022-12-29 21:54:33 -0800",
+      "nbit10": "2022-12-29 21:54:32 -0800",
+      "bit12": "2022-12-29 21:54:32 -0800",
+      "bit13": "2022-12-29 21:54:32 -0800",
+      "bit11": "2022-12-29 21:54:32 -0800"
+    },
+    "done": false
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2022-10-09 00:47:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2022-10-09 00:23:26 -0700"
+    },
+    "done": true
+  },
+  "hunter:jotaro/damage_taken": {
+    "criteria": {
+      "requirement": "2022-12-29 21:45:03 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2022-10-09 00:37:48 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2022-10-09 00:24:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2022-10-09 00:44:23 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2022-10-09 00:23:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2022-10-09 00:23:32 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_chestplate": "2022-10-09 00:37:48 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jungle": "2022-10-09 00:18:25 -0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2022-10-09 00:23:32 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2022-10-09 01:15:54 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-10-09 00:27:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-10-09 00:44:23 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_sword": "2022-10-09 00:44:23 -0700"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2022-12-29 21:25:17 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2022-10-09 00:27:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-10-09 00:27:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-10-09 00:27:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-10-09 00:29:33 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2022-10-09 01:15:54 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-10-09 00:27:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-10-09 00:27:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2022-10-09 00:29:33 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_sword": "2022-10-09 00:44:23 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
+}

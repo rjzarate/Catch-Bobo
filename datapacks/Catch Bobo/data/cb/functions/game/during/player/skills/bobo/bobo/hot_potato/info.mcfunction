@@ -1,0 +1,3 @@
+execute if score @s hP matches 1 run title @s actionbar ["",{"text":"Hot Potato Planter - ","bold":true,"color":"gold"},{"text":"Ready ","bold":true,"color":"green"}]
+
+execute if score @s hP matches ..0 run title @s actionbar ["",{"text":"Hot Potato Planter - ","bold":true,"color":"gold"},{"text":"Not Ready ","bold":true,"color":"red"},{"text":"| "},{"text":"Cooldown: ","color":"aqua"},{"score":{"name":"@s","objective":"hPCD"},"bold":true,"color":"aqua"},{"text":" Seconds","bold":true,"color":"aqua"}]

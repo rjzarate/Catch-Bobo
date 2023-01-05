@@ -1,0 +1,1 @@
+execute unless entity @a[tag=emergencyMeeting] run team modify Hunters nametagVisibility hideForOwnTeam
