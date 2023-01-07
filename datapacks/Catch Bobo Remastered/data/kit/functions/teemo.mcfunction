@@ -43,12 +43,12 @@ item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.1 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Move Quick","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["teemo","moveQuick","duration","speed5","cooldown","actionbarDuration"],CustomModelData:8,moveQuick:1,duration:3,speed5:3,cooldown:15,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Move Quick","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["teemo","moveQuick","duration","speed5","cooldown","actionbarDuration"],CustomModelData:200,moveQuick:1,duration:3,speed5:3,cooldown:15,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.2 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Noxious Trap","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["teemo","noxiousTrap","explosionRange","slowness2","poison1","health","armTime","lifespan","ammo","maxAmmo","chargeUpRequirement","onGround","cooldown","ammoCooldown","actionbarAmmo1"],CustomModelData:9,noxiousTrap:1,explosionRange:3,slowness2:5,poison1:3,health:1,armTime:2,lifespan:300,maxAmmo:5,cooldown:20,ammoCooldown:1,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Noxious Trap","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["teemo","noxiousTrap","explosionRange","slowness2","poison1","health","armTime","lifespan","ammo","maxAmmo","chargeUpRequirement","onGround","cooldown","ammoCooldown","actionbarAmmo1"],CustomModelData:201,noxiousTrap:1,explosionRange:3,slowness2:5,poison1:3,health:1,armTime:2,lifespan:300,maxAmmo:5,cooldown:20,ammoCooldown:1,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand
@@ -64,7 +64,7 @@ scoreboard players operation .armTime noxiousTrapStats *= #20 constant
 
 
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Recall","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["teemo","recall","chargeUp","chargeUpRequirement","standingStill","notUsingAbilities","onGround","takeNoDamage","cooldown","actionbarChargeUp"],CustomModelData:10,recall:1,chargeUp:8,cooldown:120,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Recall","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["teemo","recall","chargeUp","chargeUpRequirement","standingStill","notUsingAbilities","onGround","takeNoDamage","cooldown","actionbarChargeUp"],CustomModelData:202,recall:1,chargeUp:8,cooldown:120,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.4 from entity @s weapon.mainhand

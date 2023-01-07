@@ -14,3 +14,9 @@ execute unless score @s jackfruitJumper matches 1 at @s run playsound minecraft:
 execute unless score @s jackfruitJumper matches 1 at @s run effect clear @s minecraft:jump_boost
 execute unless score @s jackfruitJumper matches 1 at @s run attribute @s minecraft:generic.attack_damage modifier remove 0-0-0-0-1
 execute unless score @s jackfruitJumper matches 1 at @s run attribute @s minecraft:generic.movement_speed modifier remove 0-0-0-0-2
+
+#change model
+	scoreboard players set #CustomModelData temp 1
+	execute unless score @s jackfruitJumper matches 1 run scoreboard players set #CustomModelData temp 11
+	execute store result storage animate CustomModelData int 1 run scoreboard players get #CustomModelData temp
+	item modify entity @s weapon.mainhand kit:animate/storage

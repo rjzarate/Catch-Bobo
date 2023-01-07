@@ -31,7 +31,7 @@ item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Honeydew Hopper","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["bobo","jackfruitJumper","jumpBoostX","cooldown","actionbarActive"],CustomModelData:1,cooldown:5,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Honeydew Hopper","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["bobo","jackfruitJumper","jumpBoostX","cooldown","actionbarActive"],CustomModelData:11,cooldown:5,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.1 from entity @s weapon.mainhand
