@@ -9,4 +9,5 @@ execute if entity @s[tag=green] run scoreboard players remove @e[type=minecraft:
 playsound minecraft:block.anvil.destroy player @a ~ ~ ~ 0.5 1.5
 particle minecraft:block minecraft:anvil ~ ~0.4 ~ 0.5 0.2 0.5 0 10
 
+kill @e[type=minecraft:armor_stand,tag=vent,limit=1,sort=nearest]
 kill @s

@@ -61,7 +61,7 @@ scoreboard players operation @s bladeStormAmmo = @s bladeStormAmmo
 #item modify entity @s weapon.mainhand kit:stats
 #item replace block 0 0 0 container.2 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Tailwind","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["jett","tailwind","durationDecimal","distance","ammo","maxAmmo","cooldown","ammoCooldown","actionbarAmmo1Duration"],durationDecimal:25,distance:11,maxAmmo:2,cooldown:45,ammoCooldown:1,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Tailwind","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["jett","tailwind","durationDecimal","distance","ammo","maxAmmo","cooldown","ammoCooldown","actionbarAmmo1Duration"],durationDecimal:25,distance:11,maxAmmo:2,cooldown:45,ammoCooldown:1,noDrop:1,CustomModelData:1206} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.2 from entity @s weapon.mainhand
@@ -72,7 +72,7 @@ scoreboard players operation .cooldown20t tailwindStats *= #20 constant
 scoreboard players operation .ammoCooldown tailwindStats = .ammoCooldown stats
 scoreboard players operation @s tailwindAmmo = @s tailwindAmmo
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Updraft","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["jett","updraft","durationDecimal","levitation15Decimal","ammo","maxAmmo","cooldown","ammoCooldown","actionbarAmmo1Duration"],durationDecimal:85,levitation15Decimal:85,maxAmmo:4,cooldown:30,ammoCooldown:1,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Updraft","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["jett","updraft","durationDecimal","levitation15Decimal","ammo","maxAmmo","cooldown","ammoCooldown","actionbarAmmo1Duration"],durationDecimal:85,levitation15Decimal:85,maxAmmo:4,cooldown:30,ammoCooldown:1,noDrop:1,CustomModelData:1207} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand

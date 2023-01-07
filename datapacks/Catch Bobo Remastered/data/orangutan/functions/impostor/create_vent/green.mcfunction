@@ -10,7 +10,8 @@ scoreboard players operation @s ventCD = #ventCooldownIncrease temp
 	playsound minecraft:block.anvil.use player @a ~ ~ ~ 0.5 2
 
 #creates turtle with lifespan, proper health, and uuid
-	execute align xz positioned ~0.5 ~ ~0.5 run summon minecraft:turtle ~ ~ ~ {Silent:1b,PersistenceRequired:1b,NoAI:1b,Health:1000f,AbsorptionAmount:1f,Tags:["vent","green","new","timeStoppable"],Attributes:[{Name:generic.max_health,Base:1000}],ActiveEffects:[{Id:14,Amplifier:0b,Duration:0,ShowParticles:0b}]}
+	execute align xz positioned ~0.5 ~ ~0.5 run summon minecraft:turtle ~ ~ ~ {Silent:1b,PersistenceRequired:1b,NoAI:1b,Health:1000f,AbsorptionAmount:1f,Tags:["vent","green","new","timeStoppable"],Attributes:[{Name:generic.max_health,Base:1000}],ActiveEffects:[{Id:14,Amplifier:0b,Duration:2000000,ShowParticles:0b}]}
+	execute align xz positioned ~0.5 ~ ~0.5 run summon armor_stand ~ ~ ~ {Tags:["vent","green","visual"],Marker:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:ender_eye",Count:1b,tag:{CustomModelData:113}}]}
 	scoreboard players operation .ventLifespan stats *= #20 constant
 	scoreboard players operation @e[type=minecraft:turtle,tag=green,tag=new] ventLifespan = .ventLifespan stats
 	execute store result entity @e[type=minecraft:turtle,tag=green,tag=new,limit=1] AbsorptionAmount float 1 run scoreboard players get .ventHealth stats

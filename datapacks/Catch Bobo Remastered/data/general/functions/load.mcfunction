@@ -30,7 +30,7 @@ scoreboard objectives add gameStats dummy
 		#how many fruits bobo needs to collect to reach end game
 	scoreboard players set .fruitRequirement gameStats 15
 		#how many fruits are on the map
-	scoreboard players set .fruitsOnField gameStats 20
+	scoreboard players set .fruitsOnField gameStats 25
 		#if the fruits glow
 	scoreboard players set .fruitGlowing gameStats 1
 		#after collecting all fruits, how long bobo has to survive to win 
@@ -40,7 +40,9 @@ scoreboard objectives add gameStats dummy
 		#respawn timer for hunters
 	scoreboard players set .hunterRespawnTimer 200
 		#respawn timer for orangutans
-	scoreboard players set .orangutanRespawnTimer 500
+	scoreboard players set .orangutanRespawnTimer 600
+#actual game stats
+	scoreboard objectives add game dummy
 
 
 #healing
@@ -454,6 +456,12 @@ team modify Hunters color dark_red
 team modify Hunters prefix [{"text":"Hunters ","color":"dark_red","bold":true},{"text":"| ","color":"white","bold":false}]
 team modify Lobby nametagVisibility always
 team modify Hunters seeFriendlyInvisibles true
+team add Spectators
+team modify Spectators color gray
+team modify Spectators collisionRule never
+team modify Spectators friendlyFire false
+team modify Spectators nametagVisibility hideForOtherTeams
+team modify Spectators seeFriendlyInvisibles true
 team add Lobby
 team modify Lobby color gray
 team modify Lobby collisionRule never

@@ -1,6 +1,7 @@
 {
   "values":[
   "general:tick",
+  "game:tick",
   "hunter:tick",
   "orangutan:tick",
   "entity_hit_matching:tick",

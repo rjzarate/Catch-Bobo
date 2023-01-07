@@ -22,7 +22,7 @@ item replace entity @s armor.legs with leather_leggings{display:{Name:'{"text":"
 item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Spacesuit","color":"gold","bold":true,"italic":false}',color:16711680},Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:feather_falling",lvl:3s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:71,Unbreakable:1b} 1
 
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Kill","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["impostor","kill","ventCooldown","createVentCooldownIncrease","range","immobilize","immobilizeDuration","immobilizeKill","cooldown","actionbarRegular"],kill:1,createVentCooldownIncrease:20,range:4,ventCooldown:-50,immobilizeDuration:60,cooldown:60,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Kill","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["impostor","kill","ventCooldown","createVentCooldownIncrease","range","immobilize","immobilizeDuration","immobilizeKill","cooldown","actionbarRegular"],kill:1,createVentCooldownIncrease:20,range:4,ventCooldown:-50,immobilizeDuration:60,cooldown:60,noDrop:1,CustomModelData:100} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
@@ -30,7 +30,7 @@ function general:get_stats
 scoreboard players operation .immobilizeDuration20t killStats = .immobilizeDuration stats
 scoreboard players operation .immobilizeDuration20t killStats *= #20 constant
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Report Body","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["impostor","reportBody","chargeUp","duration","activationRequirement","takeNoDamage","activationRequirementNearImmobilizedPlayer","cooldown","actionbarChargeUpDuration"],reportBody:1,chargeUp:10,duration:10,activationRequirementNearImmobilizedPlayerRange:4,cooldown:300,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Report Body","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["impostor","reportBody","chargeUp","duration","activationRequirement","takeNoDamage","activationRequirementNearImmobilizedPlayer","cooldown","actionbarChargeUpDuration"],reportBody:1,chargeUp:10,duration:10,activationRequirementNearImmobilizedPlayerRange:4,cooldown:300,noDrop:1,CustomModelData:101} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.1 from entity @s weapon.mainhand
@@ -42,17 +42,17 @@ scoreboard players operation .cooldown20t reportBodyStats *= #20 constant
 scoreboard players operation .duration20t reportBodyStats *= #20 constant
 scoreboard players operation .chargeUp20t reportBodyStats *= #20 constant
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Vent","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["impostor","vent","range","activationRequirement","activationRequirementVent","cooldown","actionbarRegular"],vent:1,range:3,cooldown:75,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Vent","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["impostor","vent","range","activationRequirement","activationRequirementVent","cooldown","actionbarRegular"],vent:1,range:3,cooldown:75,noDrop:1,CustomModelData:102} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.2 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'[{"text":"Build ","color":"gold","bold":true,"italic":false},{"text":"Red ","color":"red"},{"text":"Vent","color":"gold"}]'},Enchantments:[{}],Tags:["impostor","createVent","createRedVent","ventCooldownIncrease","activationRequirement","onGround","ventHealth","ventLifespan","uponDrop","cooldown","actionbarRegular"],createRedVent:1,ventCooldownIncrease:15,ventHealth:10,ventLifespan:450,cooldown:15} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'[{"text":"Build ","color":"gold","bold":true,"italic":false},{"text":"Red ","color":"red"},{"text":"Vent","color":"gold"}]'},Enchantments:[{}],Tags:["impostor","createVent","createRedVent","ventCooldownIncrease","activationRequirement","onGround","ventHealth","ventLifespan","uponDrop","cooldown","actionbarRegular"],createRedVent:1,ventCooldownIncrease:15,ventHealth:10,ventLifespan:450,cooldown:15,CustomModelData:103} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Sabotage O2","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["impostor","sabotage","sabotageO2","duration","chargeUp","poison2","chargeUpRequirement","twoHuntersAlive","aliveOcelot","ocelot","ocelotHealth","ocelotSpeed","ocelotLifespan","cooldown","uponDrop","actionbarChargeUpDuration"],sabotageO2:1,duration:10,chargeUp:50,poison2:10,ocelotHealth:5,ocelotSpeed:200,ocelotLifespan:50,cooldown:120} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Sabotage O2","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["impostor","sabotage","sabotageO2","duration","chargeUp","poison2","chargeUpRequirement","twoHuntersAlive","aliveOcelot","ocelot","ocelotHealth","ocelotSpeed","ocelotLifespan","cooldown","uponDrop","actionbarChargeUpDuration"],sabotageO2:1,duration:10,chargeUp:50,poison2:10,ocelotHealth:5,ocelotSpeed:200,ocelotLifespan:50,cooldown:120,CustomModelData:107} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.4 from entity @s weapon.mainhand

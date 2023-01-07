@@ -5,7 +5,7 @@
 		#how many fruits bobo needs to collect to reach end game
 	scoreboard players set .fruitRequirement gameStats 15
 		#how many fruits are on the map
-	scoreboard players set .fruitsOnField gameStats 20
+	scoreboard players set .fruitsOnField gameStats 25
 		#if the fruits glow
 	scoreboard players set .fruitGlowing gameStats 1
 		#after collecting all fruits, how long bobo has to survive to win 
