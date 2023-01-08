@@ -16,7 +16,8 @@ execute unless score @s jackfruitJumper matches 1 at @s run attribute @s minecra
 execute unless score @s jackfruitJumper matches 1 at @s run attribute @s minecraft:generic.movement_speed modifier remove 0-0-0-0-2
 
 #change model
-	scoreboard players set #CustomModelData temp 1
-	execute unless score @s jackfruitJumper matches 1 run scoreboard players set #CustomModelData temp 11
+	execute store result score #CustomModelData temp run data get entity @s SelectedItem.tag.CustomModelData 1
+	execute if score @s jackfruitJumper matches 1 run scoreboard players remove #CustomModelData temp 10
+	execute unless score @s jackfruitJumper matches 1 run scoreboard players add #CustomModelData temp 10
 	execute store result storage animate CustomModelData int 1 run scoreboard players get #CustomModelData temp
 	item modify entity @s weapon.mainhand kit:animate/storage
