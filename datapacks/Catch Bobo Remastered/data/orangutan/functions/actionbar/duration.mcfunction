@@ -1,28 +1,28 @@
 execute if predicate orangutan:bobo/banana_blade if score @s blindingBlueberryDuration matches 1.. run scoreboard players operation duration actionbarCD = @s blindingBlueberryDuration
-execute if predicate orangutan:bobo/banana_blade if score @s blindingBlueberryDuration matches 1.. run scoreboard players operation int actionbarCD = @s blindingBlueberryDuration
+execute if predicate orangutan:bobo/banana_blade if score @s blindingBlueberryDuration matches 1.. store result score int actionbarCD run scoreboard players get @s blindingBlueberryDuration
 execute if predicate orangutan:bobo/banana_blade if score @s durianDecoyDuration matches 1.. run scoreboard players operation duration actionbarCD = @s durianDecoyDuration
 execute if predicate orangutan:bobo/banana_blade if score @s durianDecoyDuration matches 1.. run scoreboard players operation int actionbarCD = @s durianDecoyDuration
 execute if predicate orangutan:bobo/banana_blade unless score @s blindingBlueberryDuration matches 1.. unless score @s durianDecoyDuration matches 1.. run scoreboard players reset duration actionbarCD
 
 execute if predicate orangutan:bobo/blinding_blueberry run scoreboard players operation duration actionbarCD = @s blindingBlueberryDuration
-execute if predicate orangutan:bobo/blinding_blueberry run scoreboard players operation int actionbarCD = @s blindingBlueberryDurianDecoyCD
+execute if predicate orangutan:bobo/blinding_blueberry store result score int actionbarCD run scoreboard players get @s blindingBlueberryDurianDecoyCD
 execute if predicate orangutan:bobo/blinding_blueberry if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s blindingBlueberryDuration
 
 execute if predicate orangutan:bobo/durian_decoy run scoreboard players operation duration actionbarCD = @s durianDecoyDuration
-execute if predicate orangutan:bobo/durian_decoy run scoreboard players operation int actionbarCD = @s blindingBlueberryDurianDecoyCD
+execute if predicate orangutan:bobo/durian_decoy store result score int actionbarCD run scoreboard players get @s blindingBlueberryDurianDecoyCD
 execute if predicate orangutan:bobo/durian_decoy if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s durianDecoyDuration
 
 
 execute if predicate orangutan:teemo/move_quick run scoreboard players operation duration actionbarCD = @s moveQuickDuration
-execute if predicate orangutan:teemo/move_quick run scoreboard players operation int actionbarCD = @s moveQuickCD
+execute if predicate orangutan:teemo/move_quick store result score int actionbarCD run scoreboard players get @s moveQuickCD
 execute if predicate orangutan:teemo/move_quick if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s moveQuickDuration
 
 execute if predicate orangutan:purple_guy/quirky_animatronics run scoreboard players operation duration actionbarCD = @s quirkyAnimatronicsFlamingCorruptionDuration
-execute if predicate orangutan:purple_guy/quirky_animatronics run scoreboard players operation int actionbarCD = @s quirkyAnimatronicsFlamingCorruptionCD
+execute if predicate orangutan:purple_guy/quirky_animatronics store result score int actionbarCD run scoreboard players get @s quirkyAnimatronicsFlamingCorruptionCD
 execute if predicate orangutan:purple_guy/quirky_animatronics if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s quirkyAnimatronicsFlamingCorruptionDuration
 
 execute if predicate orangutan:purple_guy/flaming_corruption run scoreboard players operation duration actionbarCD = @s quirkyAnimatronicsFlamingCorruptionDuration
-execute if predicate orangutan:purple_guy/flaming_corruption run scoreboard players operation int actionbarCD = @s quirkyAnimatronicsFlamingCorruptionCD
+execute if predicate orangutan:purple_guy/flaming_corruption store result score int actionbarCD run scoreboard players get @s quirkyAnimatronicsFlamingCorruptionCD
 execute if predicate orangutan:purple_guy/flaming_corruption if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s quirkyAnimatronicsFlamingCorruptionDuration
 
 

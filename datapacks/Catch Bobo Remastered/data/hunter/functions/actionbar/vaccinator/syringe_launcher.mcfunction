@@ -1,4 +1,4 @@
-scoreboard players operation int actionbarCD = @s syringeLauncherCD
+execute store result score int actionbarCD run scoreboard players get @s syringeLauncherCD
 scoreboard players operation dec actionbarCD = @s syringeLauncherCD
 scoreboard players operation ammo actionbarCD = @s syringeLauncherAmmo
 scoreboard players operation maxAmmo actionbarCD = .maxAmmo syringeLauncherStats

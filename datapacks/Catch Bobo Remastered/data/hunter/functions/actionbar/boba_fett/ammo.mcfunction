@@ -1,8 +1,8 @@
-execute if predicate hunter:boba_fett/ee-3 run scoreboard players operation int actionbarCD = @s ee-3CD
+execute if predicate hunter:boba_fett/ee-3 run execute store result score int actionbarCD run scoreboard players get @s ee-3CD
 execute if predicate hunter:boba_fett/ee-3 run scoreboard players operation ammo actionbarCD = @s ee-3Ammo
 execute if predicate hunter:boba_fett/ee-3 run scoreboard players operation maxAmmo actionbarCD = .maxAmmo ee-3Stats
 
-execute if predicate hunter:boba_fett/flamethrower run scoreboard players operation int actionbarCD = @s flamethrowerCD
+execute if predicate hunter:boba_fett/flamethrower run execute store result score int actionbarCD run scoreboard players get @s flamethrowerCD
 execute if predicate hunter:boba_fett/flamethrower run scoreboard players operation ammo actionbarCD = @s flamethrowerAmmo
 execute if predicate hunter:boba_fett/flamethrower run scoreboard players operation maxAmmo actionbarCD = .maxAmmo flamethrowerStats
 

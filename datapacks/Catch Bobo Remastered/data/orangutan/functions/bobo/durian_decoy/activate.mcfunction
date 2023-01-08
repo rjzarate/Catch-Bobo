@@ -54,6 +54,8 @@ item replace entity @s armor.chest with air
 item replace entity @s armor.legs with air
 item replace entity @s armor.feet with air
 execute store result score @s SelectedItemSlotDurianDecoy run data get entity @s SelectedItemSlot 1
+#change model to inactive
+	function general:animate/add/selected_item
 data modify storage minecraft:bobo durianDecoy set from entity @s SelectedItem
 clear @s minecraft:ender_eye{Tags:["durianDecoy"]}
 

@@ -1,6 +1,8 @@
-function general:get_stats
+execute as @p[predicate=general:uuid_search] run function general:get_stats
 scoreboard players operation .cooldown stats *= #20 constant
-scoreboard players operation @s ventCD = .cooldown stats
+scoreboard players operation @p[predicate=general:uuid_search] ventCD = .cooldown stats
+#change model to inactive
+	execute as @p[predicate=general:uuid_search] run function general:animate/add/selected_item
 
 scoreboard players operation .search uuid = .search uuidLink
 

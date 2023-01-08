@@ -5,6 +5,8 @@ scoreboard players set #fireRate stats 2000
 scoreboard players operation #fireRate stats /= .fireRate stats
 function general:fire_rate_change
 scoreboard players operation @s guavaGrenadeFireRate = #fireRate stats
+#change model to inactive
+	execute unless score @s guavaGrenadeHotPotatoPlanterAmmo matches 1.. run function general:animate/add/selected_item
 
 execute at @s run playsound minecraft:block.dispenser.launch player @a ~ ~ ~ 1 0
 execute store result score .pos0 Pos run data get entity @s Pos[0] 10000

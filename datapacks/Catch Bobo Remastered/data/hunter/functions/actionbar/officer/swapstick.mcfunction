@@ -1,4 +1,4 @@
-scoreboard players operation int1 actionbarCD = @s swapstickCD
+execute store result score int1 actionbarCD run scoreboard players get @s swapstickCD
 scoreboard players operation int2 actionbarCD = @s swapstickDuration
 scoreboard players operation int3 actionbarCD = @s dogDamageDuration
 

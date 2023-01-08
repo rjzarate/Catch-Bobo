@@ -1,5 +1,5 @@
 scoreboard players operation int1 actionbarCD = @s dragonslayerDuration
-scoreboard players operation int2 actionbarCD = @s repeaterCrossbowCD
+execute store result score int2 actionbarCD run scoreboard players get @s repeaterCrossbowCD
 scoreboard players operation ammo2 actionbarCD = @s repeaterCrossbowAmmo
 scoreboard players operation maxAmmo actionbarCD = .maxAmmo repeaterCrossbowStats
 

@@ -1,14 +1,9 @@
-execute if predicate orangutan:impostor/kill run scoreboard players operation int actionbarCD = @s killCD
-
-execute if predicate orangutan:impostor/vent run scoreboard players operation int actionbarCD = @s ventCD
-
-execute if predicate orangutan:impostor/create_vent run scoreboard players operation int actionbarCD = @s createVentCD
-
-execute if predicate orangutan:teemo/blinding_dart run scoreboard players operation int actionbarCD = @s blindingDartCD
-
-execute if predicate orangutan:purple_guy/12am run scoreboard players operation int actionbarCD = @s 12am5amCD
-
-execute if predicate orangutan:purple_guy/5am run scoreboard players operation int actionbarCD = @s 12am5amCD
+execute if predicate orangutan:impostor/kill store result score int actionbarCD run scoreboard players get @s killCD
+execute if predicate orangutan:impostor/vent store result score int actionbarCD run scoreboard players get @s ventCD
+execute if predicate orangutan:impostor/create_vent store result score int actionbarCD run scoreboard players get @s createVentCD
+execute if predicate orangutan:teemo/blinding_dart store result score int actionbarCD run scoreboard players get @s blindingDartCD
+execute if predicate orangutan:purple_guy/12am store result score int actionbarCD run scoreboard players get @s 12am5amCD
+execute if predicate orangutan:purple_guy/5am store result score int actionbarCD run scoreboard players get @s 12am5amCD
 
 
 scoreboard players operation dec actionbarCD = int actionbarCD

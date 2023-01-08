@@ -1,4 +1,6 @@
 function general:get_stats
+#change model to inactive
+	function general:animate/add/selected_item
 
 scoreboard players remove @s starfruitSwapperTangerineTeleporter 1
 

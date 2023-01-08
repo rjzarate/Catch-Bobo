@@ -1,9 +1,8 @@
 execute if predicate orangutan:teemo/recall run scoreboard players operation duration actionbarCD = @s recallChargeUp
-execute if predicate orangutan:teemo/recall run scoreboard players operation int actionbarCD = @s recallCD
+execute if predicate orangutan:teemo/recall store result score int actionbarCD run scoreboard players get @s recallCD
 execute if predicate orangutan:teemo/recall if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s recallChargeUp
 
-execute if predicate orangutan:purple_guy/transform run scoreboard players operation duration actionbarCD = @s purpleGuyTransformChargeUp
-execute if predicate orangutan:purple_guy/transform if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s purpleGuyTransformChargeUp
+execute if predicate orangutan:purple_guy/transform run scoreboard players operation int actionbarCD = @s purpleGuyTransformChargeUp
 
 scoreboard players operation dec actionbarCD = int actionbarCD
 scoreboard players operation int actionbarCD /= #20 constant

@@ -1,16 +1,16 @@
-execute if predicate orangutan:bobo/hot_potato_planter run scoreboard players operation int actionbarCD = @s guavaGrenadeHotPotatoPlanterCD
+execute if predicate orangutan:bobo/hot_potato_planter store result score int actionbarCD run scoreboard players get @s guavaGrenadeHotPotatoPlanterCD
 execute if predicate orangutan:bobo/hot_potato_planter run scoreboard players operation ammo actionbarCD = @s guavaGrenadeHotPotatoPlanterAmmo
 execute if predicate orangutan:bobo/hot_potato_planter run scoreboard players operation maxAmmo actionbarCD = .maxAmmo guavaGrenadeHotPotatoPlanterStats
 
-execute if predicate orangutan:teemo/noxious_trap run scoreboard players operation int actionbarCD = @s noxiousTrapCD
+execute if predicate orangutan:teemo/noxious_trap store result score int actionbarCD run scoreboard players get @s noxiousTrapCD
 execute if predicate orangutan:teemo/noxious_trap run scoreboard players operation ammo actionbarCD = @s noxiousTrapAmmo
 execute if predicate orangutan:teemo/noxious_trap run scoreboard players operation maxAmmo actionbarCD = .maxAmmo noxiousTrapStats
 
-execute if predicate orangutan:purple_guy/purple_guy_melee run scoreboard players operation int actionbarCD = @s phoneIAlwaysComeBackCD
+execute if predicate orangutan:purple_guy/purple_guy_melee store result score int actionbarCD run scoreboard players get @s phoneIAlwaysComeBackCD
 execute if predicate orangutan:purple_guy/purple_guy_melee run scoreboard players operation ammo actionbarCD = @s phoneIAlwaysComeBackAmmo
 execute if predicate orangutan:purple_guy/purple_guy_melee run scoreboard players operation maxAmmo actionbarCD = .maxAmmo phoneIAlwaysComeBackStats
 
-execute if predicate orangutan:purple_guy/remnant_machine run scoreboard players operation int actionbarCD = @s remnantMachineCD
+execute if predicate orangutan:purple_guy/remnant_machine store result score int actionbarCD run scoreboard players get @s remnantMachineCD
 execute if predicate orangutan:purple_guy/remnant_machine run scoreboard players operation ammo actionbarCD = @s remnantMachineAmmo
 execute if predicate orangutan:purple_guy/remnant_machine run scoreboard players operation maxAmmo actionbarCD = .maxAmmo remnantMachineStats
 

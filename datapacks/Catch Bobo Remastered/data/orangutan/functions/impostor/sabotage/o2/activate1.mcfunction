@@ -1,6 +1,8 @@
 scoreboard players operation @s sabotageCD = .cooldown20t sabotageStats
 scoreboard players operation @s sabotageCD += .duration20t sabotageStats
 scoreboard players operation @s sabotageDuration = .duration20t sabotageStats
+#change model to inactive
+	function general:animate/add/selected_item
 
 #poison all hunters
 	execute as @a[team=Hunters,gamemode=!spectator] run scoreboard players operation @s poison2 = @s poison2

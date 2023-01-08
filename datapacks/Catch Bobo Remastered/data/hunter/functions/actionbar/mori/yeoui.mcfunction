@@ -1,4 +1,4 @@
-scoreboard players operation int1 actionbarCD = @s yeouiCD
+execute store result score int1 actionbarCD run scoreboard players get @s yeouiCD
 scoreboard players operation int2 actionbarCD = @s yeouiDuration
 
 

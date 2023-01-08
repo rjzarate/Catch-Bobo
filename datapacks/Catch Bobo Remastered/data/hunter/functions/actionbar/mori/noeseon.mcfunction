@@ -1,6 +1,6 @@
 scoreboard players operation chargeUp actionbarCD = @s noeseonChargeUp
 scoreboard players operation duration actionbarCD = @s noeseonDuration
-scoreboard players operation int actionbarCD = @s noeseonCD
+execute store result score int actionbarCD run scoreboard players get @s noeseonCD
 execute if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s noeseonDuration
 execute if score chargeUp actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s noeseonChargeUp
 scoreboard players operation int1 actionbarCD = @s geundoowunDuration

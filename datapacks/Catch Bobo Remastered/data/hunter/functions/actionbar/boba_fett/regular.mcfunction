@@ -1,6 +1,6 @@
-execute if predicate hunter:boba_fett/concussion_rocket run scoreboard players operation int actionbarCD = @s concussionRocketCD
+execute if predicate hunter:boba_fett/concussion_rocket run execute store result score int actionbarCD run scoreboard players get @s concussionRocketCD
 
-execute if predicate hunter:boba_fett/rocket_barrage run scoreboard players operation int actionbarCD = @s rocketBarrageCD
+execute if predicate hunter:boba_fett/rocket_barrage run execute store result score int actionbarCD run scoreboard players get @s rocketBarrageCD
 
 scoreboard players operation ammo2 actionbarCD = @s jetpackFuel
 scoreboard players operation maxAmmo2 actionbarCD = .maxAmmo1 jetpackFuelStats

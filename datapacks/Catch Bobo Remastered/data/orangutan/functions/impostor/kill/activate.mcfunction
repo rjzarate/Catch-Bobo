@@ -5,6 +5,8 @@ execute store result score #ventCD temp run data get storage minecraft:stats tag
 execute store result score #createVentCD temp run data get storage minecraft:stats tag.createVentCooldownIncrease
 scoreboard players operation @s ventCD += #ventCD temp
 scoreboard players operation @s createVentCD += #createVentCD temp
+#change model to inactive
+	function general:animate/add/selected_item
 
 execute at @s run tp @s @p[team=Hunters,gamemode=!spectator,tag=!impostorStun,tag=!invincible]
 execute at @s run playsound minecraft:entity.turtle.egg_crack player @a ~ ~ ~ 1 0.75

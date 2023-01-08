@@ -1,7 +1,8 @@
 function general:get_stats
 scoreboard players remove @s guavaGrenadeHotPotatoPlanterAmmo 1
 execute if score @s guavaGrenadeHotPotatoPlanterAmmo < .maxAmmo guavaGrenadeHotPotatoPlanterStats unless score @s guavaGrenadeHotPotatoPlanterCD matches 1.. run scoreboard players operation @s guavaGrenadeHotPotatoPlanterCD += .cooldown20t guavaGrenadeHotPotatoPlanterStats
-
+#change model to inactive
+	execute unless score @s guavaGrenadeHotPotatoPlanterAmmo matches 1.. run function general:animate/add/selected_item
 
 
 

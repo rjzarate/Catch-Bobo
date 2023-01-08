@@ -1,5 +1,5 @@
 scoreboard players operation int1 actionbarCD = @s dragonslayerDuration
-scoreboard players operation int2 actionbarCD = @s cannonArmCD
+execute store result score int2 actionbarCD run scoreboard players get @s cannonArmCD
 
 scoreboard players operation dec1 actionbarCD = int1 actionbarCD
 scoreboard players operation num1 actionbarCD = int1 actionbarCD

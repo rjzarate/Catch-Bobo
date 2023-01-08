@@ -6,8 +6,9 @@
 #inverts the custom model data of the slot
 	execute if score #CustomModelData temp matches 1..999999 run scoreboard players set #wasReady temp 1
 	execute if score #CustomModelData temp matches 1000000.. run scoreboard players set #wasReady temp 0
-	execute if score #wasReady temp matches 1 run scoreboard players add #CustomModelData 1000000
-	execute if score #wasReady temp matches 0 run scoreboard players remove #CustomModelData 1000000
+	execute if score #wasReady temp matches 1 run scoreboard players add #CustomModelData temp 1000000
+	execute if score #wasReady temp matches 0 run scoreboard players remove #CustomModelData temp 1000000
+	execute store result storage animate CustomModelData int 1 run scoreboard players get #CustomModelData temp
 
 #replaces the custom model data
 	execute if score #slot temp matches 27 run item modify entity @s inventory.18 kit:animate/storage

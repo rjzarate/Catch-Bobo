@@ -1,4 +1,4 @@
-scoreboard players operation int1 actionbarCD = @s jetpackFuelCD
+execute store result score int1 actionbarCD run scoreboard players get @s jetpackFuelCD
 scoreboard players operation ammo1 actionbarCD = @s jetpackFuelAmmo
 scoreboard players operation ammo2 actionbarCD = @s jetpackFuel
 scoreboard players operation maxAmmo1 actionbarCD = .maxAmmo jetpackFuelStats

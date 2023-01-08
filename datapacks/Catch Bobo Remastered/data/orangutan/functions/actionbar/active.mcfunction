@@ -1,5 +1,5 @@
 execute if predicate orangutan:bobo/jackfruit_jumper run scoreboard players operation bool actionbarCD = @s jackfruitJumper
-execute if predicate orangutan:bobo/jackfruit_jumper run scoreboard players operation int actionbarCD = @s jackfruitJumperCD
+execute if predicate orangutan:bobo/jackfruit_jumper store result score int actionbarCD run scoreboard players get @s jackfruitJumperCD
 
 scoreboard players operation dec actionbarCD = int actionbarCD
 scoreboard players operation int actionbarCD /= #20 constant

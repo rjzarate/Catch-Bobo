@@ -1,8 +1,8 @@
-execute if predicate orangutan:bobo/guava_grenade run scoreboard players operation int actionbarCD = @s guavaGrenadeHotPotatoPlanterCD
+execute if predicate orangutan:bobo/guava_grenade store result score int actionbarCD run scoreboard players get @s guavaGrenadeHotPotatoPlanterCD
 execute if predicate orangutan:bobo/guava_grenade run scoreboard players operation ammo actionbarCD = @s guavaGrenadeHotPotatoPlanterAmmo
 execute if predicate orangutan:bobo/guava_grenade run scoreboard players operation maxAmmo actionbarCD = .maxAmmo guavaGrenadeHotPotatoPlanterStats
 
-execute if predicate orangutan:teemo/toxic_shot run scoreboard players operation int actionbarCD = @s toxicShotCD
+execute if predicate orangutan:teemo/toxic_shot store result score int actionbarCD run scoreboard players get @s toxicShotCD
 execute if predicate orangutan:teemo/toxic_shot run scoreboard players operation ammo actionbarCD = @s toxicShotAmmo
 execute if predicate orangutan:teemo/toxic_shot run scoreboard players operation maxAmmo actionbarCD = .maxAmmo toxicShotStats
 

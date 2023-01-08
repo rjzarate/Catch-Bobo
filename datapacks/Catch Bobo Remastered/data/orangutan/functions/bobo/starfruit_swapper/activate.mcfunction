@@ -1,4 +1,6 @@
 function general:get_stats
+#change model to inactive
+	function general:animate/add/selected_item
 
 #find the teleporter and teleportee
 tag @s add teleporter
