@@ -11,3 +11,4 @@ tag @s add shot
 execute at @s anchored eyes positioned ^ ^ ^1 run function hunter:jett/blade_storm/raycast
 tag @s remove shot
 tag @e[type=#general:everything] remove hit
+
