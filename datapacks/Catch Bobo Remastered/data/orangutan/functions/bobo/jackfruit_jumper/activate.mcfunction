@@ -20,4 +20,6 @@ execute unless score @s jackfruitJumper matches 1 at @s run attribute @s minecra
 	execute if score @s jackfruitJumper matches 1 run scoreboard players remove #CustomModelData temp 10
 	execute unless score @s jackfruitJumper matches 1 run scoreboard players add #CustomModelData temp 10
 	execute store result storage animate CustomModelData int 1 run scoreboard players get #CustomModelData temp
+	#change to inactive
+		scoreboard players add #CustomModelDatat 1000000
 	item modify entity @s weapon.mainhand kit:animate/storage

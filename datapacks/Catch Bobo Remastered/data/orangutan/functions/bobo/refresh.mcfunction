@@ -1,4 +1,4 @@
-execute if score @s jackfruitJumperCD matches ..0 run scoreboard players reset @s jackfruitJumperCD
+execute if score @s jackfruitJumperCD matches ..0 run function orangutan:bobo/jackfruit_jumper/refresh
 
 execute if score @s blindingBlueberryDurianDecoyCD matches ..0 run scoreboard players reset @s blindingBlueberryDurianDecoyCD
 
