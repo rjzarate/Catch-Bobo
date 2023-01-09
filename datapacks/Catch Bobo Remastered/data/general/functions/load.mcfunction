@@ -338,6 +338,7 @@ scoreboard objectives add berserkerArmorStats dummy
 scoreboard objectives add berserkerArmorDamageResisted minecraft.custom:minecraft.damage_resisted
 
 #hacker
+scoreboard objectives add battery dummy
 scoreboard objectives add trojanHorseDamage dummy
 scoreboard objectives add trojanHorseRange dummy
 scoreboard objectives add trojanMiniHorse dummy
