@@ -9,13 +9,13 @@ execute if score @s bladeStormAmmo < .maxAmmo bladeStormStats unless score @s bl
 execute if score @s bladeStormAmmo > .maxAmmo bladeStormStats run scoreboard players operation @s bladeStormAmmo = .maxAmmo bladeStormStats
 
 
-execute if score @s tailwindCD matches ..0 run scoreboard players reset @s tailwindCD
+execute if score @s tailwindCD matches ..0 run function hunter:jett/zrefresh/tailwind
 execute if score @s tailwindAmmo < .maxAmmo tailwindStats unless score @s tailwindCD matches 1.. run scoreboard players operation @s tailwindAmmo += .ammoCooldown tailwindStats
 execute if score @s tailwindAmmo < .maxAmmo tailwindStats unless score @s tailwindCD matches 1.. run scoreboard players operation @s tailwindCD += .cooldown20t tailwindStats
 execute if score @s tailwindAmmo > .maxAmmo tailwindStats run scoreboard players operation @s tailwindAmmo = .maxAmmo tailwindStats
 
 
-execute if score @s updraftCD matches ..0 run scoreboard players reset @s updraftCD
+execute if score @s updraftCD matches ..0 run function hunter:jett/zrefresh/updraft
 execute if score @s updraftAmmo < .maxAmmo updraftStats unless score @s updraftCD matches 1.. run scoreboard players operation @s updraftAmmo += .ammoCooldown updraftStats
 execute if score @s updraftAmmo < .maxAmmo updraftStats unless score @s updraftCD matches 1.. run scoreboard players operation @s updraftCD += .cooldown20t updraftStats
 execute if score @s updraftAmmo > .maxAmmo updraftStats run scoreboard players operation @s updraftAmmo = .maxAmmo updraftStats

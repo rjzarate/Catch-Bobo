@@ -25,5 +25,3 @@ execute as @e[team=Hunters,type=#general:hunters,tag=inRange] if score @s blindn
 execute as @e[team=Hunters,type=#general:hunters,tag=inRange] if score @s slowness1 < .slowness1 stats run scoreboard players operation @s slowness1 += .slowness1 stats
 tag @e[team=Hunters,type=#general:hunters,tag=inRange] remove inRange
 
-#change model to inactive
-	function general:animate/add/selected_item

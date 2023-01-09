@@ -1,3 +1,8 @@
+scoreboard players reset @s indomitableWillDuration
+#adds grayscale
+	execute store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["indomitableWill"]}}].Slot
+	function general:animate/add/directory
+
 #guts indomitable will atk speed
 attribute @s minecraft:generic.attack_speed modifier remove 1-0-1-1-1
 attribute @s minecraft:generic.attack_speed modifier remove 1-0-1-1-2

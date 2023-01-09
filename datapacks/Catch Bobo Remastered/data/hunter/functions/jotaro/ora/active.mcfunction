@@ -94,4 +94,4 @@ tag @s remove shot
 
 execute at @s run playsound minecraft:entity.player.attack.nodamage player @a ~ ~ ~ 0.75 0.5
 scoreboard players remove @s oraDuration 1
-execute if score @s oraDuration matches ..0 run scoreboard players reset @s oraDuration
+execute if score @s oraDuration matches ..0 run function hunter:jotaro/ora/deactivate

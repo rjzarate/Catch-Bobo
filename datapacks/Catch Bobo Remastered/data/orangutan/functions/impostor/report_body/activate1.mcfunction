@@ -1,8 +1,7 @@
 scoreboard players operation @s reportBodyCD = .cooldown20t reportBodyStats
 scoreboard players operation @s reportBodyCD += .duration20t reportBodyStats
 scoreboard players operation @s reportBodyDuration = .duration20t reportBodyStats
-#change model to inactive
-	function general:animate/add/selected_item
+
 
 fill 96 22 -237 92 23 -236 minecraft:cyan_stained_glass
 

@@ -7,7 +7,6 @@ execute if score @s repeaterCrossbowAmmo > .maxAmmo repeaterCrossbowStats run sc
 execute if score @s cannonArmCD matches ..0 run scoreboard players reset @s cannonArmCD
 
 
-execute if score @s indomitableWillCD matches ..0 run scoreboard players reset @s indomitableWillCD
+execute if score @s indomitableWillCD matches ..0 run function hunter:guts/zrefresh/indomitable_will
 
-
-execute if score @s berserkerArmorCD matches ..0 run scoreboard players reset @s berserkerArmorCD
+execute if score @s berserkerArmorCD matches ..0 run function hunter:guts/zrefresh/berserker_armor
