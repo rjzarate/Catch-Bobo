@@ -1,6 +1,6 @@
 execute if score @s swapstickCD matches ..0 run function hunter:officer/zrefresh/swapstick
 
-execute if score @s clickerCD matches ..0 run scoreboard players reset @s clickerCD
+execute if score @s clickerCD matches ..0 run function hunter:officer/zrefresh/clicker
 
 execute if score @s orangtuanClothCD matches ..0 run scoreboard players reset @s orangtuanClothCD
 
