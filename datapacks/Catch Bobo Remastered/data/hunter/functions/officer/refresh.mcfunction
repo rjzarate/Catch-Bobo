@@ -2,8 +2,8 @@ execute if score @s swapstickCD matches ..0 run function hunter:officer/zrefresh
 
 execute if score @s clickerCD matches ..0 run function hunter:officer/zrefresh/clicker
 
-execute if score @s orangtuanClothCD matches ..0 run scoreboard players reset @s orangtuanClothCD
+execute if score @s orangtuanClothCD matches ..0 run function hunter:officer/zrefresh/orangutan_cloth
 
-execute if score @s dogWhistleCD matches ..0 run scoreboard players reset @s dogWhistleCD
+execute if score @s dogWhistleCD matches ..0 run function hunter:officer/zrefresh/dog_whistle
 
-execute if score @s canineEmbryoCD matches ..0 run scoreboard players reset @s canineEmbryoCD
+execute if score @s canineEmbryoCD matches ..0 run function hunter:officer/zrefresh/canine_embryo

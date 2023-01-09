@@ -31,17 +31,17 @@ item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.1 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Orangutan Cloth","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["officer","orangutanCloth","duration","dogStrength1","activationRequirement","dogIsAlive","nearDog","cooldown","actionbarDuration"],duration:20,dogStrength1:20,cooldown:50,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Orangutan Cloth","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["officer","orangutanCloth","duration","dogStrength1","activationRequirement","dogIsAlive","nearDog","cooldown","actionbarDuration"],duration:20,dogStrength1:20,cooldown:50,noDrop:1,CustomModelData:1302} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.2 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Dog Whistle","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["officer","dogWhistle","duration","weakness1","slowness5","dogSpeed","range","activationRequirement","dogIsAlive","cooldown","actionbarDuration"],duration:8,weakness1:8,slowness5:8,dogSpeed:8,range:50,cooldown:100,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Dog Whistle","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["officer","dogWhistle","duration","weakness1","slowness5","dogSpeed","range","activationRequirement","dogIsAlive","cooldown","actionbarDuration"],duration:8,weakness1:8,slowness5:8,dogSpeed:8,range:50,cooldown:100,noDrop:1,CustomModelData:1303} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Canine Embryo","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["officer","canineEmbryo","dog","activationRequirement","dogIsDead","cooldownRequirement","cooldown","actionbarRegular"],dogHealth:20,dogArmor:10,dogMeleeDamage:5,dogMovementSpeed:150,cooldown:150,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Canine Embryo","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["officer","canineEmbryo","dog","activationRequirement","dogIsDead","cooldownRequirement","cooldown","actionbarRegular"],dogHealth:20,dogArmor:10,dogMeleeDamage:5,dogMovementSpeed:150,cooldown:150,noDrop:1,CustomModelData:1304} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.8 from entity @s weapon.mainhand

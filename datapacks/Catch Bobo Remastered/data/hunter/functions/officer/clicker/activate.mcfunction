@@ -2,8 +2,7 @@ function general:get_stats
 scoreboard players operation .cooldown stats *= #20 constant
 scoreboard players operation @s clickerCD = .cooldown stats
 #adds grayscale
-	execute store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["clicker"]}}].Slot
-	function general:animate/add/directory
+	function general:animate/add/selected_item
 
 #sitting to scoreboard
 	execute store result score #sitting temp run data get entity @e[type=minecraft:wolf,tag=dog,predicate=general:uuid_link_search,limit=1] Sitting
