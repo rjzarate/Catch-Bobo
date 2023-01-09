@@ -7,6 +7,9 @@ scoreboard players operation @s ventCD += #ventCD temp
 scoreboard players operation @s createVentCD += #createVentCD temp
 #change model to inactive
 	function general:animate/add/selected_item
+#change create vent model to inactive
+	execute store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["createVent"]}}].Slot
+	function general:animate/add/directory
 
 execute at @s run tp @s @p[team=Hunters,gamemode=!spectator,tag=!impostorStun,tag=!invincible]
 execute at @s run playsound minecraft:entity.turtle.egg_crack player @a ~ ~ ~ 1 0.75

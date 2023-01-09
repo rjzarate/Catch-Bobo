@@ -1,7 +1,9 @@
 function general:get_stats
 scoreboard players operation .cooldown stats *= #20 constant
 scoreboard players operation @s swapstickCD = .cooldown stats
-
+#adds grayscale
+	execute store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["swapstick"]}}].Slot
+	function general:animate/add/directory
 
 #visuals and audio (where you are)
 	particle minecraft:portal ~ ~ ~ .2 .75 .2 .3 20

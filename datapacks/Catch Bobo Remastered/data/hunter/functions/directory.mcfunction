@@ -4,6 +4,7 @@ execute if predicate hunter:guts/left_arm unless predicate hunter:ender_eye if p
 
 ##actionbar for jett weapons
 execute if predicate hunter:jett/marshal run function hunter:actionbar/ammo
+execute if predicate hunter:jett/blade_storm run function hunter:actionbar/ammo
 
 ##actionbar for vaccinator weapon
 execute if predicate hunter:vaccinator/syringe_launcher run function hunter:actionbar/vaccinator/syringe_launcher

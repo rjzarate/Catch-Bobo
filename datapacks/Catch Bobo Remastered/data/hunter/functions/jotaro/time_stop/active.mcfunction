@@ -17,6 +17,9 @@ execute if score number timeStopDuration matches 1.. run scoreboard players remo
 execute if score number timeStopDuration matches ..0 run kill @e[type=minecraft:area_effect_cloud,tag=timeStop]
 execute if score number timeStopDuration matches ..0 run tag @e[type=#general:everything/all,tag=timeStoppee] remove timeStoppee
 execute if score number timeStopDuration matches ..0 as @a[tag=timeStopper] run attribute @s minecraft:generic.attack_damage modifier remove 1-0-0-0-5
+#adds grayscale
+	execute if score number timeStopDuration matches ..0 as @a[tag=timeStopper] run execute store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["timeStop"]}}].Slot
+	execute if score number timeStopDuration matches ..0 as @a[tag=timeStopper] run function general:animate/add/directory
 execute if score number timeStopDuration matches ..0 run tag @a remove timeStopper
 
 execute if score number timeStopDuration matches ..0 run scoreboard players reset number timeStopDuration
