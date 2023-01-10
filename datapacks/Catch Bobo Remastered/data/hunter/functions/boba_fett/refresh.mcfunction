@@ -8,9 +8,9 @@ execute if score @s flamethrowerAmmo < .maxAmmo flamethrowerStats unless score @
 execute if score @s flamethrowerAmmo < .maxAmmo flamethrowerStats unless score @s flamethrowerCD matches 1.. run scoreboard players operation @s flamethrowerCD += .cooldown20t flamethrowerStats
 execute if score @s flamethrowerAmmo > .maxAmmo flamethrowerStats run scoreboard players operation @s flamethrowerAmmo = .maxAmmo flamethrowerStats
 
-execute if score @s concussionRocketCD matches ..0 run scoreboard players reset @s concussionRocketCD
+execute if score @s concussionRocketCD matches ..0 run function hunter:boba_fett/zrefresh/concussion_rocket
 
-execute if score @s rocketBarrageCD matches ..0 run scoreboard players reset @s rocketBarrageCD
+execute if score @s rocketBarrageCD matches ..0 run function hunter:boba_fett/zrefresh/rocket_barrage
 
 execute if score @s jetpackFuelCD matches ..0 run scoreboard players reset @s jetpackFuelCD
 execute if score @s jetpackFuelAmmo < .maxAmmo jetpackFuelStats unless score @s jetpackFuelCD matches 1.. run scoreboard players operation @s jetpackFuelAmmo += .ammoCooldown jetpackFuelStats

@@ -1,6 +1,8 @@
 function general:get_stats
 scoreboard players operation .cooldown stats *= #20 constant
 scoreboard players operation @s rocketBarrageCD = .cooldown stats
+#change model to inactive
+	function general:animate/add/selected_item
 
 #range
 scoreboard players operation .range stats *= #2 constant
