@@ -48,18 +48,18 @@ scoreboard players operation .absorption3 syringeLauncherStats = .absorption3 st
 scoreboard players operation .resistance1 syringeLauncherStats = .resistance1 stats
 
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Overloaded Brewing","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["vaccinator","overloadedBrewing","actionbarSpecial"],noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Overloaded Brewing","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["vaccinator","overloadedBrewing","actionbarSpecial"],noDrop:1,CustomModelData:1510} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.1 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Self-Diagnose","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["vaccinator","selfDiagnose","durationVaries","activationRequirement","cooldown","actionbarSpecial"],durationVaries:10,cooldown:40,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Self-Diagnose","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["vaccinator","selfDiagnose","durationVaries","activationRequirement","cooldown","actionbarSpecial"],durationVaries:10,cooldown:40,noDrop:1,CustomModelData:1520} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.2 from entity @s weapon.mainhand
 
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Unstable Concoction","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["vaccinator","unstableConcoction","duration","cooldown","actionbarSpecial"],duration:10,cooldown:75,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Unstable Concoction","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["vaccinator","unstableConcoction","duration","cooldown","actionbarSpecial"],duration:10,cooldown:75,noDrop:1,CustomModelData:1530} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand

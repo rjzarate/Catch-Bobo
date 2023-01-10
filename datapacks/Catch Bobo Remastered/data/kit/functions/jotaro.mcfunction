@@ -27,12 +27,12 @@ item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Star Finger","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["jotaro","starFinger","rangeDamage","range","wither1","hitsHead","hitsHeadBlindness","cooldown","actionbarRegular"],CustomModelData:1003,starFinger:1,rangeDamage:2,range:9,wither1:4,hitsHeadBlindness:3,cooldown:20,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Star Finger","color":"dark_red","bold":true,"italic":false}'},Tags:["jotaro","starFinger","rangeDamage","range","wither1","hitsHead","hitsHeadBlindness","cooldown","actionbarRegular"],CustomModelData:1003,starFinger:1,rangeDamage:2,range:9,wither1:4,hitsHeadBlindness:3,cooldown:20,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.1 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"ORA!","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["jotaro","ora","duration","damage","fireRate","range","cooldown","actionbarDuration"],CustomModelData:1004,ora:1,duration:5,damage:3,fireRate:500,range:5,cooldown:75,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"ORA!","color":"dark_red","bold":true,"italic":false}'},Tags:["jotaro","ora","duration","damage","fireRate","range","cooldown","actionbarDuration"],CustomModelData:1004,ora:1,duration:5,damage:3,fireRate:500,range:5,cooldown:75,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.2 from entity @s weapon.mainhand
@@ -41,7 +41,7 @@ scoreboard players operation .damage oraStats = .damage stats
 scoreboard players operation .range oraStats = .range stats
 scoreboard players operation .range oraStats *= #2 constant
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Time Stop","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["jotaro","timeStop","allDamage","duration","chargeUp","chargeUpRequirement","takeNoDamage","cooldown","actionbarChargeUpDuration"],CustomModelData:1005,timeStop:1,allDamage:-1,duration:5,chargeUp:5,cooldown:100,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Time Stop","color":"dark_red","bold":true,"italic":false}'},Tags:["jotaro","timeStop","allDamage","duration","chargeUp","chargeUpRequirement","takeNoDamage","cooldown","actionbarChargeUpDuration"],CustomModelData:1005,timeStop:1,allDamage:-1,duration:5,chargeUp:5,cooldown:100,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand

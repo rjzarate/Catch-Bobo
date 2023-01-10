@@ -1,7 +1,10 @@
 scoreboard players reset @s berserkerArmorDuration
-#adds grayscale
+#adds grayscale, removes glint, removes grayscale for indomitable will if ready
 	execute store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["berserkerArmor"]}}].Slot
 	function general:animate/add/directory
+	function general:glint/remove/directory
+	execute unless score @s indomitableWillCD matches 1.. store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["indomitableWill"]}}].Slot
+	execute unless score @s indomitableWillCD matches 1.. run function general:animate/remove/directory
 
 item replace entity @s armor.head with minecraft:player_head{display:{Name:'{"text":"Gut\'s Head","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],SkullOwner:{Id:[I;-200688065,-724679753,-1905987168,1320176033],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU3ZmFkM2Y0MmZkMTMwZWUxM2U1NDlkNDlmODIyZDViMDFmNjE5MTE4YjNhMDU5ZGU4ZDQzODc4MWU0ZTRkZSJ9fX0="}]}},HideFlags:77,guts:1} 1
 item replace entity @s armor.chest with iron_chestplate{display:{Name:'{"text":"Iron Chestplate","color":"dark_red","bold":true,"italic":false}'},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:7} 1

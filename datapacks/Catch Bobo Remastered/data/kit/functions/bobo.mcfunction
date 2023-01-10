@@ -31,17 +31,17 @@ item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Honeydew Hopper","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["bobo","jackfruitJumper","jumpBoostX","cooldown","actionbarActive"],CustomModelData:11,cooldown:5,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Honeydew Hopper","color":"gold","bold":true,"italic":false}'},Tags:["bobo","jackfruitJumper","jumpBoostX","cooldown","actionbarActive"],CustomModelData:11,cooldown:5,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.1 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Blinding Blueberry","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["bobo","blindingBlueberry","duration","blindness","slowness1","range","uponDrop","cooldown","actionbarDuration"],CustomModelData:2,blindingBlueberry:1,duration:5,blindness:5,slowness1:5,range:10,cooldown:100} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Blinding Blueberry","color":"gold","bold":true,"italic":false}'},Tags:["bobo","blindingBlueberry","duration","blindness","slowness1","range","uponDrop","cooldown","actionbarDuration"],CustomModelData:2,blindingBlueberry:1,duration:5,blindness:5,slowness1:5,range:10,cooldown:100} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.2 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Guava Grenade","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["bobo","guavaGrenade","explosion","fuse","ammo","maxAmmo","fireRate","range","uponDrop","cooldown","ammoCooldown","actionbarAmmo"],CustomModelData:4,guavaGrenade:1,explosion:3,fuse:25,fireRate:100,range:15,maxAmmo:3,cooldown:50,ammoCooldown:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Guava Grenade","color":"gold","bold":true,"italic":false}'},Tags:["bobo","guavaGrenade","explosion","fuse","ammo","maxAmmo","fireRate","range","uponDrop","cooldown","ammoCooldown","actionbarAmmo"],CustomModelData:4,guavaGrenade:1,explosion:3,fuse:25,fireRate:100,range:15,maxAmmo:3,cooldown:50,ammoCooldown:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand
@@ -54,7 +54,7 @@ scoreboard players operation @s guavaGrenadeHotPotatoPlanterAmmo = @s guavaGrena
 scoreboard players set .fuse hotPotatoPlanterFuse 100
 scoreboard players operation .number hotPotatoPlanterFuse = .number hotPotatoPlanterFuse
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Starfruit Swapper","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["bobo","starfruitSwapper","hunterEffects","resistance2","fireResistance","activationRequirement","onGround","onNoLava","uponDrop","killCooldown","actionbarOnDeath"],CustomModelData:6,starfruitSwapper:1,resistance2:4,fireResistance:8} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Starfruit Swapper","color":"gold","bold":true,"italic":false}'},Tags:["bobo","starfruitSwapper","hunterEffects","resistance2","fireResistance","activationRequirement","onGround","onNoLava","uponDrop","killCooldown","actionbarOnDeath"],CustomModelData:6,starfruitSwapper:1,resistance2:4,fireResistance:8} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.4 from entity @s weapon.mainhand

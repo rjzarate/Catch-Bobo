@@ -4,6 +4,8 @@ scoreboard players operation .duration stats *= #20 constant
 scoreboard players operation @s orangutanClothCD = .cooldown stats
 scoreboard players operation @s orangutanClothCD += .duration stats
 scoreboard players operation @s orangutanClothDuration = .duration stats
+#adds glint
+	item modify entity @s weapon.mainhand kit:enchantment/glint
 
 #strength to dog
 	execute store result score .dogStrength1 stats run data get storage minecraft:stats tag.dogStrength1

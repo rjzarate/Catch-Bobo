@@ -5,6 +5,8 @@ scoreboard players operation .cooldown stats *= #20 constant
 execute if score @s tailwindAmmo < .maxAmmo tailwindStats unless score @s tailwindCD matches 1.. run scoreboard players operation @s tailwindCD += .cooldown20t tailwindStats
 scoreboard players operation @s tailwindCD += .durationDecimal stats
 scoreboard players operation @s tailwindDuration = .durationDecimal stats
+#adds glint
+	item modify entity @s weapon.mainhand kit:enchantment/glint
 
 execute at @s run playsound minecraft:entity.snowball.throw player @a ~ ~ ~ 1 0
 

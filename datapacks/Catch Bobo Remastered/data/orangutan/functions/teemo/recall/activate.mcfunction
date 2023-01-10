@@ -3,6 +3,8 @@ function general:get_stats
 scoreboard players operation .chargeUp stats *= #20 constant
 scoreboard players operation @s recallChargeUp = .chargeUp stats
 scoreboard players operation @s recallCD = .chargeUp stats
+#adds glint
+	item modify entity @s weapon.mainhand kit:enchantment/glint
 
 scoreboard players reset @s recallCrossbow
 scoreboard players reset @s recallCrouch

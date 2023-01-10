@@ -1,7 +1,10 @@
 scoreboard players reset @s indomitableWillDuration
-#adds grayscale
+#adds grayscale, removes glint, removes grayscale for berserker armor if ready
 	execute store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["indomitableWill"]}}].Slot
 	function general:animate/add/directory
+	function general:glint/remove/directory
+	execute unless score @s berserkerArmorCD matches 1.. store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["berserkerArmor"]}}].Slot
+	execute unless score @s berserkerArmorCD matches 1.. run function general:animate/remove/directory
 
 #guts indomitable will atk speed
 attribute @s minecraft:generic.attack_speed modifier remove 1-0-1-1-1

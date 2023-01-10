@@ -1,5 +1,9 @@
 function general:get_stats
 execute store result score @s maxHealth run data get entity @s Attributes[{Name:"minecraft:generic.max_health"}].Base 1
+#adds glint and grayscales berserker armor
+	item modify entity @s weapon.mainhand kit:enchantment/glint
+	execute store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["berserkerArmor"]}}].Slot
+	function general:animate/add/directory
 
 #maxHealth/6 - health/6 = duration
 scoreboard players operation #maxHealth maxHealth = @s maxHealth

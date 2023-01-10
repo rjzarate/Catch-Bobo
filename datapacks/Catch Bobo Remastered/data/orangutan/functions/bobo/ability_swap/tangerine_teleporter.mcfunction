@@ -3,8 +3,8 @@ data remove storage minecraft:inventory SelectedItem
 data modify storage minecraft:inventory SelectedItem set from entity @s SelectedItem
 execute if data storage minecraft:inventory SelectedItem run item replace block 0 0 0 container.0 from entity @s weapon.mainhand
 
-execute if score @s starfruitSwapperTangerineTeleporter matches 1.. run item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Tangerine Teleporter","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["bobo","tangerineTeleporter","blindness","uponDrop","killCooldown","actionbarOnDeath"],CustomModelData:7,tangerineTeleporter:1,blindness:2} 1
-execute unless score @s starfruitSwapperTangerineTeleporter matches 1.. run item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Tangerine Teleporter","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["bobo","tangerineTeleporter","blindness","uponDrop","killCooldown","actionbarOnDeath"],CustomModelData:1000007,tangerineTeleporter:1,blindness:2} 1
+execute if score @s starfruitSwapperTangerineTeleporter matches 1.. run item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Tangerine Teleporter","color":"gold","bold":true,"italic":false}'},Tags:["bobo","tangerineTeleporter","blindness","uponDrop","killCooldown","actionbarOnDeath"],CustomModelData:7,tangerineTeleporter:1,blindness:2} 1
+execute unless score @s starfruitSwapperTangerineTeleporter matches 1.. run item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Tangerine Teleporter","color":"gold","bold":true,"italic":false}'},Tags:["bobo","tangerineTeleporter","blindness","uponDrop","killCooldown","actionbarOnDeath"],CustomModelData:1000007,tangerineTeleporter:1,blindness:2} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 

@@ -6,5 +6,7 @@ scoreboard players operation .chargeUp stats *= #20 constant
 #scoreboard players operation @s reportBodyCD += .chargeUp stats
 #scoreboard players operation @s reportBodyCD += .duration stats
 scoreboard players operation @s reportBodyChargeUp = .chargeUp stats
+#adds glint
+	item modify entity @s weapon.mainhand kit:enchantment/glint
 
 advancement revoke @s only orangutan:impostor/damage_taken

@@ -58,7 +58,7 @@ scoreboard players operation #fireRate flamethrowerStats /= .fireRate stats
 scoreboard players operation .fireRate flamethrowerStats = #fireRate flamethrowerStats
 scoreboard players operation @s flamethrowerAmmo = @s flamethrowerAmmo
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Concussion Rocket","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["bobaFett","concussionRocket","blindness","darkness","slowness3","radius","range","cooldown","actionbarSpecial","actionbarBobaFettRegular"],blindness:6,darkness:3,slowness3:3,burstFire:4,radius:3,range:40,cooldown:75,noDrop:1,CustomModelData:1402} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Concussion Rocket","color":"dark_red","bold":true,"italic":false}'},Tags:["bobaFett","concussionRocket","blindness","darkness","slowness3","radius","range","cooldown","actionbarSpecial","actionbarBobaFettRegular"],blindness:6,darkness:3,slowness3:3,burstFire:4,radius:3,range:40,cooldown:75,noDrop:1,CustomModelData:1402} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.2 from entity @s weapon.mainhand
@@ -71,14 +71,14 @@ scoreboard players operation .blindness20t concussionRocketStats *= #20 constant
 scoreboard players operation .darkness20t concussionRocketStats *= #20 constant
 scoreboard players operation .slowness320t concussionRocketStats *= #20 constant
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Rocket Barrage","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["bobaFett","rocketBarrage","damage","burstFire","radius","explosion","range","cooldown","actionbarSpecial","actionbarBobaFettRegular"],damage:3,burstFire:4,radius:2,explosion:1,range:40,cooldown:100,noDrop:1,CustomModelData:1403} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Rocket Barrage","color":"dark_red","bold":true,"italic":false}'},Tags:["bobaFett","rocketBarrage","damage","burstFire","radius","explosion","range","cooldown","actionbarSpecial","actionbarBobaFettRegular"],damage:3,burstFire:4,radius:2,explosion:1,range:40,cooldown:100,noDrop:1,CustomModelData:1403} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand
 function general:get_stats
 scoreboard players operation .radius rocketBarrageStats = .radius stats
 
-item replace entity @s weapon.mainhand with firework_rocket{display:{Name:'{"text":"Jetpack Nitro","color":"dark_red","bold":true,"italic":false}'},Fireworks:{Flight:0.001b},Enchantments:[{}],Tags:["bobaFett","jetpackFuel","ammo","maxAmmo","cooldown","ammoCooldown"],maxAmmo:2,cooldown:50,ammoCooldown:1,killOnDrop:1,CustomModelData:1403} 1
+item replace entity @s weapon.mainhand with firework_rocket{display:{Name:'{"text":"Jetpack Nitro","color":"dark_red","bold":true,"italic":false}'},Fireworks:{Flight:0.001b},Tags:["bobaFett","jetpackFuel","ammo","maxAmmo","cooldown","ammoCooldown"],maxAmmo:2,cooldown:50,ammoCooldown:1,killOnDrop:1,CustomModelData:1403} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.4 from entity @s weapon.mainhand

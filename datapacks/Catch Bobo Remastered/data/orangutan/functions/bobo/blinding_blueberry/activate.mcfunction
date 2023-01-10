@@ -5,6 +5,8 @@ scoreboard players operation .duration stats *= #20 constant
 scoreboard players operation @s blindingBlueberryDurianDecoyCD = .cooldown stats
 scoreboard players operation @s blindingBlueberryDurianDecoyCD += .duration stats
 scoreboard players operation @s blindingBlueberryDuration = .duration stats
+#adds glint
+	item modify entity @s weapon.mainhand kit:enchantment/glint
 
 execute at @s run playsound minecraft:block.fire.extinguish player @a ~ ~ ~ 1 0.5
 execute at @s run particle minecraft:explosion_emitter ~ ~9 ~ 9 0 9 1 3

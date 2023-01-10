@@ -4,6 +4,8 @@ scoreboard players operation .duration stats *= #20 constant
 scoreboard players operation @s dogWhistleCD = .cooldown stats
 scoreboard players operation @s dogWhistleCD += .duration stats
 scoreboard players operation @s dogWhistleDuration = .duration stats
+#adds glint
+	item modify entity @s weapon.mainhand kit:enchantment/glint
 
 scoreboard players operation .slowness5 stats *= #20 constant
 scoreboard players operation .weakness1 stats *= #20 constant

@@ -4,6 +4,11 @@ scoreboard players operation .duration stats *= #20 constant
 scoreboard players operation @s berserkerArmorCD = .cooldown stats
 scoreboard players operation @s berserkerArmorCD += .duration stats
 scoreboard players operation @s berserkerArmorDuration = .duration stats
+#adds glint and grayscales indomitable will
+	item modify entity @s weapon.mainhand kit:enchantment/glint
+	execute store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["indomitableWill"]}}].Slot
+	function general:animate/add/directory
+
 #resistance
 scoreboard players operation .resistance5 stats *= #20 constant
 scoreboard players operation @s resistance5 = @s resistance5

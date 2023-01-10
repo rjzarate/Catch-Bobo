@@ -1,6 +1,7 @@
 #adds grayscale
 	execute store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["timeStop"]}}].Slot
 	function general:animate/add/directory
+	function general:glint/remove/directory
 
 attribute @s minecraft:generic.attack_damage modifier remove 1-0-0-0-5
 scoreboard players reset @s timeStopChargeUp

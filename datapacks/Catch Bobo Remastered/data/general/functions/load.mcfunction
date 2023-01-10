@@ -110,6 +110,11 @@ scoreboard objectives add SelectedItemSlot dummy
 scoreboard objectives add Pos dummy
 scoreboard objectives add OnGround dummy
 
+#item modifier enchantments
+data modify storage minecraft:enchantment noGlint set value []
+data modify storage minecraft:enchantment glint set value [{}]
+
+
 #potion effects -> scoreboards (for Jotaro's time stop)
 scoreboard objectives add blindness dummy
 scoreboard objectives add darkness dummy
