@@ -2,16 +2,13 @@ execute if predicate hunter:jett/tailwind run scoreboard players operation int a
 execute if predicate hunter:jett/tailwind run scoreboard players operation ammo actionbarCD = @s tailwindAmmo
 execute if predicate hunter:jett/tailwind run scoreboard players operation maxAmmo actionbarCD = .maxAmmo tailwindStats
 execute if predicate hunter:jett/tailwind run scoreboard players operation duration actionbarCD = @s tailwindDuration
-execute if predicate hunter:jett/tailwind if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s tailwindDuration
-execute if predicate hunter:jett/tailwind if score duration actionbarCD matches 1.. run scoreboard players operation dec actionbarCD = @s tailwindDuration
 
 execute if predicate hunter:jett/updraft run scoreboard players operation int actionbarCD = @s updraftCD
 execute if predicate hunter:jett/updraft run scoreboard players operation ammo actionbarCD = @s updraftAmmo
 execute if predicate hunter:jett/updraft run scoreboard players operation maxAmmo actionbarCD = .maxAmmo updraftStats
 execute if predicate hunter:jett/updraft run scoreboard players operation duration actionbarCD = @s updraftDuration
-execute if predicate hunter:jett/updraft if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s updraftDuration
-execute if predicate hunter:jett/updraft if score duration actionbarCD matches 1.. run scoreboard players operation dec actionbarCD = @s updraftDuration
 
+execute if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s updraftDuration
 scoreboard players operation dec actionbarCD = int actionbarCD
 scoreboard players operation int actionbarCD /= #20 constant
 scoreboard players operation dec actionbarCD %= #20 constant

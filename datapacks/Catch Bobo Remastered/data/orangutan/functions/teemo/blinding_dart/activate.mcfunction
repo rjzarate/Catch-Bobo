@@ -1,4 +1,6 @@
 function general:get_stats
+#adds grayscale
+	function general:animate/add/selected_item
 
 scoreboard players operation @s blindingDartCD = .cooldown stats
 scoreboard players operation @s blindingDartCD *= #20 constant

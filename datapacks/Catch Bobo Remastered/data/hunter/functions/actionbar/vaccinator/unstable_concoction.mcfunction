@@ -1,10 +1,9 @@
 scoreboard players operation duration actionbarCD = @s unstableConcoctionDuration
 execute store result score int actionbarCD run scoreboard players get @s unstableConcoctionCD
-scoreboard players operation dec actionbarCD = @s unstableConcoctionCD
-execute if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s unstableConcoctionDuration
-execute if score duration actionbarCD matches 1.. run scoreboard players operation dec actionbarCD = @s unstableConcoctionDuration
 execute if score duration actionbarCD matches 1.. run scoreboard players operation multiplier actionbarCD = @s unstableConcoction
 
+execute if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = duration actionbarCD
+scoreboard players operation dec actionbarCD = int actionbarCD
 scoreboard players operation int actionbarCD /= #20 constant
 scoreboard players operation dec actionbarCD %= #20 constant
 scoreboard players operation dec actionbarCD /= #2 constant

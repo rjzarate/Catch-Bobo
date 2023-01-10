@@ -1,15 +1,14 @@
 execute if predicate hunter:jotaro/time_stop run scoreboard players operation chargeUp actionbarCD = @s timeStopChargeUp
 execute if predicate hunter:jotaro/time_stop run scoreboard players operation duration actionbarCD = number timeStopDuration
 execute if predicate hunter:jotaro/time_stop run scoreboard players operation int actionbarCD = @s timeStopCD
-execute if predicate hunter:jotaro/time_stop if score duration actionbarCD matches 1.. if entity @s[tag=timeStopper] run scoreboard players operation int actionbarCD = number timeStopDuration
-execute if predicate hunter:jotaro/time_stop if score chargeUp actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s timeStopChargeUp
 
 execute if predicate hunter:pepsi_man/pepsi run scoreboard players operation chargeUp actionbarCD = @s pepsiChargeUp
 execute if predicate hunter:pepsi_man/pepsi run scoreboard players operation duration actionbarCD = @s pepsiDuration
 execute if predicate hunter:pepsi_man/pepsi run scoreboard players operation int actionbarCD = @s pepsiCD
-execute if predicate hunter:pepsi_man/pepsi if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s pepsiDuration
-execute if predicate hunter:pepsi_man/pepsi if score chargeUp actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s pepsiChargeUp
 
+execute if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = duration actionbarCD
+execute if score chargeUp actionbarCD matches 1.. run scoreboard players operation int actionbarCD = chargeUp actionbarCD
+execute if predicate hunter:jotaro/time_stop if score duration actionbarCD matches 1.. if entity @s[tag=timeStopper] run scoreboard players operation int actionbarCD = duration actionbarCD
 scoreboard players operation dec actionbarCD = int actionbarCD
 scoreboard players operation int actionbarCD /= #20 constant
 scoreboard players operation dec actionbarCD %= #20 constant

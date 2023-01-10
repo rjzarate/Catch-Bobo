@@ -1,16 +1,14 @@
-execute if predicate orangutan:impostor/report_body run scoreboard players operation chargeUp actionbarCD = @s reportBodyChargeUp
+execute if predicate orangutan:impostor/report_body store result score chargeUp actionbarCD run scoreboard players get @s reportBodyChargeUp
 execute if predicate orangutan:impostor/report_body run scoreboard players operation duration actionbarCD = @s reportBodyDuration
 execute if predicate orangutan:impostor/report_body store result score int actionbarCD run scoreboard players get @s reportBodyCD
-execute if predicate orangutan:impostor/report_body if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s reportBodyDuration
-execute if predicate orangutan:impostor/report_body if score chargeUp actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s reportBodyChargeUp
 
-execute if predicate orangutan:impostor/sabotage run scoreboard players operation chargeUp actionbarCD = @s sabotageChargeUp
+execute if predicate orangutan:impostor/sabotage store result score chargeUp actionbarCD run scoreboard players get @s sabotageChargeUp
 execute if predicate orangutan:impostor/sabotage run scoreboard players operation duration actionbarCD = @s sabotageDuration
 execute if predicate orangutan:impostor/sabotage store result score int actionbarCD run scoreboard players get @s sabotageCD
-execute if predicate orangutan:impostor/sabotage if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s sabotageDuration
-execute if predicate orangutan:impostor/sabotage if score chargeUp actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s sabotageChargeUp
 
 
+execute if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = duration actionbarCD
+execute if score chargeUp actionbarCD matches 1.. run scoreboard players operation int actionbarCD = chargeUp actionbarCD
 scoreboard players operation dec actionbarCD = int actionbarCD
 scoreboard players operation int actionbarCD /= #20 constant
 scoreboard players operation dec actionbarCD %= #20 constant

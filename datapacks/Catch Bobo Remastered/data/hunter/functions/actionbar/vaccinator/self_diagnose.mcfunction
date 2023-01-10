@@ -1,12 +1,11 @@
 execute store result score int actionbarCD run scoreboard players get @s selfDiagnoseCD
-scoreboard players operation dec actionbarCD = @s selfDiagnoseCD
 scoreboard players operation ammo actionbarCD = @s syringeLauncherAmmo
 scoreboard players operation maxAmmo actionbarCD = .maxAmmo syringeLauncherStats
 scoreboard players operation stacks actionbarCD = @s overloadedBrewing
 scoreboard players operation duration actionbarCD = @s selfDiagnoseDuration
-execute if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = @s selfDiagnoseDuration
-execute if score duration actionbarCD matches 1.. run scoreboard players operation dec actionbarCD = @s selfDiagnoseDuration
 
+execute if score duration actionbarCD matches 1.. run scoreboard players operation int actionbarCD = duration actionbarCD
+scoreboard players operation dec actionbarCD = int actionbarCD
 scoreboard players operation int actionbarCD /= #20 constant
 scoreboard players operation dec actionbarCD %= #20 constant
 scoreboard players operation dec actionbarCD /= #2 constant
