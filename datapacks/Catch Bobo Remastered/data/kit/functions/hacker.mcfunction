@@ -26,22 +26,41 @@ item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Tr
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
+function general:get_stats
+scoreboard players operation .batteryUsage stats *= #20 constant
+scoreboard players operation .trojanHorseBatteryUsage hackerStats = .batteryUsage stats
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Rootkit","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["hacker","rootkit","duration","slowness10Decimal","radius","batteryUsage","uponDrop","actionbarSpecial"],duration:5,slowness10Decimal:15,radius:8,batteryUsage:25} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Rootkit","color":"dark_red","bold":true,"italic":false}'},Tags:["hacker","rootkit","duration","slowness10Decimal","radius","batteryUsage","uponDrop","actionbarSpecial"],duration:5,slowness10Decimal:15,radius:8,batteryUsage:25,CustomModelData:1601} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.1 from entity @s weapon.mainhand
 function general:get_stats
 scoreboard players operation .duration20t rootkitStats = .duration stats
 scoreboard players operation .slowness1020t rootkitStats = .slowness10Decimal stats
+scoreboard players operation .batteryUsage stats *= #20 constant
+scoreboard players operation .rootkitBatteryUsage hackerStats = .batteryUsage stats
 
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Ransomware","color":"dark_red","bold":true,"italic":false}'},Tags:["hacker","ransomware","range","blastSize","toHunters","toHuntersCooldowns","toOrangutans","toOrangutansCooldownsIncrease","batteryUsage","uponDrop","actionbarSpecial"],range:25,blastSize:4,toHuntersCooldowns:-15,toOrangutansCooldownsIncrease:8,batteryUsage:25,CustomModelData:1601} 1
+item modify entity @s weapon.mainhand kit:description
+item modify entity @s weapon.mainhand kit:stats
+function general:get_stats
+scoreboard players operation .batteryUsage stats *= #20 constant
+scoreboard players operation .ransomwareBatteryUsage hackerStats = .batteryUsage stats
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Adware","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["hacker","adware","range","playerWithAds","batteryUsage","uponDrop","actionbarSpecial"],range:20,batteryUsage:40} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Adware","color":"dark_red","bold":true,"italic":false}'},Tags:["hacker","adware","range","playerWithAds","batteryUsage","uponDrop","actionbarSpecial"],range:20,batteryUsage:40,CustomModelData:1603} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand
+function general:get_stats
+scoreboard players operation .batteryUsage stats *= #20 constant
+scoreboard players operation .adwareBatteryUsage hackerStats = .batteryUsage stats
 
-
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Spyware","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["hacker","spyware","duration","range","batteryUsage","uponDrop","actionbarSpecial"],duration:3,range:100,batteryUsage:40,CustomModelData:1604} 1
+item modify entity @s weapon.mainhand kit:description
+item modify entity @s weapon.mainhand kit:stats
+function general:get_stats
+scoreboard players operation .batteryUsage stats *= #20 constant
+scoreboard players operation .spywareBatteryUsage hackerStats = .batteryUsage stats
 
 item replace entity @s weapon.mainhand with minecraft:air
 loot give @s mine 0 0 0 air{drop_contents:true}
