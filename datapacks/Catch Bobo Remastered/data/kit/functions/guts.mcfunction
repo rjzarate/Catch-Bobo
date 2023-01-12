@@ -44,7 +44,7 @@ scoreboard players operation #fireRate repeaterCrossbowStats /= .fireRate stats
 scoreboard players operation .fireRate repeaterCrossbowStats = #fireRate repeaterCrossbowStats
 scoreboard players operation @s repeaterCrossbowAmmo = @s repeaterCrossbowAmmo
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Indomitable Will","color":"dark_red","bold":true,"italic":false}'},Tags:["guts","indomitableWill","missingHealth","missingHealthDuration","missingHealthAttackSpeed","missingHealthTemporaryHealth","missingHealthMovementSpeed","activationRequirement","cooldown","actionbarDuration"],indomitableWill:1,missingHealthDuration:1,missingHealthAttackSpeed:10,missingHealthTemporaryHealth:4,missingHealthMovementSpeed:5,cooldown:75,noDrop:1,CustomModelData:1100} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Indomitable Will","color":"dark_red","bold":true,"italic":false}'},Tags:["guts","indomitableWill","duration","missingHealth","missingHealthDuration","missingHealthAttackSpeed","missingHealthTemporaryHealth","missingHealthMovementSpeed","activationRequirement","cooldown","actionbarDuration"],indomitableWill:1,duration:5,missingHealthDuration:1,missingHealthAttackSpeed:10,missingHealthTemporaryHealth:4,missingHealthMovementSpeed:5,cooldown:75,noDrop:1,CustomModelData:1100} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.2 from entity @s weapon.mainhand

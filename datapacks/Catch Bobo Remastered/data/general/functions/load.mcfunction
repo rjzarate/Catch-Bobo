@@ -348,11 +348,13 @@ scoreboard objectives add hackerStats dummy
 scoreboard objectives add trojanHorseDamage dummy
 scoreboard objectives add trojanHorseRange dummy
 scoreboard objectives add trojanMiniHorse dummy
+scoreboard objectives add rootkitDuration dummy
 scoreboard objectives add rootkitLifespan dummy
 scoreboard objectives add rootkitStats dummy
 scoreboard objectives add ransomwareRange dummy
 scoreboard objectives add adwareLink dummy
 scoreboard objectives add adwareDropped minecraft.dropped:minecraft.coal
+scoreboard objectives add spywareDuration dummy
 
 #jett
 scoreboard objectives add marshalCD dummy

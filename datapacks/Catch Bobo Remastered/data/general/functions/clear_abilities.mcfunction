@@ -44,6 +44,10 @@ scoreboard players reset @s rocketBarrageCD
 scoreboard players reset @s jetpackFuelUsed
 scoreboard players reset @s jetpackFuelCD
 
+#hacker
+scoreboard players reset @s rootkitDuration
+scoreboard players reset @s spywareDuration
+
 #jotaro
 scoreboard players reset @s starFingerCD
 scoreboard players reset @s oraCD

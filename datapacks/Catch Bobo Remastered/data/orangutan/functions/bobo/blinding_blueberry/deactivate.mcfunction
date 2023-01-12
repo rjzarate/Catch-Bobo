@@ -1,5 +1,6 @@
 scoreboard players reset @s blindingBlueberryDuration
 #adds grayscale and remove glint
-	execute store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["blindingBlueberry"]}}].Slot
-	function general:animate/add/directory
-	function general:glint/remove/directory
+	execute store success score #hasItem temp run data get entity @s Inventory[{tag:{Tags:["blindingBlueberry"]}}].Slot
+	execute if score #hasItem matches 1 store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["blindingBlueberry"]}}].Slot
+	execute if score #hasItem matches 1 run function general:animate/add/directory
+	execute if score #hasItem matches 1 run function general:glint/remove/directory

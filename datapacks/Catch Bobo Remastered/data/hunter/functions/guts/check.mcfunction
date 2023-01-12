@@ -27,7 +27,10 @@ execute unless score @s leftArmModel matches 1110 if predicate hunter:guts/left_
 execute if score @s[tag=!timeStoppee] dragonslayerDuration matches 1.. run function hunter:guts/dragonslayer/active
 execute if entity @s[advancements={hunter:guts/damage_dragonslayer=true}] run function hunter:guts/dragonslayer/hit
 
+#indomitable will texture change (only if not in cd and active)
+	execute if score %10t universalTimer matches 0 unless score @s[tag=!timeStoppee] indomitableWillCD matches 1.. unless score @s indomitableWillDuration matches 1.. run function hunter:guts/indomitable_will/animate
 
+#indomitable will active
 execute if score @s[tag=!timeStoppee] indomitableWillDuration matches 1.. at @s run function hunter:guts/indomitable_will/active
 execute if score @s indomitableWillDuration matches 1.. at @s run function hunter:guts/indomitable_will/active1
 execute if score @s[tag=!timeStoppee] berserkerArmorDuration matches 1.. at @s run function hunter:guts/berserker_armor/active

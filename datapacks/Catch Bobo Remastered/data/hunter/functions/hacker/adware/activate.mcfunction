@@ -1,7 +1,8 @@
 scoreboard players operation .range stats *= #2 constant
 scoreboard players operation #range temp = .range stats
-
 scoreboard players operation @s battery -= .batteryUsage stats
+#for grayscale in ability directory
+	scoreboard players set #hackerSuccess temp 1
 
 execute at @s run playsound minecraft:block.glass.break player @a ~ ~ ~ 1 2
 

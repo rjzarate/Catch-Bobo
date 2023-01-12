@@ -9,3 +9,9 @@ execute if entity @s[advancements={hunter:hacker=true},tag=!timeStoppee,tag=!imp
 execute if entity @s[advancements={hunter:hacker=true}] run scoreboard players set @s rightClick 1
 execute if entity @s[advancements={hunter:hacker=true}] run advancement revoke @s only hunter:hacker
 
+
+#rootkit active
+execute if score @s[tag=!timeStoppee] rootkitDuration matches 1.. run function hunter:hacker/rootkit/active
+
+#spyware active
+execute if score @s[tag=!timeStoppee] spywareDuration matches 1.. run function hunter:hacker/spyware/active

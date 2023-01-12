@@ -1,5 +1,8 @@
 scoreboard players operation @s battery -= .batteryUsage stats
-
+scoreboard players operation .duration stats *= #20 constant
+scoreboard players operation @s rootkitDuration = .duration stats
+#for grayscale in ability directory
+	scoreboard players set #hackerSuccess temp 1
 
 execute at @s run playsound minecraft:block.glass.break player @a ~ ~ ~ 1 2
 execute at @s anchored eyes run summon minecraft:area_effect_cloud ^ ^ ^ {Tags:["rootkit","timeStoppable"],Duration:20000}

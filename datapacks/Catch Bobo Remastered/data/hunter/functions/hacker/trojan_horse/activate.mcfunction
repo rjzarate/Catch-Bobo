@@ -1,5 +1,6 @@
 scoreboard players operation @s battery -= .batteryUsage stats
-
+#for grayscale in ability directory
+	scoreboard players set #hackerSuccess temp 1
 
 execute at @s run playsound minecraft:block.glass.break player @a ~ ~ ~ 1 2
 execute at @s anchored eyes run summon minecraft:area_effect_cloud ^ ^ ^ {Tags:["trojanHorse","timeStoppable"],Duration:20000}
