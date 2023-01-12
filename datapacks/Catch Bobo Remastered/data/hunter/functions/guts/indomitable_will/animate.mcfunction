@@ -9,9 +9,9 @@
 	scoreboard players operation #maxHealth maxHealth -= #health maxHealth
 
 #changes storage model
-	execute if score #maxHealth maxHealth matches ..2 run data modify storage minecraft:animate CustomModelData set value 1100
-	execute if score #maxHealth maxHealth matches 3..5 run data modify storage minecraft:animate CustomModelData set value 1101
-	execute if score #maxHealth maxHealth matches 6.. run data modify storage minecraft:animate CustomModelData set value 1102
+	execute if score #maxHealth maxHealth matches ..2 run scoreboard players set #CustomModelData temp 1100
+	execute if score #maxHealth maxHealth matches 3..5 run scoreboard players set #CustomModelData temp 1101
+	execute if score #maxHealth maxHealth matches 6.. run scoreboard players set #CustomModelData temp 1102
 
 #changes model
 	execute store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["indomitableWill"]}}].Slot
