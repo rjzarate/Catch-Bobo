@@ -8,5 +8,5 @@ execute if predicate hunter:hacker/adware if score @s battery >= .batteryUsage s
 execute if predicate hunter:hacker/spyware if score @s battery >= .batteryUsage stats at @s run function hunter:hacker/spyware/activate
 
 #if activated successfully, checks whether to grayscale some abilities
-	execute if score #hackerSuccess temp matches 1 run function hunter:hacker/grayscale/add
+	execute if score #hackerSuccess temp matches 1 run function hunter:hacker/grayscale/add/check
 	scoreboard players reset #hackerSuccess temp
