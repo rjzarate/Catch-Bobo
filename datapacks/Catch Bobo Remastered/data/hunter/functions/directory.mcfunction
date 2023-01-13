@@ -13,9 +13,11 @@ execute if predicate hunter:vaccinator/syringe_launcher run function hunter:acti
 execute if entity @s[tag=bobaFett] unless predicate hunter:has_item run function hunter:actionbar/boba_fett/jetpack_fuel
 execute if predicate hunter:boba_fett/jetpack_fuel run function hunter:actionbar/boba_fett/jetpack_fuel
 
+##actionbar for hacker trojan horse
+execute if predicate hunter:hacker/trojan_horse run function hunter:actionbar/hacker/abilities
+
+##actionbar
 execute if predicate hunter:ender_eye run function hunter:actionbar/directory
-
-
 
 execute if entity @s[tag=bobaFett] run function hunter:boba_fett/check
 execute if entity @s[tag=guts] run function hunter:guts/check

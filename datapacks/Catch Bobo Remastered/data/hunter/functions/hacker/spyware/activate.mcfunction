@@ -5,6 +5,8 @@ scoreboard players operation #range temp = .range stats
 scoreboard players operation @s battery -= .batteryUsage stats
 #for grayscale in ability directory
 	scoreboard players set #hackerSuccess temp 1
+#adds glint
+	item modify entity @s weapon.mainhand kit:enchantment/glint
 
 playsound minecraft:block.glass.break player @a ~ ~ ~ 1 2
 

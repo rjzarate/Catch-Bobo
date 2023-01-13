@@ -1,4 +1,4 @@
-execute if score @s yeouiCD matches ..0 run scoreboard players reset @s yeouiCD
+execute if score @s yeouiCD matches ..0 run function hunter:mori/zrefresh/yeoui
 
 execute if score @s geundoowunCD matches ..0 run scoreboard players reset @s geundoowunCD
 

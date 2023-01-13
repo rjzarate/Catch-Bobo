@@ -3,6 +3,8 @@ scoreboard players operation .duration stats *= #20 constant
 scoreboard players operation @s rootkitDuration = .duration stats
 #for grayscale in ability directory
 	scoreboard players set #hackerSuccess temp 1
+#adds glint
+	item modify entity @s weapon.mainhand kit:enchantment/glint
 
 execute at @s run playsound minecraft:block.glass.break player @a ~ ~ ~ 1 2
 execute at @s anchored eyes run summon minecraft:area_effect_cloud ^ ^ ^ {Tags:["rootkit","timeStoppable"],Duration:20000}
@@ -20,7 +22,6 @@ scoreboard players operation @e[type=minecraft:area_effect_cloud,tag=rootkit,tag
 scoreboard players operation @e[type=minecraft:armor_stand,tag=rootkit,tag=!finished,limit=1,sort=nearest] uuidLink = @s uuid
 
 #range
-scoreboard players operation .duration stats *= #20 constant
 execute positioned ~ ~-3 ~ run scoreboard players operation @e[type=minecraft:area_effect_cloud,tag=rootkit,tag=!finished,limit=1,sort=nearest] rootkitLifespan = .duration stats
 
 tag @e[type=minecraft:area_effect_cloud,tag=rootkit,tag=!finished] add finished

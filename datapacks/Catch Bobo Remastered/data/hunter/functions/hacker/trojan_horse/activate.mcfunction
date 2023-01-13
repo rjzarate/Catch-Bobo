@@ -1,10 +1,12 @@
+function general:get_stats
+scoreboard players operation .batteryUsage stats *= #20 constant
 scoreboard players operation @s battery -= .batteryUsage stats
 #for grayscale in ability directory
 	scoreboard players set #hackerSuccess temp 1
 
 execute at @s run playsound minecraft:block.glass.break player @a ~ ~ ~ 1 2
 execute at @s anchored eyes run summon minecraft:area_effect_cloud ^ ^ ^ {Tags:["trojanHorse","timeStoppable"],Duration:20000}
-execute at @s anchored eyes run summon minecraft:horse ^ ^-0.5 ^ {Silent:0b,Tame:1b,Invulnerable:1b,NoAI:1b,Tags:["trojanHorse","timeStoppable"],ArmorItem:{}}
+execute at @s anchored eyes run summon minecraft:horse ^ ^-0.5 ^ {Variant:3,Silent:0b,Tame:1b,Invulnerable:1b,NoAI:1b,Tags:["trojanHorse","timeStoppable"],ArmorItem:{}}
 
 #gets the area effect cloud to face where you are facing
 execute at @s anchored eyes run tp @e[type=minecraft:area_effect_cloud,tag=trojanHorse,tag=!finished,limit=1,sort=nearest] ^ ^ ^ ~ ~
@@ -25,3 +27,6 @@ execute at @s anchored eyes positioned ^ ^ ^ run scoreboard players operation @e
 
 tag @e[type=minecraft:area_effect_cloud,tag=trojanHorse,tag=!finished] add finished
 tag @e[type=minecraft:horse,tag=trojanHorse,tag=!finished] add finished
+
+#if activated successfully, checks whether to grayscale some abilities
+	function hunter:hacker/grayscale/add/check

@@ -17,3 +17,10 @@ tag @s remove shot
 execute if entity @e[type=#general:everything,tag=hit] run scoreboard players operation @s yeouiDuration = .successfulRangeHitDuration stats
 execute if entity @e[type=#general:everything,tag=hit] run attribute @s minecraft:generic.attack_speed modifier add 1-0-3-2-1 mori_yeoui_attack_speed 0.6 add
 tag @e[type=#general:everything] remove hit
+
+
+#change to cooldown model
+
+	scoreboard players set #CustomModelData temp 1701
+	execute store result storage animate CustomModelData int 1 run scoreboard players get #CustomModelData temp
+	item modify entity @s weapon.mainhand kit:animate/storage

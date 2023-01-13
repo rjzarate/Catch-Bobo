@@ -22,7 +22,7 @@ item replace entity @s armor.legs with leather_leggings{display:{Name:'{"text":"
 item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Iron Planters","color":"dark_red","bold":true,"italic":false}',color:11316396},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:feather_falling",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:7} 1
 
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Trojan Horse","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["hacker","trojanHorse","rangeDamage","range","miniHorse","miniHorseLifespan","miniHorseDamage","miniHorseSlowness10Decimal","batteryUsage","actionbarSpecial"],noDrop:1,rangeDamage:3,range:17,miniHorseLifespan:3,miniHorseHealth:1,miniHorseDamage:1,miniHorseSlowness10Decimal:5,batteryUsage:15} 1
+item replace entity @s weapon.mainhand with crossbow{display:{Name:'{"text":"Trojan Horse","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:quick_charge",lvl:6s}],Tags:["hacker","trojanHorse","rangeDamage","range","miniHorse","miniHorseLifespan","miniHorseDamage","miniHorseSlowness10Decimal","batteryUsage","actionbarSpecial"],ChargedProjectiles:[{id:"minecraft:air",Count:1b},{},{}],Unbreakable:1b,HideFlags:47,noDrop:1,rangeDamage:3,range:17,miniHorseLifespan:3,miniHorseHealth:1,miniHorseDamage:1,miniHorseSlowness10Decimal:5,batteryUsage:15,CustomModelData:1600} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand

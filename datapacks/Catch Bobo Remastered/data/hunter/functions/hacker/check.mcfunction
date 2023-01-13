@@ -9,6 +9,12 @@ execute if entity @s[advancements={hunter:hacker=true},tag=!timeStoppee,tag=!imp
 execute if entity @s[advancements={hunter:hacker=true}] run scoreboard players set @s rightClick 1
 execute if entity @s[advancements={hunter:hacker=true}] run advancement revoke @s only hunter:hacker
 
+#trojan horse crossbow activation
+	#reload
+		execute if predicate hunter:hacker/trojan_horse if score @s[advancements={hunter:hacker/crossbow=false}] battery >= .trojanHorseBatteryUsage hackerStats run item modify entity @s weapon.mainhand kit:crossbow/air
+	execute if entity @s[advancements={hunter:hacker/crossbow=true},tag=!impostorStun] if score @s battery >= .trojanHorseBatteryUsage hackerStats run function hunter:hacker/trojan_horse/activate
+	execute if entity @s[advancements={hunter:hacker/crossbow=true}] run advancement revoke @s only hunter:hacker/crossbow
+
 
 #rootkit active
 execute if score @s[tag=!timeStoppee] rootkitDuration matches 1.. run function hunter:hacker/rootkit/active

@@ -32,10 +32,11 @@ execute if entity @s[advancements={hunter:jett/marshal=true}] run scoreboard pla
 execute if entity @s[advancements={hunter:jett/marshal=true}] run advancement revoke @s only hunter:jett/marshal
 
 #crossbow activation
+	#reload
+		execute if predicate hunter:jett/blade_storm if score @s[advancements={hunter:jett/crossbow=false}] bladeStormAmmo matches 1.. run item modify entity @s weapon.mainhand kit:crossbow/air
 	execute if entity @s[advancements={hunter:jett/crossbow=true},tag=!impostorStun] if score @s bladeStormAmmo matches 1.. run function hunter:jett/blade_storm/activate
 	execute if entity @s[advancements={hunter:jett/crossbow=true}] run advancement revoke @s only hunter:jett/crossbow
-	#reload
-		execute if predicate hunter:jett/blade_storm if score @s bladeStormAmmo matches 1.. run item modify entity @s weapon.mainhand kit:crossbow/air
+
 
 #tailwind
 execute if score @s[tag=!timeStoppee] tailwindDuration matches 1.. run function hunter:jett/tailwind/active
