@@ -12,7 +12,9 @@ execute if entity @s[advancements={hunter:vaccinator=true}] run advancement revo
 execute if entity @s[scores={syringeLauncherUsed=1..}] run function hunter:vaccinator/syringe_launcher/activate
 
 #give arrow if they have enough ammo
-execute if score @s syringeLauncherAmmo > @s overloadedBrewing if entity @s[tag=!timeStoppee,tag=!impostorStun] run function hunter:vaccinator/syringe_launcher/give
+execute if score @s syringeLauncherAmmo > @s overloadedBrewing if entity @s[tag=!timeStoppee,tag=!impostorStun] unless predicate hunter:vaccinator/syringe_launcher_offhand run function hunter:vaccinator/syringe_launcher/give
+	#clears arrow if syringe on offhand
+		execute if predicate hunter:vaccinator/syringe_launcher_offhand run clear @s minecraft:tipped_arrow{Tags:["syringe"]}
 
 #self diagnose active
 execute if score @s[tag=!timeStoppee] selfDiagnoseDuration matches 1.. run function hunter:vaccinator/self_diagnose/active

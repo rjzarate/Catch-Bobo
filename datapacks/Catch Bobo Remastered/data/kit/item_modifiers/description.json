@@ -2345,7 +2345,12 @@
         "italic": false
       },
       {
-        "text": " the buffs and debuffs.",
+        "text": " the buffs and debuffs. Activating",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " clears the duration.",
         "color": "gray",
         "italic": false
       }

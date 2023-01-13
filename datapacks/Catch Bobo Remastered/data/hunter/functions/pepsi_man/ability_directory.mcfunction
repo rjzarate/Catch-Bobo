@@ -1,3 +1,8 @@
+execute if predicate hunter:pepsi_man/pepsi_punch if score @s pepsiPunchHunterDuration matches 1.. unless score @s pepsiPunchOrangutanDuration matches 1.. run function hunter:pepsi_man/pepsi_punch/activate
+execute if predicate hunter:pepsi_man/pepsi_punch unless score @s pepsiPunchHunterDuration matches 1.. if score @s pepsiPunchOrangutanDuration matches 1.. run function hunter:pepsi_man/pepsi_punch/activate
+execute if predicate hunter:pepsi_man/pepsi_punch if score @s pepsiPunchHunterDuration matches 1.. if score @s pepsiPunchOrangutanDuration matches 1.. run function hunter:pepsi_man/pepsi_punch/activate
+
+
 execute if predicate hunter:pepsi_man/pepsi_splash unless score @s pepsiSplashCD matches 1.. run function hunter:pepsi_man/pepsi_splash/activate
 
 execute if predicate hunter:pepsi_man/pepsi if score @s pepsiChargeUp matches 1.. at @s run function hunter:pepsi_man/pepsi/deactivate

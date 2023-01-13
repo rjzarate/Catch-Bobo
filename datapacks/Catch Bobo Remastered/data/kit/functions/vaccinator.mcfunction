@@ -25,7 +25,7 @@ item replace entity @s armor.legs with leather_leggings{display:{Name:'{"text":"
 item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Leather Boots","color":"dark_red","bold":true,"italic":false}',color:14605868},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:feather_falling",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:7} 1
 
 
-item replace entity @s weapon.mainhand with bow{display:{Name:'{"text":"Syringe Launcher","color":"dark_red","bold":true,"italic":false}'},HideFlags:5,Unbreakable:1b,Enchantments:[{}],Tags:["vaccinator","syringeLauncher","arrowDamage","range","instantHealth","regeneration1","absorption3","speed1","resistance1","poison1","wither1","slowness1","blindness","glowing","successfulHit","successfulHitAmmoGiven","successfulHitRequirement","fullyCharged","ammo","maxAmmo","cooldown","ammoCooldown"],arrowDamage:0,range:20,instantHealth:1,regeneration1:12,absorption3:10,speed1:10,resistance1:10,poison1:5,wither1:5,glowing:5,slowness1:5,blindness:5,successfulHitAmmoGiven:1,maxAmmo:20,cooldown:45,ammoCooldown:4,noDrop:1} 1
+item replace entity @s weapon.mainhand with bow{display:{Name:'{"text":"Syringe Launcher","color":"dark_red","bold":true,"italic":false}'},HideFlags:5,Unbreakable:1b,Enchantments:[{}],Tags:["vaccinator","syringeLauncher","arrowDamage","range","instantHealth","regeneration1","absorption3","speed1","resistance1","poison1","wither1","slowness1","blindness","glowing","successfulHit","successfulHitAmmoGiven","successfulHitRequirement","fullyCharged","ammo","maxAmmo","cooldown","ammoCooldown"],arrowDamage:0,range:20,instantHealth:1,regeneration1:12,absorption3:10,speed1:10,resistance1:10,poison1:5,wither1:5,glowing:5,slowness1:5,blindness:5,successfulHitAmmoGiven:1,maxAmmo:20,cooldown:45,ammoCooldown:4,noDrop:1,CustomModelData:1500} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
@@ -48,18 +48,18 @@ scoreboard players operation .absorption3 syringeLauncherStats = .absorption3 st
 scoreboard players operation .resistance1 syringeLauncherStats = .resistance1 stats
 
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Overloaded Brewing","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["vaccinator","overloadedBrewing","actionbarSpecial"],noDrop:1,CustomModelData:1510} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Overloaded Brewing","color":"dark_red","bold":true,"italic":false}'},Tags:["vaccinator","overloadedBrewing","actionbarSpecial"],noDrop:1,CustomModelData:1510} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.1 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Self-Diagnose","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["vaccinator","selfDiagnose","durationVaries","activationRequirement","cooldown","actionbarSpecial"],durationVaries:10,cooldown:40,noDrop:1,CustomModelData:1520} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Self-Diagnose","color":"dark_red","bold":true,"italic":false}'},Tags:["vaccinator","selfDiagnose","durationVaries","activationRequirement","cooldown","actionbarSpecial"],durationVaries:10,cooldown:40,noDrop:1,CustomModelData:1520} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.2 from entity @s weapon.mainhand
 
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Unstable Concoction","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["vaccinator","unstableConcoction","duration","cooldown","actionbarSpecial"],duration:10,cooldown:75,noDrop:1,CustomModelData:1530} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Unstable Concoction","color":"dark_red","bold":true,"italic":false}'},Tags:["vaccinator","unstableConcoction","duration","cooldown","actionbarSpecial"],duration:10,cooldown:75,noDrop:1,CustomModelData:1530} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand
