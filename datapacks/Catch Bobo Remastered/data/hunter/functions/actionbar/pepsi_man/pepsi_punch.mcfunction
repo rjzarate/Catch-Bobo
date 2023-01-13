@@ -1,5 +1,5 @@
-scoreboard players operation int1 actionbarCD = @s pepsiPunchHunterDuration
-scoreboard players operation int2 actionbarCD = @s pepsiPunchOrangutanDuration
+execute store result score int1 actionbarCD run scoreboard players get @s pepsiPunchHunterDuration
+execute store result score int2 actionbarCD run scoreboard players get @s pepsiPunchOrangutanDuration
 
 
 scoreboard players operation dec1 actionbarCD = int1 actionbarCD

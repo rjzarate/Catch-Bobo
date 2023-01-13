@@ -1,5 +1,8 @@
 function general:get_stats
 
+#change models
+	execute unless score @s pepsiPunchOrangutanDuration matches 1.. run function hunter:pepsi_man/pepsi_punch/change_model
+
 scoreboard players operation .successfulHitOrangutanDuration stats *= #20 constant
 scoreboard players operation @s pepsiPunchOrangutanDuration = .successfulHitOrangutanDuration stats
 
