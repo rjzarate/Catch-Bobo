@@ -5,7 +5,8 @@ scoreboard players operation .duration stats *= #20 constant
 scoreboard players operation @s pepsiSplashCD = .cooldown stats
 scoreboard players operation @s pepsiSplashCD += .duration stats
 scoreboard players operation @s pepsiSplashDuration = .duration stats
-
+#adds glint
+	item modify entity @s weapon.mainhand kit:enchantment/glint
 
 #to hunters
 scoreboard players operation #range temp = .range stats

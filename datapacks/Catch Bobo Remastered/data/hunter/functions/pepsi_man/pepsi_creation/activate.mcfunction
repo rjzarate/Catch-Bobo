@@ -1,6 +1,9 @@
 function general:get_stats
 scoreboard players remove @s pepsiCreationAmmo 1
 execute if score @s pepsiCreationAmmo < .maxAmmo pepsiCreationStats unless score @s pepsiCreationCD matches 1.. run scoreboard players operation @s pepsiCreationCD += .cooldown20t pepsiCreationStats
+#adds grayscale
+	execute store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["pepsiCreation"]}}].Slot
+	execute unless score @s pepsiCreationAmmo matches 1.. run function general:animate/add/directory
 
 #to know if the pepsi can you're giving is to yourself
 tag @s add givingPepsiCan
