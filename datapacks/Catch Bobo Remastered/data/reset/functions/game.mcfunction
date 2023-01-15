@@ -37,4 +37,5 @@
 	fill -62 37 -126 -62 46 -126 minecraft:light_blue_stained_glass
 	fill -12 53 1 -12 55 -1 air
 
-
+#kills mobs
+	kill @e[type=general:no_players]

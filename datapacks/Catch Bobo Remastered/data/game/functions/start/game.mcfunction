@@ -1,6 +1,5 @@
 #game scores
-	scoreboard players reset .hidingTimer game
-
+	scoreboard players set .gameStart game 1
 	scoreboard players set .teamPhase game 0
 	scoreboard players set .classPhase game 0
 	scoreboard players set .hidingPhase game 0

@@ -30,7 +30,7 @@ item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
 
 
-item replace entity @s weapon.mainhand with crossbow{display:{Name:'{"text":"Left Arm —","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:quick_charge",lvl:6s}],Tags:["guts","leftArm","repeaterCrossbow","cannonArm","damage","fireRate","range","ammo","maxAmmo","cooldown","ammoCooldown","cannonArmExplosion","cannonArmRange","cannonArmCooldown"],leftArm:1,repeaterCrossbow:1,cannonArm:1,damage:2,fireRate:400,range:13,maxAmmo:25,cooldown:8,ammoCooldown:1,cannonArmExplosion:1,cannonArmRange:10,cannonArmCooldown:40,CustomModelData:1100,ChargedProjectiles:[{id:"minecraft:air",Count:1b},{},{}],Charged:1b,Unbreakable:1b,HideFlags:47,noDrop:1} 1
+item replace entity @s weapon.mainhand with crossbow{display:{Name:'{"text":"Left Arm —","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:quick_charge",lvl:6s}],Tags:["guts","leftArm","repeaterCrossbow","cannonArm","damage","fireRate","range","ammo","maxAmmo","cooldown","ammoCooldown","cannonArmExplosion","cannonArmRange","cannonArmCooldown"],leftArm:1,repeaterCrossbow:1,cannonArm:1,damage:2,fireRate:400,range:13,maxAmmo:25,cooldown:8,ammoCooldown:1,cannonArmExplosion:1,cannonArmRange:10,cannonArmCooldown:30,CustomModelData:1100,ChargedProjectiles:[{id:"minecraft:air",Count:1b},{},{}],Charged:1b,Unbreakable:1b,HideFlags:47,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.1 from entity @s weapon.mainhand

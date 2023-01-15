@@ -1,3 +1,15 @@
+#game scores
+	scoreboard players set .winTimer game 200
+	scoreboard players set .teamPhase game 0
+	scoreboard players set .classPhase game 0
+	scoreboard players set .hidingPhase game 0
+	scoreboard players set .gamePhase game 0
+	scoreboard players set .endPhase game 0
+	scoreboard players set .winPhase game 1
+
+#tag for fireworks
+	tag @a[team=Hunters] add winner
+
 #sound effect
 	execute at @a[team=Hunters,gamemode=!spectator] run particle minecraft:totem_of_undying ~ ~ ~ 1 1 1 2 50 normal
 

@@ -8,6 +8,8 @@
 	scoreboard players set .fruitsOnField gameStats 25
 		#if the fruits glow
 	scoreboard players set .fruitGlowing gameStats 1
+		#if collecting a fruit gives glowing
+	scoreboard players set .fruitGivesGlowing gameStats 1
 		#after collecting all fruits, how long bobo has to survive to win 
 	scoreboard players set .endTimer 1200
 		#if bobo glows after collecting all fruits

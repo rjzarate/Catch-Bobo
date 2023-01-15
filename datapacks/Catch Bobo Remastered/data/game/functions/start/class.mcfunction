@@ -13,9 +13,11 @@
 	#orangutans
 		execute positioned -96 59 15 align xyz as @a[dx=4,dy=4,dz=4] run team join Orangutans @s
 	#spectators
-		execute positioned -90 59 22 align xyz as @a[dx=2,dy=4,dz=2] run team join Spectators @s
+		execute as @a positioned -96 59 15 align xyz unless entity @s[dx=4,dy=4,dz=4] positioned -96 58 27 align xyz unless entity @s[dx=4,dy=4,dz=4] run team join Spectators @s
 #teleports players
 	tp @a[team=Hunters] 
+	tp @a[team=Orangutans]
+	tp @a[team=Spectators]
 
 
 #tellraw and sound

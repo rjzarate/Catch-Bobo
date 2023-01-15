@@ -18,6 +18,8 @@
 	tag @s remove kitVaccinator
 #display tag means they cannot use their abilities, but can still read and item swap them
 	tag @s remove displayOnly
+#for fireworks
+	tag @s remove winner
 
 
 #teams
