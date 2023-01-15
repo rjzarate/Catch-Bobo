@@ -13,6 +13,6 @@
 		#if bobo glows after collecting all fruits
 	scoreboard players set .endGlowing 1
 		#respawn timer for hunters
-	scoreboard players set .hunterRespawnTimer 200
+	scoreboard players set .hunterRespawnTimer 600
 		#respawn timer for orangutans
-	scoreboard players set .orangutanRespawnTimer 500
+	scoreboard players set .orangutanRespawnTimer 1200

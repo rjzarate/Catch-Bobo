@@ -38,9 +38,9 @@ scoreboard objectives add gameStats dummy
 		#if bobo glows after collecting all fruits
 	scoreboard players set .endGlowing 1
 		#respawn timer for hunters
-	scoreboard players set .hunterRespawnTimer 200
+	scoreboard players set .hunterRespawnTimer 600
 		#respawn timer for orangutans
-	scoreboard players set .orangutanRespawnTimer 600
+	scoreboard players set .orangutanRespawnTimer 1200
 #actual game stats
 	scoreboard objectives add game dummy
 

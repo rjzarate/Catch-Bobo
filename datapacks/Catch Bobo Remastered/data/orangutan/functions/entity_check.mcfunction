@@ -18,7 +18,7 @@ execute as @e[type=minecraft:slime,tag=noxiousTrap,tag=finished,tag=!timeStoppee
 
 ##impostor
 #stunned players
-	scoreboard players reset @a[tag=!impostorStun,scores={impostorStunDuration=1..}] impostorStunDuration
+	scoreboard players reset @a[tag=!impostorStun,tag=!displayOnly,scores={impostorStunDuration=1..}] impostorStunDuration
 	execute as @a[team=Hunters,gamemode=!spectator,tag=impostorStun] run function orangutan:impostor/kill/stun
 #turtle vents
 	execute as @e[type=minecraft:turtle,tag=vent] run function orangutan:impostor/vent/turtle

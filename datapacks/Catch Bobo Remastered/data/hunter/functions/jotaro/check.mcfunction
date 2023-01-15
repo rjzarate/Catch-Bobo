@@ -1,11 +1,11 @@
-execute if entity @s[tag=!timeStoppee,tag=!impostorStun] run function hunter:jotaro/cooldown
+execute if entity @s[tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly] run function hunter:jotaro/cooldown
 execute if entity @s run function hunter:jotaro/refresh
 
 
 #semi-auto ender eye activation
 scoreboard players operation .rightClick enderEye = @s rightClick
 scoreboard players set @s rightClick 0
-execute if entity @s[advancements={hunter:jotaro=true},tag=!timeStoppee,tag=!impostorStun] if score .rightClick enderEye matches 0 run function hunter:jotaro/ability_directory
+execute if entity @s[advancements={hunter:jotaro=true},tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly] if score .rightClick enderEye matches 0 run function hunter:jotaro/ability_directory
 execute if entity @s[advancements={hunter:jotaro=true}] run scoreboard players set @s rightClick 1
 execute if entity @s[advancements={hunter:jotaro=true}] run advancement revoke @s only hunter:jotaro
 

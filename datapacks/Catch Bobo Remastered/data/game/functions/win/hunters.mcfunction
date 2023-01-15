@@ -20,8 +20,8 @@
 #title
 	title @a times 0 100 20
 	#subtitle condition
-		#title @a subtitle {"text":"Time ran out.","color":"gray"}
-		#title @a subtitle {"text":"Bobo has been eliminated.","color":"gray"}
+		execute if @a[team=Orangutans,tag=bobo,gamemode=!spectator] run title @a subtitle {"text":"Time ran out.","color":"gray"}
+		execute if @a[team=Orangutans,tag=bobo,gamemode=spectator] run title @a subtitle {"text":"Bobo has been eliminated.","color":"gray"}
 	title @a[team=Spectators] title {"text":"GAME ENDED","bold":true,"color":"gold"}
 	title @a[team=Hunters] title {"text":"VICTORY!","bold":true,"color":"gold"}
 	title @a[team=Orangutans] title {"text":"DEFEAT","bold":true,"color":"red"}

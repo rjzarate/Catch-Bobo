@@ -1,4 +1,4 @@
-execute if entity @s[tag=!timeStoppee,tag=!impostorStun] run function hunter:jett/cooldown
+execute if entity @s[tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly] run function hunter:jett/cooldown
 execute if entity @s run function hunter:jett/refresh
 
 
@@ -11,7 +11,7 @@ execute unless predicate hunter:jett/blade_storm run scoreboard players reset @s
 #semi-auto ender eye activation
 scoreboard players operation .rightClick enderEye = @s rightClick
 scoreboard players set @s rightClick 0
-execute if entity @s[advancements={hunter:jett=true},tag=!timeStoppee,tag=!impostorStun] if score .rightClick enderEye matches 0 run function hunter:jett/ability_directory
+execute if entity @s[advancements={hunter:jett=true},tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly] if score .rightClick enderEye matches 0 run function hunter:jett/ability_directory
 execute if entity @s[advancements={hunter:jett=true}] run scoreboard players set @s rightClick 1
 execute if entity @s[advancements={hunter:jett=true}] run advancement revoke @s only hunter:jett
 
@@ -26,7 +26,7 @@ scoreboard players operation .rightClick marshalRightClick = @s marshalRightClic
 execute if entity @s[advancements={hunter:jett/marshal=false}] if score @s marshalRightClick matches 1 if score @s marshalAmmo matches 1.. run function hunter:jett/marshal/check
 scoreboard players set @s marshalRightClick 0
 	#adds to scope time
-execute if entity @s[advancements={hunter:jett/marshal=true},tag=!timeStoppee,tag=!impostorStun] run function hunter:jett/marshal/scope
+execute if entity @s[advancements={hunter:jett/marshal=true},tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly] run function hunter:jett/marshal/scope
 	#for right-click detection
 execute if entity @s[advancements={hunter:jett/marshal=true}] run scoreboard players set @s marshalRightClick 1
 execute if entity @s[advancements={hunter:jett/marshal=true}] run advancement revoke @s only hunter:jett/marshal
@@ -34,7 +34,7 @@ execute if entity @s[advancements={hunter:jett/marshal=true}] run advancement re
 #crossbow activation
 	#reload
 		execute if predicate hunter:jett/blade_storm if score @s[advancements={hunter:jett/crossbow=false}] bladeStormAmmo matches 1.. run item modify entity @s weapon.mainhand kit:crossbow/air
-	execute if entity @s[advancements={hunter:jett/crossbow=true},tag=!impostorStun] if score @s bladeStormAmmo matches 1.. if score @s bladeStormEquip >= .equipTime20t bladeStormStats run function hunter:jett/blade_storm/activate
+	execute if entity @s[advancements={hunter:jett/crossbow=true},tag=!impostorStun,tag=!displayOnly] if score @s bladeStormAmmo matches 1.. if score @s bladeStormEquip >= .equipTime20t bladeStormStats run function hunter:jett/blade_storm/activate
 	execute if entity @s[advancements={hunter:jett/crossbow=true}] run advancement revoke @s only hunter:jett/crossbow
 
 

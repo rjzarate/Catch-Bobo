@@ -1,10 +1,10 @@
-execute if entity @s[tag=!timeStoppee,tag=!impostorStun] run function hunter:pepsi_man/cooldown
+execute if entity @s[tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly] run function hunter:pepsi_man/cooldown
 execute if entity @s run function hunter:pepsi_man/refresh
 
 #semi-auto ender eye activation
 scoreboard players operation .rightClick enderEye = @s rightClick
 scoreboard players set @s rightClick 0
-execute if entity @s[advancements={hunter:pepsi_man=true},tag=!timeStoppee,tag=!impostorStun] if score .rightClick enderEye matches 0 run function hunter:pepsi_man/ability_directory
+execute if entity @s[advancements={hunter:pepsi_man=true},tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly] if score .rightClick enderEye matches 0 run function hunter:pepsi_man/ability_directory
 execute if entity @s[advancements={hunter:pepsi_man=true}] run scoreboard players set @s rightClick 1
 execute if entity @s[advancements={hunter:pepsi_man=true}] run advancement revoke @s only hunter:pepsi_man
 

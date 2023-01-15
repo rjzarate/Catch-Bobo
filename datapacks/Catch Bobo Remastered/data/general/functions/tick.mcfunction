@@ -12,7 +12,7 @@ execute as @e[type=#general:everything] run function general:apply/effect/give
 execute as @e[type=#general:everything,tag=!timeStoppee] run function general:apply/effect/give_over_time
 execute as @e[type=#general:everything,tag=!timeStoppee] run function general:apply/effect/reduce
 execute as @e[type=#general:everything] run function general:apply/effect/clear
-execute as @a[gamemode=!spectator,tag=!timeStoppee,tag=!impostorStun,tag=!noNaturalHealing] run function general:apply/healing/check
+execute as @a[gamemode=!spectator,tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly,tag=!noNaturalHealing] run function general:apply/healing/check
 
 scoreboard players add @e[type=minecraft:arrow,tag=temp] temp 1
 kill @e[type=minecraft:arrow,tag=temp,scores={temp=10..}]
