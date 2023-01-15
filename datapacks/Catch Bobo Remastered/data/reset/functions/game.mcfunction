@@ -38,4 +38,4 @@
 	fill -12 53 1 -12 55 -1 air
 
 #kills mobs
-	kill @e[type=general:no_players]
+	kill @e[type=#general:no_players]

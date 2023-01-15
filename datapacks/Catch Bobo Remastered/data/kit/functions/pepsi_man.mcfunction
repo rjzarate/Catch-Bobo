@@ -28,12 +28,12 @@ item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Pepsi Splash","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["pepsiMan","pepsiSplash","duration","range","toHunters","toHuntersInstantHealth","toHuntersSpeed1","toOrangutans","toOrangutansInstantDamage","toOrangutansSlowness1","cooldown","actionbarDuration"],pepsiSplash:1,duration:5,range:6,toHuntersInstantHealth:1,toHuntersSpeed1:5,toOrangutansInstantDamage:1,toOrangutansSlowness1:5,cooldown:30,noDrop:1,CustomModelData:1710} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Pepsi Splash","color":"dark_red","bold":true,"italic":false}'},Tags:["pepsiMan","pepsiSplash","duration","range","toHunters","toHuntersInstantHealth","toHuntersSpeed1","toOrangutans","toOrangutansInstantDamage","toOrangutansSlowness1","cooldown","actionbarDuration"],pepsiSplash:1,duration:5,range:6,toHuntersInstantHealth:1,toHuntersSpeed1:5,toOrangutansInstantDamage:1,toOrangutansSlowness1:5,cooldown:30,noDrop:1,CustomModelData:1710} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.1 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"PEPSI","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["pepsiMan","pepsi","duration","chargeUp","speed3","jumpBoost5","resistance1","knockbackResistance","disablesHealing","cooldown","actionbarChargeUpDuration"],pepsi:1,duration:20,chargeUp:10,speed3:20,jumpBoost5:20,resistance1:20,knockbackResistance:100,cooldown:75,noDrop:1,CustomModelData:1711} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"PEPSI","color":"dark_red","bold":true,"italic":false}'},Tags:["pepsiMan","pepsi","duration","chargeUp","speed3","jumpBoost5","resistance1","knockbackResistance","disablesHealing","cooldown","actionbarChargeUpDuration"],pepsi:1,duration:20,chargeUp:10,speed3:20,jumpBoost5:20,resistance1:20,knockbackResistance:100,cooldown:75,noDrop:1,CustomModelData:1711} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.2 from entity @s weapon.mainhand
@@ -50,7 +50,7 @@ scoreboard players operation .jumpBoost520t pepsiStats *= #20 constant
 scoreboard players operation .resistance120t pepsiStats *= #20 constant
 
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Pepsi Creation","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["pepsiMan","pepsiCreation","range","ammo","maxAmmo","ammoCooldown","cooldown","actionbarAmmo1"],pepsiCreation:1,range:20,maxAmmo:2,ammoCooldown:1,cooldown:50,noDrop:1,CustomModelData:1712} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Pepsi Creation","color":"dark_red","bold":true,"italic":false}'},Tags:["pepsiMan","pepsiCreation","range","ammo","maxAmmo","ammoCooldown","cooldown","actionbarAmmo1"],pepsiCreation:1,range:20,maxAmmo:2,ammoCooldown:1,cooldown:50,noDrop:1,CustomModelData:1712} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand
