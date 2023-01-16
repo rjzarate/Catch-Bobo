@@ -4426,6 +4426,61 @@
         "text": ""
       },
       {
+        "text": "Duration Requirement:",
+        "color": "green",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"durationRequirement\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " At least one summoned ocelot is alive",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"durationRequirement\",\"aliveOcelot\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
         "text": "Cooldown Requirement:",
         "color": "green",
         "italic": false

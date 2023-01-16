@@ -21,14 +21,15 @@
 	playsound minecraft:item.chorus_fruit.teleport player @a -78 37 -115 10 1
 	tellraw @a ["",{"score":{"name":"constant","objective":"sInitialT"},"bold":true,"color":"aqua"},{"text":" seconds","bold":true,"color":"aqua"},{"text":" until the ","color":"yellow"},{"text":"Hunters ","bold":true,"color":"dark_red"},{"text":"are released!","color":"yellow"}]
 
-#kills display stands
+#kills display stands and area effect clouds
 	kill @e[type=minecraft:armor_stand,tag=display]
+	kill @e[type=minecraft:area_effect_cloud,tag=chooseClassInfo]
 
 #removes display tag
 	tag @a remove displayOnly
 
 #bossbar
-	bossbar set minecraft:timer name {"text":"Time Remaining","color":"green","bold":true,"italic":false}
+	bossbar set minecraft:timer name {"text":"Time Until Release","color":"green","bold":true,"italic":false}
 	execute store result bossbar minecraft:timer max run scoreboard players get .hidingTimer gameStats
 	bossbar set minecraft:timer color green
 	bossbar set minecraft:timer style progress

@@ -5,7 +5,7 @@ tag @s add bobaFett
 team join Hunters @s
 clear @s
 
-attribute @s minecraft:generic.max_health base set 26
+attribute @s minecraft:generic.max_health base set 24
 attribute @s minecraft:generic.armor base set 0
 attribute @s minecraft:generic.attack_damage base set 0
 attribute @s minecraft:generic.attack_speed base set 4

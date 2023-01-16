@@ -52,7 +52,7 @@ item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Sabotage O2","color":"gold","bold":true,"italic":false}'},Tags:["impostor","sabotage","sabotageO2","duration","chargeUp","poison2","chargeUpRequirement","twoHuntersAlive","aliveOcelot","ocelot","ocelotHealth","ocelotSpeed","ocelotLifespan","cooldown","uponDrop","actionbarChargeUpDuration"],sabotageO2:1,duration:10,chargeUp:50,poison2:10,ocelotHealth:5,ocelotSpeed:200,ocelotLifespan:50,cooldown:120,CustomModelData:107} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Sabotage O2","color":"gold","bold":true,"italic":false}'},Tags:["impostor","sabotage","sabotageO2","duration","chargeUp","poison2","chargeUpRequirement","twoHuntersAlive","aliveOcelot","ocelot","ocelotHealth","ocelotSpeed","ocelotLifespan","cooldown","uponDrop","actionbarChargeUpDuration"],sabotageO2:1,duration:10,chargeUp:50,poison2:10,ocelotHealth:5,ocelotSpeed:200,ocelotLifespan:60,cooldown:120,CustomModelData:107} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.4 from entity @s weapon.mainhand

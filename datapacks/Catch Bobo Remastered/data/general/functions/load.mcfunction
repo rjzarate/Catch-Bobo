@@ -485,16 +485,25 @@ team modify noCollide collisionRule never
 team add noCollideYellow
 team modify noCollideYellow collisionRule never
 team modify noCollideYellow color yellow
-team add color_aqua
-team modify color_aqua color aqua
-team add color_dark_aqua
-team modify color_dark_aqua color dark_aqua
+team add colorAqua
+team modify colorAqua color aqua
+team add colorDarkAqua
+team modify colorDarkAqua color dark_aqua
+team add colorRed
+team modify colorRed color red
+team add colorGray
+team modify colorGray color gray
+team add colorGreen
+team modify colorGreen color green
 
 
 #block that edits items, bat names
 setblock 0 1 0 minecraft:oak_sign
 setblock 0 0 0 minecraft:yellow_shulker_box
-forceload add 0 0 0 0
 
+worldborder center 96.0 -288.0
+forceload add 0 0 0 0
+forceload add -80 -465 95 -113
+forceload add 96 -465 271 -113
 
 say '[Finished Reloading].'

@@ -8,7 +8,6 @@ scoreboard players reset @s guavaGrenadeFuse
 scoreboard players reset @s guavaGrenadeFireRate
 scoreboard players reset @s hotPotatoPlanterFuse
 scoreboard players reset @s guavaGrenadeHotPotatoPlanterCD
-scoreboard players reset @s starfruitSwapperTangerineTeleporterCD
 
 #impostor
 scoreboard players reset @s killCD

@@ -22,7 +22,7 @@
 	tag @e[type=item,tag=fruit,tag=new] remove new
 
 #bossbar
-	bossbar set minecraft:timer name {"text":"Time Until Release","color":"green","bold":true,"italic":false}
+	bossbar set minecraft:timer name {"text":"Time Remaining","color":"green","bold":true,"italic":false}
 	execute store result bossbar minecraft:timer max run scoreboard players get .gameTimer gameStats
 	bossbar set minecraft:timer color green
 	bossbar set minecraft:timer style progress

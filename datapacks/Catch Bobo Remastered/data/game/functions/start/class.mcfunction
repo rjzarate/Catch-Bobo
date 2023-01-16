@@ -39,22 +39,27 @@
 	kill @e[type=minecraft:area_effect_cloud,tag=chooseTeamInfo]
 
 #summons area effect clouds and armor stands
-	summon armor_stand -83 60 40 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","jotaro"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Jotaro"}'}
-	summon armor_stand -83 60 42 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","jett"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Jett"}'}
-	summon armor_stand -83 60 44 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","vaccinator"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Vaccinator"}'}
-	summon armor_stand -83 60 46 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","guts"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"guts"}'}
-	summon armor_stand -83 60 48 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","officer"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Officer"}'}
-	summon armor_stand -83 60 50 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","mori"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Mori"}'}
-	summon armor_stand -83 60 52 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","bobaFett"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Boba Fett"}'}
+	summon minecraft:area_effect_cloud -94 60 19 {Tags:["chooseTeamInfo"],CustomNameVisible:1b,Duration:2147483647,CustomName:'{"text":"Team Bobo","color":"gold","bold":true,"italic":false}'}
 
-	summon armor_stand -84 60 54 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","hacker"],DisabledSlots:4144959,Rotation:[-180F,0F],CustomName:'{"text":"Hacker"}'}
-	summon armor_stand -86 60 54 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","pepsiMan"],DisabledSlots:4144959,Rotation:[-180F,0F],CustomName:'{"text":"Pepsi Man"}'}
+	summon minecraft:area_effect_cloud -94 60 27 {Tags:["chooseTeamInfo"],CustomNameVisible:1b,Duration:2147483647,CustomName:'{"text":"Team Hunters","color":"dark_red","bold":true,"italic":false}'}
 
+	summon minecraft:area_effect_cloud -90 60 23 {Tags:["chooseTeamInfo"],CustomNameVisible:1b,Duration:2147483647,CustomName:'{"text":"Spectate","color":"gray","bold":true,"italic":false}'}
 
-	summon armor_stand -94 60 -8 {CustomNameVisible:1b,Team:"Orangutans",Invulnerable:1b,ShowArms:1b,Tags:["display","bobo"],DisabledSlots:4144959,Rotation:[0F,0F],CustomName:'{"text":"Bobo"}'}
-	summon armor_stand -97 60 -11 {CustomNameVisible:1b,Team:"Orangutans",Invulnerable:1b,ShowArms:1b,Tags:["display","teemo"],DisabledSlots:4144959,Rotation:[0F,0F],CustomName:'{"text":"Teemo"}'}
-	summon armor_stand -95 60 -11 {CustomNameVisible:1b,Team:"Impostor",Invulnerable:1b,ShowArms:1b,Tags:["display","impostor"],DisabledSlots:4144959,Rotation:[0F,0F],CustomName:'{"text":"Impostor"}'}
-	summon armor_stand -93 60 -11 {CustomNameVisible:1b,Team:"Purple Guy",Invulnerable:1b,ShowArms:1b,Tags:["display","purpleGuy"],DisabledSlots:4144959,Rotation:[0F,0F],CustomName:'{"text":"Purple Guy"}'}
+	summon minecraft:armor_stand -83 60 40 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","jotaro"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Jotaro"}'}
+	summon minecraft:armor_stand -83 60 42 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","jett"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Jett"}'}
+	summon minecraft:armor_stand -83 60 44 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","vaccinator"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Vaccinator"}'}
+	summon minecraft:armor_stand -83 60 46 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","guts"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"guts"}'}
+	summon minecraft:armor_stand -83 60 48 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","officer"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Officer"}'}
+	summon minecraft:armor_stand -83 60 50 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","mori"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Mori"}'}
+	summon minecraft:armor_stand -83 60 52 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","bobaFett"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Boba Fett"}'}
+
+	summon minecraft:armor_stand -84 60 54 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","hacker"],DisabledSlots:4144959,Rotation:[-180F,0F],CustomName:'{"text":"Hacker"}'}
+	summon minecraft:armor_stand -86 60 54 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","pepsiMan"],DisabledSlots:4144959,Rotation:[-180F,0F],CustomName:'{"text":"Pepsi Man"}'}
+
+	summon minecraft:armor_stand -94 60 -8 {CustomNameVisible:1b,Team:"Orangutans",Invulnerable:1b,ShowArms:1b,Tags:["display","bobo"],DisabledSlots:4144959,Rotation:[0F,0F],CustomName:'{"text":"Bobo"}'}
+	summon minecraft:armor_stand -97 60 -11 {CustomNameVisible:1b,Team:"Orangutans",Invulnerable:1b,ShowArms:1b,Tags:["display","teemo"],DisabledSlots:4144959,Rotation:[0F,0F],CustomName:'{"text":"Teemo"}'}
+	summon minecraft:armor_stand -95 60 -11 {CustomNameVisible:1b,Team:"Impostor",Invulnerable:1b,ShowArms:1b,Tags:["display","impostor"],DisabledSlots:4144959,Rotation:[0F,0F],CustomName:'{"text":"Impostor"}'}
+	summon minecraft:armor_stand -93 60 -11 {CustomNameVisible:1b,Team:"Purple Guy",Invulnerable:1b,ShowArms:1b,Tags:["display","purpleGuy"],DisabledSlots:4144959,Rotation:[0F,0F],CustomName:'{"text":"Purple Guy"}'}
 
 #gives armor to armor stands
 	execute as @e[type=minecraft:armor_stand,tag=display,tag=jotaro] run function kit:jotaro
