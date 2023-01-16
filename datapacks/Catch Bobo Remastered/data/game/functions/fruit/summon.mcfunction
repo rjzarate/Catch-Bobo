@@ -5,3 +5,9 @@
 
 scoreboard players remove #fruitsOnField game 1
 execute if score #fruitsOnField game matches 1.. run function game:fruit/summon
+
+#check if pos is too low
+	execute store result score #Pos1 temp run data get entity @e[type=minecraft:item,tag=fruit,tag=new,limit=1] Pos[1] 1
+	execute if score #Pos1 temp matches ..28 as @e[type=minecraft:item,tag=fruit,tag=new,limit=1] run kill @s
+
+	tag @e[type=minecraft:item,tag=new] remove new

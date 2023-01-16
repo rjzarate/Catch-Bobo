@@ -19,8 +19,10 @@ gamerule doEntityDrops false
 gamerule doMobLoot false
 gamerule doImmediateRespawn true
 
+#respawn
+	scoreboard objectives add respawnTimer dummy
 #gameplay
-scoreboard objectives add gameStats dummy
+	scoreboard objectives add gameStats dummy
 #preset
 	function game:preset/1regular
 #actual game stats
@@ -465,6 +467,7 @@ team modify OrangutansAlt color gold
 team add Hunters
 team modify Hunters color dark_red
 team modify Hunters prefix [{"text":"H ","color":"dark_red","bold":true},{"text":"| ","color":"white","bold":false}]
+team modify Hunters friendlyFire true
 team modify Lobby nametagVisibility always
 team modify Hunters seeFriendlyInvisibles true
 team add Spectators

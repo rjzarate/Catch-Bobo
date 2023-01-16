@@ -11,7 +11,7 @@
 	tag @a[team=Hunters] add winner
 
 #sound effect
-	execute at @a[team=Hunters,gamemode=!spectator] run particle minecraft:totem_of_undying ~ ~ ~ 1 1 1 2 50 normal
+	execute as @a[team=Hunters,gamemode=!spectator] at @s run particle minecraft:totem_of_undying ~ ~ ~ 1 1 1 2 50 normal
 
 #orangutan team clear
 	execute as @a[team=Orangutans] run function game:win/losers
@@ -39,10 +39,10 @@
 	title @a[team=Orangutans] title {"text":"DEFEAT","bold":true,"color":"red"}
 
 #tellraw
-	tellraw @a ["",{"text":"\n"},{"text":"Team Hunters ","bold":true,"color":"dark_red"},{"text":"has won the game!\n----------------------------------------","color":"green"},{"text":"\n                   "},{"text":"Catch Bobo","bold":true,"color":"white"},{"text":"\n\n                   "},{"text":"Winning Team","color":"yellow"},{"text":"\n                  "},{"text":"Team Hunters","bold":true,"color":"dark_red"},{"text":"\n\n                   "},{"text":"Losing Team","color":"red"},{"text":"\n                   "},{"text":"Team Bobo","bold":true,"color":"gold"},{"text":"\n\n"},{"text":"----------------------------------------\n","color":"green"}]
+	tellraw @a ["",{"text":"\n"},{"text":"Team Hunters ","bold":true,"color":"dark_red"},{"text":"has won the game!\n----------------------------------------","color":"green"},{"text":"\n                   "},{"text":"Catch Bobo","bold":true,"color":"white"},{"text":"\n\n                   "},{"text":"Winning Team","color":"yellow"},{"text":"\n                  "},{"text":"Team Hunters","bold":true,"color":"dark_red"},{"text":"\n\n                   "},{"text":"Losing Team","color":"red"},{"text":"\n                   "},{"text":"Team Orangutans","bold":true,"color":"gold"},{"text":"\n\n"},{"text":"----------------------------------------\n","color":"green"}]
 
 #bossbar
-	bossbar add minecraft:timer {"text":"Game Ended","color":"yellow","bold":true,"italic":false}
+	bossbar set minecraft:timer name {"text":"Game Ended","color":"yellow","bold":true,"italic":false}
 	bossbar set minecraft:timer max 200
 	bossbar set minecraft:timer color yellow
 	bossbar set minecraft:timer style notched_10

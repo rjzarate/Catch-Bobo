@@ -14,3 +14,9 @@ tp @s[team=Orangutans] @r[team=Orangutans,gamemode=!spectator]
 #respawn timer
 	scoreboard players operation @s[team=Hunters] respawnTimer = .hunterRespawnTimer gameStats
 	scoreboard players operation @s[team=Orangutans] respawnTimer = .orangutanRespawnTimer gameStats
+
+#if hunter, gives bobo
+	execute if entity @s[team=Hunters] run scoreboard players add @a[team=Orangutans,tag=bobo] starfruitSwapperTangerineTeleporter 1
+
+#if bobo, hunters win
+	execute if entity @s[team=Orangutans,tag=bobo] run function game:win/hunters

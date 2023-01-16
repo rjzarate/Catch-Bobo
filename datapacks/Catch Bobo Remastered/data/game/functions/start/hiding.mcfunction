@@ -19,7 +19,9 @@
 
 #tellraw and sound
 	playsound minecraft:item.chorus_fruit.teleport player @a -78 37 -115 10 1
-	tellraw @a ["",{"score":{"name":"constant","objective":"sInitialT"},"bold":true,"color":"aqua"},{"text":" seconds","bold":true,"color":"aqua"},{"text":" until the ","color":"yellow"},{"text":"Hunters ","bold":true,"color":"dark_red"},{"text":"are released!","color":"yellow"}]
+	scoreboard players operation #hidingTimer gameStats = .hidingTimer gameStats
+	scoreboard players operation #hidingTimer gameStats /= #20 constant
+	tellraw @a ["",{"score":{"name":"#hidingTimer","objective":"gameStats"},"bold":true,"color":"aqua"},{"text":" seconds","bold":true,"color":"aqua"},{"text":" until the ","color":"yellow"},{"text":"Hunters ","bold":true,"color":"dark_red"},{"text":"are released!","color":"yellow"}]
 
 #kills display stands and area effect clouds
 	kill @e[type=minecraft:armor_stand,tag=display]
@@ -35,3 +37,7 @@
 	bossbar set minecraft:timer style progress
 	bossbar set minecraft:timer players @a
 	bossbar set minecraft:timer visible true
+
+#enables friendly fire
+	team modify Hunters friendlyFire true
+

@@ -15,3 +15,10 @@
 	bossbar set minecraft:timer style progress
 	bossbar set minecraft:timer players @a
 	bossbar set minecraft:timer visible true
+
+#clears notch apple
+	execute as @a[team=Orangutans,tag=bobo] run clear @s minecraft:enchanted_golden_apple
+
+#sound effect
+	execute as @a[team=Orangutans,tag=bobo] run playsound minecraft:entity.wither.spawn player @a ~ ~ ~ 200 1
+	title @a title ["",{"text":"xx","obfuscated":true,"color":"yellow"},{"text":"","color":"yellow"},{"text":"Bobo ","bold":true,"color":"gold"},{"text":"collected all fruits!","color":"yellow"},{"text":"xx","obfuscated":true,"color":"yellow"}]

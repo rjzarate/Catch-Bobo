@@ -8,7 +8,7 @@
 
 #actionbar
 	title @s actionbar ["",{"text":"Tracking","bold":true,"color":"green"}]
-	execute unless entity @e[type=minecraft:item,tag=fruit] run title @s actionbar ["",{"text":"No Bobo","bold":true,"color":"red"}]
+	execute unless entity @p[team=Orangutans,tag=bobo,gamemode=!spectator] run title @s actionbar ["",{"text":"No Bobo","bold":true,"color":"red"}]
 
 #particles
 	scoreboard players set #distance temp 30

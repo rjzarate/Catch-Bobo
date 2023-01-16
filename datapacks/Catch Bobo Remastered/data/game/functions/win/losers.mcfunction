@@ -10,6 +10,8 @@
 	attribute @s minecraft:generic.movement_speed base set 0.05000000074505806
 #makes them glow
 	scoreboard players set @s glowing 200
+#clears
+	clear @s
 #armor
 	item replace entity @s[tag=!bobo] armor.head with minecraft:player_head{display:{Name:'{"text":"Chicken Head","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],SkullOwner:{Id:[I;2100988622,-532328774,-1418628645,-182068495],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYzODQ2OWE1OTljZWVmNzIwNzUzNzYwMzI0OGE5YWIxMWZmNTkxZmQzNzhiZWE0NzM1YjM0NmE3ZmFlODkzIn19fQ=="}]}}} 1
 	item replace entity @s[tag=!bobo] armor.chest with leather_chestplate{display:{Name:'{"text":"Chicken Body","color":"dark_red","bold":true,"italic":false}',color:16777215},HideFlags:6,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}]} 1

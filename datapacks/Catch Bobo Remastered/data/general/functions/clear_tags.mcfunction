@@ -22,7 +22,8 @@
 	tag @s remove choosingClass
 #for fireworks
 	tag @s remove winner
-
+#for spectating
+	tag @s remove spectator
 
 #teams
 	tag @s remove orangutan

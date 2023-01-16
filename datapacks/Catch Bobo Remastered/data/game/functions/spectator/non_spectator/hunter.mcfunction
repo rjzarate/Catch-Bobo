@@ -7,3 +7,12 @@ scoreboard players remove @s respawnTimer 1
 
 
 execute unless score @s respawnTimer matches 1.. if entity @s[team=Hunters] run function game:respawn/hunter
+
+#actionbar
+	scoreboard players operation #int respawnTimer = @s respawnTimer
+	scoreboard players operation #dec respawnTimer = @s respawnTimer
+	scoreboard players operation #int respawnTimer /= #20 constant
+	scoreboard players operation #dec respawnTimer %= #20 constant
+	scoreboard players operation #dec respawnTimer /= #2 constant
+
+	title @s actionbar ["",{"text":"Respawning: ","bold":true,"color":"red"},{"text":" (","italic":true,"color":"red"},{"score":{"name":"#int","objective":"respawnTimer"},"italic":true,"color":"red"},{"text":".","italic":true,"color":"red"},{"score":{"name":"#dec","objective":"respawnTimer"},"italic":true,"color":"red"},{"text":")","italic":true,"color":"red"}]
