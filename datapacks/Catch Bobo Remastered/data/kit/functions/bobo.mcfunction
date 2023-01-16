@@ -24,7 +24,7 @@ scoreboard players set @s starfruitSwapperTangerineTeleporter 1
 item replace entity @s armor.head with minecraft:player_head{display:{Name:'{"text":"Bobo\'s Head","color":"gold","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],SkullOwner:{Id:[I;1571403990,1660439100,-2108560740,2139713089],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTEyYzQzNzI2NTMwMGYzMjRkZDBlZWNhNzM0ODQ5MWVjYzc4ZmY3MTJkNTcyNDFlOTg3ZmFlNjMzMjAzYmU1ZSJ9fX0="}]}},HideFlags:1} 1
 item replace entity @s armor.chest with leather_chestplate{display:{Name:'{"text":"Bobo\'s Fur","color":"gold","bold":true,"italic":false}',color:16755760},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:71} 1
 item replace entity @s armor.legs with leather_leggings{display:{Name:'{"text":"Bobo\'s Hair","color":"gold","bold":true,"italic":false}',color:16755760},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:71} 1
-item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Bobo\'s Toes","color":"gold","bold":true,"italic":false}',color:16755760},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:feather_falling",lvl:3s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:71} 1
+item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Bobo\'s Toes","color":"gold","bold":true,"italic":false}',color:16755760},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:feather_falling",lvl:10s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:71} 1
 
 item replace entity @s weapon.mainhand with golden_sword{display:{Name:'{"text":"Banana Blade","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:6,Operation:0,UUID:[I;190130304,230834513,-1574329895,1858188887],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-2.4,Operation:0,UUID:[I;-806640084,2140751192,-1552421101,1526961838],Slot:"mainhand"}],Tags:["bobo","bananaBlade","meleeDamage","attackSpeed","attackSpeedOnKill","maxAttackSpeed"],CustomModelData:1,HideFlags:6,Unbreakable:1b,meleeDamage:6,attackSpeed:160,attackSpeedOnKill:30,maxAttackSpeed:250,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
@@ -59,12 +59,15 @@ item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.4 from entity @s weapon.mainhand
 
+item replace entity @s weapon.mainhand with compass{display:{Name:'{"text":"Fruit Finder","color":"gold","bold":true,"italic":false}'},Tags:["bobo","fruitFinder"],fruitFinder:1,LodestoneDimension:"minecraft:overworld",LodestoneTracked:1b,LodestonePos:{X:0,Y:0,Z:0}} 1
+item modify entity @s weapon.mainhand kit:description
+item replace block 0 0 0 container.5 from entity @s weapon.mainhand
+
 item replace entity @s weapon.mainhand with enchanted_golden_apple{display:{Name:'{"text":"Notch Apple","color":"gold","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:knockback",lvl:3s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:1,Operation:0,UUID:[I;190130304,230834513,-1574329895,1858188887],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-2.0,Operation:0,UUID:[I;-806640084,2140751192,-1552421101,1526961838],Slot:"mainhand"}],Tags:["bobo","enchantedGoldenApple","noActionbar","meleeDamage","attackSpeed","knockback","onConsumptionStrength1","onConsumptionRegeneration2","onConsumption","onConsumptionAbsorption4","onConsumptionSpeed2","onConsumptionResistance1","onConsumptionFireResistance"],HideFlags:3,meleeDamage:2,knockback:3,attackSpeed:200,onConsumptionStrength1:30,onConsumptionRegeneration2:30,onConsumptionAbsorption4:120,onConsumptionSpeed2:30,onConsumptionResistance1:120,onConsumptionFireResistance:60,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.8 from entity @s weapon.mainhand
 
-item replace block 0 0 0 container.5 with minecraft:paper{Tags:["filler"],filler:1}
 item replace block 0 0 0 container.6 with minecraft:paper{Tags:["filler"],filler:2}
 item replace block 0 0 0 container.7 with minecraft:paper{Tags:["filler"],filler:3}
 

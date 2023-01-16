@@ -18,3 +18,6 @@ execute if entity @s[advancements={orangutan:purple_guy=true}] run advancement r
 #transform into purple_guy/springtrap
 	execute unless score @s[tag=!timeStoppee] purpleGuyTransformChargeUp matches 1.. run function orangutan:purple_guy/transform/directory
 	scoreboard players remove @s purpleGuyTransformChargeUp 1
+
+#holding bobo finder
+	execute if score %10t universalTimer matches 0 if predicate orangutan:general/bobo_finder at @s run function orangutan:general/bobo_finder/activate

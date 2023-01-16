@@ -24,3 +24,6 @@ execute if entity @s[advancements={orangutan:impostor=true}] run advancement rev
 #sabotage charge up and active
 	execute if score @s[tag=!timeStoppee] sabotageDuration matches 1.. run function orangutan:impostor/sabotage/active
 	execute if score @s[tag=!timeStoppee] sabotageChargeUp matches 1.. run function orangutan:impostor/sabotage/charge_up
+
+#holding bobo finder
+	execute if score %10t universalTimer matches 0 if predicate orangutan:general/bobo_finder at @s run function orangutan:general/bobo_finder/activate

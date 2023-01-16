@@ -23,9 +23,8 @@ execute unless predicate hunter:boba_fett/ee-3 if score @s[tag=!timeStoppee] ee-
 		execute if score @s flamethrowerChargeDelay matches 1.. if predicate general:fall_flying run scoreboard players reset @s flamethrowerChargeDelay
 
 
-#rocket barrage burst fire; resets burst fire if switching hotbars
-execute if predicate hunter:boba_fett/rocket_barrage if score @s[tag=!timeStoppee] rocketBarrageBurst matches 1.. unless score @s rocketBarrageBurstFireRate matches 1.. run function hunter:boba_fett/rocket_barrage/burst_activate
-execute unless predicate hunter:boba_fett/rocket_barrage if score @s[tag=!timeStoppee] rocketBarrageBurst matches 1.. run scoreboard players reset @s rocketBarrageBurst
+#rocket barrage burst fire
+execute if score @s[tag=!timeStoppee] rocketBarrageBurst matches 1.. unless score @s rocketBarrageBurstFireRate matches 1.. run function hunter:boba_fett/rocket_barrage/burst_activate
 
 #jetpack fuel used
 execute if score @s jetpackFuelUsed matches 1.. run function hunter:boba_fett/jetpack_fuel/activate

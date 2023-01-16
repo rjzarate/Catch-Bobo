@@ -5,3 +5,6 @@ scoreboard players remove .winTimer game 1
 
 #resets game
 	execute unless score .winTimer game matches 1.. run function reset:game
+
+#bossbar
+	execute store result bossbar minecraft:timer value run scoreboard players get .winTimer game

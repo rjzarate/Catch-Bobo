@@ -1,4 +1,4 @@
-execute if score .gameStarted game matches 0 run function game:check
+execute if score .gameStart game matches 0 run function game:check
 
 #spectators for teams respawn timer
 	execute as @a[team=!Spectators,tag=spectator] run function game:spectator/non_spectator/directory

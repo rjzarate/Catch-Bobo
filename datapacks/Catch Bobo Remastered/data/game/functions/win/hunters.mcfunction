@@ -40,3 +40,9 @@
 
 #tellraw
 	tellraw @a ["",{"text":"\n"},{"text":"Team Hunters ","bold":true,"color":"dark_red"},{"text":"has won the game!\n----------------------------------------","color":"green"},{"text":"\n                   "},{"text":"Catch Bobo","bold":true,"color":"white"},{"text":"\n\n                   "},{"text":"Winning Team","color":"yellow"},{"text":"\n                  "},{"text":"Team Hunters","bold":true,"color":"dark_red"},{"text":"\n\n                   "},{"text":"Losing Team","color":"red"},{"text":"\n                   "},{"text":"Team Bobo","bold":true,"color":"gold"},{"text":"\n\n"},{"text":"----------------------------------------\n","color":"green"}]
+
+#bossbar
+	bossbar add minecraft:timer {"text":"Game Ended","color":"yellow","bold":true,"italic":false}
+	bossbar set minecraft:timer max 200
+	bossbar set minecraft:timer color yellow
+	bossbar set minecraft:timer style notched_10

@@ -21,6 +21,6 @@ tag @e[type=#general:everything] remove hit
 
 #change to cooldown model
 
-	scoreboard players set #CustomModelData temp 1701
+	scoreboard players set #CustomModelData temp 1801
 	execute store result storage animate CustomModelData int 1 run scoreboard players get #CustomModelData temp
 	item modify entity @s weapon.mainhand kit:animate/storage

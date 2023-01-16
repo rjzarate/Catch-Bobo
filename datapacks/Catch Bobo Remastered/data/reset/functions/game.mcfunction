@@ -1,3 +1,14 @@
+#reset game scores
+	scoreboard objectives remove game
+	scoreboard objectives add game dummy
+	scoreboard players set .gameStart game 0
+	scoreboard players set .teamPhase game 0
+	scoreboard players set .classPhase game 0
+	scoreboard players set .hidingPhase game 0
+	scoreboard players set .gamePhase game 0
+	scoreboard players set .endPhase game 0
+	scoreboard players set .winPhase game 0
+
 #to all players
 	execute as @a run function general:clear_abilities
 	execute as @a run function general:clear_effects
@@ -8,6 +19,7 @@
 	execute as @a run attribute @s minecraft:generic.attack_damage base set 1
 	execute as @a run attribute @s minecraft:generic.attack_speed base set 4
 	execute as @a run attribute @s minecraft:generic.movement_speed base set 0.10000000149011612
+	effect give @a minecraft:instant_health 1 100 true
 	spawnpoint @a 0 53 0
 	clear @a
 	effect clear @a
@@ -39,3 +51,9 @@
 
 #kills mobs
 	kill @e[type=#general:no_players]
+	kill @e[type=minecraft:area_effect_cloud]
+	kill @e[type=minecraft:armor_stand]
+	kill @e[type=minecraft:marker]
+
+#bossbar
+	bossbar set minecraft:timer visible false

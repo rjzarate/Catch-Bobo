@@ -19,7 +19,7 @@ function general:clear_abilities
 item replace entity @s armor.head with minecraft:player_head{display:{Name:'{"text":"Impostor\'s Head","color":"gold","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],SkullOwner:{Id:[I;-1898841623,696667718,-1525750779,1174439044],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdkNWViMGFlYTVkNjFiYTNmZjQ5OTY0MTZhOTAwOTZhOWQ3NzYwOWViY2QzYjMwOGY5MDZhZTg4OGE0NWY2ZCJ9fX0="}]}},HideFlags:1,impostor:1} 1
 item replace entity @s armor.chest with leather_chestplate{display:{Name:'{"text":"Spacesuit","color":"gold","bold":true,"italic":false}',color:16711680},Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:71,Unbreakable:1b} 1
 item replace entity @s armor.legs with leather_leggings{display:{Name:'{"text":"Spacesuit","color":"gold","bold":true,"italic":false}',color:16711680},Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:71,Unbreakable:1b} 1
-item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Spacesuit","color":"gold","bold":true,"italic":false}',color:16711680},Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:feather_falling",lvl:3s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:71,Unbreakable:1b} 1
+item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Spacesuit","color":"gold","bold":true,"italic":false}',color:16711680},Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:feather_falling",lvl:10s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:71,Unbreakable:1b} 1
 
 
 item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Kill","color":"gold","bold":true,"italic":false}'},Tags:["impostor","kill","ventCooldown","createVentCooldownIncrease","range","immobilize","immobilizeDuration","immobilizeKill","cooldown","actionbarRegular"],kill:1,createVentCooldownIncrease:20,range:4,ventCooldown:-50,immobilizeDuration:60,cooldown:60,noDrop:1,CustomModelData:100} 1
@@ -64,8 +64,13 @@ scoreboard players operation .cooldown20t sabotageStats *= #20 constant
 scoreboard players operation .duration20t sabotageStats *= #20 constant
 scoreboard players operation .chargeUp20t sabotageStats *= #20 constant
 
+item replace entity @s weapon.mainhand with compass{display:{Name:'{"text":"Bobo Finder","color":"gold","bold":true,"italic":false}'},Tags:["impostor","boboFinder"],boboFinder:1,LodestoneDimension:"minecraft:overworld",LodestoneTracked:1b,LodestonePos:{X:0,Y:0,Z:0}} 1
+item modify entity @s weapon.mainhand kit:description
+item replace block 0 0 0 container.8 from entity @s weapon.mainhand
 
-
+item replace block 0 0 0 container.5 with minecraft:paper{Tags:["filler"],filler:1}
+item replace block 0 0 0 container.6 with minecraft:paper{Tags:["filler"],filler:2}
+item replace block 0 0 0 container.7 with minecraft:paper{Tags:["filler"],filler:3}
 
 item replace entity @s weapon.mainhand with minecraft:air
 loot give @s mine 0 0 0 air{drop_contents:true}

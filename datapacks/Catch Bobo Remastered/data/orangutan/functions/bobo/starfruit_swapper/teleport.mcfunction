@@ -9,4 +9,4 @@ execute at @a[tag=teleportee] run playsound minecraft:entity.enderman.teleport p
 
 tag @a remove teleporter
 tag @a remove teleportee
-kill @e[type=minecraft:armor_stand,tag=teleport]
+kill @e[type=minecraft:armor_stand,tag=teleporter]

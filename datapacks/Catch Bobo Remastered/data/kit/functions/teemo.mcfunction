@@ -21,7 +21,7 @@ scoreboard players set @s noxiousTrapAmmo 5
 item replace entity @s armor.head with minecraft:player_head{display:{Name:'{"text":"Teemo\'s Head","color":"gold","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],SkullOwner:{Id:[I;-1117307397,-2059843084,-1451692502,-775514149],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTE2ZmQ5NzcyMjkwMGRhY2RmYTc3ZGMwODZhMGJhOTQ5MWRjM2ZjMjY4ZmZmZDAwZGJmY2JkYmQyOTRjN2VmOSJ9fX0="}]}},HideFlags:77,teemo:1} 1
 item replace entity @s armor.chest with leather_chestplate{display:{Name:'{"text":"Teemo\'s Fur","color":"gold","bold":true,"italic":false}',color:16566643},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:7,teemo:1} 1
 item replace entity @s armor.legs with leather_leggings{display:{Name:'{"text":"Teemo\'s Pants","color":"gold","bold":true,"italic":false}'},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:7,teemo:1} 1
-item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Teemo\'s Boots","color":"gold","bold":true,"italic":false}',color:6192150},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:7,teemo:1} 1
+item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Teemo\'s Boots","color":"gold","bold":true,"italic":false}',color:6192150},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:feather_falling",lvl:5s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:7,teemo:1} 1
 
 
 item replace entity @s weapon.mainhand with crossbow{display:{Name:'{"text":"Toxic Shot","color":"gold","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:quick_charge",lvl:6s}],ChargedProjectiles:[{id:"minecraft:tipped_arrow",Count:1b,tag:{CustomPotionEffects:[{Id:27b,Amplifier:49b,Duration:100}],CustomPotionColor:8200123}},{},{}],Tags:["teemo","toxicShot","arrowDamage","poison1","fireRate","range","ammo","maxAmmo","cooldown","ammoCooldown","actionbarAmmo"],HideFlags:47,Unbreakable:1b,Charged:1b,toxicShot:1,arrowDamage:0,poison1:3,fireRate:250,range:20,maxAmmo:30,ammoCooldown:10,cooldown:25,CustomModelData:100,noDrop:1} 1
@@ -71,6 +71,14 @@ item replace block 0 0 0 container.4 from entity @s weapon.mainhand
 function general:get_stats
 scoreboard players operation .cooldown20t recallStats = .cooldown stats
 scoreboard players operation .cooldown20t recallStats *= #20 constant
+
+item replace entity @s weapon.mainhand with compass{display:{Name:'{"text":"Bobo Finder","color":"gold","bold":true,"italic":false}'},Tags:["teemo","boboFinder"],boboFinder:1,LodestoneDimension:"minecraft:overworld",LodestoneTracked:1b,LodestonePos:{X:0,Y:0,Z:0}} 1
+item modify entity @s weapon.mainhand kit:description
+item replace block 0 0 0 container.8 from entity @s weapon.mainhand
+
+item replace block 0 0 0 container.5 with minecraft:paper{Tags:["filler"],filler:1}
+item replace block 0 0 0 container.6 with minecraft:paper{Tags:["filler"],filler:2}
+item replace block 0 0 0 container.7 with minecraft:paper{Tags:["filler"],filler:3}
 
 item replace entity @s weapon.mainhand with minecraft:air
 loot give @s mine 0 0 0 air{drop_contents:true}

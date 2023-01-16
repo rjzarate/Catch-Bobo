@@ -1,5 +1,11 @@
 #reset game scores
-	scoreboard players set .gameStart game 0
+	scoreboard players set .fruitRequirement game 0
+	scoreboard players operation .hidingTimer game = .hidingTimer gameStats
+	scoreboard players operation .timer game = .timer gameStats
+	scoreboard players operation .endTimer game = .endTimer gameStats
+	scoreboard players set .fruitsCollected game 0
+
+	scoreboard players set .gameStart game 1
 	scoreboard players set .teamPhase game 1
 	scoreboard players set .classPhase game 0
 	scoreboard players set .hidingPhase game 0

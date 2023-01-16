@@ -20,3 +20,11 @@
 	execute if score .fruitsOnField gameStats matches ..9 run spreadplayers 96 -288 30 175 under 80 false @e[type=minecraft:item,tag=fruit,tag=new]
 
 	tag @e[type=item,tag=fruit,tag=new] remove new
+
+#bossbar
+	bossbar set minecraft:timer name {"text":"Time Until Release","color":"green","bold":true,"italic":false}
+	execute store result bossbar minecraft:timer max run scoreboard players get .gameTimer gameStats
+	bossbar set minecraft:timer color green
+	bossbar set minecraft:timer style progress
+	bossbar set minecraft:timer players @a
+	bossbar set minecraft:timer visible true

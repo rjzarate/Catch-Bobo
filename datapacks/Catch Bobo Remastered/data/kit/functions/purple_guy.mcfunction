@@ -20,7 +20,7 @@ scoreboard players set @s remnantMachineAmmo 2
 item replace entity @s armor.head with minecraft:player_head{display:{Name:'{"text":"Purple Guy\'s Head","color":"gold","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],SkullOwner:{Id:[I;1008750935,995904503,-1494871008,523943185],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjcxZTI4MzU0NWFiZTQ3YzFhMzBhMzAyYWIyODkwNmYxODgxMTVkZGZlZWIwN2ZiOTY2YjEyNmQ1ZjM0MDAxMiJ9fX0="}]}},HideFlags:1,purpleGuy:1} 1
 item replace entity @s armor.chest with leather_chestplate{display:{Name:'{"text":"Purple Suit","color":"gold","bold":true,"italic":false}',color:6306408},Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:71,Unbreakable:1b,purpleGuy:1} 1
 item replace entity @s armor.legs with leather_leggings{display:{Name:'{"text":"Purple Suit Pants","color":"gold","bold":true,"italic":false}',color:6306408},Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:71,Unbreakable:1b,purpleGuy:1} 1
-item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Purple Shoes","color":"gold","bold":true,"italic":false}',color:6306408},Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:feather_falling",lvl:3s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:71,Unbreakable:1b,purpleGuy:1} 1
+item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Purple Shoes","color":"gold","bold":true,"italic":false}',color:6306408},Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:feather_falling",lvl:5s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:71,Unbreakable:1b,purpleGuy:1} 1
 
 
 item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Phone","color":"gold","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:fire_aspect",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:3,Operation:0,UUID:[I;466701147,780051195,-2128874679,504454309],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-2,Operation:0,UUID:[I;128091582,145823653,-208332753,-90634462],Slot:"mainhand"}],HideFlags:7,Tags:["purpleGuy","phone","purpleGuyMelee","meleeDamage","attackSpeed","fireAspect","maxAmmo","cooldown","ammoCooldown","actionbarAmmo1"],phone:1,meleeDamage:3,fireAspect:1,attackSpeed:200,maxAmmo:5,cooldown:5,ammoCooldown:1,noDrop:1,CustomModelData:300} 1
@@ -123,6 +123,15 @@ scoreboard players operation @s purpleGuyTransformChargeUp = .chargeUp purpleGuy
 	item replace block 0 0 0 container.6 with minecraft:air
 	item replace block 0 0 0 container.7 with minecraft:air
 	item replace block 0 0 0 container.8 with minecraft:air
+
+#bobo finder
+item replace entity @s weapon.mainhand with compass{display:{Name:'{"text":"Bobo Finder","color":"gold","bold":true,"italic":false}'},Tags:["teemo","boboFinder"],boboFinder:1,LodestoneDimension:"minecraft:overworld",LodestoneTracked:1b,LodestonePos:{X:0,Y:0,Z:0}} 1
+item modify entity @s weapon.mainhand kit:description
+item replace block 0 0 0 container.8 from entity @s weapon.mainhand
+
+item replace block 0 0 0 container.5 with minecraft:paper{Tags:["filler"],filler:1}
+item replace block 0 0 0 container.6 with minecraft:paper{Tags:["filler"],filler:2}
+item replace block 0 0 0 container.7 with minecraft:paper{Tags:["filler"],filler:3}
 
 
 item replace entity @s weapon.mainhand with minecraft:air

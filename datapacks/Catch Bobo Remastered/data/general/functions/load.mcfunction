@@ -26,6 +26,24 @@ scoreboard objectives add gameStats dummy
 #actual game stats
 	scoreboard objectives add game dummy
 
+#bossbars
+	#bossbar add initial_timer {"text":"Time Until Release","color":"green","bold":true,"italic":false}
+	#bossbar set minecraft:initial_timer color green
+	#bossbar set minecraft:initial_timer style progress
+	#bossbar set minecraft:initial_timer visible false
+	bossbar add timer {"text":"Time Remaining","color":"green","bold":true,"italic":false}
+	#bossbar set minecraft:timer color green
+	#bossbar set minecraft:timer style progress
+	#bossbar set minecraft:timer visible false
+	#bossbar add last_timer {"text":"Time Left","color":"red","bold":true,"italic":false}
+	#bossbar set minecraft:last_timer color red
+	#bossbar set minecraft:last_timer style progress
+	#bossbar set minecraft:last_timer visible false
+	#bossbar add minecraft:post_timer {"text":"Game Ended","color":"yellow","bold":true,"italic":false}
+	#bossbar set minecraft:post_timer color yellow
+	#bossbar set minecraft:post_timer style notched_10
+	#bossbar set minecraft:post_timer visible false
+
 
 #healing
 scoreboard objectives add healing dummy
@@ -93,9 +111,10 @@ scoreboard objectives add SelectedItemSlot dummy
 scoreboard objectives add Pos dummy
 scoreboard objectives add OnGround dummy
 
-#item modifier enchantments
+#item modifiers
 data modify storage minecraft:enchantment noGlint set value []
 data modify storage minecraft:enchantment glint set value [{}]
+data modify storage minecraft:compass LoadstonePos set value {X: 0,Y: 0,Z: 0}
 
 
 #potion effects -> scoreboards (for Jotaro's time stop)
@@ -436,7 +455,7 @@ scoreboard objectives add unstableConcoctionStats dummy
 #teams
 team add Orangutans
 team modify Orangutans color gold
-team modify Orangutans prefix [{"text":"Orangutans ","color":"gold","bold":true},{"text":"| ","color":"white","bold":false}]
+team modify Orangutans prefix [{"text":"O ","color":"gold","bold":true},{"text":"| ","color":"white","bold":false}]
 team modify Orangutans collisionRule pushOtherTeams
 team modify Orangutans friendlyFire false
 team modify Orangutans nametagVisibility hideForOtherTeams
@@ -445,11 +464,12 @@ team add OrangutansAlt
 team modify OrangutansAlt color gold
 team add Hunters
 team modify Hunters color dark_red
-team modify Hunters prefix [{"text":"Hunters ","color":"dark_red","bold":true},{"text":"| ","color":"white","bold":false}]
+team modify Hunters prefix [{"text":"H ","color":"dark_red","bold":true},{"text":"| ","color":"white","bold":false}]
 team modify Lobby nametagVisibility always
 team modify Hunters seeFriendlyInvisibles true
 team add Spectators
 team modify Spectators color gray
+team modify Spectators prefix [{"text":"S ","color":"gray","bold":true},{"text":"| ","color":"white","bold":false}]
 team modify Spectators collisionRule never
 team modify Spectators friendlyFire false
 team modify Spectators nametagVisibility hideForOtherTeams

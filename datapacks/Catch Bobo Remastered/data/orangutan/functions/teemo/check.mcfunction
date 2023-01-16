@@ -29,3 +29,6 @@ execute if entity @s[tag=timeStoppee] if predicate orangutan:teemo/blinding_dart
 
 
 function orangutan:teemo/guerrilla_warfare/active
+
+#holding bobo finder
+	execute if score %10t universalTimer matches 0 if predicate orangutan:general/bobo_finder at @s run function orangutan:general/bobo_finder/activate

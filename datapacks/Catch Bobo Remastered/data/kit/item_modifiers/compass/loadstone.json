@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:compass"
+    },
+    "ops": [
+      {
+        "source": "LoadstonePos",
+        "target": "LodestonePos",
+        "op": "replace"
+      }
+    ]
+  }
+]

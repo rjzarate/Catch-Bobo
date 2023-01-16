@@ -1,10 +1,4 @@
 #reset game scores
-	scoreboard players set .fruitRequirement game 0
-	scoreboard players operation .hidingTimer game = .hidingTimer gameStats
-	scoreboard players operation .timer game = .timer gameStats
-	scoreboard players operation .endTimer game = .endTimer gameStats
-	scoreboard players set .fruitsCollected game 0
-
 	scoreboard players set .gameStart game 1
 	scoreboard players set .teamPhase game 0
 	scoreboard players set .classPhase game 0
@@ -14,9 +8,11 @@
 	scoreboard players set .winPhase game 0
 
 #teleports players
-	#spreadplayers/tp @a[team=Hunters] ~ ~ ~
-	#spreadplayers/tp @a[team=Orangutans] ~ ~ ~
-	#spreadplayers/tp @a[team=Lobby]
+	spreadplayers -72 -120 1 2 under 40 true @a[team=Hunters]
+	spreadplayers 96 -288 1 3 under 150 true @a[team=Orangutans]
+
+	gamemode spectator @a[team=Spectators]
+	execute as @a[team=Spectators] run tp @s @r[team=!Spectators]
 
 #initiate world border
 	worldborder set 350
@@ -24,3 +20,17 @@
 #tellraw and sound
 	playsound minecraft:item.chorus_fruit.teleport player @a -78 37 -115 10 1
 	tellraw @a ["",{"score":{"name":"constant","objective":"sInitialT"},"bold":true,"color":"aqua"},{"text":" seconds","bold":true,"color":"aqua"},{"text":" until the ","color":"yellow"},{"text":"Hunters ","bold":true,"color":"dark_red"},{"text":"are released!","color":"yellow"}]
+
+#kills display stands
+	kill @e[type=minecraft:armor_stand,tag=display]
+
+#removes display tag
+	tag @a remove displayOnly
+
+#bossbar
+	bossbar set minecraft:timer name {"text":"Time Remaining","color":"green","bold":true,"italic":false}
+	execute store result bossbar minecraft:timer max run scoreboard players get .hidingTimer gameStats
+	bossbar set minecraft:timer color green
+	bossbar set minecraft:timer style progress
+	bossbar set minecraft:timer players @a
+	bossbar set minecraft:timer visible true

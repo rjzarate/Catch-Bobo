@@ -582,6 +582,81 @@
           "italic": false
         },
         {
+          "text": "Finds the nearest fruit.",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"fruitFinder\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Finds ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Bobo",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"boboFinder\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
           "text": "Shoot a poisonous arrow,",
           "color": "gray",
           "italic": false

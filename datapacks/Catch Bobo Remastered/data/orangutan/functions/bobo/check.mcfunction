@@ -22,3 +22,6 @@ execute if score @s notchApple matches 1.. run function orangutan:bobo/notch_app
 
 #starfruit swapper texture change (only if not in cd is holding it)
 	execute if predicate orangutan:bobo/starfruit_swapper if score @s[tag=!timeStoppee] starfruitSwapperTangerineTeleporter matches 1.. run function orangutan:bobo/starfruit_swapper/animate
+
+#holding fruit finder
+	execute if score %10t universalTimer matches 0 if predicate orangutan:bobo/fruit_finder at @s run function orangutan:bobo/fruit_finder/activate

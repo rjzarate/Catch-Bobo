@@ -7674,6 +7674,142 @@
     "entity": "this",
     "lore": [
       [
+        {
+          "text": ""
+        },
+        {
+          "text": "I Always Come Back",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ":",
+          "color": "gray",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "text": " Transforms Into: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Phone",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      {
+          "text": ""
+      },
+      [
+        {
+          "text": "Flaming Corruption",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ":",
+          "color": "gray",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "text": " Transforms Into: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Quirky Animatronics",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      {
+          "text": ""
+      },
+      [
+        {
+          "text": "5AM",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ":",
+          "color": "gray",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "text": " Transforms Into: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "12AM",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      {
+          "text": ""
+      },
+      [
+        {
+          "text": "Transform: Purple Guy",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ":",
+          "color": "gray",
+          "bold": false
+        }
+      ],
+      [
+        {
+          "text": " Transforms Into: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Transform: Springtrap",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"transformPurpleGuy\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
       {
         "text": " Transforms Into: ",
         "color": "gray",
