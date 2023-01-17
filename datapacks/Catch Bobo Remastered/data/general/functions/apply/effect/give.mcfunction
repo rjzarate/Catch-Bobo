@@ -15,6 +15,7 @@ execute if score @s jumpBoost2 matches 1.. run effect give @s minecraft:jump_boo
 execute if score @s jumpBoost3 matches 1.. run effect give @s minecraft:jump_boost 1 2 false
 execute if score @s jumpBoost4 matches 1.. run effect give @s minecraft:jump_boost 1 3 false
 execute if score @s jumpBoost5 matches 1.. run effect give @s minecraft:jump_boost 1 4 false
+execute if score @s jumpBoost10 matches 1.. run effect give @s minecraft:jump_boost 1 9 false
 execute if score @s jumpBoost128 matches 1.. run effect give @s minecraft:jump_boost 1 128 false
 execute if score @s levitation1 matches 1.. run effect give @s minecraft:levitation 1 0 false
 execute if score @s levitation11 matches 1.. run effect give @s minecraft:levitation 1 10 false

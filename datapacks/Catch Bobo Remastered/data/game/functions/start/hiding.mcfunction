@@ -9,7 +9,7 @@
 
 #teleports players
 	spreadplayers -72 -120 1 2 under 40 true @a[team=Hunters]
-	spreadplayers 96 -288 1 3 under 150 true @a[team=Orangutans]
+	spreadplayers 96 -288 1 3 under 120 true @a[team=Orangutans]
 
 	gamemode spectator @a[team=Spectators]
 	execute as @a[team=Spectators] run tp @s @r[team=!Spectators]

@@ -1,4 +1,4 @@
-execute if predicate orangutan:impostor/kill at @s if entity @a[team=Hunters,gamemode=!spectator,distance=..4,tag=!impostorStun,tag=!displayOnly,tag=!invincible] unless score @s killCD matches 1.. run function orangutan:impostor/kill/activate
+execute if predicate orangutan:impostor/kill at @s if entity @a[team=Hunters,gamemode=!spectator,distance=..4,tag=!impostorStun,tag=!displayOnly,tag=!invincible] unless score @s killCD matches 1.. unless score .hidingPhase game matches 1 run function orangutan:impostor/kill/activate
 
 execute if predicate orangutan:impostor/report_body at @s if entity @a[team=Hunters,gamemode=!spectator,distance=..4,tag=impostorStun] unless score @s reportBodyCD matches 1.. run function orangutan:impostor/report_body/activate
 

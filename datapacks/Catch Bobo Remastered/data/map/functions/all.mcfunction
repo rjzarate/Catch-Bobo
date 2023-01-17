@@ -9,5 +9,6 @@ function map:goat
 function map:pickle
 function map:pig
 function map:sheep
+function map:tree
 function map:turtle
 function map:panda/summon

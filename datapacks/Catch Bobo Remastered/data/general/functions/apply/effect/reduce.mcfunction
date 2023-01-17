@@ -14,6 +14,7 @@ execute if score @s jumpBoost2 matches 1.. run scoreboard players remove @s jump
 execute if score @s jumpBoost3 matches 1.. run scoreboard players remove @s jumpBoost3 1
 execute if score @s jumpBoost4 matches 1.. run scoreboard players remove @s jumpBoost4 1
 execute if score @s jumpBoost5 matches 1.. run scoreboard players remove @s jumpBoost5 1
+execute if score @s jumpBoost10 matches 1.. run scoreboard players remove @s jumpBoost10 1
 execute if score @s jumpBoost128 matches 1.. run scoreboard players remove @s jumpBoost128 1
 execute if score @s levitation1 matches 1.. run scoreboard players remove @s levitation1 1
 execute if score @s levitation11 matches 1.. run scoreboard players remove @s levitation11 1

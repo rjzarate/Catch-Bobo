@@ -143,6 +143,7 @@ scoreboard objectives add jumpBoost2 dummy
 scoreboard objectives add jumpBoost3 dummy
 scoreboard objectives add jumpBoost4 dummy
 scoreboard objectives add jumpBoost5 dummy
+scoreboard objectives add jumpBoost10 dummy
 scoreboard objectives add jumpBoost128 dummy
 scoreboard objectives add levitation1 dummy
 scoreboard objectives add levitation11 dummy

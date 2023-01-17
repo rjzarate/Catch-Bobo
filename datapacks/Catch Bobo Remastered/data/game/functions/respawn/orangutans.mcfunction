@@ -1,4 +1,4 @@
-spreadplayers 96 -288 1 3 under 150 true @s[team=Orangutans]
+spreadplayers 96 -288 1 3 under 120 true @s[team=Orangutans]
 tag @s remove spectator
 gamemode adventure
 

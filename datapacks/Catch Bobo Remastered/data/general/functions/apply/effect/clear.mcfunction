@@ -17,6 +17,7 @@ scoreboard players operation .jumpBoost effectClear += @s jumpBoost2
 scoreboard players operation .jumpBoost effectClear += @s jumpBoost3
 scoreboard players operation .jumpBoost effectClear += @s jumpBoost4
 scoreboard players operation .jumpBoost effectClear += @s jumpBoost5
+scoreboard players operation .jumpBoost effectClear += @s jumpBoost10
 scoreboard players operation .jumpBoost effectClear += @s jumpBoost128
 execute if score .jumpBoost effectClear matches ..0 run effect clear @s minecraft:jump_boost
 scoreboard players reset .levitation effectClear

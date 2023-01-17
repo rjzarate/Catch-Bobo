@@ -16,3 +16,6 @@ execute if score .gameStart game matches 0 run function game:check
 	execute if score .gamePhase game matches 1 run function game:tick/game
 	execute if score .endPhase game matches 1 run function game:tick/end
 	execute if score .winPhase game matches 1 run function game:tick/win
+
+#map
+	execute as @e[type=marker,tag=tree] at @s as @a[distance=..11,gamemode=!spectator] unless score @s jumpBoost10 matches 2.. run scoreboard players set @s jumpBoost10 2
