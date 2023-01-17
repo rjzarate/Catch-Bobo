@@ -5,6 +5,8 @@ tp @s[team=Orangutans] @r[team=Orangutans,gamemode=!spectator]
 
 #clears effects
 	function general:clear_effects
+	function general:clear_modifiers
+	function general:clear_durations
 
 #visual and sound
 	execute at @s run playsound minecraft:ambient.cave player @s ~ ~ ~ 1 0

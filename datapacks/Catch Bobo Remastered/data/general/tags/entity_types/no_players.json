@@ -3,6 +3,7 @@
   "values": [
     "#general:hunters/no_players",
     "#general:orangutans/no_players",
+    "minecraft:bee",
     "minecraft:area_effect_cloud"
   ]
 }

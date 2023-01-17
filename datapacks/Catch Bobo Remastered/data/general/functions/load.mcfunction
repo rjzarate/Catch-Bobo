@@ -21,12 +21,19 @@ gamerule doImmediateRespawn true
 
 #respawn
 	scoreboard objectives add respawnTimer dummy
-#gameplay
+#gameplay stats; mostly for settings
 	scoreboard objectives add gameStats dummy
 #preset
 	function game:preset/1regular
-#actual game stats
+#single game stats
 	scoreboard objectives add game dummy
+#leaving game
+	scoreboard objectives add leaveGame minecraft.custom:minecraft.leave_game 
+#game counter; to check if that player was in that game
+	scoreboard objectives add gameCounter dummy
+#forfeiting
+	scoreboard objectives add ff trigger
+	scoreboard players reset @a ff
 
 #bossbars
 	#bossbar add initial_timer {"text":"Time Until Release","color":"green","bold":true,"italic":false}
@@ -215,6 +222,7 @@ scoreboard objectives add moving dummy
 scoreboard objectives add swapCD dummy
 
 #bobo
+scoreboard objectives add boboDamageTaken minecraft.custom:minecraft.damage_taken
 scoreboard objectives add jackfruitJumper dummy
 scoreboard objectives add jackfruitJumperCD dummy
 scoreboard objectives add blindingBlueberryDuration dummy

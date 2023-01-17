@@ -41,3 +41,6 @@
 #enables friendly fire
 	team modify Hunters friendlyFire true
 
+#map
+	function map:all
+

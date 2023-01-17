@@ -24,12 +24,13 @@
 
 #tag for choosing kit
 	tag @a[team=!Spectators] add choosingClass
+	tag @a[team=Spectators] add spectator
 
 #tellraw and sound
-	title @a times 0 100 20
-	title @a subtitle ["",{"text":"Use the [","color":"yellow","italic":true},{"keybind":"key.use","color":"yellow","italic":true},{"text":"] on a sign to choose a class.","color":"yellow","italic":true}]
-	title @a title {"text":"Choose Your Class!","bold":true,"color":"white"}
-	tellraw @a ["",{"text":"\n"},{"text":"Choose Your Class!\n","bold":true,"color":"white"},{"text":"Use the [","color":"yellow","italic":true},{"keybind":"key.use","color":"yellow","italic":true},{"text":"] on a sign to choose a class.","color":"yellow","italic":true}]
+	title @a[team=!Spectators] times 0 100 20
+	title @a[team=!Spectators] subtitle ["",{"text":"Use the [","color":"yellow","italic":true},{"keybind":"key.use","color":"yellow","italic":true},{"text":"] on a sign to choose a class.","color":"yellow","italic":true}]
+	title @a[team=!Spectators] title {"text":"Choose Your Class!","bold":true,"color":"white"}
+	tellraw @a[team=!Spectators] ["",{"text":"\n"},{"text":"Choose Your Class!\n","bold":true,"color":"white"},{"text":"Use the [","color":"yellow","italic":true},{"keybind":"key.use","color":"yellow","italic":true},{"text":"] on a sign to choose a class.","color":"yellow","italic":true}]
 	playsound minecraft:block.note_block.pling record @a[team=Hunters] -97.0 59 38.0 2 2
 	playsound minecraft:block.note_block.pling record @a[team=Orangutans] -94 59 -3 2 2
 
@@ -80,3 +81,12 @@
 
 #disables friendly fire
 	team modify Hunters friendlyFire false
+
+#forfeit player count
+	execute store result score .hunterCount ff if entity @a[team=Hunters]
+	execute store result score .orangutanCount ff if entity @a[team=Orangutans]
+	scoreboard players remove .hunterCount ff 1
+	scoreboard players remove .orangutanCount ff 1
+	scoreboard players set .hunterForfeit ff 0
+	scoreboard players set .orangutanForfeit ff 0
+	scoreboard players set .boboForfeit ff 0

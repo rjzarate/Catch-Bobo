@@ -53,6 +53,7 @@ scoreboard players reset @s oraCD
 scoreboard players reset @s oraDuration
 scoreboard players reset @s timeStopCD
 scoreboard players reset @s timeStopDuration
+scoreboard players reset @s timeStopChargeUp
 
 #guts
 scoreboard players reset @s repeaterCrossbowCD

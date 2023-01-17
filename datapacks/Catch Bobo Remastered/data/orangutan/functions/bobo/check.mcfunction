@@ -25,3 +25,6 @@ execute if score @s notchApple matches 1.. run function orangutan:bobo/notch_app
 
 #holding fruit finder
 	execute if score %10t universalTimer matches 0 if predicate orangutan:bobo/fruit_finder at @s run function orangutan:bobo/fruit_finder/activate
+
+#damage taken
+	execute if score @s boboDamageTaken >= .boboPermanentDamage gameStats run function orangutan:bobo/damage_taken/max_health

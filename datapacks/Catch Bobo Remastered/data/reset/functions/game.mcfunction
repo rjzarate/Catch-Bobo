@@ -31,6 +31,8 @@
 #world border and bossbars
 	worldborder set 10000
 
+#resets ff
+	scoreboard players reset @a ff
 
 #scoreboards 
 	scoreboard players set .gameStart game 0

@@ -1,0 +1,13 @@
+function map:amazon
+#function map:bees
+#function map:bees_less
+function map:bell
+function map:disco
+function map:dummy
+function map:enderman
+function map:goat
+function map:pickle
+function map:pig
+function map:sheep
+function map:turtle
+function map:panda/summon

@@ -1,5 +1,7 @@
 scoreboard players remove .gameTimer game 1
 
+#checks for people who ff
+	execute as @a[team=!Spectators] if score @s ff matches ..2147483647 run function game:forfeit/add
 
 #if bobo is near a fruit
 	execute as @a[team=Orangutans,tag=bobo,gamemode=!spectator] at @s if entity @e[type=minecraft:item,tag=fruit,distance=..2] run function game:fruit/collect

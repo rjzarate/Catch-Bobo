@@ -33,7 +33,7 @@
 title @a times 10 60 20
 title @a title ["",{"text":"xx","obfuscated":true,"color":"yellow"},{"text":"","color":"yellow"},{"text":"Hunters ","bold":true,"color":"dark_red"},{"text":"are released!","color":"yellow"},{"text":"xx","obfuscated":true,"color":"yellow"}]
 title @a[team=Hunters] subtitle ["",{"text":"Objective: ","color":"light_purple"},{"text":"Kill ","color":"red"},{"text":"Bobo","bold":true,"color":"gold"},{"text":".","color":"aqua"}]
-title @a[team=Orangutans,tag=bobo] subtitle ["",{"text":"Objective: ","color":"light_purple"},{"text":"Complete enough ","color":"aqua"},{"text":"fruits","bold":true,"color":"yellow"},{"text":".","color":"aqua"}]
+title @a[team=Orangutans,tag=bobo] subtitle ["",{"text":"Objective: ","color":"light_purple"},{"text":"Collect enough ","color":"aqua"},{"text":"fruits","bold":true,"color":"yellow"},{"text":".","color":"aqua"}]
 title @a[team=Orangutans,tag=!bobo] subtitle ["",{"text":"Objective:","color":"light_purple"},{"text":" Protect and help ","color":"aqua"},{"text":"Bobo ","bold":true,"color":"gold"},{"text":"win.","color":"aqua"}]
 
 tellraw @a [{"text":"\nThe ","color":"yellow"},{"text":"Hunters ","bold":true,"color":"dark_red"},{"text":"are released!","color":"yellow"}]
@@ -49,3 +49,7 @@ playsound minecraft:entity.wither.spawn player @a -78 37 -115 200 1
 	fill -64 37 -128 -64 46 -127 minecraft:air destroy
 	fill -63 37 -127 -63 46 -126 minecraft:air destroy
 	fill -62 37 -126 -62 46 -126 minecraft:air destroy
+
+#ff enabled
+	scoreboard players enable @a[team=Hunters] ff
+	scoreboard players enable @a[team=Orangutans] ff

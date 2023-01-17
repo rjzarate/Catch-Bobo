@@ -18,3 +18,5 @@
 	scoreboard players set .hunterRespawnTimer gameStats 600
 		#respawn timer for orangutans
 	scoreboard players set .orangutanRespawnTimer gameStats 1200
+		#how much damage bobo can take before taking permanent damage
+	scoreboard players set .boboPermanentDamage gameStats 200

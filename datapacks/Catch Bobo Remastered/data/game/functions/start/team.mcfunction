@@ -13,6 +13,10 @@
 	scoreboard players set .endPhase game 0
 	scoreboard players set .winPhase game 0
 
+#game counter
+	scoreboard players add .game gameCounter 1
+	scoreboard players operation @a gameCounter = .game gameCounter
+
 #teleports players
 	tp @a -99.5 59 23.5 -90 0
 

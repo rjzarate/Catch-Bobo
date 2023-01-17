@@ -6,6 +6,9 @@ execute if score .gameStart game matches 0 run function game:check
 #what happens when a player dies
 	execute as @a[scores={deathCount=1..}] run function game:death/directory
 
+#what happens when a player left mid game and joins back
+	execute as @a[scores={leaveGame=1..}] run function game:leave_game/directory
+
 #different phases of the game
 	execute if score .teamPhase game matches 1 run function game:tick/team
 	execute if score .classPhase game matches 1 run function game:tick/class
