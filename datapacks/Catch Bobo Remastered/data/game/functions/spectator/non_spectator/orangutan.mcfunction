@@ -6,7 +6,7 @@ scoreboard players remove @s respawnTimer 1
 	execute anchored eyes unless block ^ ^ ^ #general:wallbangables run scoreboard players set @s blindness 2
 
 
-execute unless score @s respawnTimer matches 1.. if entity @s[team=Orangutans] run function game:respawn/orangutan
+execute unless score @s respawnTimer matches 1.. run function game:respawn/orangutan
 
 #actionbar
 	scoreboard players operation #int respawnTimer = @s respawnTimer

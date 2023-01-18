@@ -32,8 +32,8 @@
 #title
 	title @a times 0 100 20
 	#subtitle condition
-		execute if score .hunterForfeit ff >= .hunterCount ff run title @a subtitle {"text":"Hunters forfeited.","color":"gray"}
-		execute unless score .hunterForfeit ff >= .hunterCount ff run title @a subtitle {"text":"Bobo has completed all objectives!","color":"gray"}
+		execute run title @a subtitle {"text":"Bobo has completed all objectives!","color":"gray"}
+		execute if score .hunterForfeit ff >= .hunterCount ff unless score .hunterForfeit ff matches 0 run title @a subtitle {"text":"Hunters forfeited.","color":"gray"}
 	title @a[team=Spectators] title {"text":"GAME ENDED","bold":true,"color":"gold"}
 	title @a[team=Orangutans] title {"text":"VICTORY!","bold":true,"color":"gold"}
 	title @a[team=Hunters] title {"text":"DEFEAT","bold":true,"color":"red"}

@@ -33,6 +33,9 @@ gamemode adventure
 	attribute @s[tag=jotaro] minecraft:generic.attack_damage base set 0
 	attribute @s[tag=jotaro] minecraft:generic.attack_speed base set 4
 	attribute @s[tag=jotaro] minecraft:generic.movement_speed base set 0.10000000149011612
+	execute if entity @s[tag=jotaro] at @s run summon minecraft:husk ~ ~ ~ {Silent:1b,Invulnerable:1b,CustomNameVisible:1b,Team:"noCollide",PersistenceRequired:1b,NoAI:1b,Tags:["starPlatinum","noDamage","noTimeStop"],HandItems:[{id:"minecraft:ender_eye",Count:1b,tag:{CustomModelData:1002,Enchantments:[{}]}},{id:"minecraft:ender_eye",Count:1b,tag:{CustomModelData:1002,Enchantments:[{}]}}],CustomName:'{"text":"Star Platinum","color":"dark_red","bold":true,"italic":false}'}
+	execute if entity @s[tag=jotaro] run scoreboard players operation @e[type=minecraft:husk,tag=starPlatinum,tag=!finished] uuidLink = @s uuid
+	execute if entity @s[tag=jotaro] run tag @e[type=minecraft:husk,tag=starPlatinum,tag=!finished] add finished
 #mori
 	attribute @s[tag=mori] minecraft:generic.max_health base set 36
 	attribute @s[tag=mori] minecraft:generic.armor base set 0

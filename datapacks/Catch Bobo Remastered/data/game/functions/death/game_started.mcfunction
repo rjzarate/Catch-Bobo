@@ -19,6 +19,12 @@ tp @s[team=Orangutans] @r[team=Orangutans,gamemode=!spectator]
 
 #if hunter, gives bobo
 	execute if entity @s[team=Hunters] run scoreboard players add @a[team=Orangutans,tag=bobo] starfruitSwapperTangerineTeleporter 1
+	execute if entity @s[team=Hunters] as @a[team=Orangutans,tag=bobo] run data modify storage minecraft:inventory Inventory set from entity @s Inventory
+	execute if entity @s[team=Hunters] as @a[team=Orangutans,tag=bobo] run execute store success score #hasItem temp run data get storage minecraft:inventory Inventory[{tag:{Tags:["starfruitSwapper"]}}].Slot
+	execute if entity @s[team=Hunters] as @a[team=Orangutans,tag=bobo] run execute if score #hasItem temp matches 1 store result score #slot temp run data get storage minecraft:inventory Inventory[{tag:{Tags:["starfruitSwapper"]}}].Slot
+	execute if entity @s[team=Hunters] as @a[team=Orangutans,tag=bobo] run execute store success score #hasItem temp run data get storage minecraft:inventory Inventory[{tag:{Tags:["tangerineTeleporter"]}}].Slot
+	execute if entity @s[team=Hunters] as @a[team=Orangutans,tag=bobo] run execute if score #hasItem temp matches 1 store result score #slot temp run data get storage minecraft:inventory Inventory[{tag:{Tags:["tangerineTeleporter"]}}].Slot
+	execute if entity @s[team=Hunters] as @a[team=Orangutans,tag=bobo] run function general:animate/remove/directory
 
 #if bobo, hunters win
 	execute if entity @s[team=Orangutans,tag=bobo] run function game:win/hunters

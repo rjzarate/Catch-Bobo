@@ -29,3 +29,5 @@ kill @e[type=minecraft:item,predicate=general:uuid_link_search]
 #tellraw and sound
 	title @s title [{"text":"xx","obfuscated":true},{"text":" Welcome to ","color":"white","obfuscated":false},{"text":" Catch Bobo ","color":"gold","bold":true,"obfuscated":false},{"text":"xx","obfuscated":true}]
 	execute as @s at @s run playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
+
+scoreboard players set @s firstJoined 1

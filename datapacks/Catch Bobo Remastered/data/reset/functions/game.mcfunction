@@ -69,3 +69,11 @@
 	fill -64 37 -128 -64 46 -127 minecraft:light_blue_stained_glass destroy
 	fill -63 37 -127 -63 46 -126 minecraft:light_blue_stained_glass destroy
 	fill -62 37 -126 -62 46 -126 minecraft:light_blue_stained_glass destroy
+
+#tellraw and sound
+	title @s title [{"text":"xx","obfuscated":true},{"text":" Welcome to ","color":"white","obfuscated":false},{"text":" Catch Bobo ","color":"gold","bold":true,"obfuscated":false},{"text":"xx","obfuscated":true}]
+	execute as @a at @s run playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
+
+#area effect cloud
+	kill @e[type=minecraft:area_effect_cloud,tag=lobbyInfo]
+	summon minecraft:area_effect_cloud 0 54.5 -11 {Tags:["lobbyInfo"],CustomNameVisible:1b,Duration:2147483647,CustomName:'{"text":"Ready","color":"green","bold":true,"italic":false}'}

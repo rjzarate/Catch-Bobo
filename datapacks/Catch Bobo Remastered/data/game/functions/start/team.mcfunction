@@ -31,6 +31,7 @@
 	playsound minecraft:block.note_block.pling record @a -99.5 59 23.5 2 2
 
 #summons area effect clouds
+	kill @e[type=minecraft:area_effect_cloud,tag=lobbyInfo]
 	kill @e[type=minecraft:area_effect_cloud,tag=chooseTeamInfo]
 	summon minecraft:area_effect_cloud -94 60 19 {Tags:["chooseTeamInfo"],CustomNameVisible:1b,Duration:12000,CustomName:'{"text":"Team Orangutans","color":"gold","bold":true,"italic":false}'}
 

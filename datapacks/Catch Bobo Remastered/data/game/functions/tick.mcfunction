@@ -9,6 +9,8 @@ execute if score .gameStart game matches 0 run function game:check
 #what happens when a player left mid game and joins back
 	execute as @a[scores={leaveGame=1..}] run function game:leave_game/directory
 
+#what happens when a player first joined
+	execute as @a unless score @s firstJoined matches 1 run function game:first_joined/lobby
 #different phases of the game
 	execute if score .teamPhase game matches 1 run function game:tick/team
 	execute if score .classPhase game matches 1 run function game:tick/class

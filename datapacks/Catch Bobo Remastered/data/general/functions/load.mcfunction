@@ -28,7 +28,9 @@ gamerule doImmediateRespawn true
 #single game stats
 	scoreboard objectives add game dummy
 #leaving game
-	scoreboard objectives add leaveGame minecraft.custom:minecraft.leave_game 
+	scoreboard objectives add leaveGame minecraft.custom:minecraft.leave_game
+#first joined
+	scoreboard objectives add firstJoined dummy
 #game counter; to check if that player was in that game
 	scoreboard objectives add gameCounter dummy
 #forfeiting
