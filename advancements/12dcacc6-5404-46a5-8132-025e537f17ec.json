@@ -203,6 +203,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-01-18 22:11:52 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_sandstone": {
     "criteria": {
       "has_sand": "2021-06-17 23:02:25 -0700"
@@ -260,6 +266,12 @@
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2021-06-17 23:16:10 -0700"
+    },
+    "done": true
+  },
+  "orangutan:impostor/damage_taken": {
+    "criteria": {
+      "requirement": "2023-01-18 22:02:34 -0800"
     },
     "done": true
   },
@@ -1302,6 +1314,12 @@
     },
     "done": true
   },
+  "hunter:jotaro/damage_taken": {
+    "criteria": {
+      "requirement": "2023-01-18 22:02:34 -0800"
+    },
+    "done": true
+  },
   "minecraft:adventure/honey_block_slide": {
     "criteria": {
       "honey_block_slide": "2021-06-18 01:48:26 -0700"
@@ -1355,6 +1373,12 @@
       "has_smooth_quartz": "2021-06-21 18:50:47 -0700"
     },
     "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jungle": "2023-01-18 22:02:35 -0800"
+    },
+    "done": false
   },
   "minecraft:recipes/misc/book": {
     "criteria": {
@@ -1608,6 +1632,12 @@
     },
     "done": true
   },
+  "entity_hit_matching:on_hit": {
+    "criteria": {
+      "target": "2023-01-18 22:40:23 -0800"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bone_meal": "2021-06-17 23:17:21 -0700"
@@ -1620,5 +1650,5 @@
     },
     "done": true
   },
-  "DataVersion": 2724
+  "DataVersion": 3218
 }

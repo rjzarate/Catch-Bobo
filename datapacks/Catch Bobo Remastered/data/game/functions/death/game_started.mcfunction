@@ -3,6 +3,9 @@ gamemode spectator
 tp @s[team=Hunters] @r[team=Hunters,gamemode=!spectator]
 tp @s[team=Orangutans] @r[team=Orangutans,gamemode=!spectator]
 
+#if mori and geundoowun activated, gives geundoowun back
+	execute if score @s[tag=mori] geundoowunDuration < .chargeUp20t noeseonStats run function hunter:mori/geundoowun/give_geundoowun
+
 #clears effects
 	function general:clear_effects
 	function general:clear_modifiers
@@ -25,6 +28,8 @@ tp @s[team=Orangutans] @r[team=Orangutans,gamemode=!spectator]
 	execute if entity @s[team=Hunters] as @a[team=Orangutans,tag=bobo] run execute store success score #hasItem temp run data get storage minecraft:inventory Inventory[{tag:{Tags:["tangerineTeleporter"]}}].Slot
 	execute if entity @s[team=Hunters] as @a[team=Orangutans,tag=bobo] run execute if score #hasItem temp matches 1 store result score #slot temp run data get storage minecraft:inventory Inventory[{tag:{Tags:["tangerineTeleporter"]}}].Slot
 	execute if entity @s[team=Hunters] as @a[team=Orangutans,tag=bobo] run function general:animate/remove/directory
+
+
 
 #if bobo, hunters win
 	execute if entity @s[team=Orangutans,tag=bobo] run function game:win/hunters

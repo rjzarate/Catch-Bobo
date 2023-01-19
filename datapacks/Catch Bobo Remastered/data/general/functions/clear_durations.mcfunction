@@ -2,6 +2,8 @@
 scoreboard players set @s durianDecoyDuration 0
 
 #impostor
+scoreboard players set @s reportBodyDuration 0
+scoreboard players set @s reportBodyChargeUp 0
 scoreboard players set @s sabotageDuration 0
 scoreboard players set @s sabotageChargeUp 0
 

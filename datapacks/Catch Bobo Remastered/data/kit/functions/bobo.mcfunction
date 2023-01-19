@@ -60,7 +60,7 @@ item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.4 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with compass{display:{Name:'{"text":"Fruit Finder","color":"gold","bold":true,"italic":false}'},Tags:["bobo","fruitFinder"],fruitFinder:1,LodestoneDimension:"minecraft:overworld",LodestoneTracked:1b,LodestonePos:{X:0,Y:0,Z:0}} 1
+item replace entity @s weapon.mainhand with compass{display:{Name:'{"text":"Fruit Finder","color":"gold","bold":true,"italic":false}'},Tags:["bobo","fruitFinder"],fruitFinder:1,LodestoneDimension:"minecraft:overworld",LodestoneTracked:1b,LodestonePos:{X:0,Y:0,Z:0},noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item replace block 0 0 0 container.5 from entity @s weapon.mainhand
 

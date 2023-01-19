@@ -64,7 +64,7 @@ scoreboard players operation .cooldown20t sabotageStats *= #20 constant
 scoreboard players operation .duration20t sabotageStats *= #20 constant
 scoreboard players operation .chargeUp20t sabotageStats *= #20 constant
 
-item replace entity @s weapon.mainhand with compass{display:{Name:'{"text":"Bobo Finder","color":"gold","bold":true,"italic":false}'},Tags:["impostor","boboFinder"],boboFinder:1,LodestoneDimension:"minecraft:overworld",LodestoneTracked:1b,LodestonePos:{X:0,Y:0,Z:0}} 1
+item replace entity @s weapon.mainhand with compass{display:{Name:'{"text":"Bobo Finder","color":"gold","bold":true,"italic":false}'},Tags:["impostor","boboFinder"],boboFinder:1,LodestoneDimension:"minecraft:overworld",LodestoneTracked:1b,LodestonePos:{X:0,Y:0,Z:0},noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item replace block 0 0 0 container.8 from entity @s weapon.mainhand
 

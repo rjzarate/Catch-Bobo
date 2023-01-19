@@ -35,6 +35,45 @@
     },
     "done": true
   },
+  "entity_hit_matching:on_hurt": {
+    "criteria": {
+      "nbit7": "2023-01-18 22:36:04 -0800",
+      "nbit3": "2023-01-18 22:36:04 -0800",
+      "nbit15": "2023-01-18 22:36:04 -0800",
+      "nbit4": "2023-01-18 22:36:04 -0800",
+      "nbit14": "2023-01-18 22:36:04 -0800",
+      "nbit5": "2023-01-18 22:36:04 -0800",
+      "nbit13": "2023-01-18 22:36:04 -0800",
+      "nbit6": "2023-01-18 22:36:04 -0800",
+      "nbit19": "2023-01-18 22:36:04 -0800",
+      "nbit0": "2023-01-18 22:36:04 -0800",
+      "nbit18": "2023-01-18 22:36:04 -0800",
+      "nbit17": "2023-01-18 22:36:04 -0800",
+      "nbit2": "2023-01-18 22:36:04 -0800",
+      "nbit16": "2023-01-18 22:36:04 -0800",
+      "nbit22": "2023-01-18 22:36:04 -0800",
+      "nbit21": "2023-01-18 22:36:04 -0800",
+      "nbit20": "2023-01-18 22:36:04 -0800",
+      "nbit26": "2023-01-18 22:36:04 -0800",
+      "nbit25": "2023-01-18 22:36:04 -0800",
+      "nbit24": "2023-01-18 22:36:04 -0800",
+      "nbit23": "2023-01-18 22:36:04 -0800",
+      "nbit29": "2023-01-18 22:36:04 -0800",
+      "nbit28": "2023-01-18 22:36:04 -0800",
+      "nbit27": "2023-01-18 22:36:04 -0800",
+      "nbit31": "2023-01-18 22:36:04 -0800",
+      "nbit30": "2023-01-18 22:36:04 -0800",
+      "bit9": "2023-01-18 22:36:04 -0800",
+      "bit8": "2023-01-18 22:32:57 -0800",
+      "bit1": "2023-01-18 22:36:04 -0800",
+      "bit2": "2023-01-18 22:32:57 -0800",
+      "bit0": "2023-01-18 22:32:57 -0800",
+      "nbit11": "2023-01-18 22:36:04 -0800",
+      "bit12": "2023-01-18 22:36:04 -0800",
+      "bit10": "2023-01-18 22:36:04 -0800"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2021-07-13 20:40:08 -0700"
@@ -56,6 +95,12 @@
   "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2021-07-13 20:40:08 -0700"
+    },
+    "done": true
+  },
+  "hunter:jotaro/damage_taken": {
+    "criteria": {
+      "requirement": "2023-01-18 22:12:34 -0800"
     },
     "done": true
   },
@@ -88,6 +133,12 @@
       "has_stone": "2021-07-13 20:40:08 -0700"
     },
     "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jungle": "2023-01-18 22:12:34 -0800"
+    },
+    "done": false
   },
   "minecraft:recipes/misc/book": {
     "criteria": {
@@ -188,6 +239,12 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2021-07-13 20:40:08 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-01-18 22:23:30 -0800"
     },
     "done": true
   },
@@ -305,6 +362,12 @@
     },
     "done": true
   },
+  "orangutan:impostor/damage_taken": {
+    "criteria": {
+      "requirement": "2023-01-18 22:12:34 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_iron_block": "2021-07-07 12:53:33 -0700"
@@ -365,6 +428,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2023-01-18 22:21:20 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_orange_dye": "2021-07-11 00:39:46 -0700"
@@ -398,6 +467,12 @@
   "minecraft:recipes/building_blocks/jungle_planks": {
     "criteria": {
       "has_logs": "2021-06-29 20:45:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2023-01-18 22:21:20 -0800"
     },
     "done": true
   },
@@ -479,13 +554,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/soul_campfire": {
+  "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_stick": "2021-06-29 21:14:45 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/combat/crossbow": {
+  "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_stick": "2021-06-29 21:14:45 -0700"
     },
@@ -533,5 +608,5 @@
     },
     "done": true
   },
-  "DataVersion": 2724
+  "DataVersion": 3218
 }

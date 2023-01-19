@@ -13,6 +13,9 @@ scoreboard players reset @s guavaGrenadeHotPotatoPlanterCD
 scoreboard players reset @s killCD
 scoreboard players reset @s ventCD
 scoreboard players reset @s createVentCD
+scoreboard players reset @s reportBodyCD
+scoreboard players reset @s reportBodyDuration
+scoreboard players reset @s reportBodyChargeUp
 scoreboard players reset @s sabotageCD
 scoreboard players reset @s sabotageDuration
 scoreboard players reset @s sabotageChargeUp
