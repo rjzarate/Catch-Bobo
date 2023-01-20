@@ -1,7 +1,7 @@
 scoreboard players operation #battery temp = @s battery
 
 #trojan horse
-	execute if score #battery temp < .trojanHorseBatteryUsage hackerStats run function hunter:hacker/grayscale/add/trojan_horse
+	#execute if score #battery temp < .trojanHorseBatteryUsage hackerStats run function hunter:hacker/grayscale/add/trojan_horse
 
 #rootkit
 	execute if score #battery temp < .rootkitBatteryUsage hackerStats run function hunter:hacker/grayscale/add/rootkit
