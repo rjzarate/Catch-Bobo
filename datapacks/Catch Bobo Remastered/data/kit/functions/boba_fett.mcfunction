@@ -14,7 +14,7 @@ effect give @s minecraft:instant_health 1 100 true
 
 #ability reset
 function general:clear_abilities
-scoreboard players set @s ee-3Ammo 30
+scoreboard players set @s ee-3Ammo 45
 scoreboard players set @s flamethrowerAmmo 50
 scoreboard players set @s jetpackFuelAmmo 2
 scoreboard players set @s jetpackFuel 200
@@ -27,7 +27,7 @@ item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Man
 
 
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"EE-3","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["bobaFett","ee-3","auto","rangeDamage","burstFire","range","fireRate","ammo","maxAmmo","cooldown","ammoCooldown","actionbarSpecial","actionbarBobaFettAmmo"],rangeDamage:2,burstFire:3,fireRate:100,range:24,maxAmmo:30,cooldown:20,ammoCooldown:9,noDrop:1,CustomModelData:1400} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"EE-3","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["bobaFett","ee-3","auto","rangeDamage","burstFire","range","fireRate","ammo","maxAmmo","cooldown","ammoCooldown","actionbarSpecial","actionbarBobaFettAmmo"],rangeDamage:2,burstFire:3,fireRate:100,range:24,maxAmmo:45,cooldown:20,ammoCooldown:15,noDrop:1,CustomModelData:1400} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
