@@ -9,12 +9,13 @@
 	tag @s remove kitTeemo
 	tag @s remove kitBobaFett
 	tag @s remove kitGuts
-	tag @s remove kitMori
-	tag @s remove kitOfficer
-	tag @s remove kitPepsiMan
 	tag @s remove kitHacker
 	tag @s remove kitJett
 	tag @s remove kitJotaro
+	tag @s remove kitMori
+	tag @s remove kitOfficer
+	tag @s remove kitPepsiMan
+	tag @s remove kitSpy
 	tag @s remove kitVaccinator
 #display tag means they cannot use their abilities, but can still read and item swap them
 	tag @s remove displayOnly
@@ -42,6 +43,7 @@
 	tag @s remove hacker
 	tag @s remove jett
 	tag @s remove jotaro
+	tag @s remove spy
 	tag @s remove vaccinator
 #apply range
 	tag @s remove inRange
