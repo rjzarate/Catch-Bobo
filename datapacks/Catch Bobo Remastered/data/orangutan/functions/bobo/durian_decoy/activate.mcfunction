@@ -59,14 +59,14 @@ execute store result score @s SelectedItemSlotDurianDecoy run data get entity @s
 data modify storage minecraft:bobo durianDecoy set from entity @s SelectedItem
 clear @s minecraft:ender_eye{Tags:["durianDecoy"]}
 
-execute at @s as @e[type=minecraft:armor_stand,tag=durianDecoy,tag=!finished] run data modify entity @s Rotation set from entity @p[team=Orangutans,tag=bobo] Rotation
-execute at @s as @e[type=minecraft:armor_stand,tag=durianDecoy,tag=!finished] run data modify entity @s Motion set from entity @p[team=Orangutans,tag=bobo] Motion
+execute at @s as @e[type=minecraft:armor_stand,tag=durianDecoy,tag=!finished] run data modify entity @s Rotation set from entity @p[tag=orangutan,tag=bobo] Rotation
+execute at @s as @e[type=minecraft:armor_stand,tag=durianDecoy,tag=!finished] run data modify entity @s Motion set from entity @p[tag=orangutan,tag=bobo] Motion
 execute at @s as @e[type=minecraft:armor_stand,tag=durianDecoy,tag=!finished] run item replace entity @s armor.head with minecraft:player_head{display:{Name:'{"text":"Orangutans\'s Head","color":"gold","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],SkullOwner:{Id:[I;1571403990,1660439100,-2108560740,2139713089],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTEyYzQzNzI2NTMwMGYzMjRkZDBlZWNhNzM0ODQ5MWVjYzc4ZmY3MTJkNTcyNDFlOTg3ZmFlNjMzMjAzYmU1ZSJ9fX0="}]}},bobo:1} 1
 execute as @e[type=minecraft:armor_stand,tag=durianDecoy,tag=!finished] run item replace entity @s armor.chest with leather_chestplate{display:{Name:'{"text":"Leather Chestplate","color":"gold","bold":true,"italic":false}',color:16755760},HideFlags:4,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
 execute as @e[type=minecraft:armor_stand,tag=durianDecoy,tag=!finished] run item replace entity @s armor.legs with leather_leggings{display:{Name:'{"text":"Leather Leggings","color":"gold","bold":true,"italic":false}',color:16755760},HideFlags:4,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
 execute as @e[type=minecraft:armor_stand,tag=durianDecoy,tag=!finished] run item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Leather Boots","color":"gold","bold":true,"italic":false}',color:16755760},HideFlags:4,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
-execute at @s as @e[type=minecraft:armor_stand,tag=durianDecoy,tag=!finished] run item replace entity @s weapon.mainhand from entity @p[team=Orangutans,tag=bobo] weapon.mainhand
-execute at @s as @e[type=minecraft:armor_stand,tag=durianDecoy,tag=!finished] run item replace entity @s weapon.offhand from entity @p[team=Orangutans,tag=bobo] weapon.offhand
+execute at @s as @e[type=minecraft:armor_stand,tag=durianDecoy,tag=!finished] run item replace entity @s weapon.mainhand from entity @p[tag=orangutan,tag=bobo] weapon.mainhand
+execute at @s as @e[type=minecraft:armor_stand,tag=durianDecoy,tag=!finished] run item replace entity @s weapon.offhand from entity @p[tag=orangutan,tag=bobo] weapon.offhand
 
 scoreboard players operation @e[type=minecraft:armor_stand,tag=durianDecoy,tag=!finished] durianDecoyDuration = .decoy stats
 scoreboard players operation @e[type=minecraft:armor_stand,tag=durianDecoy,tag=!finished] durianDecoyDuration *= #20 constant

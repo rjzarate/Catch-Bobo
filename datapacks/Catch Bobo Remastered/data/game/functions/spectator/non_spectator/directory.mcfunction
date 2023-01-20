@@ -1,2 +1,2 @@
-execute if entity @s[team=Hunters] at @s run function game:spectator/non_spectator/hunter
-execute if entity @s[team=Orangutans] at @s run function game:spectator/non_spectator/orangutan
+execute if entity @s[tag=hunter] at @s run function game:spectator/non_spectator/hunter
+execute if entity @s[tag=orangutan] at @s run function game:spectator/non_spectator/orangutan

@@ -1,7 +1,7 @@
 scoreboard players remove @s respawnTimer 1
 
 #checks whether they are near a hunter
-	execute unless entity @a[team=Hunters,gamemode=!spectator,distance=..6] run tp @s @p[team=Hunters,gamemode=!spectator]
+	execute unless entity @a[tag=hunter,gamemode=!spectator,distance=..6] run tp @s @p[tag=hunter,gamemode=!spectator]
 #check whether they are in a block
 	execute anchored eyes unless block ^ ^ ^ #general:wallbangables run scoreboard players set @s blindness 2
 

@@ -1,7 +1,7 @@
 
 #links uuid and owner
 	scoreboard players operation @s uuidLink = .search uuid
-	data modify entity @s Owner set from entity @p[team=Hunters,tag=officer] UUID
+	data modify entity @s Owner set from entity @p[tag=hunter,tag=officer] UUID
 
 
 execute store result entity @s Attributes[{Name:"generic.armor"}].Base double 1 run data get storage minecraft:stats tag.dogArmor

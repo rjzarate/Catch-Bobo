@@ -1,7 +1,7 @@
-tag @a[team=Hunters,tag=bobaFett,tag=shooter,gamemode=!spectator] add shot
+tag @a[tag=hunter,tag=bobaFett,tag=shooter,gamemode=!spectator] add shot
 
 #visuals and audio
-execute as @a[team=Hunters,tag=bobaFett,tag=shooter,gamemode=!spectator] at @s run playsound minecraft:entity.arrow.hit_player player @s ~ ~ ~ 0.5 0
+execute as @a[tag=hunter,tag=bobaFett,tag=shooter,gamemode=!spectator] at @s run playsound minecraft:entity.arrow.hit_player player @s ~ ~ ~ 0.5 0
 #execute at @e[type=minecraft:armor_stand,tag=repeaterCrossbow,sort=nearest,tag=moving] run particle minecraft:block minecraft:end_rod ~ ~1 ~ 0 0 0 1 3
 
 #damage

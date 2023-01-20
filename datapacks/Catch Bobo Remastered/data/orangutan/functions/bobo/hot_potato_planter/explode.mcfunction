@@ -1,4 +1,4 @@
-execute as @a[team=Hunters,gamemode=!spectator,tag=!adwared] at @s unless score @s hotPotatoDropped matches 1.. run summon minecraft:creeper ~ ~ ~ {Team:"OrangutansAlt",ExplosionRadius:2b,Fuse:0,CustomName:'{"text":"Hot Potato","color":"gold","bold":true,"italic":false}'}
+execute as @a[tag=hunter,gamemode=!spectator,tag=!adwared] at @s unless score @s hotPotatoDropped matches 1.. run summon minecraft:creeper ~ ~ ~ {Team:"OrangutansAlt",ExplosionRadius:2b,Fuse:0,CustomName:'{"text":"Hot Potato","color":"gold","bold":true,"italic":false}'}
 
 execute as @e[type=minecraft:item,nbt={Item:{tag:{hotPotato:1}}}] run tag @s add hotPotato1
 

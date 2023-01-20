@@ -1,5 +1,5 @@
 #teleports to bobo
-	execute if score #teleport temp matches 0 run teleport @s @r[team=Orangutans,tag=Bobo,gamemode=!spectator]
+	execute if score #teleport temp matches 0 run teleport @s @r[tag=orangutan,tag=Bobo,gamemode=!spectator]
 
 #teleports to you
 	execute if score #teleport temp matches 1 run teleport @s ~ ~ ~

@@ -16,7 +16,7 @@ execute as @e[type=#general:everything/all,tag=timeStoppee] run function hunter:
 execute if score number timeStopDuration matches 1.. run function hunter:jotaro/time_stop/active
 
 #pepsi man's pepsi can | players who have a pepsi can
-execute as @a[team=Hunters,gamemode=!spectator,tag=hasPepsiCan,tag=!timeStoppee,advancements={hunter:pepsi_man/pepsi_can=true}] run function hunter:pepsi_man/pepsi_can/activate
+execute as @a[tag=hunter,gamemode=!spectator,tag=hasPepsiCan,tag=!timeStoppee,advancements={hunter:pepsi_man/pepsi_can=true}] run function hunter:pepsi_man/pepsi_can/activate
 
 #vaccinator arrow check
 execute as @e[type=minecraft:arrow,tag=vaccinator] run function hunter:vaccinator/syringe_launcher/arrow

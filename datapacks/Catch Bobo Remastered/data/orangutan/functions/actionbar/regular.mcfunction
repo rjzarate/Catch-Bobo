@@ -17,7 +17,7 @@ execute if score int actionbarCD matches ..0 if score dec actionbarCD matches ..
 
 ##impostor only
 	#player not in range
-	execute if predicate orangutan:impostor/kill if score int actionbarCD matches ..0 if score dec actionbarCD matches ..0 at @s unless entity @a[team=Hunters,gamemode=!spectator,distance=..4,tag=!impostorStun,tag=!displayOnly,tag=!invincible] run title @s actionbar ["",{"text":"Ready ","bold":true,"color":"yellow"},{"text":"| ","bold":true},{"text":"CD: ","bold":true,"color":"yellow"},{"text":"\u2b24 ","color":"dark_green"},{"text":"(0.0)","italic":true,"color":"#D4D439"}]
+	execute if predicate orangutan:impostor/kill if score int actionbarCD matches ..0 if score dec actionbarCD matches ..0 at @s unless entity @a[tag=hunter,gamemode=!spectator,distance=..4,tag=!impostorStun,tag=!displayOnly,tag=!invincible] run title @s actionbar ["",{"text":"Ready ","bold":true,"color":"yellow"},{"text":"| ","bold":true},{"text":"CD: ","bold":true,"color":"yellow"},{"text":"\u2b24 ","color":"dark_green"},{"text":"(0.0)","italic":true,"color":"#D4D439"}]
 	#vent not in range
 	execute if predicate orangutan:impostor/vent if score int actionbarCD matches ..0 if score dec actionbarCD matches ..0 at @s unless entity @e[type=minecraft:turtle,distance=..3,tag=vent] run title @s actionbar ["",{"text":"Ready ","bold":true,"color":"yellow"},{"text":"| ","bold":true},{"text":"CD: ","bold":true,"color":"yellow"},{"text":"\u2b24 ","color":"dark_green"},{"text":"(0.0)","italic":true,"color":"#D4D439"}]
 	#vent in range

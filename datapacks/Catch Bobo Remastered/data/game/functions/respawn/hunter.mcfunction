@@ -1,4 +1,4 @@
-spreadplayers -72 -120 1 2 under 40 true @s[team=Hunters]
+spreadplayers -72 -120 1 2 under 40 true @s[tag=hunter]
 tag @s remove spectator
 gamemode adventure
 

@@ -2,7 +2,7 @@ scoreboard players remove @s sabotageDuration 1
 
 #for sabotage lights
 	execute if score @s sabotageDuration matches 1.. run scoreboard players operation .search uuidLink = @s uuid
-	execute if score @s sabotageDuration matches 1.. if entity @e[type=minecraft:ocelot,tag=sabotage,tag=lights,predicate=general:uuid_link_search] as @a[team=Hunters,gamemode=!spectator] unless score @s darkness matches 1.. run scoreboard players set @s darkness 2
+	execute if score @s sabotageDuration matches 1.. if entity @e[type=minecraft:ocelot,tag=sabotage,tag=lights,predicate=general:uuid_link_search] as @a[tag=hunter,gamemode=!spectator] unless score @s darkness matches 1.. run scoreboard players set @s darkness 2
 	execute if score @s sabotageDuration matches 1.. unless entity @e[type=minecraft:ocelot,tag=sabotage,predicate=general:uuid_link_search] run scoreboard players set @s sabotageDuration 0
 
 #kills ocelots

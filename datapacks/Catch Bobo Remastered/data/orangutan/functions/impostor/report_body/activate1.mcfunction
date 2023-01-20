@@ -12,13 +12,13 @@ fill 96 22 -237 92 23 -236 minecraft:cyan_stained_glass
 	tag @e[type=minecraft:armor_stand,tag=reportBody,tag=new] remove new
 
 #teleports players
-	tp @a[team=Hunters,tag=!impostorStun] 94 22 -227
+	tp @a[tag=hunter,tag=!impostorStun] 94 22 -227
 	tp @s 94 22 -227
 
 #visual and sound
 	execute positioned 94 22 -227 run playsound minecraft:block.anvil.use player @a ~ ~ ~ 1 0.8
-	title @a[team=Hunters,tag=!impostorStun] times 0 60 20
-	title @a[team=Hunters,tag=!impostorStun] title {"text":"DEAD BODY REPORTED","bold":true,"color":"red"}
+	title @a[tag=hunter,tag=!impostorStun] times 0 60 20
+	title @a[tag=hunter,tag=!impostorStun] title {"text":"DEAD BODY REPORTED","bold":true,"color":"red"}
 
 #stops natural healing
 	tag @s remove noNaturalHealing

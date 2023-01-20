@@ -47,7 +47,7 @@ execute if score @s[tag=!timeStoppee] impostorStunRevive matches 80 at @s run pl
 execute if score @s[tag=!timeStoppee] impostorStunRevive matches 100.. at @s run playsound minecraft:block.enchantment_table.use player @a ~ ~ ~ 2 1.5
 execute if score @s[tag=!timeStoppee] impostorStunRevive matches 100.. run tag @s remove impostorStun
 	#give kit items
-		execute if score @s[tag=!timeStoppee] impostorStunRevive matches 100.. if score @s[team=Hunters,gamemode=!spectator,tag=bobaFett] jetpackFuel matches 1.. run item replace entity @s armor.chest with elytra{display:{Name:'{"text":"Jetpack","color":"dark_red","bold":true,"italic":false}',color:3950130},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:7} 1
+		execute if score @s[tag=!timeStoppee] impostorStunRevive matches 100.. if score @s[tag=hunter,gamemode=!spectator,tag=bobaFett] jetpackFuel matches 1.. run item replace entity @s armor.chest with elytra{display:{Name:'{"text":"Jetpack","color":"dark_red","bold":true,"italic":false}',color:3950130},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:7} 1
 execute if score @s[tag=!timeStoppee] impostorStunRevive matches 100.. run scoreboard players reset @s impostorStunRevive
 
 #tick down

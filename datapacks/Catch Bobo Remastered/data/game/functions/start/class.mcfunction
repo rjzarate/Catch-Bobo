@@ -15,12 +15,12 @@
 	#spectators
 		execute as @a positioned -96 59 15 align xyz unless entity @s[dx=4,dy=4,dz=4] positioned -96 58 27 align xyz unless entity @s[dx=4,dy=4,dz=4] run team join Spectators @s
 #teleports players
-	spreadplayers -97.0 38.0 1 1 under 60 true @a[team=Hunters]
-	spreadplayers -94 -3 1 1 under 60 true @a[team=Orangutans]
+	spreadplayers -97.0 38.0 1 1 under 60 true @a[tag=hunter]
+	spreadplayers -94 -3 1 1 under 60 true @a[tag=orangutan]
 	tp @a[team=Spectators] -157 61 26 -90 0
 #orientates players
-	execute as @a[team=Hunters] at @s run tp @s ~ ~ ~ -45 0
-	execute as @a[team=Orangutans] at @s run tp @s ~ ~ ~ 180 0
+	execute as @a[tag=hunter] at @s run tp @s ~ ~ ~ -45 0
+	execute as @a[tag=orangutan] at @s run tp @s ~ ~ ~ 180 0
 
 #tag for choosing kit
 	tag @a[team=!Spectators] add choosingClass
@@ -31,8 +31,8 @@
 	title @a[team=!Spectators] subtitle ["",{"text":"Use the [","color":"yellow","italic":true},{"keybind":"key.use","color":"yellow","italic":true},{"text":"] on a sign to choose a class.","color":"yellow","italic":true}]
 	title @a[team=!Spectators] title {"text":"Choose Your Class!","bold":true,"color":"white"}
 	tellraw @a[team=!Spectators] ["",{"text":"\n"},{"text":"Choose Your Class!\n","bold":true,"color":"white"},{"text":"Use the [","color":"yellow","italic":true},{"keybind":"key.use","color":"yellow","italic":true},{"text":"] on a sign to choose a class.","color":"yellow","italic":true}]
-	playsound minecraft:block.note_block.pling record @a[team=Hunters] -97.0 59 38.0 2 2
-	playsound minecraft:block.note_block.pling record @a[team=Orangutans] -94 59 -3 2 2
+	playsound minecraft:block.note_block.pling record @a[tag=hunter] -97.0 59 38.0 2 2
+	playsound minecraft:block.note_block.pling record @a[tag=orangutan] -94 59 -3 2 2
 
 
 
@@ -83,8 +83,8 @@
 	team modify Hunters friendlyFire false
 
 #forfeit player count
-	execute store result score .hunterCount ff if entity @a[team=Hunters]
-	execute store result score .orangutanCount ff if entity @a[team=Orangutans]
+	execute store result score .hunterCount ff if entity @a[tag=hunter]
+	execute store result score .orangutanCount ff if entity @a[tag=orangutan]
 	scoreboard players remove .hunterCount ff 1
 	scoreboard players remove .orangutanCount ff 1
 	scoreboard players set .hunterForfeit ff 0

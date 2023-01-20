@@ -11,5 +11,5 @@ execute as @e[type=minecraft:zombie,tag=animatronic,predicate=general:uuid_link_
 #sound and visual
 	particle minecraft:portal ~ ~ ~ .2 .75 .2 .3 20
 	playsound minecraft:entity.illusioner.mirror_move player @a ~ ~ ~ 1 1.5
-	execute if entity @e[type=minecraft:zombie,tag=animatronic,predicate=general:uuid_link_search,sort=random] as @a[team=Orangutans,tag=Bobo,gamemode=!spectator] at @s run particle minecraft:portal ~ ~ ~ .2 .75 .2 .3 20
-	execute as @a[team=Orangutans,tag=Bobo,gamemode=!spectator] at @s run playsound minecraft:entity.illusioner.mirror_move player @a ~ ~ ~ 1 1.5
+	execute if entity @e[type=minecraft:zombie,tag=animatronic,predicate=general:uuid_link_search,sort=random] as @a[tag=orangutan,tag=Bobo,gamemode=!spectator] at @s run particle minecraft:portal ~ ~ ~ .2 .75 .2 .3 20
+	execute as @a[tag=orangutan,tag=Bobo,gamemode=!spectator] at @s run playsound minecraft:entity.illusioner.mirror_move player @a ~ ~ ~ 1 1.5

@@ -8,8 +8,8 @@
 	scoreboard players set .winPhase game 0
 
 #teleports players
-	spreadplayers -72 -120 1 2 under 40 true @a[team=Hunters]
-	spreadplayers 96 -288 1 3 under 120 true @a[team=Orangutans]
+	spreadplayers -72 -120 1 2 under 40 true @a[tag=hunter]
+	spreadplayers 96 -288 1 3 under 120 true @a[tag=orangutan]
 
 	gamemode spectator @a[team=Spectators]
 	execute as @a[team=Spectators] run tp @s @r[team=!Spectators]
