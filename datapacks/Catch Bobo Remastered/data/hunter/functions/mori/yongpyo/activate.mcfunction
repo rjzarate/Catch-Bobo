@@ -1,10 +1,11 @@
 function general:get_stats
 scoreboard players operation .cooldown stats *= #20 constant
 scoreboard players operation .duration stats *= #20 constant
-#scoreboard players operation @s yongpyoCD = .cooldown stats
+scoreboard players operation @s yongpyoCD = .cooldown stats
 scoreboard players operation @s yongpyoCD += .duration stats
 scoreboard players operation @s yongpyoDuration = .duration stats
-
+#adds glint
+	item modify entity @s weapon.mainhand kit:enchantment/glint
 
 item replace entity @s armor.head with minecraft:player_head{display:{Name:'{"text":"Mori Jin\'s Head","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],SkullOwner:{Id:[I;948581651,700926092,-1522528496,505735745],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzJhYmZjMWFhNjQ0MzFlNmQ2ZjZmMDk0YzJiNGU1Y2U2MTJhN2JlYTNlNWYwY2M3Nzg2MjJkNzIyZTI4NzU2ZCJ9fX0="}]}},HideFlags:77,mori:1} 1
 

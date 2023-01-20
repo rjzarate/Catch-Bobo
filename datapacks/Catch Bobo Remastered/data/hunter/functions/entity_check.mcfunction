@@ -1,6 +1,5 @@
 #guts' repeater crossbow | moving the projectile (armor stand)
 execute as @e[type=minecraft:armor_stand,tag=repeaterCrossbow,tag=!timeStoppee] at @s run function hunter:guts/repeater_crossbow/projectile
-execute as @e[type=minecraft:armor_stand,tag=repeaterCrossbow,tag=!timeStoppee] at @s run function hunter:guts/repeater_crossbow/projectile
 #guts' cannon arm | moving the projectile (armor stand)
 execute as @e[type=minecraft:armor_stand,tag=cannonArm,tag=!timeStoppee] at @s run function hunter:guts/cannon_arm/projectile
 execute as @e[type=minecraft:armor_stand,tag=cannonArm,tag=!timeStoppee] at @s run function hunter:guts/cannon_arm/projectile

@@ -61,3 +61,4 @@ scoreboard players set @s yongpyoDuration 0
 #mobs linked
 	scoreboard players operation .search uuidLink = @s uuid
 	kill @e[type=minecraft:wolf,tag=dog,predicate=general:uuid_link_search]
+	kill @e[type=minecraft:ocelot,tag=sabotage,predicate=general:uuid_link_search]

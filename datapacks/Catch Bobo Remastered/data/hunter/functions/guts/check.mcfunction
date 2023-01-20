@@ -11,6 +11,7 @@ execute if entity @s[advancements={hunter:guts=true}] run advancement revoke @s 
 
 #crossbow activation
 execute if entity @s[advancements={hunter:guts/crossbow=true},tag=!impostorStun,tag=!displayOnly] unless predicate general:is_sneaking if score @s repeaterCrossbowAmmo matches 1.. unless score @s repeaterCrossbowFireRate matches 1.. run function hunter:guts/repeater_crossbow/activate
+execute unless predicate hunter:guts/left_arm0 run scoreboard players remove @s[scores={repeaterCrossbowChargeDelay=1..}] repeaterCrossbowChargeDelay 1
 execute if entity @s[advancements={hunter:guts/crossbow=true},tag=!impostorStun,tag=!displayOnly] if predicate general:is_sneaking unless score @s cannonArmCD matches 1.. run function hunter:guts/cannon_arm/activate
 execute if entity @s[advancements={hunter:guts/crossbow=true}] run advancement revoke @s only hunter:guts/crossbow
 

@@ -13,6 +13,7 @@ execute store result score .fireAspect stats run data get storage minecraft:stat
 
 execute store result score .maxAmmo stats run data get storage minecraft:stats tag.maxAmmo
 execute store result score .ammoCooldown stats run data get storage minecraft:stats tag.ammoCooldown
+execute store result score .chargeDelay stats run data get storage minecraft:stats tag.chargeDelay
 execute store result score .chargeDelayDecimal stats run data get storage minecraft:stats tag.chargeDelayDecimal
 execute store result score .fireRate stats run data get storage minecraft:stats tag.fireRate
 execute store result score .scopeTime stats run data get storage minecraft:stats tag.scopeTime

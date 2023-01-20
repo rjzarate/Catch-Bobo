@@ -1,6 +1,6 @@
 #execute run particle witch ~ ~ ~ 0.1 0.1 0.1 0 3 force
 
-execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[type=#general:everything,tag=!shot,tag=!spectator,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 as @s[dx=0] run function hunter:jotaro/star_finger/hit
+execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[type=#general:everything,tag=!shot,tag=!spectator,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run function hunter:jotaro/star_finger/hit
 #execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[type=#general:everything,tag=!shotStarFinger,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 as @e[type=#general:everything,tag=!shotStarFinger,dx=0] run playsound minecraft:entity.arrow.hit_player player @s ~ ~ ~ 0.5 0
 #execute as @e[type=#general:everything,tag=!shotStarFinger,dy=1.5] run function cb:game/during/player/skills/hunters/jotaro/star_finger/damage
 

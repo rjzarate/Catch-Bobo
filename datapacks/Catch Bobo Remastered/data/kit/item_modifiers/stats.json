@@ -967,6 +967,39 @@
           "italic": false
         },
         {
+          "nbt": "SelectedItem.tag.chargeDelay",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"chargeDelay\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Rev Duration: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
           "text": "0.",
           "color": "red",
           "italic": false
@@ -3587,9 +3620,6 @@
     "entity": "this",
     "lore": [
       {
-        "text": ""
-      },
-      {
         "text": "Dog:",
         "color": "gray",
         "italic": false
@@ -5144,7 +5174,7 @@
         {
           "nbt": "SelectedItem.tag.animatronicMeleeDamage",
           "entity": "@s",
-          "color": "green",
+          "color": "red",
           "italic": false
         }
       ],
@@ -5157,7 +5187,7 @@
         {
           "nbt": "SelectedItem.tag.animatronicMovementSpeed",
           "entity": "@s",
-          "color": "green",
+          "color": "aqua",
           "italic": false
         }
       ]

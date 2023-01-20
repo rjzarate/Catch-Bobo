@@ -20,4 +20,7 @@ execute if entity @s[type=minecraft:player] run scoreboard players operation @s 
 kill @e[type=minecraft:marker,tag=ee-3,sort=nearest,tag=moving]
 scoreboard players set #temp ee-3Iteration 0
 
+#sounds
+	playsound minecraft:entity.player.hurt player @a ~ ~ ~ 0.5 1.2
+
 tag @a[tag=shot] remove shot

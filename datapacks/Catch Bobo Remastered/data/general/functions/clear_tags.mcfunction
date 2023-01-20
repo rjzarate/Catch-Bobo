@@ -58,7 +58,7 @@
 #pepsi man's pepsi can
 	tag @s remove hasPepsiCan
 #hacker's adware
-	tag @s remove adware
+	tag @s remove adwared
 #impostor stun
 	tag @s remove impostorStun
 #impostor invincibility

@@ -6,7 +6,7 @@ team join Orangutans @s
 clear @s
 
 #base attributes
-attribute @s minecraft:generic.max_health base set 80
+attribute @s minecraft:generic.max_health base set 70
 attribute @s minecraft:generic.armor base set 0
 attribute @s minecraft:generic.attack_damage base set 0
 attribute @s minecraft:generic.attack_speed base set 4
@@ -15,7 +15,7 @@ effect give @s minecraft:instant_health 1 100 true
 
 #ability resets
 function general:clear_abilities
-scoreboard objectives add boboDamageTaken minecraft.custom:minecraft.damage_taken
+scoreboard players reset @s boboDamageTaken
 scoreboard players reset @s jackfruitJumper
 scoreboard players set @s blindingBlueberryDurianDecoyCD 0
 scoreboard players set @s guavaGrenadeHotPotatoPlanterAmmo 3
@@ -32,7 +32,7 @@ item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Honeydew Hopper","color":"gold","bold":true,"italic":false}'},Tags:["bobo","jackfruitJumper","jumpBoostX","cooldown","actionbarActive"],CustomModelData:11,cooldown:5,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Honeydew Hopper","color":"gold","bold":true,"italic":false}'},Tags:["bobo","jackfruitJumper","jumpBoostX","cooldown","actionbarActive"],CustomModelData:11,cooldown:3,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.1 from entity @s weapon.mainhand
@@ -42,7 +42,7 @@ item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.2 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Guava Grenade","color":"gold","bold":true,"italic":false}'},Tags:["bobo","guavaGrenade","explosion","fuse","ammo","maxAmmo","fireRate","range","uponDrop","cooldown","ammoCooldown","actionbarAmmo"],CustomModelData:4,guavaGrenade:1,explosion:3,fuse:25,fireRate:100,range:15,maxAmmo:3,cooldown:50,ammoCooldown:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Guava Grenade","color":"gold","bold":true,"italic":false}'},Tags:["bobo","guavaGrenade","explosion","fuse","ammo","maxAmmo","fireRate","range","uponDrop","cooldown","ammoCooldown","actionbarAmmo"],CustomModelData:4,guavaGrenade:1,explosion:3,fuse:5,fireRate:100,range:15,maxAmmo:3,cooldown:50,ammoCooldown:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand

@@ -6,7 +6,7 @@ team join Orangutans @s
 clear @s
 
 #base attributes
-attribute @s minecraft:generic.max_health base set 50
+attribute @s minecraft:generic.max_health base set 40
 attribute @s minecraft:generic.armor base set 0
 attribute @s minecraft:generic.attack_damage base set 0
 attribute @s minecraft:generic.attack_speed base set 4
@@ -15,6 +15,7 @@ effect give @s minecraft:instant_health 1 100 true
 
 #ability resets
 function general:clear_abilities
+scoreboard players set @s phoneIAlwaysComeBackAmmo 5
 scoreboard players set @s remnantMachineAmmo 2
 
 item replace entity @s armor.head with minecraft:player_head{display:{Name:'{"text":"Purple Guy\'s Head","color":"gold","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],SkullOwner:{Id:[I;1008750935,995904503,-1494871008,523943185],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjcxZTI4MzU0NWFiZTQ3YzFhMzBhMzAyYWIyODkwNmYxODgxMTVkZGZlZWIwN2ZiOTY2YjEyNmQ1ZjM0MDAxMiJ9fX0="}]}},HideFlags:1,purpleGuy:1} 1

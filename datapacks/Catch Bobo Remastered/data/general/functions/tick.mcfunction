@@ -7,6 +7,8 @@ scoreboard players operation %20t universalTimer = 20t universalTimer
 scoreboard players operation %10t universalTimer = 20t universalTimer
 scoreboard players operation %20t universalTimer %= #20 constant
 scoreboard players operation %10t universalTimer %= #10 constant
+scoreboard players operation %5m universalTimer = 1s universalTimer
+scoreboard players operation %5m universalTimer %= #300 constant
 
 execute as @e[type=#general:everything] run function general:apply/effect/give
 execute as @e[type=#general:everything,tag=!timeStoppee] run function general:apply/effect/give_over_time

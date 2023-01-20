@@ -6,7 +6,7 @@ team join Orangutans @s
 clear @s
 
 #base attributes
-attribute @s minecraft:generic.max_health base set 50
+attribute @s minecraft:generic.max_health base set 30
 attribute @s minecraft:generic.armor base set 0
 attribute @s minecraft:generic.attack_damage base set 0
 attribute @s minecraft:generic.attack_speed base set 4
@@ -24,7 +24,7 @@ item replace entity @s armor.legs with leather_leggings{display:{Name:'{"text":"
 item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Teemo\'s Boots","color":"gold","bold":true,"italic":false}',color:6192150},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:feather_falling",lvl:5s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:7,teemo:1} 1
 
 
-item replace entity @s weapon.mainhand with crossbow{display:{Name:'{"text":"Toxic Shot","color":"gold","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:quick_charge",lvl:6s}],ChargedProjectiles:[{id:"minecraft:tipped_arrow",Count:1b,tag:{CustomPotionEffects:[{Id:27b,Amplifier:49b,Duration:100}],CustomPotionColor:8200123}},{},{}],Tags:["teemo","toxicShot","arrowDamage","poison1","fireRate","range","ammo","maxAmmo","cooldown","ammoCooldown","actionbarAmmo"],HideFlags:47,Unbreakable:1b,Charged:1b,toxicShot:1,arrowDamage:0,poison1:3,fireRate:250,range:20,maxAmmo:30,ammoCooldown:10,cooldown:25,CustomModelData:100,noDrop:1} 1
+item replace entity @s weapon.mainhand with crossbow{display:{Name:'{"text":"Toxic Shot","color":"gold","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:quick_charge",lvl:6s}],ChargedProjectiles:[{id:"minecraft:tipped_arrow",Count:1b,tag:{CustomPotionEffects:[{Id:27b,Amplifier:49b,Duration:100}],CustomPotionColor:8200123}},{},{}],Tags:["teemo","toxicShot","arrowDamage","poison1","fireRate","range","ammo","maxAmmo","cooldown","ammoCooldown","actionbarAmmo"],HideFlags:47,Unbreakable:1b,Charged:1b,toxicShot:1,arrowDamage:0,poison1:3,fireRate:200,range:20,maxAmmo:30,ammoCooldown:10,cooldown:25,CustomModelData:100,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
@@ -48,7 +48,7 @@ item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.2 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Noxious Trap","color":"gold","bold":true,"italic":false}'},Tags:["teemo","noxiousTrap","explosionRange","slowness2","poison1","health","armTime","lifespan","ammo","maxAmmo","chargeUpRequirement","onGround","cooldown","ammoCooldown","actionbarAmmo1"],CustomModelData:201,noxiousTrap:1,explosionRange:3,slowness2:5,poison1:3,health:1,armTime:2,lifespan:300,maxAmmo:5,cooldown:20,ammoCooldown:1,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Noxious Trap","color":"gold","bold":true,"italic":false}'},Tags:["teemo","noxiousTrap","explosionRange","slowness2","poison1","health","armTime","lifespan","ammo","maxAmmo","chargeUpRequirement","onGround","cooldown","ammoCooldown","actionbarAmmo1"],CustomModelData:201,noxiousTrap:1,explosionRange:3,slowness2:5,poison1:3,health:1,armTime:1,lifespan:300,maxAmmo:5,cooldown:20,ammoCooldown:2,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand
@@ -64,7 +64,7 @@ scoreboard players operation .armTime noxiousTrapStats *= #20 constant
 
 
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Recall","color":"gold","bold":true,"italic":false}'},Tags:["teemo","recall","chargeUp","chargeUpRequirement","standingStill","notUsingAbilities","onGround","takeNoDamage","cooldown","actionbarChargeUp"],CustomModelData:202,recall:1,chargeUp:8,cooldown:120,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Recall","color":"gold","bold":true,"italic":false}'},Tags:["teemo","recall","chargeUp","chargeUpRequirement","standingStill","notUsingAbilities","onGround","takeNoDamage","cooldown","actionbarChargeUp"],CustomModelData:202,recall:1,chargeUp:8,cooldown:100,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.4 from entity @s weapon.mainhand

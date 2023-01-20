@@ -4,6 +4,8 @@ scoreboard players operation .duration stats *= #20 constant
 scoreboard players operation @s thunderBreakerCD = .cooldown stats
 scoreboard players operation @s thunderBreakerCD += .duration stats
 scoreboard players operation @s thunderBreakerDuration = .duration stats
+#adds glint
+	item modify entity @s weapon.mainhand kit:enchantment/glint
 
 #speed2
 scoreboard players operation .speed2 stats *= #20 constant

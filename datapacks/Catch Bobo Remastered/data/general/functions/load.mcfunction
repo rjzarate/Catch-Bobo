@@ -102,6 +102,7 @@ scoreboard players set #15 constant 15
 scoreboard players set #20 constant 20
 scoreboard players set #25 constant 25
 scoreboard players set #100 constant 100
+scoreboard players set #300 constant 300
 scoreboard players set #1000 constant 1000
 scoreboard players set #2000 constant 2000
 
@@ -342,6 +343,7 @@ scoreboard objectives add dragonslayerDuration dummy
 scoreboard objectives add leftArmModel dummy
 scoreboard objectives add repeaterCrossbowCD dummy
 scoreboard objectives add repeaterCrossbowAmmo dummy
+scoreboard objectives add repeaterCrossbowChargeDelay dummy
 scoreboard objectives add repeaterCrossbowStats dummy
 scoreboard players set .animationFrames repeaterCrossbowStats 4
 scoreboard objectives add repeaterCrossbowFireRate dummy

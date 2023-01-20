@@ -13,4 +13,4 @@ execute if score @s thunderBreakerDuration matches 50 at @s run playsound minecr
 execute if score @s thunderBreakerDuration matches 30 at @s run playsound minecraft:block.note_block.xylophone record @s ~ ~ ~ 0.75 1.5
 execute if score @s thunderBreakerDuration matches 10 at @s run playsound minecraft:block.note_block.xylophone record @s ~ ~ ~ 0.75 1.5
 execute if score @s thunderBreakerDuration matches ..0 at @s run playsound minecraft:item.trident.return player @a ~ ~ ~ 1 2
-execute if score @s thunderBreakerDuration matches ..0 run scoreboard players reset @s thunderBreakerDuration
+execute if score @s thunderBreakerDuration matches ..0 run function hunter:mori/thunder_breaker/deactivate
