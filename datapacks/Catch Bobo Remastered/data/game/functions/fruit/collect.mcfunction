@@ -1,7 +1,7 @@
 scoreboard players add .fruitsCollected game 1
 
 #gives glowing
-	execute if score .fruitGivesGlowing gameStats matches 1 unless score @s glowing matches 10.. run scoreboard players set @s glowing 10
+	execute if score .fruitGivesGlowing gameStats matches 1 unless score @s glowing matches 15.. run scoreboard players set @s glowing 15
 
 #sounds and visual
 	playsound minecraft:entity.player.burp player @a ~ ~ ~ 1 1

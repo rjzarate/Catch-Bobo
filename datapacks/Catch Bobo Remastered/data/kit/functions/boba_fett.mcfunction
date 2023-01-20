@@ -78,7 +78,7 @@ item replace block 0 0 0 container.3 from entity @s weapon.mainhand
 function general:get_stats
 scoreboard players operation .radius rocketBarrageStats = .radius stats
 
-item replace entity @s weapon.mainhand with firework_rocket{display:{Name:'{"text":"Jetpack Nitro","color":"dark_red","bold":true,"italic":false}'},Fireworks:{Flight:0.001b},Tags:["bobaFett","jetpackFuel","ammo","maxAmmo","cooldown","ammoCooldown"],maxAmmo:2,cooldown:25,ammoCooldown:1,killOnDrop:1,CustomModelData:1403} 1
+item replace entity @s weapon.mainhand with firework_rocket{display:{Name:'{"text":"Jetpack Nitro","color":"dark_red","bold":true,"italic":false}'},Fireworks:{Flight:0.001b},Tags:["bobaFett","jetpackFuel","ammo","maxAmmo","cooldown","ammoCooldown"],maxAmmo:2,cooldown:30,ammoCooldown:1,killOnDrop:1,CustomModelData:1403} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.4 from entity @s weapon.mainhand

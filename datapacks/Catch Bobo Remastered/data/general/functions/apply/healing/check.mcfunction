@@ -1,18 +1,18 @@
 #is moving check
 execute store result score @s healingMovingFallDistance run data get entity @s FallDistance 10
-execute if score @s healingMovingCrouch matches 1.. run scoreboard players operation @s healingMoving = .duration healingMoving
+#execute if score @s healingMovingCrouch matches 1.. run scoreboard players operation @s healingMoving = .duration healingMoving
 execute if score @s healingMovingClimb matches 1.. run scoreboard players operation @s healingMoving = .duration healingMoving
 execute if score @s healingMovingFallDistance matches 1.. run scoreboard players operation @s healingMoving = .duration healingMoving
 execute if score @s healingMovingSprint matches 1.. run scoreboard players operation @s healingMoving = .duration healingMoving
 execute if score @s healingMovingSwim matches 1.. run scoreboard players operation @s healingMoving = .duration healingMoving
-execute if score @s healingMovingWalk matches 1.. run scoreboard players operation @s healingMoving = .duration healingMoving
+#execute if score @s healingMovingWalk matches 1.. run scoreboard players operation @s healingMoving = .duration healingMoving
 execute if score @s healingMovingWater1 matches 1.. run scoreboard players operation @s healingMoving = .duration healingMoving
 execute if score @s healingMovingWater2 matches 1.. run scoreboard players operation @s healingMoving = .duration healingMoving
-scoreboard players reset @s healingMovingCrouch
+#scoreboard players reset @s healingMovingCrouch
 scoreboard players reset @s healingMovingClimb
 scoreboard players reset @s healingMovingSprint
 scoreboard players reset @s healingMovingSwim
-scoreboard players reset @s healingMovingWalk
+#scoreboard players reset @s healingMovingWalk
 scoreboard players reset @s healingMovingWater1
 scoreboard players reset @s healingMovingWater2
 

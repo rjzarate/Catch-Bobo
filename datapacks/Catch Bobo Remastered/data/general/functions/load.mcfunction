@@ -63,11 +63,11 @@ scoreboard objectives add healingInCombat dummy
 scoreboard objectives add healingDamageTaken minecraft.custom:minecraft.damage_taken
 scoreboard objectives add healingMoving dummy
 scoreboard objectives add healingMovingCrouch minecraft.custom:minecraft.crouch_one_cm
-scoreboard objectives add healingMovingClimb minecraft.custom:minecraft.climb_one_cm
+#scoreboard objectives add healingMovingClimb minecraft.custom:minecraft.climb_one_cm
 scoreboard objectives add healingMovingFallDistance dummy
 scoreboard objectives add healingMovingSprint minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add healingMovingSwim minecraft.custom:minecraft.swim_one_cm
-scoreboard objectives add healingMovingWalk minecraft.custom:minecraft.walk_one_cm
+#scoreboard objectives add healingMovingWalk minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add healingMovingWater1 minecraft.custom:minecraft.walk_on_water_one_cm
 scoreboard objectives add healingMovingWater2 minecraft.custom:minecraft.walk_under_water_one_cm
 scoreboard objectives add healingLowHealth dummy
