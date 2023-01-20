@@ -16,6 +16,8 @@ effect give @s minecraft:instant_health 1 100 true
 #ability resets
 function general:clear_abilities
 scoreboard players reset @s boboDamageTaken
+scoreboard players reset @s bananaBladeKill
+scoreboard players reset @s bananaBladeKillCount
 scoreboard players reset @s jackfruitJumper
 scoreboard players set @s blindingBlueberryDurianDecoyCD 0
 scoreboard players set @s guavaGrenadeHotPotatoPlanterAmmo 3

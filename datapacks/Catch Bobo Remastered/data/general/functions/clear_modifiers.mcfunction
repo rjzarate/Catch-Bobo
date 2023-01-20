@@ -1,6 +1,10 @@
 #bobo jackfruit jumper
 attribute @s minecraft:generic.attack_damage modifier remove 0-0-0-0-1
 attribute @s minecraft:generic.movement_speed modifier remove 0-0-0-0-2
+#bobo banana blade
+attribute @s minecraft:generic.attack_speed modifier remove 0-0-0-1-1
+attribute @s minecraft:generic.attack_speed modifier remove 0-0-0-1-2
+attribute @s minecraft:generic.attack_speed modifier remove 0-0-0-1-3
 
 #punch
 attribute @s minecraft:generic.attack_speed modifier remove 1-0-0-0-1

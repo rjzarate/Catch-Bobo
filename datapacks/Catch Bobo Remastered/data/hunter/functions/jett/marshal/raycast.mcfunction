@@ -1,6 +1,6 @@
 particle minecraft:mycelium ~ ~ ~ 0 0 0 0 1 force
 
-execute positioned ~-0.1 ~-0.15 ~-0.1 as @e[type=#general:everything,tag=!shot,tag=!hit,tag=!spectator,tag=!hunterTeamImmunity,dx=0.5,dy=0,dz=0.5] positioned ~-1.3 ~-0.7 ~-1.3 if entity @s[dx=0.5,dy=1,dz=0.5] positioned ~1.4 ~0.85 ~1.4 run function hunter:jett/marshal/hit
+execute positioned ~-0.4 ~-0.15 ~-0.4 as @e[type=#general:everything,tag=!shot,tag=!hit,tag=!spectator,tag=!hunterTeamImmunity,dx=1,dy=0,dz=1] positioned ~-1.2 ~-0.7 ~-1.2 if entity @s[dx=1,dy=0,dz=1] positioned ~1.6 ~0.85 ~1.6 run function hunter:jett/marshal/hit
 
 
 scoreboard players remove #range marshalStats 1

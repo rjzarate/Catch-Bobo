@@ -4,7 +4,7 @@ tp @s[team=Hunters] @r[team=Hunters,gamemode=!spectator]
 tp @s[team=Orangutans] @r[team=Orangutans,gamemode=!spectator]
 
 #if mori and geundoowun activated, gives geundoowun back
-	execute if score @s[tag=mori] geundoowunDuration < .chargeUp20t noeseonStats run function hunter:mori/geundoowun/give_geundoowun
+	execute if score @s[tag=mori] geundoowunDuration matches 1.. run function hunter:mori/geundoowun/give_geundoowun
 
 #clears effects
 	function general:clear_effects

@@ -50,7 +50,7 @@
 	summon minecraft:armor_stand -83 60 40 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","jotaro"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Jotaro"}'}
 	summon minecraft:armor_stand -83 60 42 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","jett"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Jett"}'}
 	summon minecraft:armor_stand -83 60 44 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","vaccinator"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Vaccinator"}'}
-	summon minecraft:armor_stand -83 60 46 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","guts"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"guts"}'}
+	summon minecraft:armor_stand -83 60 46 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","guts"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Guts"}'}
 	summon minecraft:armor_stand -83 60 48 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","officer"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Officer"}'}
 	summon minecraft:armor_stand -83 60 50 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","mori"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Mori"}'}
 	summon minecraft:armor_stand -83 60 52 {CustomNameVisible:1b,Team:"Hunters",Invulnerable:1b,ShowArms:1b,Tags:["display","bobaFett"],DisabledSlots:4144959,Rotation:[90F,0F],CustomName:'{"text":"Boba Fett"}'}

@@ -23,4 +23,4 @@ execute if score .gameStart game matches 0 run function game:check
 	execute as @e[type=marker,tag=tree] at @s as @a[distance=..11,gamemode=!spectator] unless score @s jumpBoost10 matches 2.. run scoreboard players set @s jumpBoost10 2
 
 #tips
-	execute if score %5m universalTimer matches 0 as @a run function game:tips/give
+	execute if score %5m universalTimer matches 0 if score %20t universalTimer matches 0 as @a run function game:tips/give

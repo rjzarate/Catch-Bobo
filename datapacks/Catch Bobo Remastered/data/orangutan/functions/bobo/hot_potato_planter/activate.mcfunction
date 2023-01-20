@@ -6,7 +6,7 @@ execute if score @s guavaGrenadeHotPotatoPlanterAmmo < .maxAmmo guavaGrenadeHotP
 
 
 
-execute at @s run playsound minecraft:entity.chicken.egg player @a ~ ~1 ~ 1 0
+execute at @s run playsound minecraft:entity.chicken.egg player @a ~ ~1 ~ 0.5 0
 execute at @s run particle minecraft:poof ~ ~1 ~ 0 0 0 0.05 3
 execute at @s run summon minecraft:item ~ ~1 ~ {Tags:["hotPotato"],Health:1000,PickupDelay:32767,Age:-32768,Item:{id:"minecraft:baked_potato",Count:1b,tag:{Enchantments:[{}]}}}
 

@@ -58,6 +58,7 @@
 	kill @e[type=minecraft:armor_stand]
 	kill @e[type=minecraft:marker]
 	kill @e[type=minecraft:item]
+	kill @e[type=minecraft:witch]
 
 #bossbar
 	bossbar set minecraft:timer visible false

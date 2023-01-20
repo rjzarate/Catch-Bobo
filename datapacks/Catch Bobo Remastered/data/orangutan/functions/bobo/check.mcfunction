@@ -28,3 +28,6 @@ execute if score @s notchApple matches 1.. run function orangutan:bobo/notch_app
 
 #damage taken
 	execute if score @s boboDamageTaken >= .boboPermanentDamage gameStats run function orangutan:bobo/damage_taken/max_health
+
+#banana blade kill
+	execute if score @s bananaBladeKill matches 1.. run function orangutan:bobo/banana_blade/kill

@@ -6,7 +6,7 @@ team join Hunters @s
 clear @s
 
 #base attributes
-attribute @s minecraft:generic.max_health base set 50
+attribute @s minecraft:generic.max_health base set 40
 attribute @s minecraft:generic.armor base set 0
 attribute @s minecraft:generic.attack_damage base set 0
 attribute @s minecraft:generic.attack_speed base set 4
@@ -24,7 +24,7 @@ item replace entity @s armor.legs with leather_leggings{display:{Name:'{"text":"
 item replace entity @s armor.feet with iron_boots{display:{Name:'{"text":"Iron Boots","color":"dark_red","bold":true,"italic":false}'},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:feather_falling",lvl:3s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:7} 1
 
 
-item replace entity @s weapon.mainhand with netherite_sword{CustomModelData:1,display:{Name:'{"text":"Dragonslayer","color":"dark_red","bold":true,"italic":false}'},Unbreakable:1b,Enchantments:[{id:"minecraft:sweeping",lvl:10s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:5,Operation:0,UUID:[I;-581170679,1528515858,-1693798796,1004648571],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-3.40,Operation:0,UUID:[I;1932846192,-1409859432,-2006948179,-349684386],Slot:"mainhand"}],Tags:["guts","dragonslayer","meleeDamage","sweepingEdge","attackSpeed","successfulHitRequirement","damageDealt","successfulHit","successfulHitDuration","successfulHitAttackSpeed"],HideFlags:7,dragonslayer:1,meleeDamage:5,attackSpeed:60,sweepingEdge:10,damageDealt:4,successfulHitDuration:1,successfulHitAttackSpeed:85,noDrop:1} 1
+item replace entity @s weapon.mainhand with netherite_sword{CustomModelData:1,display:{Name:'{"text":"Dragonslayer","color":"dark_red","bold":true,"italic":false}'},Unbreakable:1b,Enchantments:[{id:"minecraft:sweeping",lvl:10s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:5,Operation:0,UUID:[I;-581170679,1528515858,-1693798796,1004648571],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-3.00,Operation:0,UUID:[I;1932846192,-1409859432,-2006948179,-349684386],Slot:"mainhand"}],Tags:["guts","dragonslayer","meleeDamage","sweepingEdge","attackSpeed","successfulHitRequirement","damageDealt","successfulHit","successfulHitDuration","successfulHitAttackSpeed"],HideFlags:7,dragonslayer:1,meleeDamage:5,attackSpeed:100,sweepingEdge:10,damageDealt:4,successfulHitDuration:2,successfulHitAttackSpeed:85,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand

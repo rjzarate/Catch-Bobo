@@ -5,6 +5,7 @@ execute as @e[type=minecraft:armor_stand,tag=guavaGrenade,tag=finished,tag=!time
 execute if score .number hotPotatoPlanterFuse > .fuse hotPotatoPlanterFuse as @e[type=minecraft:item,tag=hotPotato] at @s if entity @e[type=#general:hunters,team=Hunters,distance=..1,tag=!spectator] unless entity @a[tag=timeStopper] run function orangutan:bobo/hot_potato_planter/picked_up
 execute if score .number hotPotatoPlanterFuse <= .fuse hotPotatoPlanterFuse unless entity @a[tag=timeStopper] run function orangutan:bobo/hot_potato_planter/no_pick_up
 execute if score .number hotPotatoPlanterFuse = .fuse hotPotatoPlanterFuse unless entity @a[tag=timeStopper] run function orangutan:bobo/hot_potato_planter/explode
+execute if score .number hotPotatoPlanterFuse matches 20 unless entity @a[tag=timeStopper] as @a[team=Hunters,gamemode=!spectator,tag=!adwared] unless score @s hotPotatoDropped matches 1.. at @s run playsound minecraft:entity.tnt.primed player @a ~ ~ ~ 1 2
 execute if score .number hotPotatoPlanterFuse <= .fuse hotPotatoPlanterFuse unless entity @a[tag=timeStopper] run scoreboard players add .number hotPotatoPlanterFuse 1
 
 #teemo

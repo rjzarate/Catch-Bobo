@@ -16,7 +16,7 @@ execute at @s run particle minecraft:explosion_emitter ~ ~-3 ~ 9 0 9 1 3
 execute at @s run particle minecraft:explosion_emitter ~ ~-6 ~ 9 0 9 1 3
 execute at @s run particle minecraft:explosion_emitter ~ ~-9 ~ 9 0 9 1 3
 
-scoreboard players operation #range temp = .radius stats
+scoreboard players operation #range temp = .range stats
 execute at @s as @e[team=Hunters,type=#general:hunters/no_players] run function general:apply/distance/range
 execute at @s as @a[team=Hunters,gamemode=!spectator] run function general:apply/distance/range
 scoreboard players operation .blindness stats *= #20 constant

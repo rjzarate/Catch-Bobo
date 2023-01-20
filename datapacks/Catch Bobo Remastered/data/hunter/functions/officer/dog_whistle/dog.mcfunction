@@ -13,8 +13,10 @@
 
 #effects
 	execute as @e[type=#general:everything,tag=!spectator,distance=0.1..50] run scoreboard players operation @s slowness5 = @s slowness5
+	execute as @e[type=#general:everything,tag=!spectator,distance=0.1..50] run scoreboard players operation @s jumpBoost128 = @s jumpBoost128
 	execute as @e[type=#general:everything,tag=!spectator,distance=0.1..50] run scoreboard players operation @s weakness1 = @s weakness1
 	execute as @e[type=#general:everything,tag=!spectator,distance=0.1..50] if score @s slowness5 < .slowness5 stats run scoreboard players operation @s slowness5 = .slowness5 stats
+	execute as @e[type=#general:everything,tag=!spectator,distance=0.1..50] if score @s jumpBoost128 < .slowness5 stats run scoreboard players operation @s jumpBoost128 = .slowness5 stats
 	execute as @e[type=#general:everything,tag=!spectator,distance=0.1..50] if score @s weakness1 < .weakness1 stats run scoreboard players operation @s weakness1 = .weakness1 stats
 
 #sound

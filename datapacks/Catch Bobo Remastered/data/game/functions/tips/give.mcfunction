@@ -1,5 +1,5 @@
 scoreboard players set in math 0
-scoreboard players set in1 math 18
+scoreboard players set in1 math 19
 function math:rng/range
 
 execute if score out math matches 0 run tellraw @s ["",{"text":"\n"},{"text":"[","bold":true},{"text":"Tip","bold":true,"color":"green"},{"text":"] \u2014","bold":true},{"text":"\n \u0020All "},{"text":"Orangutans","color":"gold"},{"text":" have compasses that locates "},{"text":"Bobo","color":"gold"},{"text":". Use it to find them!"}]
@@ -18,7 +18,7 @@ execute if score out math matches 6 run tellraw @s ["",{"text":"\n"},{"text":"["
 
 execute if score out math matches 7 run tellraw @s ["",{"text":"\n"},{"text":"[","bold":true},{"text":"Tip","bold":true,"color":"green"},{"text":"] \u2014","bold":true},{"text":"\n \u0020"},{"text":"Teemo","color":"gold"},{"text":"! You can become "},{"text":"invisible","color":"yellow"},{"text":" after "},{"text":"standing still","color":"yellow"},{"text":" for a short period of time. Use it to get away from danger!"}]
 
-execute if score out math matches 8 run tellraw @s ["",{"text":"\n"},{"text":"[","bold":true},{"text":"Tip","bold":true,"color":"green"},{"text":"] \u2014","bold":true},{"text":"\n \u0020"},{"text":"Purple Guy","color":"gold"},{"text":"! You have "},{"text":"no manuevering abilities","color":"yellow"},{"text":", but you "},{"text":"heal","color":"yellow"},{"text":" every time your "},{"text":"transform","color":"yellow"},{"text":"."}]
+execute if score out math matches 8 run tellraw @s ["",{"text":"\n"},{"text":"[","bold":true},{"text":"Tip","bold":true,"color":"green"},{"text":"] \u2014","bold":true},{"text":"\n \u0020"},{"text":"Purple Guy","color":"gold"},{"text":"! You have "},{"text":"no maneuvering abilities","color":"yellow"},{"text":", but you "},{"text":"heal","color":"yellow"},{"text":" every time your "},{"text":"transform","color":"yellow"},{"text":"."}]
 
 execute if score out math matches 9 run tellraw @s ["",{"text":"\n"},{"text":"[","bold":true},{"text":"Tip","bold":true,"color":"green"},{"text":"] \u2014","bold":true},{"text":"\n \u0020"},{"text":"Boba Fett","color":"dark_red"},{"text":"! Your "},{"text":"EE-3","color":"dark_red"},{"text":" goes through "},{"text":"invincibility frames","color":"yellow"},{"text":", allowing you to deal "},{"text":"extra damage","color":"yellow"},{"text":" in "},{"text":"group fights","color":"yellow"},{"text":"."}]
 
@@ -39,3 +39,5 @@ execute if score out math matches 16 run tellraw @s ["",{"text":"\n"},{"text":"[
 execute if score out math matches 17 run tellraw @s ["",{"text":"\n"},{"text":"[","bold":true},{"text":"Tip","bold":true,"color":"green"},{"text":"] \u2014","bold":true},{"text":"\n \u0020"},{"text":"Vaccinator","color":"dark_red"},{"text":"! "},{"text":"Unstable Concoction","color":"dark_red"},{"text":" can "},{"text":"last forever","color":"yellow"},{"text":" as long as you "},{"text":"continuously hit entities","color":"yellow"},{"text":" with your "},{"text":"Syringe Launcher","color":"dark_red"},{"text":"."}]
 
 execute if score out math matches 18 run tellraw @s ["",{"text":"\n"},{"text":"[","bold":true},{"text":"Tip","bold":true,"color":"green"},{"text":"] \u2014","bold":true},{"text":"\n  "},{"text":"ALL MELEE CHARACTERS","bold":true,"color":"yellow"},{"text":"! This is "},{"text":"not","bold":true,"underlined":true,"color":"yellow"},{"text":" Hypixel","color":"yellow"},{"text":" or "},{"text":"1.8 PvP","color":"yellow"},{"text":". "},{"text":"Do not spam-click","bold":true,"underlined":true,"color":"yellow"},{"text":" if you want to "},{"text":"deal damage","color":"yellow"},{"text":"."}]
+
+execute if score out math matches 19 run tellraw @s ["",{"text":"\n"},{"text":"[","bold":true},{"text":"Tip","bold":true,"color":"green"},{"text":"] \u2014","bold":true},{"text":"\n  You "},{"text":"heal faster","color":"yellow"},{"text":" when you stand still, so when you are "},{"text":"out of danger","color":"yellow"},{"text":", spend some time to "},{"text":"heal","color":"yellow"},{"text":". "}]

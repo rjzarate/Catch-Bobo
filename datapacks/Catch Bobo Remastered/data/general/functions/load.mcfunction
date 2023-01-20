@@ -89,6 +89,7 @@ scoreboard objectives add constant dummy
 scoreboard players set #-1 constant -1
 scoreboard players set #0 constant 0
 scoreboard players set #2 constant 2
+scoreboard players set #3 constant 3
 scoreboard players set #4 constant 4
 scoreboard players set #5 constant 5
 scoreboard players set #6 constant 6
@@ -227,6 +228,8 @@ scoreboard objectives add swapCD dummy
 
 #bobo
 scoreboard objectives add boboDamageTaken minecraft.custom:minecraft.damage_taken
+scoreboard objectives add bananaBladeKill minecraft.custom:minecraft.player_kills
+scoreboard objectives add bananaBladeKillCount dummy
 scoreboard objectives add jackfruitJumper dummy
 scoreboard objectives add jackfruitJumperCD dummy
 scoreboard objectives add blindingBlueberryDuration dummy

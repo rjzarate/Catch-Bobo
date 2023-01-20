@@ -39,8 +39,8 @@ title @a[team=Orangutans,tag=!bobo] subtitle ["",{"text":"Objective:","color":"l
 
 tellraw @a [{"text":"\nThe ","color":"yellow"},{"text":"Hunters ","bold":true,"color":"dark_red"},{"text":"are released!","color":"yellow"}]
 tellraw @a[team=Hunters] [{"text":"Main Objective: ","color":"light_purple"},{"text":"Kill ","color":"red"},{"text":"Bobo","bold":true,"color":"gold"},{"text":".","color":"aqua"}]
-tellraw @a[team=Orangutans,tag=bobo] [{"text":"Main Objective: ","color":"light_purple"},{"text":"Collect enough ","color":"aqua"},{"text":"fruits","bold":true,"color":"yellow"},{"text":".","color":"aqua"}]
-tellraw @a[team=Orangutans,tag=!bobo] [{"text":"Main Objective:","color":"light_purple"},{"text":" Protect and help ","color":"aqua"},{"text":"Bobo ","bold":true,"color":"gold"},{"text":"win.","color":"aqua"}]
+tellraw @a[team=Orangutans,tag=bobo] [{"text":"Main Objective: ","color":"light_purple"},{"text":"Collect enough ","color":"aqua"},{"text":"fruits","bold":true,"color":"yellow"},{"text":".\n A ","color":"aqua"},{"text":"Fruit Finder","bold":true,"color":"gold"},{"text":" was given to you to find fruits.","color":"aqua"}]
+tellraw @a[team=Orangutans,tag=!bobo] [{"text":"Main Objective:","color":"light_purple"},{"text":" Protect and help ","color":"aqua"},{"text":"Bobo ","bold":true,"color":"gold"},{"text":"win.\n A ","color":"aqua"},{"text":"Bobo Tracker","bold":true,"color":"gold"},{"text":" was given to you to find ","color":"aqua"},{"text":"Bobo","bold":true,"color":"gold"},{"text":".","color":"aqua"}]
 playsound minecraft:entity.wither.spawn player @a -78 37 -115 200 1
 
 #destroys glass wall

@@ -8,7 +8,7 @@ scoreboard players operation @s guavaGrenadeFireRate = #fireRate stats
 #change model to inactive
 	execute unless score @s guavaGrenadeHotPotatoPlanterAmmo matches 1.. run function general:animate/add/selected_item
 
-execute at @s run playsound minecraft:block.dispenser.launch player @a ~ ~ ~ 1 0
+execute at @s run playsound minecraft:block.dispenser.launch player @a ~ ~ ~ 0.5 0
 execute store result score .pos0 Pos run data get entity @s Pos[0] 10000
 execute store result score .pos1 Pos run data get entity @s Pos[1] 10000
 execute store result score .pos2 Pos run data get entity @s Pos[2] 10000
@@ -23,7 +23,7 @@ execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=guavaGrenade,t
 execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=guavaGrenade,tag=!finished] store result score #pos2 Pos run data get entity @s Pos[2] 10000
 
 scoreboard players operation @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=guavaGrenade,tag=!finished] guavaGrenadeFuse = .fuse stats
-scoreboard players operation @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=guavaGrenade,tag=!finished] guavaGrenadeFuse *= #2 constant
+scoreboard players operation @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=guavaGrenade,tag=!finished] guavaGrenadeFuse *= #20 constant
 
 scoreboard players operation #pos0 Pos -= .pos0 Pos
 scoreboard players operation #pos1 Pos -= .pos1 Pos
