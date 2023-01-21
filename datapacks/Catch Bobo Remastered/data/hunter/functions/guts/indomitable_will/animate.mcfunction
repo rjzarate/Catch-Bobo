@@ -1,9 +1,9 @@
 #gets max health, stores max health & health in another scoreboard, divides by 6
 	execute store result score @s maxHealth run data get entity @s Attributes[{Name:"minecraft:generic.max_health"}].Base 1
 	scoreboard players operation #maxHealth maxHealth = @s maxHealth
-	scoreboard players operation #maxHealth maxHealth /= #6 constant
+	scoreboard players operation #maxHealth maxHealth /= #5 constant
 	scoreboard players operation #health maxHealth = @s health
-	scoreboard players operation #health maxHealth /= #6 constant
+	scoreboard players operation #health maxHealth /= #5 constant
 
 #max health - health = stacks
 	scoreboard players operation #maxHealth maxHealth -= #health maxHealth

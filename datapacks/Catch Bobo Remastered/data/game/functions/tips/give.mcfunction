@@ -1,5 +1,5 @@
 scoreboard players set in math 0
-scoreboard players set in1 math 19
+scoreboard players set in1 math 23
 function math:rng/range
 
 execute if score out math matches 0 run tellraw @s ["",{"text":"\n"},{"text":"[","bold":true},{"text":"Tip","bold":true,"color":"green"},{"text":"] \u2014","bold":true},{"text":"\n \u0020All "},{"text":"Orangutans","color":"gold"},{"text":" have compasses that locates "},{"text":"Bobo","color":"gold"},{"text":". Use it to find them!"}]
@@ -41,3 +41,11 @@ execute if score out math matches 17 run tellraw @s ["",{"text":"\n"},{"text":"[
 execute if score out math matches 18 run tellraw @s ["",{"text":"\n"},{"text":"[","bold":true},{"text":"Tip","bold":true,"color":"green"},{"text":"] \u2014","bold":true},{"text":"\n  "},{"text":"ALL MELEE CHARACTERS","bold":true,"color":"yellow"},{"text":"! This is "},{"text":"not","bold":true,"underlined":true,"color":"yellow"},{"text":" Hypixel","color":"yellow"},{"text":" or "},{"text":"1.8 PvP","color":"yellow"},{"text":". "},{"text":"Do not spam-click","bold":true,"underlined":true,"color":"yellow"},{"text":" if you want to "},{"text":"deal damage","color":"yellow"},{"text":"."}]
 
 execute if score out math matches 19 run tellraw @s ["",{"text":"\n"},{"text":"[","bold":true},{"text":"Tip","bold":true,"color":"green"},{"text":"] \u2014","bold":true},{"text":"\n  You "},{"text":"heal faster","color":"yellow"},{"text":" when you stand still, so when you are "},{"text":"out of danger","color":"yellow"},{"text":", spend some time to "},{"text":"heal","color":"yellow"},{"text":". "}]
+
+execute if score out math matches 20 run tellraw @s ["",{"text":"\n"},{"text":"[","bold":true},{"text":"Tip","bold":true,"color":"green"},{"text":"] \u2014","bold":true},{"text":"\n \u0020"},{"text":"Bobo","color":"gold"},{"text":"! You take "},{"text":"permanent damage","color":"yellow"},{"text":" as you take regular damage. "},{"text":"Avoid unnecessary damage","color":"yellow"},{"text":" like from falling or during group fights."}]
+
+execute if score out math matches 21 run tellraw @s ["",{"text":"\n"},{"text":"[","bold":true},{"text":"Tip","bold":true,"color":"green"},{"text":"] \u2014","bold":true},{"text":"\n  You can "},{"text":"forfeit","color":"yellow"},{"text":" by typing "},{"text":"/trigger ff","bold":true,"underlined":true,"color":"yellow","clickEvent":{"action":"run_command","value":"/trigger ff"}},{"text":"."}]
+
+execute if score out math matches 22 run tellraw @s ["",{"text":"\n"},{"text":"[","bold":true},{"text":"Tip","bold":true,"color":"green"},{"text":"] \u2014\n \u0020","bold":true},{"text":"Hunters","color":"dark_red"},{"text":"! You can "},{"text":"destroy","color":"yellow"},{"text":" "},{"text":"Orangutan-Created","color":"gold"},{"text":" entities like  "},{"text":"Teemo's Noxious Traps","color":"gold"},{"text":" and "},{"text":"Impostor's Vents","color":"gold"},{"text":"."}]
+
+execute if score out math matches 23 run tellraw @s ["",{"text":"\n"},{"text":"[","bold":true},{"text":"Tip","bold":true,"color":"green"},{"text":"] \u2014","bold":true},{"text":"\n \u0020"},{"text":"Bobo","color":"gold"},{"text":"! Be aware of your "},{"text":"Guava Grenade","color":"gold"},{"text":" as it can "},{"text":"damage","color":"yellow"},{"text":" your fellow "},{"text":"Orangutans","color":"gold"},{"text":". This also includes "},{"text":"Hot Potato Planter","color":"gold"},{"text":" explosions."}]

@@ -17,3 +17,8 @@ execute positioned ~ ~-0.45 ~ if entity @s[distance=..0.45,tag=!hit] run scorebo
 execute positioned ~ ~-0.45 ~ if entity @s[distance=..0.45,tag=!hit] run function general:apply/damage/directory
 execute positioned ~ ~-0.45 ~ if entity @s[distance=..0.45,tag=!hit] as @p[tag=jett,tag=shot] at @s run playsound minecraft:entity.arrow.hit_player player @s ~ ~ ~ 0.5 0
 execute positioned ~ ~-0.45 ~ if entity @s[distance=..0.45,tag=!hit] run tag @s add hit
+
+#gives ammo back if killing a player
+	scoreboard players remove #damage temp 10
+	execute if entity @s[type=minecraft:player] if score @s health < #damage temp run scoreboard players set @s bladeStormCD 0
+	execute if entity @s[type=minecraft:player] if score @s health < #damage temp run scoreboard players operation @s bladeStormAmmo = .maxAmmo bladeStormStats

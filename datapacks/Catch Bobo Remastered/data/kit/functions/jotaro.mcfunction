@@ -6,7 +6,7 @@ team join Hunters @s
 clear @s
 
 #base attributes
-attribute @s minecraft:generic.max_health base set 40
+attribute @s minecraft:generic.max_health base set 38
 attribute @s minecraft:generic.armor base set 0
 attribute @s minecraft:generic.attack_damage base set 0
 attribute @s minecraft:generic.attack_speed base set 4

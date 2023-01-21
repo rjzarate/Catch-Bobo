@@ -31,3 +31,6 @@ kill @e[type=minecraft:item,predicate=general:uuid_link_search]
 	execute as @s at @s run playsound minecraft:block.note_block.pling record @s ~ ~ ~ 1 2
 
 scoreboard players set @s firstJoined 1
+
+#sets leave game to 1
+	scoreboard players reset @s leaveGame

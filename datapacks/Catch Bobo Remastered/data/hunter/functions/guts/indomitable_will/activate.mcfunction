@@ -5,11 +5,11 @@ execute store result score @s maxHealth run data get entity @s Attributes[{Name:
 	execute store result score #slot temp run data get entity @s Inventory[{tag:{Tags:["berserkerArmor"]}}].Slot
 	function general:animate/add/directory
 
-#maxHealth/6 - health/6 = duration, atk speed, absorption lvl; if 0, sets to 1
+#maxHealth/5 - health/5 = duration, atk speed, absorption lvl; if 0, sets to 1
 scoreboard players operation #maxHealth maxHealth = @s maxHealth
-scoreboard players operation #maxHealth maxHealth /= #6 constant
+scoreboard players operation #maxHealth maxHealth /= #5 constant
 scoreboard players operation #health maxHealth = @s health
-scoreboard players operation #health maxHealth /= #6 constant
+scoreboard players operation #health maxHealth /= #5 constant
 scoreboard players operation #maxHealth maxHealth -= #health maxHealth
 execute if score #maxHealth maxHealth matches ..0 run scoreboard players set #maxHealth maxHealth 1
 scoreboard players operation .missingHealthDuration stats *= #20 constant

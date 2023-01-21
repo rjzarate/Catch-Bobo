@@ -28,6 +28,7 @@
 	title @a subtitle {"text":"Stand on the corresponding color to choose.","color":"yellow","italic":true}
 	title @a title {"text":"Choose Your Team!","bold":true,"color":"white"}
 	tellraw @a ["",{"text":"\n"},{"text":"Choose Your Team!\n","bold":true,"color":"white"},{"text":"Stand on the corresponding color to choose.","color":"yellow","italic":true}]
+	tellraw @a ["",{"text":"\n"},{"text":" Suggest more ","color":"yellow","italic":true},{"text":"Hunters","color":"dark_red","bold":true,"italic":true},{"text":" than ","color":"yellow","italic":true},{"text":"Orangutans","color":"gold","bold":true,"italic":true},{"text":".","color":"yellow","italic":true}]
 	playsound minecraft:block.note_block.pling record @a -99.5 59 23.5 2 2
 
 #summons area effect clouds

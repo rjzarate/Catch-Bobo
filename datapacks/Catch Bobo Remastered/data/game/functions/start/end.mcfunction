@@ -16,6 +16,9 @@
 	bossbar set minecraft:timer players @a
 	bossbar set minecraft:timer visible true
 
+#kills extra fruits
+	kill @e[type=minecraft:item,tag=fruit]
+
 #clears notch apple
 	execute as @a[tag=orangutan,tag=bobo] run clear @s minecraft:enchanted_golden_apple
 

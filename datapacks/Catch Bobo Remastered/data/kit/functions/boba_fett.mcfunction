@@ -42,7 +42,7 @@ scoreboard players operation .fireRate ee-3Stats = #fireRate ee-3Stats
 scoreboard players operation @s ee-3Ammo = @s ee-3Ammo
 
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Flamethrower","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["bobaFett","flamethrower","altDamage","auto","flame","range","chargeDelayDecimal","fireRate","activationRequirement","noFlying","ammo","maxAmmo","cooldown","ammoCooldown","actionbarSpecial","actionbarBobaFettAmmo"],altDamage:5,flame:5,range:3,chargeDelayDecimal:5,fireRate:1000,maxAmmo:50,cooldown:10,ammoCooldown:5,noDrop:1,CustomModelData:1401} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Flamethrower","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{}],Tags:["bobaFett","flamethrower","altDamage","auto","flame","range","chargeDelayDecimal","fireRate","activationRequirement","noFlying","ammo","maxAmmo","cooldown","ammoCooldown","actionbarSpecial","actionbarBobaFettAmmo"],altDamage:5,flame:4,range:3,chargeDelayDecimal:5,fireRate:1000,maxAmmo:50,cooldown:10,ammoCooldown:5,noDrop:1,CustomModelData:1401} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.1 from entity @s weapon.mainhand
