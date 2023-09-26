@@ -419,6 +419,7 @@ scoreboard objectives add geundoowunDebuff dummy
 scoreboard objectives add thunderBreakerCD dummy
 scoreboard objectives add thunderBreakerDuration dummy
 scoreboard objectives add thunderBreakerShulker dummy
+scoreboard objectives add thunderBreakerStats dummy
 scoreboard objectives add noeseonChargeUp dummy
 scoreboard objectives add noeseonCD dummy
 scoreboard objectives add noeseonDuration dummy

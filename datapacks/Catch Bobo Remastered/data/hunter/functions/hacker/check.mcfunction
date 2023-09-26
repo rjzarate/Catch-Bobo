@@ -1,6 +1,6 @@
 execute if score @s droppedEnderEye matches 1.. run function hunter:hacker/ability_swap/item_check
 
-execute if entity @s[tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly] run function hunter:hacker/cooldown
+execute if entity @s[tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly,tag=!adwared] run function hunter:hacker/cooldown
 
 #semi-auto ender eye activation
 scoreboard players operation .rightClick enderEye = @s rightClick

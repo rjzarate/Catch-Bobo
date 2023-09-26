@@ -12,4 +12,5 @@ scoreboard players operation #geundoowunDebuff% temp = #geundoowunDebuff temp
 scoreboard players operation #geundoowunDebuff% temp %= #100 constant
 execute if score #geundoowunDebuff% temp matches 0 if score #geundoowunDebuff temp matches 100..500 at @s run playsound minecraft:item.trident.hit_ground player @a ~ ~ ~ 0.75 0
 
+execute if score @s[tag=!hunterTeamImmunity] geundoowunDebuff matches ..0 run damage @s 3 minecraft:thorns
 execute if score @s geundoowunDebuff matches ..0 run scoreboard players reset @s geundoowunDebuff

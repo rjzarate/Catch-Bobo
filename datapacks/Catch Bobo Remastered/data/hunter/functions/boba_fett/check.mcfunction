@@ -1,4 +1,4 @@
-execute if entity @s[tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly] run function hunter:boba_fett/cooldown
+execute if entity @s[tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly,tag=!adwared] run function hunter:boba_fett/cooldown
 execute if entity @s run function hunter:boba_fett/refresh
 execute if entity @s[tag=!timeStoppee] run function hunter:boba_fett/fire_rate
 

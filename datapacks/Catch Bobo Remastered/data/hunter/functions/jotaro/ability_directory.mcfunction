@@ -1,5 +1,6 @@
-execute if predicate hunter:jotaro/star_platinum_uppercut unless score @s swapCD matches 1.. run function hunter:jotaro/ability_swap/star_platinum_punch
-execute if predicate hunter:jotaro/star_platinum_punch unless score @s swapCD matches 1.. run function hunter:jotaro/ability_swap/star_platinum_uppercut
+##now items are both given
+#execute if predicate hunter:jotaro/star_platinum_uppercut unless score @s swapCD matches 1.. run function hunter:jotaro/ability_swap/star_platinum_punch
+#execute if predicate hunter:jotaro/star_platinum_punch unless score @s swapCD matches 1.. run function hunter:jotaro/ability_swap/star_platinum_uppercut
 execute if predicate hunter:jotaro/star_finger unless score @s starFingerCD matches 1.. run function hunter:jotaro/star_finger/activate
 execute if predicate hunter:jotaro/ora unless score @s oraCD matches 1.. run function hunter:jotaro/ora/activate
 

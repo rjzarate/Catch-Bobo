@@ -6,7 +6,7 @@ scoreboard players operation @s battery -= .batteryUsage stats
 
 execute at @s run playsound minecraft:block.glass.break player @a ~ ~ ~ 1 2
 
-
+scoreboard players operation #uuid temp = @s uuid
 
 tag @s add shot
 execute at @s anchored eyes positioned ^ ^ ^1 run function hunter:hacker/adware/raycast

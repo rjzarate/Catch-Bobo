@@ -1099,6 +1099,39 @@
     "lore": [
       [
         {
+          "text": "Reload Speed: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.reloadSpeed",
+          "entity": "@s",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"reloadSpeed\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
           "text": "Fuse: ",
           "color": "gray",
           "italic": false
@@ -2132,6 +2165,72 @@
     "lore": [
       [
         {
+          "text": "Max Height: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.maxHeight",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"maxHeight\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Arrows: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.arrows",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"arrows\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
           "text": "Range: ",
           "color": "gray",
           "italic": false
@@ -2566,7 +2665,7 @@
       ],
       [
         {
-          "text": "Jump Boost V Duration: ",
+          "text": "Jump Boost IV Duration: ",
           "color": "gray",
           "italic": false
         },
@@ -3897,6 +3996,61 @@
         "text": ""
       },
       {
+        "text": "While Charging-Up:",
+        "color": "green",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"whileChargeUp\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Slowness I",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"whileChargeUpSlowness1\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
         "text": "Charge-Up Requirement:",
         "color": "green",
         "italic": false
@@ -4818,7 +4972,7 @@
           "italic": false
         },
         {
-          "text": "+1 every second",
+          "text": "+3 every second",
           "color": "aqua"
         }
       ]
@@ -7121,6 +7275,59 @@
         "text": ""
       },
       {
+        "text": "Upon Reload:",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponReload\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": " Cannot move",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"uponReload\",\"uponReloadCannotMove\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
         "text": "Upon Drop:",
         "color": "gray",
         "italic": false
@@ -8186,96 +8393,6 @@
     "function": "minecraft:set_lore",
     "entity": "this",
     "lore": [
-      [
-        {
-          "text": " Transforms Into: ",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "text": "Star Platinum Uppercut",
-          "color": "dark_red",
-          "bold": true,
-          "italic": false
-        }
-      ],
-      [
-        {
-          "text": " Cooldown: ",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "text": "0.2",
-          "color": "yellow",
-          "italic": false
-        }
-      ]
-    ],
-    "replace": false,
-    "conditions": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "equipment": {
-            "mainhand": {
-              "nbt": "{Tags:[\"uponActivation\",\"starPlatinumPunch\"]}"
-            }
-          }
-        }
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_lore",
-    "entity": "this",
-    "lore": [
-      [
-        {
-          "text": " Transforms Into: ",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "text": "Star Platinum Punch",
-          "color": "dark_red",
-          "bold": true,
-          "italic": false
-        }
-      ],
-      [
-        {
-          "text": " Cooldown: ",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "text": "0.2",
-          "color": "yellow",
-          "italic": false
-        }
-      ]
-    ],
-    "replace": false,
-    "conditions": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "equipment": {
-            "mainhand": {
-              "nbt": "{Tags:[\"uponActivation\",\"starPlatinumUppercut\"]}"
-            }
-          }
-        }
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_lore",
-    "entity": "this",
-    "lore": [
       {
         "text": ""
       },
@@ -8793,6 +8910,78 @@
           "equipment": {
             "mainhand": {
               "nbt": "{Tags:[\"killCooldown\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "Weapon Level: ",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.weaponLevel",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"weaponLevel\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "Ability Level: ",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.abilityLevel",
+          "entity": "@s",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"abilityLevel\"]}"
             }
           }
         }

@@ -17,3 +17,5 @@ scoreboard players reset @s adwareDropped
 execute if score #inventory temp matches 1.. run tag @s add adwared
 execute if score #inventory temp matches 1.. run scoreboard players operation @s adwareLink = @p[tag=hunter,tag=hacker,gamemode=!spectator,tag=shot] uuid
 execute if score #inventory temp matches 1.. run function hunter:hacker/adware/player/give
+
+tag @s add adwared

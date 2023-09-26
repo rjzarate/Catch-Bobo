@@ -6,6 +6,8 @@ execute if score @s timeStopChargeUp matches 20 at @s run playsound minecraft:en
 scoreboard players operation #1s timeStopChargeUp = @s timeStopChargeUp
 scoreboard players operation #1s timeStopChargeUp %= #20 constant
 
+execute unless score @s slowness1 matches 2.. run scoreboard players set @s slowness1 2
+
 
 execute if score #1s timeStopChargeUp matches 0 unless score @s timeStopChargeUp matches 0 at @s run playsound minecraft:block.note_block.xylophone record @s ~ ~ ~ 0.75 1.5
 execute if score @s timeStopChargeUp matches 50 at @s run playsound minecraft:block.note_block.xylophone record @s ~ ~ ~ 0.75 1.5
@@ -19,4 +21,5 @@ execute if score @s timeStopChargeUp matches 1 at @s run playsound minecraft:blo
 execute if score @s[advancements={hunter:jotaro/damage_taken=false}] timeStopChargeUp matches 1.. run scoreboard players remove @s timeStopChargeUp 1
 execute if score @s[advancements={hunter:jotaro/damage_taken=false}] timeStopChargeUp matches ..0 run function hunter:jotaro/time_stop/activate1
 
+execute if entity @s[advancements={hunter:jotaro/damage_taken=true}] run scoreboard players operation @s timeStopCD += .duration20t timeStopStats 
 execute if entity @s[advancements={hunter:jotaro/damage_taken=true}] run function hunter:jotaro/time_stop/deactivate

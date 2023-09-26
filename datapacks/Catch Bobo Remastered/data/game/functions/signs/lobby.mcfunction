@@ -1,1 +1,3 @@
 give @s minecraft:jungle_sign{BlockEntityTag:{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"function game:preset/cycle"}}',Text2:'{"text":"Preset","bold":true,"color":"gold"}'},display:{Name:'{"text":"Normal Game Presets"}'}}
+
+give @s minecraft:jungle_sign{BlockEntityTag:{front_text:{messages:['{"text":"","clickEvent":{"action":"run_command","value":"function reset:game"}}','{"text":"Reset Game","bold":true,"color":"gold"}']}},display:{Name:'{"text":"Reset Game"}'}}

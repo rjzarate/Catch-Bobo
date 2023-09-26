@@ -21,7 +21,7 @@ tp @s[tag=orangutan] @r[tag=orangutan,gamemode=!spectator]
 	scoreboard players operation @s[tag=orangutan] respawnTimer = .orangutanRespawnTimer gameStats
 
 #if hunter, gives bobo
-	execute if entity @s[tag=hunter] run scoreboard players add @a[tag=orangutan,tag=bobo] starfruitSwapperTangerineTeleporter 1
+	execute if entity @s[tag=hunter] as @a[tag=orangutan,tag=bobo] unless score @s starfruitSwapperTangerineTeleporter matches 1.. run scoreboard players add @s starfruitSwapperTangerineTeleporter 1
 	execute if entity @s[tag=hunter] as @a[tag=orangutan,tag=bobo] run data modify storage minecraft:inventory Inventory set from entity @s Inventory
 	execute if entity @s[tag=hunter] as @a[tag=orangutan,tag=bobo] run execute store success score #hasItem temp run data get storage minecraft:inventory Inventory[{tag:{Tags:["starfruitSwapper"]}}].Slot
 	execute if entity @s[tag=hunter] as @a[tag=orangutan,tag=bobo] run execute if score #hasItem temp matches 1 store result score #slot temp run data get storage minecraft:inventory Inventory[{tag:{Tags:["starfruitSwapper"]}}].Slot

@@ -1,6 +1,6 @@
 execute if score @s droppedEnderEye matches 1.. run function hunter:officer/ability_swap/item_check
 
-execute if entity @s[tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly] run function hunter:officer/cooldown
+execute if entity @s[tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly,tag=!adwared] run function hunter:officer/cooldown
 execute if entity @s run function hunter:officer/refresh
 
 #semi-auto ender eye activation

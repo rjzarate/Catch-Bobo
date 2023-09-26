@@ -1,11 +1,11 @@
 		#timer until hunters are released
 	scoreboard players set .hidingTimer gameStats 900
 		#30 min timer; timer till hunters win by default
-	scoreboard players set .gameTimer gameStats 30000
+	scoreboard players set .gameTimer gameStats 24000
 		#how many fruits bobo needs to collect to reach end game
-	scoreboard players set .fruitRequirement gameStats 20
+	scoreboard players set .fruitRequirement gameStats 25
 		#how many fruits are on the map
-	scoreboard players set .fruitsOnField gameStats 25
+	scoreboard players set .fruitsOnField gameStats 30
 		#if the fruits glow
 	scoreboard players set .fruitGlowing gameStats 1
 		#if collecting a fruit gives glowing
@@ -19,4 +19,4 @@
 		#respawn timer for orangutans
 	scoreboard players set .orangutanRespawnTimer gameStats 1200
 		#how much damage bobo can take before taking permanent damage
-	scoreboard players set .boboPermanentDamage gameStats 100
+	scoreboard players set .boboPermanentDamage gameStats 75

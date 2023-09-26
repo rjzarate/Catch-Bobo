@@ -3,7 +3,7 @@ scoreboard players set @s[scores={slowness10=..10}] slowness10 10
 
 
 #damages the entity
-execute facing entity @e[type=minecraft:horse,tag=trojanMiniHorse,tag=finished,limit=1,sort=nearest] eyes positioned ^ ^ ^10 run summon minecraft:bat ~ 400 ~ {Silent:1b,PersistenceRequired:1b,NoAI:1b,Health:1f,Tags:["temp"],CustomName:'{"text":"Mini Horse","color":"dark_red","bold":true,"italic":false}',ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Enchantments:[{id:"minecraft:thorns",lvl:11s}]}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20000000,ShowParticles:0b},{Id:20,Amplifier:0b,Duration:60,ShowParticles:0b}]}
+execute facing entity @e[type=minecraft:horse,tag=trojanMiniHorse,tag=finished,limit=1,sort=nearest] eyes positioned ^ ^ ^10 run summon minecraft:bat ~ 400 ~ {Silent:1b,PersistenceRequired:1b,NoAI:1b,Health:1f,Tags:["temp"],CustomName:'{"text":"Mini Horse","color":"dark_red","bold":true,"italic":false}',ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Enchantments:[{id:"minecraft:thorns",lvl:11s}]}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:20000000,show_particles:0b},{id:20,amplifier:0b,duration:60,show_particles:0b}]}
 
 execute facing entity @e[type=minecraft:horse,tag=trojanMiniHorse,tag=finished,limit=1,sort=nearest] eyes positioned ^ ^ ^10 run summon minecraft:arrow ~ 401.3 ~ {Owner:[I;0,0,0,0],Tags:["temp","damage"]}
 

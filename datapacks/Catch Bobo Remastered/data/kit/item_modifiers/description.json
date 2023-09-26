@@ -1308,6 +1308,297 @@
           "italic": false
         },
         {
+          "text": "Create a ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Blue ",
+          "color": "blue",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "Vent",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ". Having",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " three ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Blue ",
+          "color": "blue",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "Vents ",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "on the map destroys",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " the oldest ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Blue ",
+          "color": "blue",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "Vent",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"createVent\",\"createBlueVent\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Create a ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Yellow ",
+          "color": "yellow",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "Vent",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ". Having",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " three ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Yellow ",
+          "color": "yellow",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "Vents ",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "on the map destroys",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " the oldest ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Yellow ",
+          "color": "yellow",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "Vent",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"createVent\",\"createYellowVent\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "Create a ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Green ",
+          "color": "green",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "Vent",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ". Having",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " three ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Green ",
+          "color": "green",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "Vents ",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "on the map destroys",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": " the oldest ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Green ",
+          "color": "green",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "Vent",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": ".",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"createVent\",\"createGreenVent\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Description: ",
+          "color": "green",
+          "italic": false
+        },
+        {
           "text": "Poison all ",
           "color": "gray",
           "italic": false
@@ -1949,36 +2240,10 @@
         "italic": false
       },
       {
-        "text": " speed for your next attacks. Activating",
+        "text": " speed for your next attacks.",
         "color": "gray",
         "italic": false
-      },
-      [
-        {
-          "text": " this item turns it into ",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "text": "Star Platinum",
-          "color": "dark_red",
-          "bold": true,
-          "italic": false
-        }
-      ],
-      [
-        {
-          "text": " Uppercut",
-          "color": "dark_red",
-          "bold": true,
-          "italic": false
-        },
-        {
-          "text": ".",
-          "color": "gray",
-          "italic": false
-        }
-      ]
+      }
     ],
     "replace": false,
     "conditions": [
@@ -2020,33 +2285,7 @@
         "text": " attack damage for your next attacks.",
         "color": "gray",
         "italic": false
-      },
-      [
-        {
-          "text": " Activating this item turns it into ",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "text": "Star",
-          "color": "dark_red",
-          "bold": true,
-          "italic": false
-        }
-      ],
-      [
-        {
-          "text": " Platinum Punch",
-          "color": "dark_red",
-          "bold": true,
-          "italic": false
-        },
-        {
-          "text": ".",
-          "color": "gray",
-          "italic": false
-        }
-      ]
+      }
     ],
     "replace": false,
     "conditions": [
@@ -2137,7 +2376,12 @@
         "italic": false
       },
       {
-        "text": " ability requires a charge-up.",
+        "text": " ability requires a charge-up. Slowed when",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " charging ability.",
         "color": "gray",
         "italic": false
       }
@@ -3325,13 +3569,13 @@
           "italic": false
         },
         {
-          "text": "Fire a slow-moving cube that slows",
+          "text": "Instantly fire a slow-moving root that slows",
           "color": "gray",
           "italic": false
         }
       ],
       {
-        "text": " anyone in its radius. The cube bounces",
+        "text": " anyone in its radius. The raycast and root bounces",
         "color": "gray",
         "italic": false
       },

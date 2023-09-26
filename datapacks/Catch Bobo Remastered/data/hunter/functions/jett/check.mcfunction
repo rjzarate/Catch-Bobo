@@ -1,4 +1,4 @@
-execute if entity @s[tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly] run function hunter:jett/cooldown
+execute if entity @s[tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly,tag=!adwared] run function hunter:jett/cooldown
 execute if entity @s run function hunter:jett/refresh
 
 

@@ -1,4 +1,4 @@
-execute if entity @s[tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly] run function hunter:pepsi_man/cooldown
+execute if entity @s[tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly,tag=!adwared] run function hunter:pepsi_man/cooldown
 execute if entity @s run function hunter:pepsi_man/refresh
 
 #semi-auto ender eye activation

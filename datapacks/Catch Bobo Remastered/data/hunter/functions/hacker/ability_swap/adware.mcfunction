@@ -3,8 +3,8 @@ data remove storage minecraft:inventory SelectedItem
 data modify storage minecraft:inventory SelectedItem set from entity @s SelectedItem
 execute if data storage minecraft:inventory SelectedItem run item replace block 0 0 0 container.0 from entity @s weapon.mainhand
 
-execute if score @s battery >= .adwareBatteryUsage hackerStats run item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Adware","color":"dark_red","bold":true,"italic":false}'},Tags:["hacker","adware","range","playerWithAds","batteryUsage","uponDrop","actionbarSpecial"],range:20,batteryUsage:40,CustomModelData:1603} 1
-execute unless score @s battery >= .adwareBatteryUsage hackerStats run item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Adware","color":"dark_red","bold":true,"italic":false}'},Tags:["hacker","adware","range","playerWithAds","batteryUsage","uponDrop","actionbarSpecial"],range:20,batteryUsage:40,CustomModelData:1001603} 1
+execute if score @s battery >= .adwareBatteryUsage hackerStats run item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Adware","color":"dark_red","bold":true,"italic":false}'},Tags:["hacker","adware","range","playerWithAds","batteryUsage","uponDrop","actionbarSpecial"],range:20,batteryUsage:20,CustomModelData:1603} 1
+execute unless score @s battery >= .adwareBatteryUsage hackerStats run item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Adware","color":"dark_red","bold":true,"italic":false}'},Tags:["hacker","adware","range","playerWithAds","batteryUsage","uponDrop","actionbarSpecial"],range:20,batteryUsage:20,CustomModelData:1001603} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 

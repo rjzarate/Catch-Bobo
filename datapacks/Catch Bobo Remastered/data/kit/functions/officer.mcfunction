@@ -41,7 +41,7 @@ item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Canine Embryo","color":"dark_red","bold":true,"italic":false}'},Tags:["officer","canineEmbryo","dog","activationRequirement","dogIsDead","cooldownRequirement","cooldown","actionbarRegular"],dogHealth:20,dogArmor:10,dogMeleeDamage:5,dogMovementSpeed:150,cooldown:100,noDrop:1,CustomModelData:1304} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Canine Embryo","color":"dark_red","bold":true,"italic":false}'},Tags:["officer","canineEmbryo","dog","activationRequirement","dogIsDead","cooldownRequirement","cooldown","actionbarRegular"],dogHealth:20,dogArmor:10,dogMeleeDamage:5,dogMovementSpeed:150,cooldown:50,noDrop:1,CustomModelData:1304} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.8 from entity @s weapon.mainhand

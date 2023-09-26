@@ -1,4 +1,4 @@
-execute if entity @s[tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly] run function hunter:guts/cooldown
+execute if entity @s[tag=!timeStoppee,tag=!impostorStun,tag=!displayOnly,tag=!adwared] run function hunter:guts/cooldown
 execute if entity @s run function hunter:guts/refresh
 execute if entity @s[tag=!timeStoppee] run function hunter:guts/fire_rate
 

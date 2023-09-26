@@ -30,7 +30,7 @@ item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
 
 
-item replace entity @s weapon.mainhand with crossbow{display:{Name:'{"text":"Left Arm —","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:quick_charge",lvl:6s}],Tags:["guts","leftArm","repeaterCrossbow","cannonArm","damage","chargeDelay","fireRate","range","ammo","maxAmmo","cooldown","ammoCooldown","cannonArmExplosion","cannonArmRange","cannonArmCooldown"],leftArm:1,repeaterCrossbow:1,cannonArm:1,damage:2,chargeDelay:1,fireRate:1000,range:15,maxAmmo:25,cooldown:5,ammoCooldown:2,cannonArmExplosion:1,cannonArmRange:10,cannonArmCooldown:20,CustomModelData:1100,ChargedProjectiles:[{id:"minecraft:air",Count:1b},{},{}],Charged:1b,Unbreakable:1b,HideFlags:47,noDrop:1} 1
+item replace entity @s weapon.mainhand with crossbow{display:{Name:'{"text":"Left Arm —","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:quick_charge",lvl:6s}],Tags:["guts","leftArm","repeaterCrossbow","cannonArm","damage","chargeDelay","fireRate","range","ammo","maxAmmo","cooldown","ammoCooldown","cannonArmExplosion","cannonArmRange","cannonArmCooldown"],leftArm:1,repeaterCrossbow:1,cannonArm:1,damage:2,chargeDelay:1,fireRate:1000,range:15,maxAmmo:25,cooldown:5,ammoCooldown:5,cannonArmExplosion:1,cannonArmRange:10,cannonArmCooldown:10,CustomModelData:1100,ChargedProjectiles:[{id:"minecraft:air",Count:1b},{},{}],Charged:1b,Unbreakable:1b,HideFlags:47,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.1 from entity @s weapon.mainhand
@@ -46,13 +46,13 @@ scoreboard players operation #fireRate repeaterCrossbowStats /= .fireRate stats
 scoreboard players operation .fireRate repeaterCrossbowStats = #fireRate repeaterCrossbowStats
 scoreboard players operation @s repeaterCrossbowAmmo = @s repeaterCrossbowAmmo
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Indomitable Will","color":"dark_red","bold":true,"italic":false}'},Tags:["guts","indomitableWill","duration","missingHealth","missingHealthDuration","missingHealthAttackSpeed","missingHealthTemporaryHealth","missingHealthMovementSpeed","activationRequirement","cooldown","actionbarDuration"],indomitableWill:1,duration:4,missingHealthDuration:1,missingHealthAttackSpeed:10,missingHealthTemporaryHealth:4,missingHealthMovementSpeed:5,cooldown:40,noDrop:1,CustomModelData:1100} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Indomitable Will","color":"dark_red","bold":true,"italic":false}'},Tags:["guts","indomitableWill","duration","missingHealth","missingHealthDuration","missingHealthAttackSpeed","missingHealthTemporaryHealth","missingHealthMovementSpeed","activationRequirement","cooldown","actionbarDuration"],indomitableWill:1,duration:4,missingHealthDuration:1,missingHealthAttackSpeed:10,missingHealthTemporaryHealth:4,missingHealthMovementSpeed:5,cooldown:20,noDrop:1,CustomModelData:1100} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.2 from entity @s weapon.mainhand
 
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Berserker Armor","color":"dark_red","bold":true,"italic":false}'},Tags:["guts","berserkerArmor","duration","increasedMeleeDamage","resistance5","after","afterTakePreviousDamageAmount","afterWeakness1","cooldown","actionbarDuration"],berserkerArmor:1,duration:25,increasedMeleeDamage:1,resistance5:25,afterTakePreviousDamageAmount:75,afterWeakness1:5,cooldown:50,noDrop:1,CustomModelData:1105} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Berserker Armor","color":"dark_red","bold":true,"italic":false}'},Tags:["guts","berserkerArmor","duration","increasedMeleeDamage","resistance5","after","afterTakePreviousDamageAmount","afterWeakness1","cooldown","actionbarDuration"],berserkerArmor:1,duration:25,increasedMeleeDamage:1,resistance5:25,afterTakePreviousDamageAmount:75,afterWeakness1:5,cooldown:25,noDrop:1,CustomModelData:1105} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand

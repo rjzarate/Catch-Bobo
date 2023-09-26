@@ -41,7 +41,7 @@ execute if score @s weakness100 < .weakness100 stats run scoreboard players oper
 		execute if score .rotation Pos matches 675..1125 unless score @s glowing matches 1.. at @s run summon minecraft:armor_stand ~ ~.1 ~ {Rotation:[90F,0F],Team:"OrangutansAlt",Glowing:0b,Tags:["durianDecoy","timeStoppable"],NoBasePlate:1b,ShowArms:1b,Marker:0b,DisabledSlots:16128}
 		execute if score .rotation Pos matches 1126..1574 unless score @s glowing matches 1.. at @s run summon minecraft:armor_stand ~ ~.1 ~ {Rotation:[135F,0F],Team:"OrangutansAlt",Glowing:0b,Tags:["durianDecoy","timeStoppable"],NoBasePlate:1b,ShowArms:1b,Marker:0b,DisabledSlots:16128}
 #summons villager for hit detection
-	execute at @s run summon minecraft:villager ~ ~.1 ~ {Team:"OrangutansAlt",Tags:["durianDecoy","finished"],ActiveEffects:[{Id:14,Amplifier:0b,Duration:20000000,ShowParticles:0b}],NoAI:1b,Silent:1b}
+	execute at @s run summon minecraft:villager ~ ~.1 ~ {Team:"OrangutansAlt",Tags:["durianDecoy","finished"],active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:20000000,show_particles:0b}],NoAI:1b,Silent:1b}
 
 #transfers glowing to armor stand
 scoreboard players operation @e[type=minecraft:armor_stand,tag=durianDecoy,tag=!finished] durianDecoyGlowing = @s glowing

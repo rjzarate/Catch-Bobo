@@ -30,6 +30,7 @@ execute store result score .lifespan stats run data get storage minecraft:stats 
 execute store result score .ventLifespan stats run data get storage minecraft:stats tag.ventLifespan
 execute store result score .ventHealth stats run data get storage minecraft:stats tag.ventHealth
 execute store result score .armTime stats run data get storage minecraft:stats tag.armTime
+execute store result score .maxHeight stats run data get storage minecraft:stats tag.maxHeight
 
 execute store result score .toHuntersInstantHealth stats run data get storage minecraft:stats tag.toHuntersInstantHealth
 execute store result score .toHuntersSpeed1 stats run data get storage minecraft:stats tag.toHuntersSpeed1

@@ -1,10 +1,10 @@
-execute if entity @s[tag=!timeStoppee] run function orangutan:purple_guy/cooldown
+execute if entity @s[tag=!timeStoppee,tag=!displayOnly,tag=!adwared] run function orangutan:purple_guy/cooldown
 execute if entity @s run function orangutan:purple_guy/refresh
 
 #semi-auto ender eye activation
 scoreboard players operation .rightClick enderEye = @s rightClick
 scoreboard players set @s rightClick 0
-execute if entity @s[advancements={orangutan:purple_guy=true},tag=!timeStoppee] if score .rightClick enderEye matches 0 run function orangutan:purple_guy/ability_directory
+execute if entity @s[advancements={orangutan:purple_guy=true},tag=!timeStoppee,tag=!displayOnly] if score .rightClick enderEye matches 0 run function orangutan:purple_guy/ability_directory
 execute if entity @s[advancements={orangutan:purple_guy=true}] run scoreboard players set @s rightClick 1
 execute if entity @s[advancements={orangutan:purple_guy=true}] run advancement revoke @s only orangutan:purple_guy
 

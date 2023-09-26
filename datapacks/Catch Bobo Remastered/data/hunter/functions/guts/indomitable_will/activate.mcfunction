@@ -28,9 +28,9 @@ scoreboard players operation @s indomitableWillDuration = .missingHealthDuration
 scoreboard players set @s[scores={indomitableWillDuration=..0}] indomitableWillDuration 1
 #cooldown
 scoreboard players operation .cooldown stats *= #20 constant
-scoreboard players operation .duration stats *= #20 constant
 scoreboard players operation @s indomitableWillCD = .cooldown stats
-scoreboard players operation @s indomitableWillCD += .indomitableWillDuration stats
+scoreboard players operation @s indomitableWillCD += @s indomitableWillDuration
+
 
 #attack speed
 execute if score .missingHealthAttackSpeed stats matches 10.. run attribute @s minecraft:generic.attack_speed modifier add 1-0-1-1-1 guts_indomitable_will_attack_speed_1 0.1 add

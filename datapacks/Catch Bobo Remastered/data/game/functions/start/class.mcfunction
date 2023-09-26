@@ -15,12 +15,12 @@
 	#spectators
 		execute as @a positioned -96 59 15 align xyz unless entity @s[dx=4,dy=4,dz=4] positioned -96 58 27 align xyz unless entity @s[dx=4,dy=4,dz=4] run team join Spectators @s
 #teleports players
-	spreadplayers -97.0 38.0 1 1 under 60 true @a[tag=hunter]
-	spreadplayers -94 -3 1 1 under 60 true @a[tag=orangutan]
+	spreadplayers -97.0 38.0 1 1 under 60 true @a[team=Hunters]
+	spreadplayers -94 -3 1 1 under 60 true @a[team=Orangutans]
 	tp @a[team=Spectators] -157 61 26 -90 0
 #orientates players
-	execute as @a[tag=hunter] at @s run tp @s ~ ~ ~ -45 0
-	execute as @a[tag=orangutan] at @s run tp @s ~ ~ ~ 180 0
+	execute as @a[team=Hunters] at @s run tp @s ~ ~ ~ -45 0
+	execute as @a[team=Orangutans] at @s run tp @s ~ ~ ~ 180 0
 
 #tag for choosing kit
 	tag @a[team=!Spectators] add choosingClass

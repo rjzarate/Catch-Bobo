@@ -14,7 +14,7 @@ scoreboard players operation @s orangutanClothDuration = .duration stats
 	execute as @e[type=minecraft:wolf,tag=dog,predicate=general:uuid_link_search] if score @s strength1 < .dogStrength1 stats run scoreboard players operation @s strength1 = .dogStrength1 stats
 
 #summon magma_cube for tracking
-	execute at @s run summon minecraft:magma_cube ~ ~ ~ {Tags:["tracking","new"],Silent:1b,NoAI:1b,Size:0,ActiveEffects:[{Id:11,Amplifier:4b,Duration:20000000,ShowParticles:0b},{Id:14,Amplifier:0b,Duration:20000000,ShowParticles:0b}]}
+	execute at @s run summon minecraft:magma_cube ~ ~ ~ {Tags:["tracking","new"],Silent:1b,NoAI:1b,Size:0,active_effects:[{id:"minecraft:resistance",amplifier:4b,Duration:20000000,show_particles:0b},{id:"minecraft:invisibility",amplifier:0b,duration:20000000,show_particles:0b}]}
 	scoreboard players operation @e[type=minecraft:magma_cube,tag=tracking,tag=new] uuidLink = @s uuid
 	tag @e[type=minecraft:magma_cube,tag=tracking,tag=new] remove new
 
