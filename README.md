@@ -23,13 +23,12 @@ The Minecraft world for Catch Bobo. Should work for versions 1.19 - 1.20.
 
 3. Extract "Source code (zip)". **Make sure "Catch-Bobo-X..X" is not a folder within a folder**
 
-![image](https://github.com/rjzarate/Catch-Bobo/assets/115201416/fcd5bc99-601c-4e42-83d8-99747233e877)
+![image](https://github.com/rjzarate/Catch-Bobo/assets/115201416/ff5d5bae-4740-4693-8651-88ce884bcb45)
 
 
 4. Add "Catch-Bobo-X..X" into your *\.minecraft\saves* folder
 
 ![image](https://github.com/rjzarate/Catch-Bobo/assets/115201416/175e6122-5e52-4b15-8f73-b218ce667b80)
-
 
 5. Open up Minecraft and you're good to go! Make sure to download the [Resource Pack!](https://github.com/rjzarate/Catch-Bobo-Resource-Pack)
 
