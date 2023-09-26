@@ -10,7 +10,7 @@ The Minecraft world for Catch Bobo. Should work for versions 1.19 - 1.20.
 
 **Video:** https://www.youtube.com/watch?v=YKfC8Mfxz0k
 
-[![Video](https://github.com/rjzarate/Catch-Bobo/assets/115201416/3aacbcdc-12eb-4ae9-a6b5-d5ffeff80753)](https://www.youtube.com/watch?v=YKfC8Mfxz0k)
+[![Video](https://github.com/rjzarate/Catch-Bobo/assets/115201416/aa7ecaf0-3b12-4a2f-9fd7-264d4b257b9a)](https://www.youtube.com/watch?v=YKfC8Mfxz0k)
 
 # Resource Pack Download
 Resource pack download is in this repository: https://github.com/rjzarate/Catch-Bobo-Resource-Pack
