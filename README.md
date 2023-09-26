@@ -12,6 +12,30 @@ The Minecraft world for Catch Bobo. Should work for versions 1.19 - 1.20.
 
 [![Video](https://github.com/rjzarate/Catch-Bobo/assets/115201416/aa7ecaf0-3b12-4a2f-9fd7-264d4b257b9a)](https://www.youtube.com/watch?v=YKfC8Mfxz0k)
 
+# Installation Guide
+1. On the side, click on one of the releases under ["Releases"](https://github.com/rjzarate/Catch-Bobo-Resource-Pack/releases)
+
+![image](https://github.com/rjzarate/Catch-Bobo/assets/115201416/2205cb0f-cefd-4cbb-bf6c-608d730824cb)
+
+2. Under "Assets", click and download "Source code (zip)"
+
+![image](https://github.com/rjzarate/Catch-Bobo/assets/115201416/f1b1520f-bb55-4193-8591-0abf2dd8f860)
+
+3. Extract "Source code (zip)". **Make sure "Catch-Bobo-X..X" is not a folder within a folder**
+
+![image](https://github.com/rjzarate/Catch-Bobo/assets/115201416/fcd5bc99-601c-4e42-83d8-99747233e877)
+
+
+4. Add "Catch-Bobo-X..X" into your *\.minecraft\saves* folder
+
+![image](https://github.com/rjzarate/Catch-Bobo/assets/115201416/175e6122-5e52-4b15-8f73-b218ce667b80)
+
+
+5. Open up Minecraft and you're good to go! Make sure to download the [Resource Pack!](https://github.com/rjzarate/Catch-Bobo-Resource-Pack)
+
+![image](https://github.com/rjzarate/Catch-Bobo/assets/115201416/590fabe2-79a6-4f5e-9b7d-8140920458db)
+
+
 # Resource Pack Download
 Resource pack download is in this repository: https://github.com/rjzarate/Catch-Bobo-Resource-Pack
 
