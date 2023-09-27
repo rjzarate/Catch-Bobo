@@ -1,5 +1,5 @@
 scoreboard players operation .range stats *= #2 constant
-scoreboard players set #range temp 2000
+scoreboard players operation #range temp = .range stats
 scoreboard players operation @s battery -= .batteryUsage stats
 #for grayscale in ability directory
 	scoreboard players set #hackerSuccess temp 1

@@ -24,7 +24,7 @@ item replace entity @s armor.legs with leather_leggings{display:{Name:'{"text":"
 item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Purple Shoes","color":"gold","bold":true,"italic":false}',color:6306408},Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:feather_falling",lvl:5s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1234567890,-1234567890,1234567890,-1234567890]}],HideFlags:71,Unbreakable:1b,purpleGuy:1} 1
 
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Phone","color":"gold","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:fire_aspect",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:3,Operation:0,UUID:[I;466701147,780051195,-2128874679,504454309],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-2,Operation:0,UUID:[I;128091582,145823653,-208332753,-90634462],Slot:"mainhand"}],HideFlags:7,Tags:["purpleGuy","phone","purpleGuyMelee","meleeDamage","attackSpeed","fireAspect","maxAmmo","cooldown","ammoCooldown","actionbarAmmo1"],phone:1,meleeDamage:3,fireAspect:1,attackSpeed:200,maxAmmo:5,cooldown:5,ammoCooldown:1,noDrop:1,CustomModelData:300} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Phone","color":"gold","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:fire_aspect",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:3,Operation:0,UUID:[I;466701147,780051195,-2128874679,504454309],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-2,Operation:0,UUID:[I;128091582,145823653,-208332753,-90634462],Slot:"mainhand"}],HideFlags:7,Tags:["purpleGuy","phone","purpleGuyMelee","meleeDamage","attackSpeed","fireAspect","maxAmmo","cooldown","ammoCooldown","actionbarAmmo1"],phone:1,meleeDamage:3,fireAspect:1,attackSpeed:200,maxAmmo:5,cooldown:3,ammoCooldown:1,noDrop:1,CustomModelData:300} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.0 from entity @s weapon.mainhand
@@ -55,21 +55,21 @@ execute store result score .maxAnimatronics remnantMachineStats run data get sto
 	execute store result score .movementSpeed animatronicStats run data get storage minecraft:stats tag.animatronicMovementSpeed 1
 
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Quirky Animatronics","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["purpleGuy","quirkyAnimatronics","duration","cooldown","actionbarDuration"],quirkyAnimatronics:1,duration:10,cooldown:75,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Quirky Animatronics","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["purpleGuy","quirkyAnimatronics","duration","cooldown","actionbarDuration"],quirkyAnimatronics:1,duration:10,cooldown:30,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.2 from entity @s weapon.mainhand
 scoreboard players set @s quirkyAnimatronicsFlamingCorruptionSlot 2
 
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"12 AM","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["purpleGuy","12am","cooldown","actionbarRegular"],12am:1,cooldown:100,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"12 AM","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["purpleGuy","12am","cooldown","actionbarRegular"],12am:1,cooldown:50,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.3 from entity @s weapon.mainhand
 scoreboard players set @s 12am5amSlot 3
 
 
-item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Transform: Springtrap","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["purpleGuy","transform","transformSpringtrap","chargeUp","actionbarChargeUp"],transform:1,chargeUp:100,noDrop:1} 1
+item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Transform: Springtrap","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["purpleGuy","transform","transformSpringtrap","chargeUp","actionbarChargeUp"],transform:1,chargeUp:50,noDrop:1} 1
 item modify entity @s weapon.mainhand kit:description
 item modify entity @s weapon.mainhand kit:stats
 item replace block 0 0 0 container.4 from entity @s weapon.mainhand
@@ -80,22 +80,22 @@ scoreboard players operation .chargeUp purpleGuyTransformStats *= #20 constant
 scoreboard players operation @s purpleGuyTransformChargeUp = .chargeUp purpleGuyTransformStats
 
 ##Springtrap's items that are stored in the storage
-	item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"I Always Come Back","color":"gold","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:fire_aspect",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:4,Operation:0,UUID:[I;466701147,780051195,-2128874679,504454309],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-2.2,Operation:0,UUID:[I;128091582,145823653,-208332753,-90634462],Slot:"mainhand"}],HideFlags:7,Tags:["purpleGuy","purpleGuyMelee","iAlwaysComeBack","meleeDamage","attackSpeed","fireAspect","maxAmmo","cooldown","ammoCooldown","actionbarAmmo1"],iAlwaysComeBack:1,meleeDamage:4,fireAspect:1,attackSpeed:180,maxAmmo:5,cooldown:5,ammoCooldown:1,noDrop:1,CustomModelData:310} 1
+	item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"I Always Come Back","color":"gold","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:fire_aspect",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:4,Operation:0,UUID:[I;466701147,780051195,-2128874679,504454309],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-2.2,Operation:0,UUID:[I;128091582,145823653,-208332753,-90634462],Slot:"mainhand"}],HideFlags:7,Tags:["purpleGuy","purpleGuyMelee","iAlwaysComeBack","meleeDamage","attackSpeed","fireAspect","maxAmmo","cooldown","ammoCooldown","actionbarAmmo1"],iAlwaysComeBack:1,meleeDamage:4,fireAspect:1,attackSpeed:180,maxAmmo:5,cooldown:3,ammoCooldown:1,noDrop:1,CustomModelData:310} 1
 	item modify entity @s weapon.mainhand kit:description
 	item modify entity @s weapon.mainhand kit:stats
 	item replace block 0 0 0 container.5 from entity @s weapon.mainhand
 
-	item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Flaming Corruption","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["purpleGuy","flamingCorruption","duration","cooldown","actionbarDuration"],flamingCorruption:1,duration:10,cooldown:75,animatronicFireResistance:10,animatronicsSpeed2:10,noDrop:1} 1
+	item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Flaming Corruption","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["purpleGuy","flamingCorruption","duration","cooldown","actionbarDuration"],flamingCorruption:1,duration:10,cooldown:30,animatronicFireResistance:10,animatronicsSpeed2:10,noDrop:1} 1
 	item modify entity @s weapon.mainhand kit:description
 	item modify entity @s weapon.mainhand kit:stats
 	item replace block 0 0 0 container.6 from entity @s weapon.mainhand
 
-	item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"5 AM","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["purpleGuy","5am","cooldown","actionbarRegular"],5am:1,cooldown:100,noDrop:1} 1
+	item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"5 AM","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["purpleGuy","5am","cooldown","actionbarRegular"],5am:1,cooldown:50,noDrop:1} 1
 	item modify entity @s weapon.mainhand kit:description
 	item modify entity @s weapon.mainhand kit:stats
 	item replace block 0 0 0 container.7 from entity @s weapon.mainhand
 
-	item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Transform: Purple Guy","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["purpleGuy","transform","transformPurpleGuy","chargeUp","actionbarChargeUp"],transform:1,chargeUp:100,noDrop:1} 1
+	item replace entity @s weapon.mainhand with ender_eye{display:{Name:'{"text":"Transform: Purple Guy","color":"gold","bold":true,"italic":false}'},Enchantments:[{}],Tags:["purpleGuy","transform","transformPurpleGuy","chargeUp","actionbarChargeUp"],transform:1,chargeUp:50,noDrop:1} 1
 	item modify entity @s weapon.mainhand kit:description
 	item modify entity @s weapon.mainhand kit:stats
 	item replace block 0 0 0 container.8 from entity @s weapon.mainhand

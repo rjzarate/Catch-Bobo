@@ -6,6 +6,9 @@ tag @s add timeStopper
 execute as @e[type=#general:everything,tag=!timeStopper,tag=!hunterTeamImmunity] run tag @s add timeStoppee
 execute as @e[type=#general:everything/objects,tag=timeStoppable,tag=!hunterTeamImmunity] run tag @s add timeStoppee
 
+#for people who drank the pepsi
+execute as @e[type=#general:everything,tag=!timeStopper,tag=hunterTeamImmunity] run scoreboard players add @s weakness1 2
+
 execute as @e[type=#general:everything/all,tag=timeStoppee] at @s run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["timeStop"],Duration:20000}
 execute as @e[type=#general:everything/all,tag=timeStoppee] at @s run data modify entity @e[type=minecraft:area_effect_cloud,tag=timeStop,sort=nearest,limit=1] Rotation set from entity @s Rotation
 

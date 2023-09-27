@@ -2941,7 +2941,7 @@
         "italic": false
       },
       {
-        "text": " Failing the activation requirement consumes ammo.",
+        "text": " Moving reduces range damage.",
         "color": "gray",
         "italic": false
       }

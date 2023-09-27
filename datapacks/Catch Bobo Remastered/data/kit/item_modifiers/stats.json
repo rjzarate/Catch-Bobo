@@ -2790,6 +2790,68 @@
       }
     ]
   },
+
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "When Moving:",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"whenMoving\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": " Range Damage: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "SelectedItem.tag.whenMovingRangeDamage",
+          "entity": "@s",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{Tags:[\"whenMoving\",\"whenMovingRangeDamage\"]}"
+            }
+          }
+        }
+      }
+    ]
+  },
   {
     "function": "minecraft:set_lore",
     "entity": "this",
@@ -3795,13 +3857,16 @@
     "entity": "this",
     "lore": [
       {
+        "text": ""
+      },
+      {
         "text": "Dog:",
         "color": "gray",
         "italic": false
       },
       [
         {
-          "text": "Speed Duration: ",
+          "text": " Speed Duration: ",
           "color": "gray",
           "italic": false
         },
@@ -3813,13 +3878,13 @@
         }
       ],
       {
-        "text": " For every entity in range:",
+        "text": "  For every entity in range:",
         "color": "gray",
         "italic": false
       },
       [
         {
-          "text": "  Speed Amplifier: ",
+          "text": "   Speed Amplifier: ",
           "color": "gray",
           "italic": false
         },

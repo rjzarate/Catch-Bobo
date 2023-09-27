@@ -1,7 +1,7 @@
 execute at @s anchored eyes run particle minecraft:enchant ^ ^ ^ 0.2 0.2 0.2 20 10 normal
-execute if score @s timeStopChargeUp matches 100 at @s run playsound minecraft:entity.warden.heartbeat player @a ~ ~ ~ 5 0.5
-execute if score @s timeStopChargeUp matches 50 at @s run playsound minecraft:entity.warden.heartbeat player @a ~ ~ ~ 5 0.25
-execute if score @s timeStopChargeUp matches 20 at @s run playsound minecraft:entity.warden.heartbeat player @a ~ ~ ~ 5 0
+execute if score @s timeStopChargeUp matches 140 at @s run playsound minecraft:entity.warden.heartbeat player @a ~ ~ ~ 5 0.5
+execute if score @s timeStopChargeUp matches 90 at @s run playsound minecraft:entity.warden.heartbeat player @a ~ ~ ~ 5 0.25
+execute if score @s timeStopChargeUp matches 40 at @s run playsound minecraft:entity.warden.heartbeat player @a ~ ~ ~ 5 0
 
 scoreboard players operation #1s timeStopChargeUp = @s timeStopChargeUp
 scoreboard players operation #1s timeStopChargeUp %= #20 constant

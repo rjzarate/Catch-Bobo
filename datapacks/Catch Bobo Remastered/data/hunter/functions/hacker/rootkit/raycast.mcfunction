@@ -6,5 +6,6 @@ execute unless block ~ ~ ~ #general:dashables positioned ^ ^ ^-0.5 run function 
 
 
 scoreboard players remove #range temp 1
+execute if block ~ ~ ~ #general:dashables positioned ^ ^ ^0.5 unless score #range temp matches 0.. run function hunter:hacker/rootkit/hit
 
 execute if block ~ ~ ~ #general:dashables positioned ^ ^ ^0.5 if score #range temp matches 0.. run function hunter:hacker/rootkit/raycast

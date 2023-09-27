@@ -1,3 +1,6 @@
+#reduce damage since moving
+execute if score #consumeAmmo marshalRightClick matches 1 run scoreboard players operation .rangeDamage stats -= .uponMovingRangeDamage stats
+
 #head
 execute positioned ~ ~-1.6 ~ if entity @s[distance=..0.6,tag=!hit] run scoreboard players operation .rangeDamage stats *= #2 constant
 execute positioned ~ ~-1.6 ~ if entity @s[distance=..0.6,tag=!hit] run scoreboard players operation #damage temp += .rangeDamage stats

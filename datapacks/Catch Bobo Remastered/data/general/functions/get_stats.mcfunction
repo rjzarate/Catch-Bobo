@@ -70,6 +70,8 @@ execute store result score .weakness100 stats run data get storage minecraft:sta
 execute store result score .knockbackResistance stats run data get storage minecraft:stats tag.knockbackResistance
 execute store result score .lightningLastGlowing stats run data get storage minecraft:stats tag.lightningLastGlowing
 
+execute store result score .whenMovingRangeDamage stats run data get storage minecraft:stats tag.whenMovingRangeDamage
+
 execute store result score .missingHealthDuration stats run data get storage minecraft:stats tag.missingHealthDuration
 execute store result score .missingHealthAttackSpeed stats run data get storage minecraft:stats tag.missingHealthAttackSpeed
 execute store result score .missingHealthTemporaryHealth stats run data get storage minecraft:stats tag.missingHealthTemporaryHealth
